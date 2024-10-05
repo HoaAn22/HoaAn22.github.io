@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/gioi-thieu-kinh-te-vi-mo.md"
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "ebadce0326a99cf7",
   "lastOpenFiles": [
+    "assets/posts/kinh-te-vi-mo/gioi-thieu-kinh-te-vi-mo.md",
+    "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
     "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/ky-thuat-tai-chinh/5-cong-cu-phai-sinh.md",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",

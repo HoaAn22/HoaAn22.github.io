@@ -2,7 +2,7 @@
 
 OMOs (Open Market Operations) - hoạt động/nghiệp vụ thị trường mở là một **công cụ chính sách tiền tệ** liên quan đến việc mua bán các loại giấy tờ có giá trị nhằm kiểm soát lượng cung tiền cho thị trường.[1]
 
-**VD**: Ngân hàng nhà nước muốn tăng nguồn cung tiền \\(\to \\) tiến hành mua trái phiếu \\(\to \\) tăng lượng tiền lưu thông \\(\to \\ ) giảm lãi suất \\(\to \\) tăng cường hoạt động kinh tế.
+**VD**: Ngân hàng nhà nước muốn tăng nguồn cung tiền \\(\to \\) tiến hành mua trái phiếu \\(\to \\) tăng lượng tiền lưu thông \\(\to \\) giảm lãi suất \\(\to \\) tăng cường hoạt động kinh tế.
 
 # Lãi suất OMOs
 

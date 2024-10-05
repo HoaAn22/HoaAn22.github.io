@@ -1,0 +1,8 @@
+Render markdown file: Markdown-it
+https://github.com/markdown-it/markdown-it
+
+Hướng pháp triển dự án
+- Tích hợp notebook để hướng dẫn cho các bài liên quan đến code AI/ML/DL
+- Tối ưu lại giao diện
+- Kiểm tra trùng lặp
+- Xử lý và thêm liên kết đến các bài trong Blog

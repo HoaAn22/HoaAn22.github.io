@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "0245fc464e0ee198",
+    "type": "split",
+    "children": [
+      {
+        "id": "50e5da4d19f20e3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebadce0326a99cf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d670c1f2340f8529",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcf04035a077f040",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ad50f75a5ac000a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9abc07c6f2d7c5d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e96a92c8b3ef1a81",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1338c89d1c511277",
+    "type": "split",
+    "children": [
+      {
+        "id": "d531afd2243db37e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c83956a72a2ee564",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ea327ccc6fcebbde",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7a509f338ef63d23",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad880be3bebd7694",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false
+    }
+  },
+  "active": "ebadce0326a99cf7",
+  "lastOpenFiles": [
+    "assets/posts/ky-thuat-tai-chinh/5-cong-cu-phai-sinh.md",
+    "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
+    "README.md",
+    "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
+    "assets/posts/ky-thuat-tai-chinh/3-ty-gia-phan-2.md",
+    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+    "assets/posts/ky-thuat-tai-chinh/2-ty-gia.md",
+    "Pasted image 20240928112530.png",
+    "assets/posts/ky-thuat-tai-chinh/1-thuat-ngu-tai-chinh.md",
+    "assets/posts/ky-thuat-tai-chinh/3-thi-truong-mo.md",
+    "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
+    "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
+    "assets/images/ky-thuat-tai-chinh/1-ky-hieu-dong-tien.png",
+    "assets/posts/qua-trinh-ngau-nhien/1-gioi-thieu-qua-trinh-ngau-nhien.md",
+    "assets/images/ky-thuat-tai-chinh/2-ty-gia.png",
+    "assets/images/ky-thuat-tai-chinh/2-CPI.png",
+    "assets/images/ky-thuat-tai-chinh/2-CPI.png.crdownload",
+    "link.md",
+    "assets/posts/html/2-cac-the-html.md",
+    "2024-09-25.md",
+    "Chưa đặt tên.canvas"
+  ]
+}

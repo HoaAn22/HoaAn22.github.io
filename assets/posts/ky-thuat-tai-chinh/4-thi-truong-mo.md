@@ -1,17 +1,26 @@
-# Hoạt động thị trường mở (OMOs)
-## Khái niệm về OMOs
+# Khái niệm về hoạt động thị trường mở (OMOs)
 
-*Lưu ý: Trong bài này sẽ tìm hiểu về OMOs của thị trường Mỹ*
+OMOs (Open Market Operations) - hoạt động/nghiệp vụ thị trường mở là một **công cụ chính sách tiền tệ** liên quan đến việc mua bán các loại giấy tờ có giá trị nhằm kiểm soát lượng cung tiền cho thị trường.[1]
 
-**OMO - Open Market Operations** là khái niệm để chỉa hoạt động mua/bán chứng khoán trên thị trường mở của **cục dự trữ liên bang Mỹ - Fed**.
+**VD**: Ngân hàng nhà nước muốn tăng nguồn cung tiền \\(\to \\) tiến hành mua trái phiếu \\(\to \\) tăng lượng tiền lưu thông \\(\to \\ ) giảm lãi suất \\(\to \\) tăng cường hoạt động kinh tế.
 
-OMO giúp Fed điều chỉnh nguồn cung tiền dự trữ lại các ngân hàng Mỹ. Bằng các mua để tăng nguồn cung tiền tệ và bán giúp giảm nguồn cung tiền tệ trong thị trường tài chính.
+# Lãi suất OMOs
 
-**Giải thích**:
-* Việc **mua** chứng khoán giúp tăng lượng tiền tệ trong hệ thống \\(\to \\) giảm lãi xuất \\(\to \\) vay vốn dễ dàng hơn từ đó tăng cường các hoạt động kinh tế
-* Việc **bán** chứng khoán làm giảm lượng tiền tệ trong hệ thống \\(\to \\) tăng lãi xuất \\(\to \\) khiến cho việc vay vốn khó khăn hơn, làm giảm các hoạt động kinh tế
+Đối với thị trường Việt Nam có 4 loại lãi suất chính là:
+* Lãi suất OMOs (Lãi suất thị trường mở)
+* Lãi suất tái cấp vốn
+* Lãi suất chiết khấu
+* Lãi suất cơ bản
 
-Việc Fed sử dụng OMOs điều chỉnh **lãi xuất quỹ liên bang**, từ đó sẽ ảnh hưởng đến các chỉnh số khác trong nền kinh tế vĩ mô như lãi xuất ngắn hạn, lãi xuất dài hạn và tỷ giá. Việc điều chỉnh lượng tiền và tính dụng có sẵn trong nền kinh tế sẽ ảnh hưởng đến các yếu tố tỷ lệ thất nghiệp, giá cả hàng hóa và dịch vụ giúp điều tiết và ổn định nền kinh tế.
+Lãi suất OMO là lãi xuất được ngân hàng trung ương đưa ra trong các giao dịch trên thị trường mở. **(Cập nhật)**
 
-**Lãi xuất quỹ liên bang** là lãi xuất được Fed đặt ra giúp ổn định nền kinh tế kiểm soát ảnh hưởng xấu đến nền kinh tế như lạm phát, là loại lãi xuất được tổ chức quỹ ký cho nhau vay, áp dụng với các **khoản vay ngắn - qua đêm**. 
+# Vai trò OMO (Cập nhật)
 
+* Kiểm soát được lượng tiền thanh khoản trong thị trường, giúp ngân hàng trung ương chủ động điều tiết kinh tế, lạm phát.
+* 
+# Tài liệu tham khảo
+[1]
+
+“Lãi suất OMO và cách bơm tiền trên thị trường OMO - PineTree Securities,” _PineTree Securities_, Apr. 21, 2023. https://pinetree.vn/post/20230421/lai-suat-omo-va-cach-bom-tien-tren-thi-truong-omo/ (accessed Oct. 05, 2024).
+
+‌

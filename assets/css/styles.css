@@ -167,12 +167,12 @@ img {
     margin-bottom: 1em;
 }
 
-#markdown-content pre {
-    margin-bottom: 1em;
+#markdown-content pre { /* Thẻ chứa thẻ <code> */
+    margin-bottom: 1em; /* Tạo khoảng cách */
 }
 
-#markdown-content pre code {
-    background-color: lightgray;
+#markdown-content code {
+    background-color: lightgray; /* Tô nền cho thẻ <code> */
 }
 
 #markdown-content h1,

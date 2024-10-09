@@ -12,12 +12,12 @@ Nội dung trang web bao gồm:
 	* Tối ưu hóa
 	* Cấu trúc rời rạc
 	* Logic học
-	* Phương pháp tính
-	* Hàm phức và phép biến đổi Laplace
+	* Lý thuyết trò chơi
+	* Khai phá đồ thị
 	* Quá trình ngẫu nhiên
 	* Tính toán song song
-	* Khai phá đồ thị
-	* Lý thuyết trò chơi
+	* Phương pháp tính
+	* Hàm phức và phép biến đổi Laplace
 3. lập trình
 	* Kỹ thuật lập trình
 	* Lập trình hướng đối tượng

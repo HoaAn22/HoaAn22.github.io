@@ -2,20 +2,14 @@ Xây dựng trang web chia sẻ kiến thức về Data Science (Nội dung đan
 
 Nội dung trang web bao gồm:
 1. Toán
-   	* Toán cao cấp
 	* Xác suất
 	* Thống kê
-<<<<<<< HEAD
-	* Thống kê nâng cao(bayesian, phi tham số)
+	* Thống kê nâng cao(bayesian, phi tham số) và ứng dụng
 	* Toán cao cấp
 	* Toán ứng dụng
-	* Giải tích
 	* Đại số tuyến tính
-	* Tối ưu hóa
-=======
-	* Thống kê nâng cao (bayesian, phi tham số)
 	* Giải tích
->>>>>>> 25a20cb9077d8bc4d8f0da160e42ab432bc56e22
+	* Tối ưu hóa
 	* Cấu trúc rời rạc
 	* Logic học
 	* Phương pháp tính

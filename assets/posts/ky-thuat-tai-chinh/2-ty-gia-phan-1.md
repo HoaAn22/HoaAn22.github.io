@@ -19,7 +19,7 @@
 	* **Vị thế bán (Short position):** Nhà đầu tư kỳ vọng giá trị của tiền tệ sẽ **giảm**, do đó họ **bán** tiền tệ trước, sau đó mua lại với giá thấp hơn để thu lợi nhuận.
 ## Tỷ giá hối đoái
 
-Tỷ giá hối đoái hay tỷ giá trao đổi ngoại tệ là tỷ lệ trao đổi giữa 2 đồng tiền của 2 quốc gia, phản án mối quan hệ giá trị giữa 2 đồng tiền.
+**Tỷ giá hối đoái hay tỷ giá trao đổi ngoại tệ** là tỷ lệ trao đổi giữa 2 đồng tiền của 2 quốc gia, phản án mối quan hệ giá trị giữa 2 đồng tiền.
 
 Có thể hiểu một cách khác là giá để mua loại tiền tệ này theo tiền tệ kia.\[1]
 

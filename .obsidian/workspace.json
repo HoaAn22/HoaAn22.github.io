@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "50e5da4d19f20e3a",
+        "id": "cc0a47f63dcd42cf",
         "type": "tabs",
         "children": [
           {
-            "id": "ebadce0326a99cf7",
+            "id": "d4ccbbf2cf02ac30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +139,12 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "ebadce0326a99cf7",
+  "active": "d4ccbbf2cf02ac30",
   "lastOpenFiles": [
-    "[.md",
+    "README.md",
+    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
+    "[.md",
     "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
     "assets/images/ky-thuat-tai-chinh/4-OMOs.png",
@@ -158,9 +152,7 @@
     "assets/images/ky-thuat-tai-chinh/4-OMOs.png.crdownload",
     "assets/posts/ky-thuat-tai-chinh/5-thi-truong-mo-fed.md",
     "assets/posts/ky-thuat-tai-chinh/6-cong-cu-phai-sinh.md",
-    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/kinh-te-vi-mo/gioi-thieu-kinh-te-vi-mo.md",
-    "README.md",
     "assets/posts/ky-thuat-tai-chinh/3-ty-gia-phan-2.md",
     "assets/posts/ky-thuat-tai-chinh/2-ty-gia.md",
     "Pasted image 20240928112530.png",

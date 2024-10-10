@@ -330,7 +330,7 @@ body.dark-mode .dark-mode-icon {
     position: absolute;
     z-index: 1;
     right: 125%;  /* Đưa tooltip sang bên trái */
-    top: 80%;  /* Đặt tooltip ở giữa theo chiều dọc */
+    top: 85%;  /* Đặt tooltip ở giữa theo chiều dọc */
     margin-top: -25px;  /* Dịch chuyển tooltip lên trên một chút để canh giữa */
     opacity: 0;
     transition: opacity 0.3s;

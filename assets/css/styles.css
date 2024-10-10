@@ -205,6 +205,82 @@ img {
     transition: all 0.3s ease;
 }
 
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    transition: background-color 0.5s, color 0.5s;
+    color: #f0f0f0;
+}
+
+body.dark-mode header {
+    background-color: #1a1a1a;
+    transition: background-color 0.5s, color 0.5s;
+    color: #f0f0f0;
+}
+
+body.dark-mode footer {
+    background-color: #1a1a1a;
+    transition: background-color 0.5s, color 0.5s;
+    color: #f0f0f0;
+}
+
+body.dark-mode .sidebar {
+    background-color: #1a1a1a;
+    transition: background-color 0.5s, color 0.5s;
+    color: #f0f0f0;
+}
+
+body.dark-mode .content {
+    background-color: #1a1a1a;
+    transition: background-color 0.5s, color 0.5s;
+    color: #f0f0f0;
+}
+
+body.dark-mode nav ul li a {
+    color: #4da6ff;
+}
+
+body.dark-mode .note {
+    background-color: #2c2c2c;
+    border-left-color: #ff9800;
+    color: #f0f0f0;
+}
+
+body.dark-mode .dropbtn {
+    background-color: #4da6ff;
+}
+
+body.dark-mode .dropdown-content {
+    background-color: #2c2c2c;
+    box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
+}
+
+body.dark-mode .dropdown-category a, 
+body.dark-mode .dropdown-content a {
+    color: #f0f0f0;
+}
+
+body.dark-mode .dropdown-category a:hover, 
+body.dark-mode .dropdown-content a:hover {
+    background-color: #4d4d4d;
+}
+
+body.dark-mode .category-btn {
+    background-color: #4da6ff;
+}
+
+body.dark-mode #markdown-content code {
+    background-color: #3d3d3d;
+    color: #f0f0f0;
+}
+
+body.dark-mode #markdown-content h1,
+body.dark-mode #markdown-content h2,
+body.dark-mode .main h1, 
+body.dark-mode .main h2 {
+    border-bottom-color: #f0f0f0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     main {

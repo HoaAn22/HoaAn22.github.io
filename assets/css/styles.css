@@ -76,12 +76,6 @@ nav ul li a {
     color: #007bff;
 }
 
-nav ul div span {
-    text-decoration: none;
-    margin-top: -12px ;
-    color: #007bff;
-}
-
 /* Image Styles */
 img {
     max-width: 80%;

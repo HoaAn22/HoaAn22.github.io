@@ -6,3 +6,4 @@ Hướng pháp triển dự án
 - Tối ưu lại giao diện
 - Kiểm tra trùng lặp
 - Xử lý và thêm liên kết đến các bài trong Blog
+- Thêm giao diện tối

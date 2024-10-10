@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
+                "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
+                "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
+                "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md"
+                "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "d4ccbbf2cf02ac30",
   "lastOpenFiles": [
+    "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
     "assets/posts/ml-ds-for-finance/1-chuong-1.md",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
     "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
@@ -167,7 +168,6 @@
     "Pasted image 20240928112530.png",
     "assets/posts/ky-thuat-tai-chinh/1-thuat-ngu-tai-chinh.md",
     "assets/posts/ky-thuat-tai-chinh/3-thi-truong-mo.md",
-    "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
     "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
     "assets/images/ky-thuat-tai-chinh/1-ky-hieu-dong-tien.png",
     "assets/posts/qua-trinh-ngau-nhien/1-gioi-thieu-qua-trinh-ngau-nhien.md",

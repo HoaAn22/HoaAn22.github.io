@@ -57,7 +57,7 @@ ul ul {
     border-left: 1px solid gray; /* Đường viền bên trái */
     padding-left: 15px; /* Tạo khoảng cách giữa đường viền và nội dung */
     /* background-color: #f0f0f0; */
-  }
+}
 
 nav ul {
     list-style: none;
@@ -181,8 +181,8 @@ img {
 #markdown-content h4,
 #markdown-content h5,
 #markdown-content h6 {
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 #markdown-content h1,
@@ -190,6 +190,14 @@ img {
 .main h1, 
 .main h2 {
     border-bottom: 1.5px solid gray;
+}
+
+#markdown-content li {
+    margin-bottom: 0.5em;
+}
+
+#markdown-content ol {
+    margin-bottom: 0.5em;
 }
 
 /* Transition Effects */

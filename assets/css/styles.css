@@ -208,31 +208,31 @@ img {
 /* Dark mode styles */
 body.dark-mode {
     background-color: #1a1a1a;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.3s, color 0.3s;
     color: #f0f0f0;
 }
 
 body.dark-mode header {
     background-color: #1a1a1a;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.3s, color 0.3s;
     color: #f0f0f0;
 }
 
 body.dark-mode footer {
     background-color: #1a1a1a;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.3s, color 0.3s;
     color: #f0f0f0;
 }
 
 body.dark-mode .sidebar {
     background-color: #1a1a1a;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.3s, color 0.3s;
     color: #f0f0f0;
 }
 
 body.dark-mode .content {
     background-color: #1a1a1a;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.3s, color 0.3s;
     color: #f0f0f0;
 }
 
@@ -280,6 +280,79 @@ body.dark-mode .main h1,
 body.dark-mode .main h2 {
     border-bottom-color: #f0f0f0;
 }
+
+
+/* Dark mode toggle styles */
+.dark-mode-toggle {
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 30px;
+    height: 30px;
+}
+
+.dark-mode-toggle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.light-mode-icon {
+    opacity: 1;
+}
+
+.dark-mode-icon {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body.dark-mode .light-mode-icon {
+    opacity: 0;
+}
+
+body.dark-mode .dark-mode-icon {
+    opacity: 1;
+}
+
+/* Tooltip styles */
+.dark-mode-toggle .tooltip {
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    right: 125%;  /* Đưa tooltip sang bên trái */
+    top: 80%;  /* Đặt tooltip ở giữa theo chiều dọc */
+    margin-top: -25px;  /* Dịch chuyển tooltip lên trên một chút để canh giữa */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.dark-mode-toggle .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 50%;  /* Đặt mũi tên giữa theo chiều dọc */
+    left: 100%;  /* Đưa mũi tên sang bên phải của tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #555;  /* Đặt mũi tên hướng vào tooltip */
+}
+
+.dark-mode-toggle:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

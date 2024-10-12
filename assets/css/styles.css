@@ -175,6 +175,10 @@ img {
     background-color: lightgray; /* Tô nền cho thẻ <code> */
 }
 
+#markdown-content em {
+    color: darkblue;
+}
+
 #markdown-content h1,
 #markdown-content h2,
 #markdown-content h3,
@@ -213,7 +217,7 @@ body.dark-mode {
 }
 
 body.dark-mode header {
-    background-color: #1a1a1a;
+    background-color: #151515;
     transition: background-color 0.3s, color 0.3s;
     color: #f0f0f0;
 }
@@ -234,6 +238,10 @@ body.dark-mode .content {
     background-color: #1a1a1a;
     transition: background-color 0.3s, color 0.3s;
     color: #f0f0f0;
+}
+
+body.dark-mode #markdown-content em {
+    color: #4da6ff;
 }
 
 body.dark-mode nav ul li a {

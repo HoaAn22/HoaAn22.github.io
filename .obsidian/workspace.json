@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1338c89d1c511277",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md"
+                "file": "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md"
               }
             }
           }
@@ -149,8 +148,9 @@
   },
   "active": "d4ccbbf2cf02ac30",
   "lastOpenFiles": [
-    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
+    "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
+    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/ml-ds-for-finance/1-chuong-1.md",
     "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",

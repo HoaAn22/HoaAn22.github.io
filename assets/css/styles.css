@@ -16,7 +16,7 @@ body {
 
 /* Layout Components */
 header {
-    background-color: #f8f9fa;
+    background-color: #eaeaea;
     padding: 1em;
     text-align: center;
 }
@@ -29,7 +29,6 @@ main {
 }
 
 footer {
-    background-color: #f1f1f1;
     padding: 10px;
     width: 100%;
     text-align: center;
@@ -39,7 +38,6 @@ footer {
 /* Sidebar Styles */
 .sidebar {
     flex-basis: 20%;
-    background-color: #f4f4f4;
     padding: 20px;
     display: flex;
     flex-direction: column;

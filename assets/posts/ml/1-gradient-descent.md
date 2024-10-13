@@ -11,3 +11,8 @@ Tuy nhiên, tốc độ học quá nhỏ cũng không hẳn là tốt khi train 
 
 # Bài mẫu & Code
 [Google Colab - Gradient Descent](https://colab.research.google.com/drive/1OjctxSOZrDB4vTevji3xCcYy5lkpTyAK#scrollTo=r4FOwJlggSk3)
+
+# Tài liệu tham khảo
+
+# Nguồn ảnh
+

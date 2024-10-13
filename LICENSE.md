@@ -38,8 +38,4 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 
 For more information, please see the [full text of the license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
----
-
 Note: This license applies only to original content created by **Trần Hòa Ân** on [HoaAn22.github.io](https://HoaAn22.github.io). Any third-party content used on this website (e.g., images, quotes) may be subject to their own licenses.
-
----

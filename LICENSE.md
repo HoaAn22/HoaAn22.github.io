@@ -4,8 +4,28 @@ This project uses the following open-source libraries:
 
 ## MathJax
 
-MathJax is licensed under the Apache License, Version 2.0.
-You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+MathJax is licensed under the Apache License, Version 2.0.  
+You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+### Apache License, Version 2.0, January 2004
+
+    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+    1. Definitions.
+       "License" shall mean the terms and conditions for use, reproduction, and distribution as defined in sections 1 through 9 of this document.
+       "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+       "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+    2. Grant of Copyright License.
+       Subject to the terms and conditions of this License, each contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to use, reproduce, modify, distribute, and display the Contributions.
+
+    3. Grant of Patent License.
+       Subject to the terms and conditions of this License, each contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, use, sell, offer for sale, import, and otherwise transfer the Contributions under the applicable patent rights.
+
+    4. Conditions.
+       You must comply with the terms and conditions set forth in this License.
+
+For more information, please see the [full text of the license](http://www.apache.org/licenses/LICENSE-2.0).
 
 ## markdown-it
 

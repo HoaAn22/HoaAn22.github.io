@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/ml/1-gradient-descent.md",
+                "file": "LICENSE.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/ml/1-gradient-descent.md",
+                "file": "LICENSE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/ml/1-gradient-descent.md",
+                "file": "LICENSE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/ml/1-gradient-descent.md"
+                "file": "LICENSE.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "d4ccbbf2cf02ac30",
   "lastOpenFiles": [
+    "assets/posts/ml/1-gradient-descent.md",
     "LICENSE.md",
     "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
     "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",

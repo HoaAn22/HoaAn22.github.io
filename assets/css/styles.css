@@ -266,10 +266,6 @@ body.dark-mode .note {
     color: #f0f0f0;
 }
 
-body.dark-mode .dropbtn {
-    background-color: #4da6ff;
-}
-
 body.dark-mode .dropdown-content {
     background-color: rgb(100, 100, 100);
     box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
@@ -283,10 +279,6 @@ body.dark-mode .dropdown-content a {
 body.dark-mode .dropdown-category a:hover, 
 body.dark-mode .dropdown-content a:hover {
     background-color: #4d4d4d;
-}
-
-body.dark-mode .category-btn {
-    background-color: #4da6ff;
 }
 
 body.dark-mode #markdown-content code {

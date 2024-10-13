@@ -3,7 +3,7 @@
     <div class="dropdown"> <!-- Class tạo danh sách các mục -->
       <a href="#" class="dropbtn">Nền tảng toán</a> <!-- Tên danh sách -->
       <div class="dropdown-category">
-        <div class="dropdown-item">
+        <div class="dropdown-item"> <!-- Class để tạo danh sách các bài viết -->
           <a href="#">Xác xuất</a>
         </div>
         <div class="dropdown-item">
@@ -162,8 +162,15 @@
       <div class="dropdown-category">
         <div class="dropdown-item">
           <a href="#">Trí tuệ nhân tạo</a>
+        <div class="dropdown-item">
           <a href="#">Học máy</a>
+          <div class="dropdown-content">
+            <a href="#" onclick="loadMarkdownFile('assets/posts/ml/1-gradient-descent.md')">Thuật toán Gradient Descent</a>
+          </div>
+        </div>
+        <div class="dropdown-item">
           <a href="#">Học sâu</a>
+        </div>
           <a href="#">Xử lý ảnh</a>
           <a href="#">Thị giác máy tính</a>
           <a href="#">Xử lý ngôn ngữ tự nhiên</a>

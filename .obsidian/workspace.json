@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
+                "file": "assets/posts/ml/1-gradient-descent.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1338c89d1c511277",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
+                "file": "assets/posts/ml/1-gradient-descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
+                "file": "assets/posts/ml/1-gradient-descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md"
+                "file": "assets/posts/ml/1-gradient-descent.md"
               }
             }
           }
@@ -148,6 +149,7 @@
   },
   "active": "d4ccbbf2cf02ac30",
   "lastOpenFiles": [
+    "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
     "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
     "assets/images/qrcode_hoaan22.github.io.png",
@@ -160,7 +162,6 @@
     "assets/posts/html/1-the-html.md",
     "README.md",
     "[.md",
-    "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
     "assets/images/ky-thuat-tai-chinh/4-OMOs.png",
     "assets/images/ky-thuat-tai-chinh/OMOs.png.md",
     "assets/images/ky-thuat-tai-chinh/4-OMOs.png.crdownload",

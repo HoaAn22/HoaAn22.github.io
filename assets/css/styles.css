@@ -74,6 +74,10 @@ nav ul li a {
     color: #007bff;
 }
 
+a {
+    color: darkblue;
+}
+
 /* Image Styles */
 img {
     max-width: 80%;
@@ -111,7 +115,8 @@ img {
 .dropdown-category {
     display: none;
     position: absolute;
-    background-color: #7db5f1;
+    background-color: #90c5fd;
+    border-radius: 4px;
     min-width: 160px;
     z-index: 1;
     left: 100%;
@@ -238,12 +243,21 @@ body.dark-mode .content {
     color: #f0f0f0;
 }
 
+body.dark-mode .dropdown-category {
+    background-color: #87b0dc;
+}
+
 body.dark-mode #markdown-content em {
     color: #4da6ff;
 }
 
-body.dark-mode nav ul li a {
+body.dark-mode a{
     color: #4da6ff;
+}
+
+/* thẻ a có class='dropbth' sẽ được giữ nguyên màu chữ */
+body.dark-mode a.dropbtn{
+    color: inherit;
 }
 
 body.dark-mode .note {

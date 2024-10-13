@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1338c89d1c511277",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md"
+                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md"
               }
             }
           }
@@ -148,8 +149,8 @@
   },
   "active": "d4ccbbf2cf02ac30",
   "lastOpenFiles": [
-    "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
     "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+    "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
     "assets/images/qrcode_hoaan22.github.io.png",
     "assets/images/qrcode_hoaan22.github.io.png.crdownload",
     "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",

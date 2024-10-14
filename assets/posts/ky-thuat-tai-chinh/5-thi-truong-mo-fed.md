@@ -1,4 +1,4 @@
-# Hoạt động thị trường mở (OMOs)
+# Hoạt động thị trường mở (OMOs) - Fed
 ## Khái niệm về OMOs
 
 *Lưu ý: Trong bài này sẽ tìm hiểu về OMOs của thị trường Mỹ*

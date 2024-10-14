@@ -1,4 +1,4 @@
-# Kinh tế vĩ mô
+# Giới thiệu về kinh tế 
 
 ## Khái niệm kinh tế vĩ mô
 

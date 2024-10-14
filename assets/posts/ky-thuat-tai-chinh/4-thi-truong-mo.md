@@ -1,4 +1,5 @@
-# Khái niệm về hoạt động thị trường mở (OMOs)
+# Hoạt động thị trường mở
+## Khái niệm về hoạt động thị trường mở (OMOs)
 
 **OMOs (Open Market Operations) - hoạt động/nghiệp vụ thị trường mở** là một **công cụ chính sách tiền tệ** liên quan đến việc mua bán các loại giấy tờ có giá trị nhằm kiểm soát lượng cung tiền cho thị trường.[1]
 

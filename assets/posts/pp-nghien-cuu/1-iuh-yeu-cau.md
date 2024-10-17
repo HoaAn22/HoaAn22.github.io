@@ -1,5 +1,3 @@
-Dưới đây là danh sách các yêu cầu được nêu trong file bạn cung cấp:
-
 **I. Yêu cầu về nội dung:**
 
 * **Mỗi nhóm phải thực hiện một quyển báo cáo khóa luận** bao gồm các phần cơ bản sau:

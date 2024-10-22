@@ -181,6 +181,7 @@ img {
 
 #markdown-content code {
     background-color: lightgray; /* Tô nền cho thẻ <code> */
+    border-radius: 2px;
 }
 
 #markdown-content em {
@@ -289,6 +290,7 @@ body.dark-mode .dropdown-content a:hover {
 body.dark-mode #markdown-content code {
     background-color: #3d3d3d;
     color: #f0f0f0;
+    border-radius: 2px;
 }
 
 body.dark-mode #markdown-content h1,

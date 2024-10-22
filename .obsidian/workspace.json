@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae9a0ba6bbe8dc6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assets/posts/html/1-the-html.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md"
+                "file": "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md"
               }
             }
           }
@@ -148,6 +160,12 @@
   },
   "active": "54f0c34d99cb2ab5",
   "lastOpenFiles": [
+    "().md",
+    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
+    "assets/images/git/3-git-reset.png",
+    "assets/images/git/3-git-log.png",
+    "assets/posts/html/1-the-html.md",
+    "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
     "assets/posts/ky-thuat-tai-chinh/6-cong-cu-phai-sinh.md",
     "assets/posts/ky-thuat-tai-chinh/5-thi-truong-mo-fed.md",
     "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
@@ -165,8 +183,6 @@
     "assets/posts/ml-ds-for-finance/1-chuong-1.md",
     "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
-    "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
-    "assets/posts/html/1-the-html.md",
     "README.md",
     "[.md",
     "assets/images/ky-thuat-tai-chinh/4-OMOs.png",
@@ -183,7 +199,6 @@
     "assets/images/ky-thuat-tai-chinh/2-CPI.png",
     "assets/images/ky-thuat-tai-chinh/2-CPI.png.crdownload",
     "link.md",
-    "assets/posts/html/2-cac-the-html.md",
     "Chưa đặt tên.canvas"
   ]
 }

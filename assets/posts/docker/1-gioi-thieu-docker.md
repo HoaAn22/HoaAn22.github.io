@@ -1,4 +1,5 @@
-## Giải thích một số thuật ngữ trong bài (\*)
+# Tổng quan về 
+## Chú thích (\*)
 
 * LXC (Linux Containers) là một công nghệ ảo hóa mức hệ điều hành cho phép chạy nhiều hệ thống Linux biệt lập (container) trên một máy chủ vật lý duy nhất.
 

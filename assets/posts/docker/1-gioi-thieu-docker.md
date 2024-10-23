@@ -1,4 +1,4 @@
-# Tổng quan về 
+# Tổng quan về Docker
 ## Chú thích (\*)
 
 * LXC (Linux Containers) là một công nghệ ảo hóa mức hệ điều hành cho phép chạy nhiều hệ thống Linux biệt lập (container) trên một máy chủ vật lý duy nhất.

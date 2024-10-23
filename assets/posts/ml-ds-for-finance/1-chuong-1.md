@@ -21,14 +21,14 @@ Với việc dữ liệu được sinh ra hằng ngày với số lượng rất
 
 ![Tổng quan về Data Science](assets/images/ml-ds-for-finance/1-tong-quan.png)
 
-**Data science**: khoa học dữ liệu là một chuyên ngành thuộc khoa học máy tính, nghiên cứu về thu thập, xử lý, lưu trữ và phân tích dữ liệu. Đồng thời, áp dụng các kiến thức toán học như xác suất, thống kê, đại số tuyến tính, giải tích,... kết hợp mô hình AI, ML, DL để dự đoán ra output (dữ liệu số, phân loại, phân cụm, tạo sinh) bằng cách train trên bộ dữ liệu lớn học **phân phối của dữ liệu**.
+**Data science**: khoa học dữ liệu là một chuyên ngành thuộc khoa học máy tính, nghiên cứu về thu thập, xử lý, lưu trữ và phân tích dữ liệu. Đồng thời, áp dụng các kiến thức toán học như xác suất, thống kê, đại số tuyến tính, giải tích,... kết hợp mô hình AI, ML, DL để dự đoán ra output (dữ liệu số, phân loại, phân cụm, tạo sinh) bằng cách train trên bộ dữ liệu lớn học được **phân phối của dữ liệu**.
 
 Với tính chất liên ngành, khoa học dữ liệu được ứng dụng rất nhiều trong các lĩnh vực khác nhau trong đời sống. Một số ứng dụng của khoa học dữ liệu:
 
 * **Phân tích dữ liệu**: Phân tích thống kê dữ liệu các lĩnh vực như dữ liệu doanh nghiệp, các nghiên cứu số liệu
 * **Xây dựng cơ sở dữ liệu** Data Base, Data pipeline, Data warehouse.
-* **Ứng dụng trong y học**: với sự phát triển của học sâu, cùng phần cứng ngày càng mạnh mẽ, các mô hình xử lý ảnh hiệu quả đã góp phần rất lớn trong việc nhận diện bệnh giúp các bác sĩ làm việc hiệu quả hơn
-* **Ứng dụng trong tài chính**: đặt biệt trong tài chính, các mô hình học và dự đoán tốt trên các dữ liệu chuỗi thời gian như dữ liệu tài chính, vì vậy khoa học dữ liệu được ứng dụng rộng rãi cho dự đoán các chỉ số trong tài chính. Một ứng dụng phổ biến khác của khoa học dữ liệu cho tài chính là, áp dụng mô hình xử lý ngôn ngữ tự nhiên (NLP) để phân tích cảm xúc thị trường dự đoán xu hướng thị trường hiệu quả. 
+* **Ứng dụng trong y học**: một trong những ứng dụng nổi bật của AI đối với y học phải nói đến chuẩn đoán ảnh y khoa, nhờ xử phát triển mạnh mẽ của các mô hình thị giác máy tính, các mô hình AI có thể thông qua các y khoa như X-quang, MRI, CT scan và siêu âm để phát hiện các bất thường, dự đoán hiệu quả bên hỗ trợ nhân viên y tế trong việc khám bệnh.
+* **Ứng dụng trong tài chính**: đặt biệt trong tài chính, các mô hình học và dự đoán tốt trên các dữ liệu chuỗi thời gian như dữ liệu tài chính, vì vậy khoa học dữ liệu được ứng dụng rộng rãi cho dự đoán các chỉ số trong tài chính. Một ứng dụng phổ biến khác của khoa học dữ liệu cho tài chính, là áp dụng mô hình xử lý ngôn ngữ tự nhiên (NLP) để phân tích cảm xúc thị trường dự đoán xu hướng thị trường hiệu quả. 
 ## Nguồn ảnh
 
 [1]

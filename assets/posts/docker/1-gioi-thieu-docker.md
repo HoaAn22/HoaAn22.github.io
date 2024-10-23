@@ -1,8 +1,14 @@
+## Giải thích một số thuật ngữ trong bài (\*)
+
+* LXC (Linux Containers) là một công nghệ ảo hóa mức hệ điều hành cho phép chạy nhiều hệ thống Linux biệt lập (container) trên một máy chủ vật lý duy nhất.
+
+* Hệ thống tệp hợp nhất (union filesystem) là một hệ thống tệp cho phép kết hợp nhiều hệ thống tệp thành một hệ thống tệp duy nhất.
+
 ## Giới thiệu về Docker
 
-**Khái niệm**: Docker là một công cụ đóng gói ứng dụng cùng với tất cả các phần cần thiết để cho ứng dụng khởi chạy ổn định như cấu hình hệ thống, thư viện, môi trường,... Mục đích giúp cô lập ứng dụng không bị ảnh hưởng từ các xung đột hệ thống, dễ dàng vận chuyển, mở rộng và triển khai cho môi trường sản xuất. [Docker: Up and Running]
+**Khái niệm**: Docker là một công cụ đóng gói ứng dụng cùng với tất cả các phần cần thiết để cho ứng dụng khởi chạy ổn định như cấu hình hệ thống, thư viện, môi trường,... Mục đích giúp cô lập ứng dụng không bị ảnh hưởng từ các xung đột hệ thống, dễ dàng vận chuyển, mở rộng và triển khai cho môi trường sản xuất. *[Docker: Up and Running]*
 
-**Sự Ra Đời của Docker** [Using Docker]
+**Sự Ra Đời của Docker** *[Using Docker]*
 
 Docker được tạo ra bởi Solomon Hykes vào năm 2013, ban đầu là một phần của dotCloud, một công ty cung cấp nền tảng dịch vụ (PaaS). Mục tiêu của dotCloud là xây dựng một PaaS không phụ thuộc vào ngôn ngữ lập trình, khác biệt với các PaaS hiện có lúc bấy giờ, thường bị ràng buộc với một số ngôn ngữ nhất định.
 
@@ -27,8 +33,6 @@ Docker mang đến nhiều lợi ích:
 
 ## Tổng hợp một số lệnh Docker cơ bản
 
-## Giải thích một số thuật ngữ (\*)
+## Tài liệu tham khảo
 
-* LXC (Linux Containers) là một công nghệ ảo hóa mức hệ điều hành cho phép chạy nhiều hệ thống Linux biệt lập (container) trên một máy chủ vật lý duy nhất.
-
-* Hệ thống tệp hợp nhất (union filesystem) là một hệ thống tệp cho phép kết hợp nhiều hệ thống tệp thành một hệ thống tệp duy nhất.
+## Nguồn ảnh

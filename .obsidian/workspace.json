@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-ty-gia-phan-1"
+              "title": "1-chuong-1"
             }
           },
           {
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1338c89d1c511277",
@@ -179,6 +178,11 @@
   },
   "active": "54f0c34d99cb2ab5",
   "lastOpenFiles": [
+    "assets/images/ml-ds-for-finance/1-tong-quan.png",
+    "assets/images/ml-ds-for-finance/1-tong-quan.svg",
+    "assets/images/ml-ds-for-finance/Không được xác nhận 596586.crdownload",
+    "assets/images/ml-ds-for-finance/1-tong-quan.png.crdownload",
+    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
     "().md",
     "assets/images/git/3-git-reset.png",
@@ -188,7 +192,6 @@
     "assets/posts/ky-thuat-tai-chinh/6-cong-cu-phai-sinh.md",
     "assets/posts/ky-thuat-tai-chinh/5-thi-truong-mo-fed.md",
     "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
-    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
     "assets/posts/ky-thuat-tai-chinh/3-ty-gia-phan-2.md",
     "LICENSE.md",
     "assets/images/ky-thuat-tai-chinh/2-ty-gia.png",
@@ -215,9 +218,7 @@
     "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
     "assets/images/ky-thuat-tai-chinh/1-ky-hieu-dong-tien.png",
     "assets/posts/qua-trinh-ngau-nhien/1-gioi-thieu-qua-trinh-ngau-nhien.md",
-    "assets/images/ky-thuat-tai-chinh/2-CPI.png",
     "assets/images/ky-thuat-tai-chinh/2-CPI.png.crdownload",
-    "link.md",
     "Chưa đặt tên.canvas"
   ]
 }

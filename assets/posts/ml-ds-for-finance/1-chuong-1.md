@@ -9,7 +9,7 @@ Hiện nay, nhiều tổ chức tài chính như: quỹ bảo hiểm, công ty t
 
 Với việc dữ liệu được sinh ra hằng ngày với số lượng rất lớn, cung cấp cho các mô hình bộ dữ liệu đa dạng giúp cho mô hình học máy ngày càng học được nhiều và nâng cao độ chính xác. Bên cạnh đó phần cứng máy tính ngày càng mạnh mẽ góp phần thúc đẩy sự phát triển của học máy trên nhiều lĩnh vực đặc biệt là tài chính.
 
-Ứng dụng của ML trong tài chính:
+**Ứng dụng của ML trong tài chính**:
 
 ## Tìm hiểu về AI, ML, DL và ứng dụng Data Science
 

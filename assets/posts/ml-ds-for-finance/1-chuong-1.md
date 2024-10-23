@@ -12,4 +12,3 @@
 ![Tổng quan về Data Science](assets/images/ml-ds-for-finance/1-tong-quan.png)
 
 ## Nguồn ảnh
-1. https://datasaur.ai/blog-posts/differences-between-ai-ml-and-dl

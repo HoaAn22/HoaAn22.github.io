@@ -5,7 +5,7 @@
 
 Với sự phát triển của Học máy và Khoa học dữ liệu, việc ứng dụng nó vào nền công nghiệp sẽ trở thành xu thế trong vài thập kỉ tới.
 
-Hiện nay, nhiều tổ chức tài chính như: quỹ bảo hiểm, công ty tài chính, ngân hàng thương mại,... đã nhanh chóng nắm bắt thị xu thế và tập trung mạnh nghiên cứu ứng dụng học máy vào hệ thống của họ nâng cao hiệu suất và hiệu quả. Trong tương lai, nhu cầu lao động chất lượng cao (kỹ sư và chuyên gia) học máy và khoa học dữ liệu sẽ ngày càng cao.
+Hiện nay, nhiều tổ chức tài chính như: quỹ bảo hiểm, công ty tài chính, ngân hàng thương mại,... đã nhanh chóng nắm bắt thị xu thế và tập trung mạnh nghiên cứu ứng dụng học máy vào hệ thống của họ giúp nâng cao cảcả hiệu suất và hiệu quả. Trong tương lai, nhu cầu lao động chất lượng cao (kỹ sư và chuyên gia) học máy và khoa học dữ liệu sẽ ngày càng cao.
 
 Với việc dữ liệu được sinh ra hằng ngày với số lượng rất lớn, cung cấp cho các mô hình bộ dữ liệu đa dạng giúp cho mô hình học máy ngày càng học được nhiều và nâng cao độ chính xác. Bên cạnh đó phần cứng máy tính ngày càng mạnh mẽ góp phần thúc đẩy sự phát triển của học máy trên nhiều lĩnh vực đặc biệt là tài chính.
 

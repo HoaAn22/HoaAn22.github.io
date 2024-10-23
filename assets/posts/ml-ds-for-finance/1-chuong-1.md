@@ -21,7 +21,7 @@ Với việc dữ liệu được sinh ra hằng ngày với số lượng rất
 
 ![Tổng quan về Data Science](assets/images/ml-ds-for-finance/1-tong-quan.png)
 
-**Data science**: khoa học dữ liệu là một chuyên ngành thuộc khoa học máy tính, nghiên cứu về thu thập, xử lý, lưu trữ và phân tích dữ liệu. Đồng thời, áp dụng các kiến thức toán học như xác suất, thống kê, đại số tuyến tính, giải tích,... kết hợp mô hình AI, ML, DL để dự đoán ra output (dữ liệu số, phân loại, phân cụm, tạo sinh) bằng cách train bộ dữ liệu lớn học **phân phối của dữ liệu**.
+**Data science**: khoa học dữ liệu là một chuyên ngành thuộc khoa học máy tính, nghiên cứu về thu thập, xử lý, lưu trữ và phân tích dữ liệu. Đồng thời, áp dụng các kiến thức toán học như xác suất, thống kê, đại số tuyến tính, giải tích,... kết hợp mô hình AI, ML, DL để dự đoán ra output (dữ liệu số, phân loại, phân cụm, tạo sinh) bằng cách train trên bộ dữ liệu lớn học **phân phối của dữ liệu**.
 
 Với tính chất liên ngành, khoa học dữ liệu được ứng dụng rất nhiều trong các lĩnh vực khác nhau trong đời sống. Một số ứng dụng của khoa học dữ liệu:
 

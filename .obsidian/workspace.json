@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1338c89d1c511277",
@@ -178,6 +179,8 @@
   },
   "active": "54f0c34d99cb2ab5",
   "lastOpenFiles": [
+    "assets/posts/html/1-the-html.md",
+    "assets/posts/ml-ds-for-finance/1-chuong-1.md",
     "assets/images/ml-ds-for-finance/1-tong-quan.png",
     "assets/images/ml-ds-for-finance/1-tong-quan.svg",
     "assets/images/ml-ds-for-finance/Không được xác nhận 596586.crdownload",
@@ -187,7 +190,6 @@
     "().md",
     "assets/images/git/3-git-reset.png",
     "assets/images/git/3-git-log.png",
-    "assets/posts/html/1-the-html.md",
     "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
     "assets/posts/ky-thuat-tai-chinh/6-cong-cu-phai-sinh.md",
     "assets/posts/ky-thuat-tai-chinh/5-thi-truong-mo-fed.md",
@@ -202,7 +204,6 @@
     "assets/images/qrcode_hoaan22.github.io.png",
     "assets/images/qrcode_hoaan22.github.io.png.crdownload",
     "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
-    "assets/posts/ml-ds-for-finance/1-chuong-1.md",
     "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
     "README.md",
@@ -216,7 +217,6 @@
     "assets/posts/ky-thuat-tai-chinh/1-thuat-ngu-tai-chinh.md",
     "assets/posts/ky-thuat-tai-chinh/3-thi-truong-mo.md",
     "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
-    "assets/images/ky-thuat-tai-chinh/1-ky-hieu-dong-tien.png",
     "assets/posts/qua-trinh-ngau-nhien/1-gioi-thieu-qua-trinh-ngau-nhien.md",
     "assets/images/ky-thuat-tai-chinh/2-CPI.png.crdownload",
     "Chưa đặt tên.canvas"

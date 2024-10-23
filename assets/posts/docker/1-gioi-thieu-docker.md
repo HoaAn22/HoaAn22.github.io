@@ -6,6 +6,8 @@
 
 ## Giới thiệu về Docker
 
+![Docker](assets/images/docker/1-docker.png)
+
 **Khái niệm**: Docker là một công cụ đóng gói ứng dụng cùng với tất cả các phần cần thiết để cho ứng dụng khởi chạy ổn định như cấu hình hệ thống, thư viện, môi trường,... Mục đích giúp cô lập ứng dụng không bị ảnh hưởng từ các xung đột hệ thống, dễ dàng vận chuyển, mở rộng và triển khai cho môi trường sản xuất. *[Docker: Up and Running]*
 
 **Sự Ra Đời của Docker** *[Using Docker]*
@@ -35,4 +37,8 @@ Docker mang đến nhiều lợi ích:
 
 ## Tài liệu tham khảo
 
+
 ## Nguồn ảnh
+Những người đóng góp vào các dự án Wikimedia, “Docker (phần mềm),” _Wikipedia.org_, Nov. 02, 2016. https://vi.wikipedia.org/wiki/Docker_(ph%E1%BA%A7n_m%E1%BB%81m) (accessed Oct. 23, 2024).
+
+‌

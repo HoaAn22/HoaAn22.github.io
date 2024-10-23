@@ -8,9 +8,9 @@
 
 ![Docker](assets/images/docker/1-docker.png)
 
-**Khái niệm**: Docker là một công cụ đóng gói ứng dụng cùng với tất cả các phần cần thiết để cho ứng dụng khởi chạy ổn định như cấu hình hệ thống, thư viện, môi trường,... Mục đích giúp cô lập ứng dụng không bị ảnh hưởng từ các xung đột hệ thống, dễ dàng vận chuyển, mở rộng và triển khai cho môi trường sản xuất `[1 - O'Reilly - Docker: Up and Running]`. 
+**Khái niệm**: Docker là một công cụ đóng gói ứng dụng cùng với tất cả các phần cần thiết để cho ứng dụng khởi chạy ổn định như cấu hình hệ thống, thư viện, môi trường,... Mục đích giúp cô lập ứng dụng không bị ảnh hưởng từ các xung đột hệ thống, dễ dàng vận chuyển, mở rộng và triển khai cho môi trường sản xuất `[1]`. 
 
-**Sự Ra Đời của Docker** `[2 - O'Reilly - Using Docker]`
+**Sự Ra Đời của Docker** `[2]`
 
 Docker được tạo ra bởi Solomon Hykes vào năm 2013, ban đầu là một phần của dotCloud, một công ty cung cấp nền tảng dịch vụ (PaaS). Mục tiêu của dotCloud là xây dựng một PaaS không phụ thuộc vào ngôn ngữ lập trình, khác biệt với các PaaS hiện có lúc bấy giờ, thường bị ràng buộc với một số ngôn ngữ nhất định.
 
@@ -20,19 +20,34 @@ Sự thành công này đã thúc đẩy dotCloud đổi tên thành Docker, Inc
 
 Sự ra đời của Docker đã cách mạng hóa cách thức phát triển và triển khai phần mềm, biến container Linux từ một công nghệ ít được biết đến thành một công cụ phổ biến rộng rãi.
 
-**Vì sao Docker được sử dụng rộng rãi và yêu thích**?
+**Vì sao Docker được yêu thích ?**
 
-Docker mang đến nhiều lợi ích:
-* **Đóng gói ứng dụng và các phần cành thiết thành 1 Image duy nhất**: Docker cho phép đóng gói ứng dụng cùng các phần cần thiết để hệ thống chạy ổn định vào một Image duy nhất, đảm bảo ứng dụng chạy được trên mọi máy với môi trường nhất quán đã được thiết lập. Đảm bảo tính ổn định của ứng dụng từ máy của người phát triển đến máy khách mà không gặp các vấn đề về xung đột.`[1]` `[2]` `[3 - O'Reilly - Docker Cookbook]`
+**Ưu điểm sử dụng Docker**
+* **Đóng gói ứng dụng và các phần cành thiết thành 1 Image duy nhất**: Docker cho phép đóng gói ứng dụng cùng các phần cần thiết để hệ thống chạy ổn định vào một Image duy nhất, đảm bảo ứng dụng chạy được trên mọi máy với môi trường nhất quán đã được thiết lập. Đảm bảo tính ổn định của ứng dụng từ máy của người phát triển đến máy khách mà không gặp các vấn đề về xung đột.`[1]` `[2]` `[3]`
 * **Dễ dàng di chuyển**: Docker Image có tính di động cao, dễ dàng di chuyển và chạy trên bất kỳ máy nào có cài đặt Docker, kiến cho việc triển khai hệ thống trên nhiều môi trường khác nhau dễ dàng và không gặp xung đột.`[1]` `[2]` `[3]`
-* Xây dựng Image và quản lý Container
+* **Xây dựng hệ thống/ứng dụng hiệu quả**: Docker cung cấp các công cụ mạnh mẽ trong việc xây dựng, kiểm tra và triển khai hệ thống thông qua *dockerfile* và *docker-compose*.
+	* **dockerfile**: định nghĩa các bước để xây dựng một image
+	* **docker-compose**: cho phép xây dựng và quản lý nhiều ứng dụng container
+* **Hiệu suất cao**: Docker Container khởi chạy nhanh và chiếm ít tài nguyên hơn so với khởi chạy máy ảo.
+* **Dễ dàng mở rộng**: 
+* **Tính bảo mật**:
 
-**Vai trò của Docker đến dự án (Đồ án tốt nghiệp)**: Cùng với với những lợi ích trên khi sử dụng Docker trong việc xây dựng hệ thống, Docker cũng là một phần quan trọng đồ án, vì Airflow không chính thức hỗ trợ hoàn toàn cho Windows do Airflow được phát triển hỗ trợ cho Linux, trong khi dự án được thực hiện chủ yếu trên nền tảng Windows. Sử dụng Docker khi khởi chạy trên Windows, nó sẽ chạy thông qua WSL2 (Windows Subsystem for Linux 2) đảm bảo môi trường cho hệ thống Aiflow tương thích tốt.
-## Cách thành phần chính khi xây dựng Docker
+**Vai trò của Docker đến dự án (Đồ án tốt nghiệp)**: Cùng với với những lợi ích trên khi sử dụng Docker trong việc xây dựng hệ thống, Docker cũng là một phần quan trọng của đồ án, vì Airflow không chính thức hỗ trợ hoàn toàn cho Windows do Airflow được phát triển hỗ trợ cho Linux, trong khi dự án được thực hiện chủ yếu trên nền tảng Windows. Sử dụng Docker khi khởi chạy trên Windows, nó sẽ chạy thông qua WSL2 (Windows Subsystem for Linux 2) đảm bảo môi trường cho hệ thống Aiflow tương thích tốt.
+## Tìm hiểu xây dựng hệ thống Docker
+### Khái niệm chính trong hệ thống Docker
+**Docker container**
 
+**Docker image**
+
+### Cấu trúc của một hệ thống Docker
 ## Tổng hợp một số lệnh Docker cơ bản
 
 ## Tài liệu tham khảo
+[1] O'Reilly - Docker: Up and Running
+
+[2] O'Reilly - Using Docker
+
+[3] - O'Reilly - Docker Cookbook
 
 ## Nguồn ảnh
 [1]

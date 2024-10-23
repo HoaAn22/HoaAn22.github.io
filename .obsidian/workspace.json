@@ -15,7 +15,7 @@
               "state": {
                 "file": "assets/posts/docker/1-gioi-thieu-docker.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "1-gioi-thieu-docker"

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md",
+                "file": "assets/posts/docker/1-gioi-thieu-docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-chuong-1"
+              "title": "1-gioi-thieu-docker"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "54f0c34d99cb2ab5",
   "lastOpenFiles": [
-    "assets/posts/html/1-the-html.md",
     "assets/posts/ml-ds-for-finance/1-chuong-1.md",
+    "assets/posts/docker/1-gioi-thieu-docker.md",
+    "assets/posts/docker",
+    "assets/posts/html/1-the-html.md",
     "assets/images/ml-ds-for-finance/1-tong-quan.png",
     "assets/images/ml-ds-for-finance/1-tong-quan.svg",
     "assets/images/ml-ds-for-finance/Không được xác nhận 596586.crdownload",

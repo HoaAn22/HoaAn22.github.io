@@ -27,6 +27,8 @@ Mỗi block trong mô hình RNN sẽ lấy thông tin được trích xuât từ
 
 ### Công thức 
 
+---
+
 * **Tính toán lớp ẩn**
 $$
 h_t = \sigma \left( W_{xh} \cdot x_t + W_{hh} \cdot h_{t-1} + b_h \right)
@@ -49,6 +51,8 @@ Trong  đó:
 - $W_{ho}$: Trọng số kết nối giữa trạng thái ẩn $h_t$ và đầu ra.
 - $b_o$: Bias của đầu ra.
 - $\phi$: Hàm kích hoạt cho đầu ra (tùy thuộc vào bài toán, có thể là `softmax` hoặc `sigmoid`).
+
+---
 
 [Code](https://www.kaggle.com/)
 # Tài liệu tham khảo

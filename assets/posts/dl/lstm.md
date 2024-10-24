@@ -1,0 +1,25 @@
+# Mô hình LSTM
+
+trong lĩnh vực deel learning, một thuật toán nổi tiếng và quan trọng là RNN - thuật toán chuyên xử lý dữ liệu dạng chuỗi. RNN được ứng dụng với nhiều dịch máy, tạo văn bản, nhận dạng giọng nói và kết hợp cùng CNN để mô tả ảnh gắn nhãn cho hình ảnh[1].
+
+**Ý tưởng mô hình RNN**
+
+Đối với các mô hình mạng neural không có khả năng xử lý dữ liệu tuần tự,  khi  train bộ dữ liệu tuần tự việc bộ dữ liệu bị đổ toàn bộ không có sự sắp xếp sẽ làm thay đổi ý nghĩa của dữ liệu.
+
+*Ví dụ, “Con ăn cơm chưa” và “Con chưa ăn cơm”, nếu tách mỗi câu theo từ, ta được bộ vocab [ ‘con’, ‘ăn’, ‘cơm’, ‘chưa’], one hot encoding và cho tất cả vào mạng neural , có thể thấy ngay, không có sự phân biệt nào giữa 2 câu trên* `[1]`.
+
+**RNN xử lý dữ liệu trình tự như thế nào?**
+
+
+
+[Code](https://www.kaggle.com/)
+# Tài liệu tham khảo
+[1]
+
+N. T. Huyen, “Recurrent Neural Network: Từ RNN đến LSTM,” _Viblo_, Jun. 24, 2021. https://viblo.asia/p/recurrent-neural-network-tu-rnn-den-lstm-gGJ597z1ZX2 (accessed Oct. 24, 2024).
+
+‌[2]
+
+Những người đóng góp vào các dự án Wikimedia, “Bộ nhớ dài-ngắn hạn,” _Wikipedia.org_, Nov. 18, 2020. https://vi.wikipedia.org/wiki/B%E1%BB%99_nh%E1%BB%9B_d%C3%A0i-ng%E1%BA%AFn_h%E1%BA%A1n (accessed Oct. 24, 2024).
+
+# Nguồn ảnh

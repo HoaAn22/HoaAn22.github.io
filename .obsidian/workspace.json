@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/docker/1-tong-quan-docker.md",
+                "file": "assets/posts/dl/lstm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-tong-quan-docker"
+              "title": "lstm"
             }
           }
         ]
@@ -165,10 +165,12 @@
   },
   "active": "111737df66c3095b",
   "lastOpenFiles": [
+    "assets/posts/docker/1-tong-quan-docker.md",
+    "assets/posts/dl/lstm.md",
+    "assets/posts/dl",
     "assets/images/docker/1-docker.png",
     "assets/posts/ml-ds-for-finance/1-chuong-1.md",
     "assets/posts/docker/1-gioi-thieu-docker.md",
-    "assets/posts/docker/1-tong-quan-docker.md",
     "assets/images/docker/1-docker.png.crdownload",
     "assets/images/docker",
     "assets/images/New folder",

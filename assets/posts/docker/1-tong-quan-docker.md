@@ -16,7 +16,7 @@
 
 Docker được tạo ra bởi Solomon Hykes vào năm 2013, ban đầu là một phần của dotCloud, một công ty cung cấp nền tảng dịch vụ (PaaS). Mục tiêu của dotCloud là xây dựng một PaaS không phụ thuộc vào ngôn ngữ lập trình, khác biệt với các PaaS hiện có lúc bấy giờ, thường bị ràng buộc với một số ngôn ngữ nhất định.
 
-Docker, lúc đầu, chỉ đơn giản là một lớp bao bọc xung quanh **LXC (\*)** kết hợp với hệ thống tệp hợp nhất. Tuy nhiên, tốc độ phát triển và mức độ phổ biến của nó tăng nhanh chóng mặt. Chỉ trong vòng 6 tháng, Docker đã thu hút hơn 6,700 lượt đánh dấu sao trên GitHub và có sự đóng góp từ 175 người không phải là nhân viên.
+Docker, lúc đầu, chỉ đơn giản là một lớp bao bọc xung quanh **LXC(\*)** kết hợp với hệ thống tệp hợp nhất. Tuy nhiên, tốc độ phát triển và mức độ phổ biến của nó tăng nhanh chóng mặt. Chỉ trong vòng 6 tháng, Docker đã thu hút hơn 6,700 lượt đánh dấu sao trên GitHub và có sự đóng góp từ 175 người không phải là nhân viên.
 
 Sự thành công này đã thúc đẩy dotCloud đổi tên thành Docker, Inc. và thay đổi mô hình kinh doanh, tập trung vào việc phát triển Docker. Phiên bản Docker 1.0 được công bố vào tháng 6 năm 2014, chỉ 15 tháng sau phiên bản 0.1, đánh dấu một bước tiến lớn về tính ổn định và độ tin cậy, đủ để được tuyên bố là "sẵn sàng cho sản xuất". Cùng lúc đó, Docker bắt đầu chuyển hướng phát triển thành một nền tảng hoàn chỉnh thay vì chỉ là một công cụ container, với việc ra mắt Docker Hub, kho lưu trữ công cộng dành cho container.
 

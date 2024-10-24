@@ -22,6 +22,7 @@ Mỗi block trong mô hình RNN sẽ lấy thông tin được trích xuât từ
 * **Hidden Layer (Lớp ẩn)** : 
 * 
 *--Tìm hiểu thêm về lớp ẩn và trạng thái ẩn*
+
 (\*) *t* : là đại diện cho bước thực hiện
 
 **Công thức**

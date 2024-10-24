@@ -30,27 +30,31 @@ Mỗi block trong mô hình RNN sẽ lấy thông tin được trích xuât từ
 ---
 
 * **Tính toán lớp ẩn**
+
 $$
 h_t = \sigma \left( W_{xh} \cdot x_t + W_{hh} \cdot h_{t-1} + b_h \right)
 $$
+
 Trong đó:
-* $h_t$ : là lớp ẩn tại bước *t*
-* $\sigma$ : Hàm kích hoạt (thường là hàm `tanh` hoặc `ReLU`)
-* $W_{xh}$: 
-* $W_{hh}$:  
-* $b_h$: Bias (độ dịch)
+* \\(h_t \\): là lớp ẩn tại bước *t*
+* \\(\sigma \\) : Hàm kích hoạt (thường là hàm `tanh` hoặc `ReLU`)
+* \\(W_{xh} \\): 
+* \\(W_{hh} \\):  
+* \\(b_h \\): Bias (độ dịch)
 
 ---
 
 * **Tính toán đầu ra**:
+
 $$
 o_{t} = \phi(W_{ho} . h_{t} + b_{o})
 $$
+
 Trong  đó:
-* $o_t$: Đầu ra tại thời điểm $t$.
-- $W_{ho}$: Trọng số kết nối giữa trạng thái ẩn $h_t$ và đầu ra.
-- $b_o$: Bias của đầu ra.
-- $\phi$: Hàm kích hoạt cho đầu ra (tùy thuộc vào bài toán, có thể là `softmax` hoặc `sigmoid`).
+* \\(o_t \\): Đầu ra tại thời điểm $t$.
+- \\(W_{ho} \\): Trọng số kết nối giữa trạng thái ẩn $h_t$ và đầu ra.
+- \\(b_o \\): Bias của đầu ra.
+- \\(\phi \\): Hàm kích hoạt cho đầu ra (tùy thuộc vào bài toán, có thể là `softmax` hoặc `sigmoid`).
 
 ---
 

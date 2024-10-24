@@ -1,6 +1,6 @@
 # Mô hình LSTM - Phần 1
 
-## Tìm hiểu về ý tưởng mô hình và 
+## Tìm hiểu về ý tưởng mô hình và mô hình RNN
 
 Trong lĩnh vực deel learning, một thuật toán nổi tiếng và quan trọng là RNN - thuật toán chuyên xử lý dữ liệu dạng chuỗi. RNN được ứng dụng với nhiều dịch máy, tạo văn bản, nhận dạng giọng nói và kết hợp cùng CNN để mô tả ảnh gắn nhãn cho hình ảnh `[1]`.
 

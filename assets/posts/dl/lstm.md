@@ -47,12 +47,12 @@ Trong đó:
 * **Tính toán đầu ra**:
 
 $$
-o_{t} = \phi(W_{ho} . h_{t} + b_{o})
+o_{t} = \phi(W_{ho} \cdot h_{t} + b_{o})
 $$
 
 Trong  đó:
-* \\(o_t \\): Đầu ra tại thời điểm $t$.
-- \\(W_{ho} \\): Trọng số kết nối giữa trạng thái ẩn $h_t$ và đầu ra.
+* \\(o_t \\): Đầu ra tại thời điểm t.
+- \\(W_{ho} \\): Trọng số kết nối giữa trạng thái ẩn \\(h_t \\) và đầu ra.
 - \\(b_o \\): Bias của đầu ra.
 - \\(\phi \\): Hàm kích hoạt cho đầu ra (tùy thuộc vào bài toán, có thể là `softmax` hoặc `sigmoid`).
 

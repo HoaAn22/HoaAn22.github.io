@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1338c89d1c511277",
@@ -179,9 +178,10 @@
   },
   "active": "111737df66c3095b",
   "lastOpenFiles": [
+    "assets/posts/ml/khai-niem-xay-dung-model.md",
+    "assets/posts/dl/lstm.md",
     "ML&DS for Finance.pdf",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
-    "assets/posts/dl/lstm.md",
     "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
     "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
     "assets/images/dl/1-kien-truc-rnn.png",
@@ -218,7 +218,6 @@
     "assets/images/ky-thuat-tai-chinh/2-ty-gia.webp",
     "assets/posts/ml/1-gradient-descent.md",
     "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
-    "assets/images/qrcode_hoaan22.github.io.png.crdownload",
     "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
     "README.md",
     "[.md",

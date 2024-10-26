@@ -50,7 +50,7 @@ Trong đó:
 * **Tính toán đầu ra**:
 
 $$
-o_{t} = \phi(W_{ho} \cdot h_{t} + b_{o})
+y_{t} = \phi(W_{hy} \cdot h_{t} + b_{y})
 $$
 
 Trong  đó:

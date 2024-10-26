@@ -54,9 +54,9 @@ y_{t} = \phi(W_{hy} \cdot h_{t} + b_{y})
 $$
 
 Trong  đó:
-* \\(o_t \\): Đầu ra tại thời điểm t.
-- \\(W_{ho} \\): Trọng số kết nối giữa trạng thái ẩn \\(h_t \\) và đầu ra.
-- \\(b_o \\): Bias của đầu ra.
+* \\(y_t \\): Đầu ra tại thời điểm t.
+- \\(W_{hy} \\): Trọng số kết nối giữa trạng thái ẩn \\(h_t \\) và đầu ra.
+- \\(b_y \\): Bias của đầu ra.
 - \\(\phi \\): Hàm kích hoạt cho đầu ra (tùy thuộc vào bài toán, có thể là `softmax` hoặc `sigmoid`).
 
 ---

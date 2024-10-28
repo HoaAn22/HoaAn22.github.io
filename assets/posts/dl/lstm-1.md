@@ -65,7 +65,7 @@ Trong  đó:
 
 ---
 
-[Code](https://www.kaggle.com/)
+[Code](https://www.kaggle.com/code/kcsener/8-recurrent-neural-network-rnn-tutorial/)
 # Tài liệu tham khảo
 [1]
 

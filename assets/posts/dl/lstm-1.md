@@ -45,8 +45,8 @@ $$
 Trong đó:
 * \\(a_t \\): là lớp ẩn tại bước *t*
 * \\(g_aa \\) : Hàm kích hoạt (thường là hàm `tanh` hoặc `ReLU`)
-* \\(W_{xa} \\): 
-* \\(W_{aa} \\):  
+* \\(W_{xa} \\):  Trọng số giữa đầu vào x và lớp ẩn a
+* \\(W_{aa} \\):  Trọng số giữa lớp ẩn trước đó \\(a_{t-1} \\) và và lớp ẩn hiện tại \\(a_{t} \\)
 * \\(b_a \\): Bias (độ dịch)
 
 ---
@@ -54,12 +54,12 @@ Trong đó:
 * **Tính toán đầu ra**:
 
 $$
-y_{t} = g_y (W_{hy} \cdot h_{t} + b_{y})
+y_{t} = g_y (W_{ay} \cdot a_{t} + b_{y})
 $$
 
 Trong  đó:
 * \\(y_t \\): Đầu ra tại thời điểm t.
-- \\(W_{hy} \\): Trọng số kết nối giữa trạng thái ẩn \\(h_t \\) và đầu ra.
+- \\(W_{ay} \\): Trọng số kết nối giữa trạng thái ẩn \\(h_t \\) và đầu ra.
 - \\(b_y \\): Bias của đầu ra.
 - \\(g_y \\): Hàm kích hoạt cho đầu ra (tùy thuộc vào bài toán, có thể là `softmax` hoặc `sigmoid`).
 

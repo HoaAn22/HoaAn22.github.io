@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ac29d1f9309c04c7",
+        "id": "b4e5b828068bcc25",
         "type": "tabs",
         "children": [
           {
-            "id": "111737df66c3095b",
+            "id": "8e2cff794046a67a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "assets/posts/dl/lstm-1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "lstm-1"
-            }
-          },
-          {
-            "id": "20a7380062c354c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "1-khoi-tao-du-an"
+              "title": "Tab mới"
             }
           }
         ]
@@ -91,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1338c89d1c511277",
@@ -177,15 +158,16 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "111737df66c3095b",
+  "active": "8e2cff794046a67a",
   "lastOpenFiles": [
+    "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
+    "assets/posts/dl/lstm-1.md",
     "assets/posts/ml/1-khai-niem-xay-dung-model.md",
     "assets/posts/ml/2-gradient-descent.md",
     "assets/posts/ml/-gradient-descent.md",
     "assets/posts/ml/khai-niem-xay-dung-model.md",
     "assets/posts/dl/lstm.md",
     "ML&DS for Finance.pdf",
-    "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
     "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
     "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
     "assets/images/dl/1-kien-truc-rnn.png",
@@ -224,7 +206,6 @@
     "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
     "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
     "README.md",
-    "[.md",
     "Chưa đặt tên.canvas"
   ]
 }

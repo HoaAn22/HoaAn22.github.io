@@ -11,10 +11,14 @@
             "id": "8e2cff794046a67a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "assets/posts/airflow/1-ket-noi-db.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Tab mới"
+              "title": "1-ket-noi-db"
             }
           }
         ]
@@ -160,6 +164,10 @@
   },
   "active": "8e2cff794046a67a",
   "lastOpenFiles": [
+    "assets/posts/airflow/1-tao-ket-noi-3.png",
+    "assets/posts/airflow/1-ket-noi-db.md",
+    "assets/posts/airflow/1-tao-ket-noi-2.png",
+    "assets/posts/airflow/1-tao-ket-noi-1.png",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
     "assets/posts/dl/lstm-1.md",
     "assets/posts/ml/1-khai-niem-xay-dung-model.md",
@@ -199,13 +207,8 @@
     "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
     "assets/posts/ky-thuat-tai-chinh/3-ty-gia-phan-2.md",
     "LICENSE.md",
-    "assets/images/ky-thuat-tai-chinh/2-ty-gia.png",
-    "assets/images/ky-thuat-tai-chinh/2-ty-gia.jpeg",
-    "assets/images/ky-thuat-tai-chinh/2-ty-gia.webp",
     "assets/posts/ml/1-gradient-descent.md",
     "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
-    "assets/posts/ky-thuat-tai-chinh/0-gioi-thieu-ky-thuat-tai-chinh.md",
-    "README.md",
     "Chưa đặt tên.canvas"
   ]
 }

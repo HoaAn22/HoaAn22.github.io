@@ -4,6 +4,8 @@
 **OMOs (Open Market Operations) - hoạt động/nghiệp vụ thị trường mở** là một **công cụ chính sách tiền tệ** liên quan đến việc mua bán các loại giấy tờ có giá trị nhằm kiểm soát lượng cung tiền cho thị trường.[1]
 
 ![OMOs](assets/images/ky-thuat-tai-chinh/4-OMOs.png)
+(Nguồn: [https://www.alamy.com/stock-photo/open-market-operation.html?cutout=1&sortBy=relevant](https://www.alamy.com/stock-photo/open-market-operation.html?cutout=1&sortBy=relevant))
+
 # Cách thức hoạt động của OMOs
 
 * *Ngân hàng nhà nước muốn tăng nguồn cung tiền \\(\to \\) tiến hành mua trái phiếu \\(\to \\) tăng lượng tiền lưu thông \\(\to \\) giảm lãi suất \\(\to \\) tăng cường hoạt động kinh tế.*
@@ -21,9 +23,6 @@ Việc thay đổi lượng cung tiền sẽ khéo theo nhiều thay đổi cho 
 [1]
 
 thitruongtaichinhtiente.vn, “Nghiệp vụ thị trường mở là gì?,” _thitruongtaichinhtiente.vn_, Oct. 18, 2023. https://thitruongtaichinhtiente.vn/nghiep-vu-thi-truong-mo-la-gi-51766.html (accessed Oct. 05, 2024).
-
-# Hình ảnh
-Alamy Limited, “Open market operation Cut Out Stock Images & Pictures - Alamy,” _Alamy_, 2024. https://www.alamy.com/stock-photo/open-market-operation.html?cutout=1&sortBy=relevant
 ‌
 ‌
 ‌

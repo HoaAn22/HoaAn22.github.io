@@ -9,7 +9,7 @@
 	![Tạo kết nối 1](assets/images/airflow/tao-ket-noi-2.png)
 5. Điền thông tin DB để kết nối
 	* **Connection Id**: là ID để Airflow kết nối đến DataBase
-	* **Connection Type**: Tên CSDL cần kết nối
+	* **Connection Type**: Loại CSDL cần kết nối
 	* **Description**: Mô tả kết nối (tùy chọn)
 	* **Host**: Máy chủ chứa CSDL
 	* **Schema**: Tên của DataBase

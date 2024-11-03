@@ -13,12 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "4-thi-truong-mo"
+=======
+                "file": "assets/posts/dl/lstm-1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lstm-1"
+>>>>>>> Stashed changes
             }
           }
         ]

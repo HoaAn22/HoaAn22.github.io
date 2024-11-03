@@ -21,7 +21,7 @@
 	![Tạo kết nối 1](assets/images/airflow/tao-ket-noi-3.png)
 
 ## Tạo kết nối với DataBase trong local
-Làm tương tự với các bước trên, phần điền thông tin cần điều chỉnh vài thông số để kết nối. **Host**: *host.docker.internal*, **Port**: *3306*, *3306* thường là port mặc định của DataBase trong local.
+Làm tương tự với các bước trên, phần điền thông tin cần điều chỉnh vài thông số để kết nối thành công. **Host**: *host.docker.internal*, **Port**: *3306*, *3306* thường là port mặc định của DataBase trong local.
 
 `host.docker.internal` là một hostname được Docker cung cấp để cho phép các container Docker truy cập vào mạng của máy chủ (host) trên đó Docker đang chạy. Khi bạn sử dụng `host.docker.internal` trong một container, nó sẽ ánh xạ đến địa chỉ IP của máy local, giúp các container có thể kết nối trực tiếp tới các dịch vụ đang chạy trên máy chủ ngoài Docker.
 

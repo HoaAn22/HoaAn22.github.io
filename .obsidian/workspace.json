@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "ket-noi-db"
             }
-          },
-          {
-            "id": "04bfc8f3c0ab4cfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "assets/posts/docker/1-tong-quan-docker.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "1-tong-quan-docker"
-            }
           }
         ]
       }
@@ -91,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6b8a1df557a8b6fb",

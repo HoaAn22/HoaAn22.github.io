@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 a {
-    color: darkblue;
+    color: rgb(0, 0, 255);
 }
 
 /* Image Styles */
@@ -185,7 +185,7 @@ img {
 }
 
 #markdown-content em {
-    color: darkblue;
+    color: rgb(0, 0, 255);
 }
 
 #markdown-content h1,

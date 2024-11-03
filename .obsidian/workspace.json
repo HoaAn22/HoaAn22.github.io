@@ -1,33 +1,38 @@
 {
   "main": {
-    "id": "0245fc464e0ee198",
+    "id": "1e279def47c9dde5",
     "type": "split",
     "children": [
       {
-        "id": "b4e5b828068bcc25",
+        "id": "09d83084f3c8bb7b",
         "type": "tabs",
         "children": [
           {
-            "id": "8e2cff794046a67a",
+            "id": "2dda63b3492ad5f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "4-thi-truong-mo"
-=======
-                "file": "assets/posts/dl/lstm-1.md",
+                "file": "assets/posts/airflow/ket-noi-db.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lstm-1"
->>>>>>> Stashed changes
+              "title": "ket-noi-db"
+            }
+          },
+          {
+            "id": "04bfc8f3c0ab4cfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assets/posts/docker/1-tong-quan-docker.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "1-tong-quan-docker"
             }
           }
         ]
@@ -36,15 +41,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d670c1f2340f8529",
+    "id": "926b1ea559f4152e",
     "type": "split",
     "children": [
       {
-        "id": "fcf04035a077f040",
+        "id": "d811da640c8b0411",
         "type": "tabs",
         "children": [
           {
-            "id": "9ad50f75a5ac000a",
+            "id": "8e860944ffb0b4b3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +61,7 @@
             }
           },
           {
-            "id": "9abc07c6f2d7c5d7",
+            "id": "295679bb862c5f70",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,7 +78,7 @@
             }
           },
           {
-            "id": "e96a92c8b3ef1a81",
+            "id": "c816e32630a8c891",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,48 +94,48 @@
     "width": 300
   },
   "right": {
-    "id": "1338c89d1c511277",
+    "id": "6b8a1df557a8b6fb",
     "type": "split",
     "children": [
       {
-        "id": "d531afd2243db37e",
+        "id": "0b79b6d7487b977c",
         "type": "tabs",
         "children": [
           {
-            "id": "c83956a72a2ee564",
+            "id": "d6c0c993d7f4d34f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/dl/lstm-1.md",
+                "file": "assets/posts/airflow/ket-noi-db.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của lstm-1"
+              "title": "Liên kết đến của ket-noi-db"
             }
           },
           {
-            "id": "ea327ccc6fcebbde",
+            "id": "6a71525d18594c04",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
+                "file": "assets/posts/airflow/ket-noi-db.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ 2-ty-gia-phan-1"
+              "title": "Liên kết đi ra từ ket-noi-db"
             }
           },
           {
-            "id": "7a509f338ef63d23",
+            "id": "d0f80211693d8083",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,15 +148,15 @@
             }
           },
           {
-            "id": "ad880be3bebd7694",
+            "id": "173d7dc3bca95371",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md"
+                "file": "assets/posts/airflow/ket-noi-db.md"
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 2-ty-gia-phan-1"
+              "title": "Đề cương của ket-noi-db"
             }
           }
         ]
@@ -171,53 +176,22 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "8e2cff794046a67a",
+  "active": "2dda63b3492ad5f6",
   "lastOpenFiles": [
-    "assets/posts/ky-thuat-tai-chinh/5-thi-truong-mo-fed.md",
-    "assets/posts/airflow/1-ket-noi-db.md",
-    "assets/posts/airflow/1-tao-ket-noi-3.png",
-    "assets/posts/airflow/1-tao-ket-noi-2.png",
-    "assets/posts/airflow/1-tao-ket-noi-1.png",
-    "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
-    "assets/posts/dl/lstm-1.md",
-    "assets/posts/ml/1-khai-niem-xay-dung-model.md",
-    "assets/posts/ml/2-gradient-descent.md",
-    "assets/posts/ml/-gradient-descent.md",
-    "assets/posts/ml/khai-niem-xay-dung-model.md",
-    "assets/posts/dl/lstm.md",
-    "ML&DS for Finance.pdf",
-    "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
-    "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
-    "assets/images/dl/1-kien-truc-rnn.png",
-    "assets/images/dl/1-kien-truc-RNN.png",
-    "assets/images/dl/1-kien-truc-RNN.png.crdownload",
-    "assets/images/dl",
-    "assets/images/New folder",
+    "Pasted image 20241104021056.png",
+    "Pasted image 20241104021039.png",
+    "Pasted image 20241104021003.png",
+    "Pasted image 20241104020958.png",
+    "Pasted image 20241104020940.png",
+    "Pasted image 20241104020924.png",
+    "Pasted image 20241104020857.png",
+    "Pasted image 20241104020845.png",
+    "Pasted image 20241104020836.png",
+    "Pasted image 20241104020819.png",
+    "assets/images/airflow/tao-ket-noi-2.png",
+    "README.md",
     "assets/posts/docker/1-tong-quan-docker.md",
-    "assets/posts/dl",
-    "assets/images/docker/1-docker.png",
-    "assets/posts/ml-ds-for-finance/1-chuong-1.md",
-    "assets/posts/docker/1-gioi-thieu-docker.md",
-    "assets/images/docker/1-docker.png.crdownload",
-    "assets/images/docker",
-    "assets/posts/docker",
-    "assets/posts/html/1-the-html.md",
-    "assets/images/ml-ds-for-finance/1-tong-quan.png",
-    "assets/images/ml-ds-for-finance/1-tong-quan.svg",
-    "assets/images/ml-ds-for-finance/Không được xác nhận 596586.crdownload",
-    "assets/images/ml-ds-for-finance/1-tong-quan.png.crdownload",
-    "assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md",
-    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
-    "().md",
-    "assets/images/git/3-git-reset.png",
-    "assets/images/git/3-git-log.png",
-    "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
-    "assets/posts/ky-thuat-tai-chinh/6-cong-cu-phai-sinh.md",
-    "assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md",
-    "assets/posts/ky-thuat-tai-chinh/3-ty-gia-phan-2.md",
-    "LICENSE.md",
-    "assets/posts/ml/1-gradient-descent.md",
-    "assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md",
-    "Chưa đặt tên.canvas"
+    "assets/posts/airflow/ket-noi-db.md",
+    "assets/images/airflow"
   ]
 }

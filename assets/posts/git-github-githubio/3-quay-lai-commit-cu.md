@@ -6,7 +6,7 @@
 
 \* **Giải thích tham số**: `--hard`, `--soft`, `--force`
 
-
 Hoặc có thể dùng lệnh  `git reset --hard HEAD^` để reset về commit hiện tại \\(\to \\)  dùng `git push origin main --force` - push code lên github
+
 *Muốn quay về nhiều commit có thể dùng `HEAD~2`*
 ## Thao tác với nhán

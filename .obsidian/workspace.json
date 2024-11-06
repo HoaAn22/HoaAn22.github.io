@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
+                "file": "assets/posts/airflow/ket-noi-db.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "3-quay-lai-commit-cu"
+              "title": "ket-noi-db"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6b8a1df557a8b6fb",
@@ -164,6 +165,8 @@
   },
   "active": "2dda63b3492ad5f6",
   "lastOpenFiles": [
+    "assets/posts/airflow/1-tao-ket-noi-3.png",
+    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
     "assets/posts/airflow/ket-noi-db.md",
     "Pasted image 20241104021056.png",
     "Pasted image 20241104021039.png",

@@ -184,6 +184,17 @@ img {
     border-radius: 2px;
 }
 
+#markdown-content code.language-python {
+    background-color:inherit;
+    color: inherit;
+}
+
+#markdown-content pre:has(code.language-python) {
+    background-color: #6F9E45;
+    border-radius: 4px;
+    padding: 10px;
+}
+
 #markdown-content em {
     color: rgb(0, 0, 255);
 }
@@ -291,6 +302,17 @@ body.dark-mode #markdown-content code {
     background-color: #3d3d3d;
     color: #f0f0f0;
     border-radius: 2px;
+}
+
+body.dark-mode #markdown-content code.language-python {
+    background-color:inherit;
+    color: inherit;
+}
+
+body.dark-mode #markdown-content pre:has(code.language-python) {
+    background-color: #6F9E45;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 body.dark-mode #markdown-content h1,

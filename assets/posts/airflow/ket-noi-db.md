@@ -67,7 +67,8 @@ results = cursor.fetchall() # Lấy toàn bộ kết quả
 Thêm dữ liệu vào bảng
 ```python
 sql = "INSERT INTO your_table (column1, column2) VALUES (%s, %s)" 
-cursor.execute(sql, ("value1", "value2")) connection.commit() # Xác nhận để lưu thay đổi
+cursor.execute(sql, ("value1", "value2")) 
+connection.commit() # Xác nhận để lưu thay đổi
 ```
 
 Đóng kết nối

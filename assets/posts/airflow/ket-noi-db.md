@@ -24,8 +24,8 @@
 
 Đối với các đã thành thạo với python và sử dụng python trong truy vấn CSDL thì có thể sẽ quen thuộc với các thư viện kết nối và truy vấn CSDL điển hình là `pymysql`, `mysql.connector`, `sqlalchemy`,...
 
-Trong bài này giới thiệu 1 ví dụ cơ bản với thư viện `pymysql`, có 2 cách để sử dụng thư viện này kết nối trong airflow:
-* Sử dụng các tham số của kết nối được tạo trong giao diện airflow, ở đây nó sẽ lấy thông tin từ kết nối được thiết lập trong airflow để làm tham số cho kết nối, với ưu điểm dễ dàng đồng bộ chỉ cần đổi kết nối trong giao diện code vẫn chạy được mà không cần chỉnh sửa tham số.
+Trong bài này, sẽ giới thiệu 1 ví dụ cơ bản với thư viện `pymysql`, có 2 cách để sử dụng thư viện này kết nối trong airflow:
+* Sử dụng các tham số của kết nối được tạo trong giao diện airflow. Ở đây nó sẽ lấy thông tin từ kết nối được thiết lập trong airflow để làm tham số cho kết nối, với ưu điểm dễ dàng đồng bộ chỉ cần đổi kết nối trong giao diện code vẫn chạy được mà không cần chỉnh sửa tham số.
 	```python
 	# Lấy thông tin connection từ Airflow 
 	connection = BaseHook.get_connection("conn") 

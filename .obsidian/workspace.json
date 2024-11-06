@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/airflow/ket-noi-db.md",
+                "file": "assets/posts/dl/lstm-2.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "ket-noi-db"
+              "title": "lstm-2"
             }
           }
         ]
@@ -165,9 +165,13 @@
   },
   "active": "2dda63b3492ad5f6",
   "lastOpenFiles": [
+    "assets/posts/dl/lstm-1.md",
+    "assets/posts/dl/lstm-2.md",
+    "assets/images/dl/1-kien-truc-rnn-2.png",
+    "assets/images/dl/1-kien-truc-rnn-2.png.crdownload",
+    "assets/posts/airflow/ket-noi-db.md",
     "assets/posts/airflow/1-tao-ket-noi-3.png",
     "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
-    "assets/posts/airflow/ket-noi-db.md",
     "Pasted image 20241104021056.png",
     "Pasted image 20241104021039.png",
     "Pasted image 20241104021003.png",
@@ -176,8 +180,6 @@
     "Pasted image 20241104020924.png",
     "Pasted image 20241104020857.png",
     "Pasted image 20241104020845.png",
-    "Pasted image 20241104020836.png",
-    "Pasted image 20241104020819.png",
     "README.md",
     "assets/posts/docker/1-tong-quan-docker.md",
     "assets/images/airflow"

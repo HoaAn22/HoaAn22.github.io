@@ -29,3 +29,9 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## My project
+
+Bạn có thể lấy nội dung đầy đủ của giấy phép Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0) từ [trang chính thức của Creative Commons tại đây](https://creativecommons.org/licenses/by-sa/4.0/legalcode). 
+
+Để sao chép toàn bộ văn bản, bạn có thể truy cập vào trang, kéo xuống và sao chép nội dung từ mục **Legal Code**. Sau đó, dán nó vào tệp `LICENSE` trong kho lưu trữ GitHub của bạn. 
+
+Cảm ơn bạn đã lưu ý, hy vọng cách này sẽ giúp bạn hoàn thành việc thêm giấy phép chính xác cho kho lưu trữ của mình.

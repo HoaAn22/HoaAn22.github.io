@@ -1,20 +1,20 @@
 # LICENSE
 
-The content on [HoaAn22.github.io](https://HoaAn22.github.io) is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+**Creative Commons Attribution 4.0 International License (CC BY 4.0)**
+
+By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
 
 ### You are free to:
-
-- **Share** — copy and redistribute the material in any medium or format.
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+1. **Share** — copy and redistribute the material in any medium or format.
+2. **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
 
 The licensor cannot revoke these freedoms as long as you follow the license terms.
 
 ### Under the following terms:
-
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
 - **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-For more information, please see the [full text of the license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
-
-Note: This license applies only to original content created by [HoaAn22](https://github.com/HoaAn22) on [HoaAn22.github.io](https://HoaAn22.github.io). Any third-party content used on this website (e.g., images, quotes) may be subject to their own licenses.
+### Notices:
+- You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+- No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.

@@ -74,7 +74,7 @@ body.dark-mode #markdown-content code {
 }
 
 body.dark-mode #markdown-content code.language-python {
-    background-color:inherit;
+    background-color:#2c2c2c;
     color: inherit;
 }
 

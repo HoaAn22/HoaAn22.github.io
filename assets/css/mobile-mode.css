@@ -1,0 +1,67 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .sidebar, .content {
+        flex-basis: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .dropdown {
+        margin-bottom: 10px;
+    }
+
+    .dropbtn {
+        width: 100%;
+        text-align: left;
+    }
+
+    .dropdown-category, .dropdown-content {
+        min-width: 100%;
+        left: 0;
+    }
+
+    .dropdown-category {
+        position: static;
+        display: none;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: none;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .dropdown-category.show,
+    .dropdown-content.show {
+        display: block;
+    }
+
+    .dropdown-category a, .dropdown-content a {
+        padding-left: 20px;
+    }
+
+    .dropdown-content a {
+        padding-left: 40px;
+    }
+
+    .category-btn {
+        display: block;
+    }
+
+    .dropdown-container {
+        display: none;
+    }
+
+    .dropdown-container.show {
+        display: block;
+    }
+}

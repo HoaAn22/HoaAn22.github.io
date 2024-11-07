@@ -1,0 +1,122 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    transition: background-color 0.3s, color 0.3s;
+    color: #f0f0f0;
+}
+
+body.dark-mode header {
+    background-color: #151515;
+    transition: background-color 0.3s, color 0.3s;
+    color: #f0f0f0;
+}
+
+body.dark-mode footer {
+    background-color: #1a1a1a;
+    transition: background-color 0.3s, color 0.3s;
+    color: #f0f0f0;
+}
+
+body.dark-mode .sidebar {
+    background-color: #1a1a1a;
+    transition: background-color 0.3s, color 0.3s;
+    color: #f0f0f0;
+}
+
+body.dark-mode .content {
+    background-color: #1a1a1a;
+    transition: background-color 0.3s, color 0.3s;
+    color: #f0f0f0;
+}
+
+body.dark-mode .dropdown-category {
+    background-color: #3998fd;
+}
+
+body.dark-mode #markdown-content em {
+    color: #4da6ff;
+}
+
+body.dark-mode a{
+    color: #4da6ff;
+}
+
+/* thẻ a có class='dropbth' sẽ được giữ nguyên màu chữ */
+body.dark-mode a.dropbtn{
+    color: inherit;
+}
+
+body.dark-mode .note {
+    background-color: #2c2c2c;
+    border-left-color: #ff9800;
+    color: #f0f0f0;
+}
+
+body.dark-mode .dropdown-content {
+    background-color: #7abaff;
+    box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
+}
+
+body.dark-mode .dropdown-category a, 
+body.dark-mode .dropdown-content a {
+    color: #f0f0f0;
+}
+
+/* body.dark-mode .dropdown-category a:hover, 
+body.dark-mode .dropdown-content a:hover {
+    background-color: #4d4d4d;
+} */
+
+body.dark-mode #markdown-content code {
+    background-color: #3d3d3d;
+    color: #f0f0f0;
+    border-radius: 2px;
+}
+
+body.dark-mode #markdown-content code.language-python {
+    background-color:inherit;
+    color: inherit;
+}
+
+/* body.dark-mode #markdown-content pre:has(code.language-python) {
+    background-color: #6F9E45;
+    border-radius: 4px;
+    padding: 10px;
+} */
+
+body.dark-mode #markdown-content h1,
+body.dark-mode #markdown-content h2,
+body.dark-mode .main h1, 
+body.dark-mode .main h2 {
+    border-bottom-color: #f0f0f0;
+}
+
+/* Dark mode toggle styles */
+.dark-mode-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode-toggle img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.light-mode-icon {
+    opacity: 1;
+}
+
+.dark-mode-icon {
+    opacity: 0;
+}
+
+body.dark-mode .light-mode-icon {
+    opacity: 0;
+}
+
+body.dark-mode .dark-mode-icon {
+    opacity: 1;
+}

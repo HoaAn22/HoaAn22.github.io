@@ -1,0 +1,51 @@
+/* Reset and Base Styles */
+*:not(ul) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Layout Components */
+header {
+    background-color: #eaeaea;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+footer {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    flex-basis: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content Styles */
+.content {
+    flex-basis: 80%;
+    padding: 20px;
+    background-color: #fff;
+}

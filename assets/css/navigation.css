@@ -1,0 +1,50 @@
+/* Navigation Styles */
+ul ul {
+    border-left: 1.5px solid gray; /* Đường viền bên trái */
+    padding-left: 20px; /* Tạo khoảng cách giữa đường viền và nội dung */
+    /* background-color: #f0f0f0; */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a {
+    color: rgb(0, 0, 255);
+}
+
+/* Image Styles */
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content img {
+    background-color: white;
+    display: block; /* Chuyển thẻ img thành block để dễ xử lý */
+}
+
+/* Note Styles */
+.note {
+    background-color: #f9f9f9;
+    border-left: 4px solid #ff9800;
+    padding: 10px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}

@@ -175,6 +175,11 @@ img {
     margin-bottom: 1em;
 }
 
+#markdown-content code {
+    background-color: lightgray; /* Tô nền cho thẻ <code> */
+    border-radius: 2px;
+}
+
 #markdown-content pre code.language-python {
     background-color: #f5f5f5;
     border: 1px solid #ddd;
@@ -189,11 +194,6 @@ img {
     display: block;
     width: 100%;
     -webkit-overflow-scrolling: touch;
-  }
-
-#markdown-content code {
-    background-color: lightgray; /* Tô nền cho thẻ <code> */
-    border-radius: 2px;
 }
 
 #markdown-content code.language-python {

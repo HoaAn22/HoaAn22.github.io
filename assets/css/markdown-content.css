@@ -1,44 +1,4 @@
 /* Markdown Content Styles */
-#markdown-content p {
-    margin-bottom: 1em;
-}
-
-#markdown-content code {
-    background-color: lightgray; /* Tô nền cho thẻ <code> */
-    border-radius: 2px;
-}
-
-#markdown-content pre code.language-python {
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 15px;
-    margin: 10px 0;
-    max-width: 800px;
-    margin-bottom: 1em;
-    overflow-x: auto; /* Ensure horizontal scrolling is allowed */
-    font-family: monospace;
-    white-space: pre;
-    display: block;
-    width: 100%;
-    -webkit-overflow-scrolling: touch;
-}
-
-#markdown-content code.language-python {
-    background-color:inherit;
-    color: inherit;
-}
-
-/* #markdown-content pre:has(code.language-python) {
-    background-color: #6F9E45;
-    border-radius: 4px;
-    padding: 10px;
-} */
-
-#markdown-content em {
-    color: rgb(0, 0, 255);
-}
-
 #markdown-content h1,
 #markdown-content h2,
 #markdown-content h3,
@@ -55,6 +15,62 @@
 .main h2 {
     border-bottom: 1.5px solid gray;
 }
+
+#markdown-content p {
+    margin-bottom: 1em;
+}
+
+#markdown-content em {
+    color: rgb(0, 0, 255);
+}
+
+#markdown-content code {
+    background-color: lightgray;
+    border-radius: 2px;
+}
+
+#markdown-content code.language-python {
+    background-color:inherit;
+    color: inherit;
+}
+
+#markdown-content pre code.language-python {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    margin-bottom: 1em;
+    overflow-x: auto;
+    font-family: monospace;
+    white-space: pre;
+    display: block;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+#markdown-content p mjx-container.MathJax.CtxtMenu_Attached_0 {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    margin-bottom: 1em;
+    overflow-x: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+    display: block;
+    width: 80%;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* #markdown-content pre:has(code.language-python) {
+    background-color: #6F9E45;
+    border-radius: 4px;
+    padding: 10px;
+} */
 
 #markdown-content li {
     margin-bottom: 0.5em;

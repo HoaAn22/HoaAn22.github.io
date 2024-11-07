@@ -61,12 +61,17 @@ Trong  đó:
 - \\(g_y \\): Hàm kích hoạt cho đầu ra (tùy thuộc vào bài toán, có thể là `softmax` hoặc `sigmoid`).
 
 ---
-![Mô hình khối RNN chi tiết](assets/images/dl/1-kien-truc-rnn-2.png)
-Với 2 công thức trên ta sẽ diễn giải cách thứ để mô hình hoạt động:
-* **Quá trình cập nhập lớp ẩn**: Dữ liệu đầu vào mô hình gồm \\(a_{t-1} \\) giá trị lớp ẩn trước đó và \\(x_t \\) giá trị đầu vào tại bước này. Đối với 
+## Mô hình block chi tiết của RNN
 
+![Mô hình khối RNN chi tiết](assets/images/dl/1-kien-truc-rnn-2.png)
+Với 2 công thức trên ta sẽ diễn giải cách mô hình hoạt động:
+* **Quá trình cập nhập lớp ẩn**: Dữ liệu đầu vào mô hình gồm \\(a_{t-1} \\) *(giá trị lớp ẩn trước đó)* và \\(x_t \\) *(giá trị đầu vào tại bước này)* \\(\to \\) dữ liệu đầu vào được nhân lần lược các trọng số \\(W_{aa} \\) và \\(W_{ax} \\) \\(\to \\) cộng 2 kết quả này với \\(b_a \\) *(bias lớp ẩn)* giúp điều chỉnh kết quả \\(\to \\) nhân kết quả với *(Hàm kích hoạt)* và đưa ra giá trị lớp ẩn
+* **Quá trình đưa output**: Sau khi có \\(a_t \\) *(giá trị block hiện tại)* từ quá trình trước, dùng kết quả này nhân với trong số \\(W_{ay} \\) \\(\to \\) cộng kết quả với \\(b_y \\) *(bias đầu ra)* \\(\to \\) Nhân kết quả với *(Hàm kích hoạt đầu ra)* đưa ra input
+
+## Thực hiện code
 
 [Code](https://www.kaggle.com/code/kcsener/8-recurrent-neural-network-rnn-tutorial/)
+
 # Tài liệu tham khảo
 [1]
 

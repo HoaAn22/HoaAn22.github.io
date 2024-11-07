@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/dl/lstm-2.md",
+                "file": "assets/posts/dl/lstm-1.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "lstm-2"
+              "title": "lstm-1"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6b8a1df557a8b6fb",
@@ -165,8 +164,8 @@
   },
   "active": "2dda63b3492ad5f6",
   "lastOpenFiles": [
-    "assets/posts/dl/lstm-1.md",
     "assets/posts/dl/lstm-2.md",
+    "assets/posts/dl/lstm-1.md",
     "assets/images/dl/1-kien-truc-rnn-2.png",
     "assets/images/dl/1-kien-truc-rnn-2.png.crdownload",
     "assets/posts/airflow/ket-noi-db.md",

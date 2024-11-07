@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Python Code Boxes with Horizontal Scrollbars</title>
+  <style>
+    .code-box {
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+
+    .code-box-header {
+      background-color: #f5f5f5;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .code-box-content {
+      padding: 10px;
+      max-height: 200px;
+      overflow-x: auto;
+      white-space: pre;
+    }
+  </style>
+</head>
+<body>
+  <h1>Example Python Code</h1>
+
+  <div class="code-box">
+    <div class="code-box-header">Python Function</div>
+    <div class="code-box-content">
+      <pre><code class="language-python">
+def my_very_long_function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10):
+    """
+    Performs a complex operation on the given arguments.
+    
+    Args:
+        arg1 (int): The first argument.
+        arg2 (int): The second argument.
+        arg3 (int): The third argument.
+        arg4 (int): The fourth argument.
+        arg5 (int): The fifth argument.
+        arg6 (int): The sixth argument.
+        arg7 (int): The seventh argument.
+        arg8 (int): The eighth argument.
+        arg9 (int): The ninth argument.
+        arg10 (int): The tenth argument.
+    
+    Returns:
+        int: The result of the operation.
+    """
+    result = arg1 + arg2 + arg3 + arg4 + arg5 + arg6 + arg7 + arg8 + arg9 + arg10
+    return result
+      </code></pre>
+    </div>
+  </div>
+
+  <div class="code-box">
+    <div class="code-box-header">Python Class</div>
+    <div class="code-box-content">
+      <pre><code class="language-python">
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+    
+    def do_something(self):
+        print(f"The value is: {self.value}")
+      </code></pre>
+    </div>
+  </div>
+</body>
+</html>

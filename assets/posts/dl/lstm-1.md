@@ -1,7 +1,5 @@
 # Mô hình LSTM - Phần 1
 
-[Chat GPT - Tìm hiểu về mô hình LSTM](https://chatgpt.com/share/671fb85e-8020-8000-a22d-4271fec9b929)
-
 Trước khi tìm hiểu về mô hình LSTM, chúng ta hãy cùng tìm hiểu rõ về mô hình RNN - là nền tảng để xây dựng nên mô hình LSTM.
 
 ## Tìm hiểu về ý tưởng mô hình và mô hình RNN

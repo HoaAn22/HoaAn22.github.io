@@ -50,19 +50,20 @@
     -webkit-overflow-scrolling: touch;
 }
 
-#markdown-content p mjx-container.MathJax.CtxtMenu_Attached_0 {
+/* Áp dụng các kiểu cho thẻ mjx-container */
+#markdown-content p mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
     background-color: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 15px;
-    margin: 10px auto;
     max-width: 800px;
+    margin: 10px auto; /* Căn giữa hộp */
     margin-bottom: 1em;
     overflow-x: auto;
     font-family: monospace;
     white-space: pre-wrap;
-    display: block;
-    width: 80%;
+    display: block; /* Đảm bảo mjx-container là block */
+    width: 80%; /* Đảm bảo hộp không quá rộng */
     -webkit-overflow-scrolling: touch;
 }
 

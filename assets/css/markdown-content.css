@@ -46,7 +46,7 @@
     font-family: monospace;
     white-space: pre;
     display: block;
-    width: 90%;
+    width: 100%;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -63,7 +63,7 @@
     font-family: monospace;
     white-space: pre-wrap;
     display: block; /* Đảm bảo mjx-container là block */
-    width: 90%; /* Đảm bảo hộp không quá rộng */
+    width: 100%; /* Đảm bảo hộp không quá rộng */
     -webkit-overflow-scrolling: touch;
 }
 

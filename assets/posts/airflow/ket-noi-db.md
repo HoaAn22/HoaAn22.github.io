@@ -47,7 +47,6 @@ Trong bài này, sẽ giới thiệu 1 ví dụ cơ bản với thư viện `pym
     password="password",    # Mật khẩu MySQL
     database="dbname",      # Tên cơ sở dữ liệu
     port=3306               # Cổng (mặc định là 3306)
-				# Trong ví dụ ariflow là 3307
 	)
 	```
 

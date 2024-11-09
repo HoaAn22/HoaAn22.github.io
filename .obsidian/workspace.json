@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/dl/lstm-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-gioi-thieu-kinh-te-vi-mo"
+              "title": "lstm-1"
             }
           }
         ]
@@ -164,6 +164,16 @@
   },
   "active": "9603b64ab41a473a",
   "lastOpenFiles": [
+    "assets/posts/dl/lstm-2.md",
+    "assets/posts/docker/1-tong-quan-docker.md",
+    "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
+    "assets/posts/git-github-githubio/2-thao-tac-voi-git.md",
+    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
+    "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
+    "assets/posts/kltn/nghien-cuu-db.md",
+    "nghien-cuu-kltn.md",
+    "assets/posts/kltn/nghien-cuu-kltn.md",
+    "assets/posts/kltn",
     "NOTE.md",
     "Chưa đặt tên.canvas",
     "2024-11-08.md",
@@ -171,12 +181,10 @@
     "test.html",
     "assets/js/code-box.js",
     "assets/js/code-bos.js",
-    "assets/posts/dl/lstm-2.md",
     "assets/images/dl/1-kien-truc-rnn-2.png",
     "assets/images/dl/1-kien-truc-rnn-2.png.crdownload",
     "assets/posts/airflow/ket-noi-db.md",
     "assets/posts/airflow/1-tao-ket-noi-3.png",
-    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
     "Pasted image 20241104021056.png",
     "Pasted image 20241104021039.png",
     "Pasted image 20241104021003.png",
@@ -186,7 +194,6 @@
     "Pasted image 20241104020857.png",
     "Pasted image 20241104020845.png",
     "README.md",
-    "assets/posts/docker/1-tong-quan-docker.md",
     "assets/images/airflow"
   ]
 }

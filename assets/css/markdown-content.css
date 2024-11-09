@@ -51,7 +51,7 @@
 }
 
 /* Áp dụng các kiểu cho thẻ mjx-container */
-#markdown-content p mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
+#markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
     background-color: #f5f5f5;
     border: 1px solid black;
     border-radius: 4px;

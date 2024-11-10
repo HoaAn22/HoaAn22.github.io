@@ -9,14 +9,15 @@
 ## Giới hạn cấu hình khi dùng lệnh run docker
 
 ```python
-docker run --name <container_name> --cpus=1 --memory=256m <image>
+docker run --name <container_name> --cpus=1 --memory=1024m <image>
 
 hoặc
 
-docker run --name <container_name> --cpus=1 --m 256m <image>
+docker run --name <container_name> --cpus=1 --m 1024m <image>
 ```
 
 **container_name**: là tên tự đặt để quản lý trong docker destop
+
 **image**: là image muốn khởi chạy
 
 ## Sự khác nhau khi dùng docker-compose và docker run

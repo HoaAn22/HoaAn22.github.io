@@ -15,7 +15,7 @@
               "state": {
                 "file": "assets/posts/docker/gioi-han-cau-hinh.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "gioi-han-cau-hinh"
@@ -164,9 +164,19 @@
   },
   "active": "9603b64ab41a473a",
   "lastOpenFiles": [
-    "assets/posts/docker/1-tong-quan-docker.md",
-    "assets/posts/docker/gioi-han-cau-hinh.md",
     "assets/images/docker/gioi-han-cau-hinh.png",
+    "assets/images/docker/1-docker.png",
+    "assets/images/error/1.png",
+    "assets/images/error/2.png",
+    "assets/images/error/3.png",
+    "assets/images/error/4.png",
+    "assets/images/error/5.png",
+    "assets/images/git/git-1.png",
+    "assets/images/git/git-3.png",
+    "assets/images/git/git-2.png",
+    "assets/images/ky-thuat-tai-chinh/1-repo.png",
+    "assets/posts/docker/gioi-han-cau-hinh.md",
+    "assets/posts/docker/1-tong-quan-docker.md",
     "assets/posts/dl/lstm-2.md",
     "assets/posts/dl/lstm-1.md",
     "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
@@ -183,17 +193,8 @@
     "test.html",
     "assets/js/code-box.js",
     "assets/js/code-bos.js",
-    "assets/images/dl/1-kien-truc-rnn-2.png",
     "assets/images/dl/1-kien-truc-rnn-2.png.crdownload",
     "assets/posts/airflow/ket-noi-db.md",
-    "assets/posts/airflow/1-tao-ket-noi-3.png",
-    "Pasted image 20241104021056.png",
-    "Pasted image 20241104021039.png",
-    "Pasted image 20241104021003.png",
-    "Pasted image 20241104020958.png",
-    "Pasted image 20241104020940.png",
-    "Pasted image 20241104020924.png",
-    "Pasted image 20241104020857.png",
     "README.md",
     "assets/images/airflow"
   ]

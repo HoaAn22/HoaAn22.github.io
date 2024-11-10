@@ -5,3 +5,14 @@
 ## Giới hạn cấu hình khi sử dụng docker-compose
 1. `docker stats` - Kiểm tra mức sử dụng CPU và Ram của Container
 2. Để giới hạn, thêm mục **deploy** - **resources**, với **limits** là giới hạn cấu hình khi sử dụng, **reservations** là mục dự phòng khi container cần thêm cấu hình ![Docker](assets/images/docker/gioi-han-cau-hinh.png)
+
+## Giới hạn cấu hình khi dùng lệnh run docker
+
+```python
+docker run --name <container_name> --cpus=0.25 --memory=256m <image>
+```
+
+**container_name**: là tên tự đặt để quản lý trong docker destop
+**image**: là image muốn khởi chạy
+
+## Sự khác nhau khi dùng docker-compose và docker run

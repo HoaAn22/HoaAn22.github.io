@@ -50,13 +50,20 @@ img {
 }
 
 /* Định nghĩa kiểu cho toàn bộ bảng */
+
+/* display: block;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch; */
+
 table {
-    max-width: 80%;
+    width: 800px;
+    max-width: 100%;
     border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
     font-family: Arial, sans-serif; /* Font chữ cho bảng */
     margin: 20px 0; /* Khoảng cách bên ngoài bảng */
     font-size: 16px; /* Kích thước chữ */
 }
+
 
 /* Định nghĩa kiểu cho các ô và đường viền */
 table, th, td {

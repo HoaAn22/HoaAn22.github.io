@@ -51,8 +51,7 @@ img {
 
 /* Định nghĩa kiểu cho toàn bộ bảng */
 table {
-    width: auto; /* Chiếm 100% chiều rộng của khung chứa */
-    max-width: 100%;
+    max-width: 80%;
     border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
     font-family: Arial, sans-serif; /* Font chữ cho bảng */
     margin: 20px 0; /* Khoảng cách bên ngoài bảng */
@@ -64,6 +63,8 @@ table, th, td {
     border: 1px solid black; /* Đường viền giữa các ô */
     padding: 10px; /* Khoảng cách bên trong mỗi ô */
     text-align: left; /* Canh trái văn bản */
+    max-width: 300px; /* Giới hạn chiều rộng mỗi ô */
+    word-wrap: break-word; /* Ngắt dòng nếu nội dung quá dài */
 }
 
 /* Định nghĩa kiểu cho tiêu đề bảng */

@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "assets/posts/docker/gioi-han-cau-hinh.md",
+=======
+                "file": "assets/posts/git-github-githubio/4-pull-code.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "gioi-han-cau-hinh"
+=======
+              "title": "4-pull-code"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -164,6 +172,7 @@
   },
   "active": "9603b64ab41a473a",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "assets/images/docker/gioi-han-cau-hinh.png",
     "assets/images/docker/1-docker.png",
     "assets/images/error/1.png",
@@ -176,6 +185,11 @@
     "assets/images/git/git-2.png",
     "assets/images/ky-thuat-tai-chinh/1-repo.png",
     "assets/posts/docker/gioi-han-cau-hinh.md",
+=======
+    "assets/posts/dl/lstm-2.md",
+    "assets/posts/git-github-githubio/4-pull-code.md",
+    "assets/posts/dl/lstm-1.md",
+>>>>>>> Stashed changes
     "assets/posts/docker/1-tong-quan-docker.md",
     "assets/posts/dl/lstm-2.md",
     "assets/posts/dl/lstm-1.md",

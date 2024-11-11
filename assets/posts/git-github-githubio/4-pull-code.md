@@ -9,6 +9,8 @@
 
 ---
 **C2: Lưu thay đổi tạm thời trong máy Stash**
-1. `git stash` lưu code máy lại
-2. git pull - pull code mới nhất về máy
-3. git stash 
+1. `git stash` - lưu code máy tạm thời
+2. `git pull origin main` - pull code từ nhánh chính về máy
+3. `git stash pop` - `git stash apply`
+4. Xử lý các file bị trùng lặp, bằng lệnh `git add .`
+5. Commit và Push code

@@ -1,32 +1,24 @@
 {
   "main": {
-    "id": "1e279def47c9dde5",
+    "id": "fc8aea0d162e8e5b",
     "type": "split",
     "children": [
       {
-        "id": "e1e41346f8179646",
+        "id": "cc18d4f3e42598c4",
         "type": "tabs",
         "children": [
           {
-            "id": "9603b64ab41a473a",
+            "id": "cc5bb8964de50064",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "assets/posts/docker/gioi-han-cau-hinh.md",
-=======
-                "file": "assets/posts/git-github-githubio/4-pull-code.md",
->>>>>>> Stashed changes
+                "file": "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "gioi-han-cau-hinh"
-=======
-              "title": "4-pull-code"
->>>>>>> Stashed changes
+              "title": "3-quay-lai-commit-cu"
             }
           }
         ]
@@ -35,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "926b1ea559f4152e",
+    "id": "2ed69eecffc39aa2",
     "type": "split",
     "children": [
       {
-        "id": "d811da640c8b0411",
+        "id": "f1a073c8531e5a21",
         "type": "tabs",
         "children": [
           {
-            "id": "8e860944ffb0b4b3",
+            "id": "ae22350f1a185f90",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +47,7 @@
             }
           },
           {
-            "id": "295679bb862c5f70",
+            "id": "a7be9ae5bc8fe262",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -72,7 +64,7 @@
             }
           },
           {
-            "id": "c816e32630a8c891",
+            "id": "32653496669141f4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,20 +80,20 @@
     "width": 300
   },
   "right": {
-    "id": "6b8a1df557a8b6fb",
+    "id": "30a5957a889612dc",
     "type": "split",
     "children": [
       {
-        "id": "0b79b6d7487b977c",
+        "id": "3311b596d7eae387",
         "type": "tabs",
         "children": [
           {
-            "id": "d6c0c993d7f4d34f",
+            "id": "97e67f795726a8d1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
+                "file": "assets/posts/docker/gioi-han-cau-hinh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 1-gioi-thieu-kinh-te-vi-mo"
+              "title": "Liên kết đến của gioi-han-cau-hinh"
             }
           },
           {
-            "id": "6a71525d18594c04",
+            "id": "367394716f3eea11",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/airflow/ket-noi-db.md",
+                "file": "assets/posts/docker/gioi-han-cau-hinh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ ket-noi-db"
+              "title": "Liên kết đi ra từ gioi-han-cau-hinh"
             }
           },
           {
-            "id": "d0f80211693d8083",
+            "id": "13d4ad4be570baa4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,15 +134,15 @@
             }
           },
           {
-            "id": "173d7dc3bca95371",
+            "id": "d67fe9822c50a465",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/airflow/ket-noi-db.md"
+                "file": "assets/posts/docker/gioi-han-cau-hinh.md"
               },
               "icon": "lucide-list",
-              "title": "Đề cương của ket-noi-db"
+              "title": "Đề cương của gioi-han-cau-hinh"
             }
           }
         ]
@@ -170,46 +162,8 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "9603b64ab41a473a",
+  "active": "cc5bb8964de50064",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "assets/images/docker/gioi-han-cau-hinh.png",
-    "assets/images/docker/1-docker.png",
-    "assets/images/error/1.png",
-    "assets/images/error/2.png",
-    "assets/images/error/3.png",
-    "assets/images/error/4.png",
-    "assets/images/error/5.png",
-    "assets/images/git/git-1.png",
-    "assets/images/git/git-3.png",
-    "assets/images/git/git-2.png",
-    "assets/images/ky-thuat-tai-chinh/1-repo.png",
-    "assets/posts/docker/gioi-han-cau-hinh.md",
-=======
-    "assets/posts/dl/lstm-2.md",
-    "assets/posts/git-github-githubio/4-pull-code.md",
-    "assets/posts/dl/lstm-1.md",
->>>>>>> Stashed changes
-    "assets/posts/docker/1-tong-quan-docker.md",
-    "assets/posts/dl/lstm-2.md",
-    "assets/posts/dl/lstm-1.md",
-    "assets/posts/git-github-githubio/1-khoi-tao-du-an.md",
-    "assets/posts/git-github-githubio/2-thao-tac-voi-git.md",
-    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
-    "assets/posts/kinh-te-vi-mo/1-gioi-thieu-kinh-te-vi-mo.md",
-    "assets/posts/kltn/nghien-cuu-db.md",
-    "nghien-cuu-kltn.md",
-    "assets/posts/kltn/nghien-cuu-kltn.md",
-    "assets/posts/kltn",
-    "NOTE.md",
-    "Chưa đặt tên.canvas",
-    "2024-11-08.md",
-    "test.html",
-    "assets/js/code-box.js",
-    "assets/js/code-bos.js",
-    "assets/images/dl/1-kien-truc-rnn-2.png.crdownload",
-    "assets/posts/airflow/ket-noi-db.md",
-    "README.md",
-    "assets/images/airflow"
+    "assets/posts/docker/gioi-han-cau-hinh.md"
   ]
 }

@@ -1,5 +1,7 @@
 # Giới hạn cấu hình Container Docker
 
+Khi sử dụng docker, CPU và Ram sẽ được chia sẻ tự động theo cấu hình máy, khi khởi chạy container khi không được giới hạn, nó sẽ sử dụng hết cấu hình được cấp gây quá tải cho máy.
+
 `docker info` - Xem cấu hình được cấp cho Docker
 
 ## Giới hạn cấu hình khi sử dụng docker-compose

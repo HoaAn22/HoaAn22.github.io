@@ -46,3 +46,8 @@ Chuỗi cron thường gồm **5 hoặc 6 trường** (tùy hệ thống), mỗi
 - Chạy các tác vụ bảo trì hệ thống.
 - Gửi email hoặc thông báo định kỳ.
 - Thực hiện các công việc lặp lại (tải báo cáo, xóa dữ liệu cũ,...).
+
+## Tài liệu tham khảo
+
+[1] Apache Airflow, “Scheduling & Triggers — Airflow Documentation,” Apache.org, 2016. https://airflow.apache.org/docs/apache-airflow/1.10.1/scheduler.html (accessed Nov. 15, 2024).
+‌

@@ -9,12 +9,12 @@ function renderMarkdown(content) {
     markdownContentElement.innerHTML = renderedContent;
 
     // Sau khi render xong, thay thế các liên kết thành onclick
-    const links = markdownContentElement.getElementsByTagName('a');
-    for (let link of links) {
-        const href = link.getAttribute('href');
+    const a_tags = markdownContentElement.getElementsByTagName('a');
+    for (let a of a_tags) {
+        const href = a.getAttribute('href');
         if (href && href.endsWith('.md')) {
-            link.setAttribute('href', '#');
-            link.setAttribute('onclick', `loadMarkdownFile('${href}')`);
+            a.setAttribute('href', '#');
+            a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
         }
     }
 

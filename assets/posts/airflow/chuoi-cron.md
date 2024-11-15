@@ -2,6 +2,8 @@
 
 ## Tìm hiểu sâu về chuỗi cron
 
+[Phần 1](assets/posts/airflow/cau-hinh-thoi-gian-chay.md)
+
 **Chuỗi cron** (cron expression) là một chuỗi ký tự được sử dụng để chỉ định lịch trình thực hiện các tác vụ định kỳ trong các hệ thống lập lịch, chẳng hạn như trong cron của hệ điều hành Unix/Linux hoặc các hệ thống khác như Quartz Scheduler trong Java. 
 
 ### 1. **Cấu trúc của chuỗi cron**  

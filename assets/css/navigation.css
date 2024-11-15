@@ -70,7 +70,7 @@ table, th, td {
     border: 1px solid black; /* Đường viền giữa các ô */
     padding: 10px; /* Khoảng cách bên trong mỗi ô */
     text-align: left; /* Canh trái văn bản */
-    max-width: 300px; /* Giới hạn chiều rộng mỗi ô */
+    max-width: 500px; /* Giới hạn chiều rộng mỗi ô */
     word-wrap: break-word; /* Ngắt dòng nếu nội dung quá dài */
 }
 

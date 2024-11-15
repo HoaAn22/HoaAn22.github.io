@@ -64,13 +64,9 @@
     .dropdown-container.show {
         display: block;
     }
-
-    table {
-        width: auto;
-    }
     
-    th, td {
-        max-width: 100px; /* Giới hạn chiều rộng ô để giảm độ giãn bảng */
+    table, th, td {
+        max-width: 300px; /* Giới hạn chiều rộng ô để giảm độ giãn bảng */
         font-size: 13px; /* Giảm kích thước chữ */
     }
 }

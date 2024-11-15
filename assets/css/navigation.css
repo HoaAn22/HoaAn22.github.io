@@ -62,6 +62,7 @@ table {
     font-family: Arial, sans-serif; /* Font chữ cho bảng */
     margin: 20px 0; /* Khoảng cách bên ngoài bảng */
     font-size: 16px; /* Kích thước chữ */
+    margin: 10px auto; /* Căn giữa hộp */
 }
 
 
@@ -70,7 +71,7 @@ table, th, td {
     border: 1px solid black; /* Đường viền giữa các ô */
     padding: 10px; /* Khoảng cách bên trong mỗi ô */
     text-align: left; /* Canh trái văn bản */
-    max-width: 500px; /* Giới hạn chiều rộng mỗi ô */
+    max-width: 800px; /* Giới hạn chiều rộng mỗi ô */
     word-wrap: break-word; /* Ngắt dòng nếu nội dung quá dài */
 }
 

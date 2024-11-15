@@ -1,33 +1,32 @@
-// Khởi tạo Markdown-it
-var md = window.markdownit();
+// Hàm để tải và render file Markdown
+function renderMarkdown(content) {
 
-// Tùy chỉnh bộ render cho thẻ `a` để thêm thuộc tính `onclick`
-var defaultRender = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {
-    return self.renderToken(tokens, idx, options);
-};
+    const md = window.markdownit();
+    const renderedContent = md.render(content);
 
-md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
-    var href = tokens[idx].attrGet('href');
+    // Thêm nội dung đã render vào phần tử HTML
+    const markdownContentElement = document.getElementById('markdown-content');
+    markdownContentElement.innerHTML = renderedContent;
 
-    if (href && href.endsWith('.md')) {
-        tokens[idx].attrSet('href', '#');  
-        tokens[idx].attrPush(['onclick', `loadMarkdownFile('${href}')`]);
-        console.log('tokens[idx]: ', tokens[idx]);
+    // Sau khi render xong, thay thế các liên kết thành onclick
+    const links = markdownContentElement.getElementsByTagName('a');
+    for (let link of links) {
+        const href = link.getAttribute('href');
+        if (href && href.endsWith('.md')) {
+            link.setAttribute('href', '#');
+            link.setAttribute('onclick', `loadMarkdownFile('${href}')`);
+        }
     }
 
-    return defaultRender(tokens, idx, options, env, self);
-};
+    MathJax.typeset();
+}
 
-// Hàm load file Markdown từ bên ngoài
+// Hàm để tải file Markdown khi nhấp vào liên kết
 function loadMarkdownFile(filePath) {
-    // Sử dụng Fetch API để lấy nội dung file Markdown
     fetch(filePath)
         .then(response => response.text())
-        .then(data => {
-            // Render nội dung Markdown thành HTML
-            document.getElementById('markdown-content').innerHTML = md.render(data);
-
-            // Gọi MathJax để render các công thức toán
-            MathJax.typeset();
+        .then(text => {
+            renderMarkdown(text);
         })
-    }
+        .catch(error => console.error('Error loading file:', error));
+}

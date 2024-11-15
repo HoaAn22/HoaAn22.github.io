@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render Markdown with Dynamic Links</title>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.0.4/dist/markdown-it.min.js"></script>
+    <script>
+        // Hàm để tải và render file Markdown
+        function renderMarkdown(content) {
+            const md = window.markdownit();
+            const renderedContent = md.render(content);
+
+            // Thêm nội dung đã render vào phần tử HTML
+            const markdownContentElement = document.getElementById('markdown-content');
+            markdownContentElement.innerHTML = renderedContent;
+
+            // Sau khi render xong, thay thế các liên kết thành onclick
+            const links = markdownContentElement.getElementsByTagName('a');
+            for (let link of links) {
+                const href = link.getAttribute('href');
+                if (href && href.endsWith('.md')) {
+                    link.setAttribute('href', '#');
+                    link.setAttribute('onclick', `loadMarkdownFile('${href}')`);
+                }
+            }
+        }
+
+        // Hàm để tải file Markdown khi nhấp vào liên kết
+        function loadMarkdownFile(filePath) {
+            fetch(filePath)
+                .then(response => response.text())
+                .then(text => {
+                    renderMarkdown(text);  // Render nội dung Markdown mới
+                })
+                .catch(error => console.error('Error loading file:', error));
+        }
+
+        // Tải nội dung Markdown ban đầu (ví dụ như 'cau-hinh-thoi-gian-chay.md')
+        window.onload = function() {
+            fetch(filePath)
+                .then(response => response.text())
+                .then(text => {
+                    renderMarkdown(text);
+                })
+                .catch(error => console.error('Error loading initial file:', error));
+        }
+    </script>
+</head>
+<body>
+    <div id="markdown-content">
+        <!-- Nội dung Markdown sẽ được tải và hiển thị tại đây -->
+        <a href="#" onclick="loadMarkdownFile('assets/posts/airflow/cau-hinh-thoi-gian-chay.md')">Đặt thời gian chạy DAG - Phần 1</a>
+    </div>
+</body>
+</html>

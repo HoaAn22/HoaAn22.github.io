@@ -1,6 +1,5 @@
 // Hàm để tải và render file Markdown
 function renderMarkdown(content) {
-
     const md = window.markdownit();
     const renderedContent = md.render(content);
 

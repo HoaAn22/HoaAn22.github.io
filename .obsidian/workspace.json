@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
+                "file": "assets/posts/airflow/chuoi-cron.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "3-quay-lai-commit-cu"
+              "title": "chuoi-cron"
             }
           }
         ]
@@ -164,6 +164,8 @@
   },
   "active": "cc5bb8964de50064",
   "lastOpenFiles": [
+    "assets/posts/airflow/cau-hinh-thoi-gian-chay.md",
+    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
     "assets/posts/docker/gioi-han-cau-hinh.md"
   ]
 }

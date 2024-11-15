@@ -1,8 +1,10 @@
+# Đặt thời gian chạy DAG - Phần 1
+
+[Đọc phần 2](assets/posts/airflow/chuoi-cron.md)
+
 Trong Airflow, tham số `schedule_interval` được sử dụng để định nghĩa thời gian và tần suất chạy của một DAG. Dưới đây là các kiểu định dạng phổ biến mà bạn có thể sử dụng:
 
 ---
-
-[Phần 2](assets/posts/airflow/chuoi-cron.md)
 
 ### 1. **Từ khóa đặc biệt (Preset Keywords)**
 Airflow hỗ trợ các từ khóa sẵn có để thiết lập thời gian chạy DAG:

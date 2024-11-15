@@ -2,6 +2,8 @@ Trong Airflow, tham số `schedule_interval` được sử dụng để định 
 
 ---
 
+[Phần 2](assets/posts/airflow/chuoi-cron.md)
+
 ### 1. **Từ khóa đặc biệt (Preset Keywords)**
 Airflow hỗ trợ các từ khóa sẵn có để thiết lập thời gian chạy DAG:
 

@@ -1,5 +1,5 @@
+// Tải Menu vào trang
 document.addEventListener('DOMContentLoaded', function() {
-    // Load sidebar
     fetch('dropdown-menu.html')
         .then(response => response.text())
         .then(data => {
@@ -8,20 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error loading sidebar:', error));
         
-    // // Markdown rendering functionality XUNG ĐỘT Ở ĐÂY
-    // const md = window.markdownit();
-
-    // window.loadMarkdownFile = function(filePath) {
-    //     fetch(filePath)
-    //         .then(response => response.text())
-    //         .then(text => {
-    //             const htmlContent = md.render(text);
-    //             document.getElementById('markdown-content').innerHTML = htmlContent;
-    //             MathJax.typeset();
-    //         })
-    //         .catch(error => console.error('Error loading markdown file:', error));
-    // }
-
     const dropdowns = document.querySelectorAll('.dropdown');
     const categoryBtn = document.querySelector('.category-btn');
     const dropdownContainer = document.querySelector('.dropdown-container');

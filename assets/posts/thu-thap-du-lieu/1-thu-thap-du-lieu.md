@@ -42,4 +42,5 @@ Khi thành công, `soup` sẽ lưu trữ mã nguồn của trang, điều tiếp
 * `soup.find()`: trả về 1 phần tử đầu tiên phù hợp với tham số truyền vào
 * `soup.find_all()`: trả về `list` chứa nhiều phần tử phù hợp với tham số truyền vào
 * `soup.select()`:
+* `.text`, `.get_text()`: trích xuất văn bản
 

@@ -36,10 +36,10 @@ Bạn có thể tìm hiểu các thẻ trong html và chức năng nó [tại đ
 Bây giờ chúng ta sẽ thực hiện theo các bước đã trình bày ở trên
 ![Thực hành](assets/images/thu-thap-du-lieu/1-thuc-hanh.png)
 
-Khi thành công, `soup` sẽ lưu trữ mã nguồn của trang, điều tiếp theo cần làm là xác định được nội dung và vị trí cần thu thập.
+Khi thành công, `soup` sẽ lưu trữ mã nguồn của trang, điều tiếp theo cần làm là xác định được nội dung và vị trí cần thu thập. Tại giao diện của trang web bạn, có thể nhấn `F12` trên bàn phím và trỏ đến phần tử muốn thu thập, nó sẽ hiển thị thuộc tính của thẻ đó và sau đó bạn có thể dụng các hàm trong `BeautifulSoup` để thu thập dữ liệu đó.
 
-trong thư viện `BeautifulSoup` hỗ trợ nhiều hàm để tiến hành lấy dữ liệu mong muốn
-* `soup.find()`:
-* `soup.find_all()`:
+**`BeautifulSoup` hỗ trợ nhiều hàm để tiến hành lấy dữ liệu mong muốn sau đây là một số hàm thông dụng**:
+* `soup.find()`: trả về 1 phần tử đầu tiên phù hợp với tham số truyền vào
+* `soup.find_all()`: trả về `list` chứa nhiều phần tử phù hợp với tham số truyền vào
 * `soup.select()`:
 

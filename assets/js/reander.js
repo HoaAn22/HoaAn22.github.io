@@ -15,6 +15,8 @@ function renderMarkdown(content) {
             a.setAttribute('href', '#');
             a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
         }
+        eles:
+            a.setAttribute('target', '_blank');
     }
 
     MathJax.typeset();

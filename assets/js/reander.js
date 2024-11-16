@@ -14,9 +14,9 @@ function renderMarkdown(content) {
         if (href && href.endsWith('.md')) {
             a.setAttribute('href', '#');
             a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
-        }
-        eles:
+        } else {
             a.setAttribute('target', '_blank');
+        }
     }
 
     MathJax.typeset();

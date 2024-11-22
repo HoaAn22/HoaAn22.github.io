@@ -5,7 +5,7 @@ Với `requests_html` dễ sử dụng, nhưng trong quá trình crawl cần có
 
 1. Cài đặt thư viện `pyppeteer` - `pip install pyppeteer`
 2. Hãy truy cập vào trang web chứa mã nguồn `Chronium` của Windows [tại đây](https://storage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/) và xem phiên bản khả dụng và chọn phiên bản bạn muốn cài đặt.
-3. Vào thư mục `User` chọn xem thư mục ẩn và vào `~\AppDataAppData\Local\Programs\Python\Python312\Lib\site-packages\pyppeteer`.
+3. Vào thư mục `User` chọn xem thư mục ẩn và vào `~\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyppeteer`.
 4. Chọn vào tệp `chromium_downloader.py` thêm code `REVISION=Phiên bản muốn cài đặt` 
 ![Cài đặt Chronium](assets/images/thu-thap-du-lieu/cai-dat-chronium.png)
 

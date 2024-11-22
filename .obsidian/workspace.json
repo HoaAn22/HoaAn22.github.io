@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
+                "file": "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-thu-thap-du-lieu"
+              "title": "cai-dat-chronium"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "30a5957a889612dc",
@@ -165,12 +164,14 @@
   },
   "active": "cc5bb8964de50064",
   "lastOpenFiles": [
+    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
+    "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",
+    "assets/images/thu-thap-du-lieu/cai-dat-chronium.png",
     "assets/images/thu-thap-du-lieu/1-thuc-hanh.png",
     "assets/images/thu-thap-du-lieu",
     "assets/images/New folder",
     "assets/posts/airflow/chuoi-cron.md",
     "assets/posts/thu-thap-du-lieu/1-thu thap-du-lieu.md",
-    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
     "assets/posts/airflow/cau-hinh-thoi-gian-chay.md",
     "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
     "assets/posts/docker/gioi-han-cau-hinh.md"

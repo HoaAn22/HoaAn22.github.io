@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",
+                "file": "assets/posts/python/tong-hop-thu-vien.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "cai-dat-chronium"
+              "title": "tong-hop-thu-vien"
             }
           }
         ]
@@ -164,8 +164,10 @@
   },
   "active": "cc5bb8964de50064",
   "lastOpenFiles": [
-    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
+    "assets/posts/python/gioi-thieu-python.md",
+    "assets/posts/python/tong-hop-thu-vien.md",
     "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",
+    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
     "assets/images/thu-thap-du-lieu/cai-dat-chronium.png",
     "assets/images/thu-thap-du-lieu/1-thuc-hanh.png",
     "assets/images/thu-thap-du-lieu",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/kltn/tien-xu-ly-omo.md",
+                "file": "assets/posts/pp-nghien-cuu/tao-danh-muc.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "tien-xu-ly-omo"
+              "title": "tao-danh-muc"
             }
           }
         ]
@@ -164,8 +164,10 @@
   },
   "active": "cc5bb8964de50064",
   "lastOpenFiles": [
-    "assets/posts/kltn/nghien-cuu-db.md",
+    "assets/posts/pp-nghien-cuu/1-iuh-yeu-cau.md",
+    "assets/posts/pp-nghien-cuu/tao-danh-muc.md",
     "assets/posts/kltn/tien-xu-ly-omo.md",
+    "assets/posts/kltn/nghien-cuu-db.md",
     "assets/posts/python/tong-hop-thu-vien.md",
     "assets/posts/python/gioi-thieu-python.md",
     "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",

@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "tao-danh-muc"
             }
+          },
+          {
+            "id": "470921b2ce7d106f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "1-thu-thap-du-lieu"
+            }
           }
         ]
       }
@@ -164,18 +178,22 @@
   },
   "active": "cc5bb8964de50064",
   "lastOpenFiles": [
-    "assets/posts/pp-nghien-cuu/1-iuh-yeu-cau.md",
-    "assets/posts/pp-nghien-cuu/tao-danh-muc.md",
-    "assets/posts/kltn/tien-xu-ly-omo.md",
-    "assets/posts/kltn/nghien-cuu-db.md",
+    "assets/images/wps/tao-muc-luc-2.png",
+    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
+    "assets/posts/qua-trinh-ngau-nhien/1-gioi-thieu-qua-trinh-ngau-nhien.md",
     "assets/posts/python/tong-hop-thu-vien.md",
     "assets/posts/python/gioi-thieu-python.md",
+    "assets/posts/pp-nghien-cuu/tao-danh-muc.md",
+    "assets/images/wps/tao-muc-luc-1.png",
+    "assets/images/wps",
+    "assets/images/New folder",
+    "assets/posts/pp-nghien-cuu/1-iuh-yeu-cau.md",
+    "assets/posts/kltn/tien-xu-ly-omo.md",
+    "assets/posts/kltn/nghien-cuu-db.md",
     "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",
-    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
     "assets/images/thu-thap-du-lieu/cai-dat-chronium.png",
     "assets/images/thu-thap-du-lieu/1-thuc-hanh.png",
     "assets/images/thu-thap-du-lieu",
-    "assets/images/New folder",
     "assets/posts/airflow/chuoi-cron.md",
     "assets/posts/thu-thap-du-lieu/1-thu thap-du-lieu.md",
     "assets/posts/airflow/cau-hinh-thoi-gian-chay.md",

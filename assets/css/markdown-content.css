@@ -44,11 +44,11 @@
     margin-bottom: 1em;
     overflow-x: auto;
     font-family: monospace;
-    white-space: pre-wrap; /* Giữ các dòng mã được bọc */
+    white-space: pre;
     display: block;
     width: 100%;
     -webkit-overflow-scrolling: touch; /* Cuộn mượt trên iOS */
-    touch-action: pan-x, pan-y; /* Ưu tiên cuộn ngang */
+    touch-action: pan-x; /* Ưu tiên cuộn ngang */
     overscroll-behavior: contain; /* Tránh cuộn ngoài ý muốn */
 }
 
@@ -64,7 +64,7 @@
     margin-bottom: 1em;
     overflow-x: auto;
     font-family: monospace;
-    white-space: pre-wrap;
+    white-space: pre;
     display: block; /* Đảm bảo mjx-container là block */
     width: 100%; /* Đảm bảo hộp không quá rộng */
     -webkit-overflow-scrolling: touch;

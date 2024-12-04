@@ -47,7 +47,6 @@
     white-space: pre;
     display: block;
     width: 100%;
-    touch-action: pan-x pan-y; /* Ưu tiên cuộn bên trong khối */
     -webkit-overflow-scrolling: touch; /* Cuộn mượt trên iOS */
 }
 
@@ -66,6 +65,11 @@
     display: block; /* Đảm bảo mjx-container là block */
     width: 100%; /* Đảm bảo hộp không quá rộng */
     -webkit-overflow-scrolling: touch;
+}
+
+/* Ngăn nội dung bên ngoài cuộn khi thao tác trong code block */
+body {
+    overscroll-behavior: contain; /* Chặn cuộn lan ra ngoài */
 }
 
 /* #markdown-content pre:has(code.language-python) {

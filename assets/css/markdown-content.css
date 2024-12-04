@@ -48,6 +48,7 @@
     display: block;
     width: 100%;
     -webkit-overflow-scrolling: touch;
+    pointer-events: auto; /* Kích hoạt cảm ứng cho khối này */
 }
 
 /* Áp dụng các kiểu cho thẻ mjx-container */

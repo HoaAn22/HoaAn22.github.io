@@ -44,11 +44,14 @@
     margin-bottom: 1em;
     overflow-x: auto;
     font-family: monospace;
-    white-space: pre;
+    white-space: pre-wrap; /* Giữ các dòng mã được bọc */
     display: block;
     width: 100%;
     -webkit-overflow-scrolling: touch; /* Cuộn mượt trên iOS */
+    touch-action: pan-x, pan-y; /* Ưu tiên cuộn ngang */
+    overscroll-behavior: contain; /* Tránh cuộn ngoài ý muốn */
 }
+
 
 /* Áp dụng các kiểu cho thẻ mjx-container */
 #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
@@ -66,12 +69,6 @@
     width: 100%; /* Đảm bảo hộp không quá rộng */
     -webkit-overflow-scrolling: touch;
 }
-
-/* #markdown-content pre:has(code.language-python) {
-    background-color: #6F9E45;
-    border-radius: 4px;
-    padding: 10px;
-} */
 
 #markdown-content li {
     margin-bottom: 0.5em;

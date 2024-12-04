@@ -67,11 +67,6 @@
     -webkit-overflow-scrolling: touch;
 }
 
-/* Ngăn nội dung bên ngoài cuộn khi thao tác trong code block */
-body {
-    overscroll-behavior: contain; /* Chặn cuộn lan ra ngoài */
-}
-
 /* #markdown-content pre:has(code.language-python) {
     background-color: #6F9E45;
     border-radius: 4px;

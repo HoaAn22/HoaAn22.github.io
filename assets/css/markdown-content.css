@@ -47,9 +47,6 @@
     white-space: pre;
     display: block;
     width: 100%;
-    scroll-behavior: smooth;
-    overscroll-behavior: contain; /* Chặn cuộn ngoài ý muốn */
-    touch-action: pan-x;
 }
 
 
@@ -67,9 +64,6 @@
     white-space: pre;
     display: block;
     width: 100%;
-    scroll-behavior: smooth;
-    overscroll-behavior: contain; /* Chặn cuộn ngoài ý muốn */
-    touch-action: pan-x;
 }
 
 #markdown-content li {

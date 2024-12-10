@@ -1,7 +1,7 @@
 # Contact information
-Họ và tên: Trần Hòa Ân
+Name: Trần Hòa Ân
 
-email: antran22112002@gmail.com
+Email: antran22112002@gmail.com
 
 Github: [HoaAn22](https://github.com/HoaAn22)
 
@@ -15,11 +15,12 @@ Github: [HoaAn22](https://github.com/HoaAn22)
 
 # Dự án nổi bật
 
-# Học vấn
+# Education
 * *Engineer in Data Science*. September, 2020 – Present
 
 	IUH - Industrial University of Ho Chi Minh City
 * *Master of Quantitative Finance*. 
 
+	
 # Chứng chỉ
 

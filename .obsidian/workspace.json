@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/cv.md",
+                "file": "assets/posts/css/selector-logic-css.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "selector-logic-css"
             }
           },
           {
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "30a5957a889612dc",
@@ -179,6 +178,9 @@
   },
   "active": "cc5bb8964de50064",
   "lastOpenFiles": [
+    "assets/posts/cv.md",
+    "assets/posts/css/selector-logic-css.md",
+    "assets/posts/css",
     "assets/posts/kltn/danh-gia-mo-hinh.md",
     "assets/posts/kltn/tien-xu-ly-omo.md",
     "assets/posts/pp-nghien-cuu/tao-danh-muc.md",

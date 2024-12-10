@@ -109,6 +109,8 @@ body.dark-mode .main h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
     cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
 }
+/*  display: flex; Nằm ngang
+    align-items: center; */
 
 .dark-mode-toggle img {
     width: 30px;

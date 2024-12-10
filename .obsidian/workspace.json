@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/kltn/tien-xu-ly-omo.md",
+                "file": "assets/posts/kltn/danh-gia-mo-hinh.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "tien-xu-ly-omo"
+              "title": "danh-gia-mo-hinh"
             }
           },
           {
@@ -178,6 +178,8 @@
   },
   "active": "cc5bb8964de50064",
   "lastOpenFiles": [
+    "assets/posts/kltn/tien-xu-ly-omo.md",
+    "assets/posts/kltn/danh-gia-mo-hinh.md",
     "assets/posts/pp-nghien-cuu/tao-danh-muc.md",
     "assets/images/wps/tao-muc-luc-2.png",
     "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
@@ -188,7 +190,6 @@
     "assets/images/wps",
     "assets/images/New folder",
     "assets/posts/pp-nghien-cuu/1-iuh-yeu-cau.md",
-    "assets/posts/kltn/tien-xu-ly-omo.md",
     "assets/posts/kltn/nghien-cuu-db.md",
     "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",
     "assets/images/thu-thap-du-lieu/cai-dat-chronium.png",

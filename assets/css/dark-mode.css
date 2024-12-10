@@ -99,9 +99,15 @@ body.dark-mode .main h2 {
 
 /* Dark mode toggle styles */
 .dark-mode-toggle {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
+    position: fixed;
+    top: 10px; /* Khoảng cách từ phía trên màn hình */
+    right: 10px; /* Khoảng cách từ phía phải màn hình */
+    z-index: 1000; /* Đảm bảo nút nằm trên cùng */
+    background-color: #fff; /* Màu nền (có thể thay đổi tuỳ thích) */
+    border-radius: 10px; /* Bo tròn nút */
+    padding: 5px; /* Khoảng cách bên trong nút */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
 }
 
 .dark-mode-toggle img {

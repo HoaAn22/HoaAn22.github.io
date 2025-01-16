@@ -11,6 +11,7 @@ Với việc dữ liệu được sinh ra hằng ngày với số lượng rất
 
 **Ứng dụng của ML trong tài chính**:
 
+**Giao dịch thuật toán (Algorithmic Trading)**: là sử dụng thuật toán để chỉ đạo thực hiện giao dịch một cách tự động. 
 ## Tìm hiểu về AI, ML, DL và ứng dụng Data Science
 
 **AI (Artificial Intelligence)**: Trí tuệ nhân tạo là lĩnh vực nghiên cứu thuật toán và phát triển hệ thống thực hiện các tác vụ phức tạp thường cần đến trí tuệ của con người.

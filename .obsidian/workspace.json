@@ -4,21 +4,37 @@
     "type": "split",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "2242918e3a96c359",
         "type": "tabs",
         "children": [
           {
             "id": "e62ea5e7be893a22",
+=======
+        "id": "6a0bd136e2d467f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b044761b5707b8b1",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md",
+=======
+                "file": "assets/posts/phan-tich-co-phieu/phan-tich-ky-thuat.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "1-chuong-1"
+=======
+              "title": "phan-tich-ky-thuat"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -163,10 +179,19 @@
       "command-palette:Mở khay lệnh": false
     }
   },
+<<<<<<< Updated upstream
   "active": "e62ea5e7be893a22",
   "lastOpenFiles": [
     "assets/posts/project-ca-nhan/du-doan-bien-dong.md",
     "assets/posts/project-ca-nhan/Chưa đặt tên.canvas",
+=======
+  "active": "b044761b5707b8b1",
+  "lastOpenFiles": [
+    "assets/posts/phan-tich-co-phieu/phan-tich-co-ban.md",
+    "assets/posts/phan-tich-co-phieu/phan-tich-ky-thuat.md",
+    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
+    "assets/posts/kltn/multi-output.md",
+>>>>>>> Stashed changes
     "assets/posts/cv.md",
     "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
     "assets/posts/dl/train-test-set.md",

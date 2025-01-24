@@ -1,40 +1,24 @@
 {
   "main": {
-    "id": "fc8aea0d162e8e5b",
+    "id": "3afa8e6813cbbc7d",
     "type": "split",
     "children": [
       {
-<<<<<<< Updated upstream
-        "id": "2242918e3a96c359",
+        "id": "d4227507265c7c0c",
         "type": "tabs",
         "children": [
           {
-            "id": "e62ea5e7be893a22",
-=======
-        "id": "6a0bd136e2d467f9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b044761b5707b8b1",
->>>>>>> Stashed changes
+            "id": "f64cec7b03088724",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "assets/posts/ml-ds-for-finance/1-chuong-1.md",
-=======
-                "file": "assets/posts/phan-tich-co-phieu/phan-tich-ky-thuat.md",
->>>>>>> Stashed changes
+                "file": "assets/posts/ngon-ngu-anh/1-danh-tu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "1-chuong-1"
-=======
-              "title": "phan-tich-ky-thuat"
->>>>>>> Stashed changes
+              "title": "1-danh-tu"
             }
           }
         ]
@@ -43,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2ed69eecffc39aa2",
+    "id": "5670ae7ba50a7e02",
     "type": "split",
     "children": [
       {
-        "id": "f1a073c8531e5a21",
+        "id": "f2e71cb9b5816512",
         "type": "tabs",
         "children": [
           {
-            "id": "ae22350f1a185f90",
+            "id": "a0075286f31acf76",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +47,7 @@
             }
           },
           {
-            "id": "a7be9ae5bc8fe262",
+            "id": "bbe65061d4afd540",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +64,7 @@
             }
           },
           {
-            "id": "32653496669141f4",
+            "id": "e36ddc08f2c8ebd5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,24 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "30a5957a889612dc",
+    "id": "616a202e422cea75",
     "type": "split",
     "children": [
       {
-        "id": "3311b596d7eae387",
+        "id": "bd2445eec366e0c8",
         "type": "tabs",
         "children": [
           {
-            "id": "97e67f795726a8d1",
+            "id": "6ad729245784583d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/posts/docker/gioi-han-cau-hinh.md",
+                "file": "assets/posts/ngon-ngu-anh/1-danh-tu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của gioi-han-cau-hinh"
+              "title": "Liên kết đến của 1-danh-tu"
             }
           },
           {
-            "id": "367394716f3eea11",
+            "id": "b75d3ce65613ea28",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/posts/docker/gioi-han-cau-hinh.md",
+                "file": "assets/posts/ngon-ngu-anh/1-danh-tu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ gioi-han-cau-hinh"
+              "title": "Liên kết đi ra từ 1-danh-tu"
             }
           },
           {
-            "id": "13d4ad4be570baa4",
+            "id": "a8be9fe2dfa10a9b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,15 +134,15 @@
             }
           },
           {
-            "id": "d67fe9822c50a465",
+            "id": "d8b723d1e54acf5e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/posts/docker/gioi-han-cau-hinh.md"
+                "file": "assets/posts/ngon-ngu-anh/1-danh-tu.md"
               },
               "icon": "lucide-list",
-              "title": "Đề cương của gioi-han-cau-hinh"
+              "title": "Đề cương của 1-danh-tu"
             }
           }
         ]
@@ -179,46 +162,20 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "e62ea5e7be893a22",
+  "active": "f64cec7b03088724",
   "lastOpenFiles": [
-    "assets/posts/project-ca-nhan/du-doan-bien-dong.md",
-    "assets/posts/project-ca-nhan/Chưa đặt tên.canvas",
-=======
-  "active": "b044761b5707b8b1",
-  "lastOpenFiles": [
-    "assets/posts/phan-tich-co-phieu/phan-tich-co-ban.md",
-    "assets/posts/phan-tich-co-phieu/phan-tich-ky-thuat.md",
-    "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
-    "assets/posts/kltn/multi-output.md",
->>>>>>> Stashed changes
     "assets/posts/cv.md",
+    "assets/cv.pdf",
+    "assets/posts/xac-suat/1-gioi-thieu-xac-suat.md",
+    "assets/posts/xac-suat/2-dinh-ly-xac-suat.md",
     "assets/posts/thu-thap-du-lieu/1-thu-thap-du-lieu.md",
-    "assets/posts/dl/train-test-set.md",
-    "assets/posts/project-ca-nhan",
-    "assets/posts/kltn/multi-output.md",
-    "assets/posts/css/selector-logic-css.md",
-    "assets/posts/css",
-    "assets/posts/kltn/danh-gia-mo-hinh.md",
-    "assets/posts/kltn/tien-xu-ly-omo.md",
-    "assets/posts/pp-nghien-cuu/tao-danh-muc.md",
-    "assets/images/wps/tao-muc-luc-2.png",
-    "assets/posts/qua-trinh-ngau-nhien/1-gioi-thieu-qua-trinh-ngau-nhien.md",
-    "assets/posts/python/tong-hop-thu-vien.md",
-    "assets/posts/python/gioi-thieu-python.md",
-    "assets/images/wps/tao-muc-luc-1.png",
-    "assets/images/wps",
-    "assets/images/New folder",
-    "assets/posts/pp-nghien-cuu/1-iuh-yeu-cau.md",
-    "assets/posts/kltn/nghien-cuu-db.md",
     "assets/posts/thu-thap-du-lieu/cai-dat-chronium.md",
-    "assets/images/thu-thap-du-lieu/cai-dat-chronium.png",
-    "assets/images/thu-thap-du-lieu/1-thuc-hanh.png",
-    "assets/images/thu-thap-du-lieu",
-    "assets/posts/airflow/chuoi-cron.md",
-    "assets/posts/thu-thap-du-lieu/1-thu thap-du-lieu.md",
-    "assets/posts/airflow/cau-hinh-thoi-gian-chay.md",
-    "assets/posts/git-github-githubio/3-quay-lai-commit-cu.md",
-    "assets/posts/docker/gioi-han-cau-hinh.md"
+    "assets/posts/qua-trinh-ngau-nhien/1-gioi-thieu-qua-trinh-ngau-nhien.md",
+    "assets/posts/python/gioi-thieu-python.md",
+    "assets/posts/python/tong-hop-thu-vien.md",
+    "assets/posts/dl/lstm-1.md",
+    "assets/posts/ngon-ngu-anh/1-danh-tu.md",
+    "assets/posts/ngon-ngu-anh/1- danh tu.md",
+    "assets/posts/ngon-ngu-anh/1- danh-tu.md"
   ]
 }

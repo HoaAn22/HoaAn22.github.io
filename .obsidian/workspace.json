@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/posts/xac-suat/1-on-tap-1.md",
+                "file": "assets/posts/xac-suat/2-bt-on-tap-1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "1-on-tap-1"
+              "title": "2-bt-on-tap-1"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "616a202e422cea75",
@@ -165,8 +164,8 @@
   },
   "active": "f64cec7b03088724",
   "lastOpenFiles": [
-    "assets/posts/xac-suat/2-bien-co-1.md",
     "assets/posts/xac-suat/1-on-tap-1.md",
+    "assets/posts/xac-suat/2-bt-on-tap-1.md",
     "assets/posts/ngon-ngu-anh/1-danh-tu.md",
     "assets/posts/cv.md",
     "assets/cv.pdf",

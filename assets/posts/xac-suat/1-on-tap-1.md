@@ -34,7 +34,7 @@ Trong đó:
 
 **2. Chỉnh hợp (Arrangement)**:
 
-**Khái niệm**: Chỉnh hợp của nn phần tử lấy kk phần tử là số cách chọn và sắp xếp kk phần tử từ nn, trong đó **thứ tự quan trọng**.
+**Khái niệm**: Chỉnh hợp của n phần tử lấy k phần tử là số cách chọn và sắp xếp k phần tử từ n, trong đó **thứ tự quan trọng**.
 
 **Công thức**:
 

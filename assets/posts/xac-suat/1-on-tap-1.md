@@ -2,12 +2,20 @@
 
 ## Nguyên lý cơ bản trong xác suất
 
-- **Nguyên lý cộng**: xác suất của 1 sự kiện xảy ra là tổng của các xác suất của các sự kiện con không giao nhau, tạo thành sự kiện đó.
+- **Nguyên lý cộng (Addition Principle)**: Nguyên lý này áp dụng khi có nhiều cách thực hiện một công việc và **chúng không thể xảy ra đồng thời**.
 
-	*Bài toán chia thành các trường hợp, chia thành các thành phần \\(\to \\) áp dụng nguyên lý cộng*
+	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai và hai công việc này không thể thực hiện cùng lúc, thì số cách thực hiện **một trong hai công việc** là:
+
+ 	$$A + B$$
+
+ 	*Bài toán chia thành các trường hợp, chia thành các thành phần \\(\to \\) áp dụng nguyên lý cộng*
 ---
 
-- **Nguyên lý nhân**: là một nguyên tắc cơ bản trong xác suất, dùng để tính xác suất xảy ra đồng thời của hai hoặc nhiều biến cố.
+- **Nguyên lý nhân (Multiplication Principle)**: Nguyên lý này áp dụng khi có nhiều bước thực hiện một công việc và **chúng có thể xảy ra đồng thời hoặc liên tiếp**.
+
+	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai, thì số cách thực hiện **cả hai công việc** là:
+	
+	$$A \times B$$
 
 	*Bài toán chia thành các bước, chia thành các giai đoạn \\(\to \\) áp dụng nguyên lý nhân*
 	

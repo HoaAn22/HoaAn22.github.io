@@ -4,7 +4,7 @@
 
 - **Nguyên lý cộng (Addition Principle)**: Nguyên lý này áp dụng khi có nhiều cách thực hiện một công việc và **chúng không thể xảy ra đồng thời**.
 
-	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai và hai công việc này không thể thực hiện cùng lúc, thì có công thức:
+	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai và hai công việc này **không thể thực hiện cùng lúc**, có công thức:
 
  	$$A + B$$
 
@@ -13,7 +13,7 @@
 
 - **Nguyên lý nhân (Multiplication Principle)**: Nguyên lý này áp dụng khi có nhiều bước thực hiện một công việc và **chúng có thể xảy ra đồng thời hoặc liên tiếp**.
 
-	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai, nếu 2 công việc này diễn ra **đồng thời/liên tiếp** thì có công thức:
+	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai, nếu 2 công việc này diễn ra **đồng thời/liên tiếp**, có công thức:
 	
 	$$A \times B$$
 
@@ -45,7 +45,7 @@ $$A(n, k) = \frac{n!}{(n-k)!}$$
 - Trong đó: \\(k \leq n. \\)
 ---
 
-**3. Tổ hợp (Combination)**
+**3. Tổ hợp (Combination)**:
 
 **Khái niệm**: Tổ hợp của n phần tử lấy k phần tử là số cách chọn k phần tử từ n phần tử, nhưng **không quan tâm thứ tự**.
 

@@ -13,7 +13,7 @@
 
 - **Nguyên lý nhân (Multiplication Principle)**: Nguyên lý này áp dụng khi có nhiều bước thực hiện một công việc và **chúng có thể xảy ra đồng thời hoặc liên tiếp**.
 
-	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai, thì số cách thực hiện **cả hai công việc** là:
+	Nếu có \( A \) cách thực hiện công việc thứ nhất và \( B \) cách thực hiện công việc thứ hai, nếu 2 công việc này diễn ra **đồng thời/liên tiếp** thì số cách thực hiện **cả hai công việc** là:
 	
 	$$A \times B$$
 

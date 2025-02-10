@@ -5,21 +5,11 @@
 - **Nguyên lý cộng**: xác suất của 1 sự kiện xảy ra là tổng của các xác suất của các sự kiện con không giao nhau, tạo thành sự kiện đó.
 
 	*Bài toán chia thành các trường hợp, chia thành các thành phần \\(\to \\) áp dụng nguyên lý cộng*
-	
-	\\(P(A \cup B) = P(A) + P(B) \\) **(Trường hợp 2 biến độc lập)**
-	
-	\\(P(A \cup B)= P(A) + P(B) - P(A \cap B) \\) **(Trường hợp 2 biến bất kì/phụ thuộc)**
 ---
 
 - **Nguyên lý nhân**: là một nguyên tắc cơ bản trong xác suất, dùng để tính xác suất xảy ra đồng thời của hai hoặc nhiều biến cố.
 
 	*Bài toán chia thành các bước, chia thành các giai đoạn \\(\to \\) áp dụng nguyên lý nhân*
-	
-	\\(P(A \cap B) = P(A) . P(B) \\) (**Trường hợp 2 biến độc lập**)
-	
-	\\(P(A \cap B) = P(A). P(B|A) \\) (**Trường hợp 2 biến bất kì/phụ thuộc**) 
-	
-	*Chú thích*: P(B|A) là xác suất xảy ra biến cố B khi A đã xảy ra.
 	
 ## Hoán vị, Chỉnh hợp, Tổ hợp.
 

@@ -22,6 +22,13 @@
 //     MathJax.typeset();
 // }
 
+// Hàm trích xuất ID video từ URL YouTube
+function extractYouTubeID(url) {
+    const regex = /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+    const match = url.match(regex);
+    return match ? match[1] : null;
+}
+
 // Hàm để tải và render file Markdown
 function renderMarkdown(content) {
     const md = window.markdownit();
@@ -59,16 +66,21 @@ function renderMarkdown(content) {
         }
     }
 
+    // window.MathJax = {
+    //     tex: {
+    //       inlineMath: [['$', '$'], ['\\(', '\\)']],
+    //       displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    //     },
+    //     startup: {
+    //       ready() {
+    //         MathJax.startup.defaultReady();
+    //         MathJax.typesetPromise();
+    //       }
+    //     }
+    //   };
+
     MathJax.typeset();
 }
-
-// Hàm trích xuất ID video từ URL YouTube
-function extractYouTubeID(url) {
-    const regex = /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
-    const match = url.match(regex);
-    return match ? match[1] : null;
-}
-
 
 // Hàm để tải file Markdown khi nhấp vào liên kết
 function loadMarkdownFile(filePath) {

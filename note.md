@@ -20,3 +20,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Hướng pháp triển dự án
 - Tích hợp notebook để hướng dẫn cho các bài liên quan đến code AI/ML/DL
 - Tối ưu lại giao diện
+- Tích hợp phụ lục

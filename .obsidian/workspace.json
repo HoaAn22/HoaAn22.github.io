@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2-bt-on-tap-1"
             }
+          },
+          {
+            "id": "791ff0aaf838480f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Trình duyệt tệp"
@@ -162,7 +176,7 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "f64cec7b03088724",
+  "active": "791ff0aaf838480f",
   "lastOpenFiles": [
     "assets/posts/xac-suat/1-on-tap-1.md",
     "assets/posts/xac-suat/2-bt-on-tap-1.md",

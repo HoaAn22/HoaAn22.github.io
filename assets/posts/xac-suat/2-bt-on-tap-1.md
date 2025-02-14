@@ -86,13 +86,18 @@ Tính từng trường hợp bằng **Định lý Nhân**:
   - **2 bi đỏ**: \\(\mathrm{C}_{4}^{2} = 6 \\)
   - **2 bi xanh**: \\(\mathrm{C}_{3}^{2} = 3 \\)
   - **2 bi vàng**: \\(\mathrm{C}_{2}^{2} = 1 \\)
+  
+  **Tổng số cách lấy 2 viên bi cùng màu là**: \\(\mathrm{C}\_{4}^{2} + \mathrm{C}\_{3}^{2} + \mathrm{C}\_{2}^{2} = 10\\)
 
-  Tổng số cách lấy 2 viên bi cùng màu là 10
-
-  \\(\Rightarrow \\) Tổng số cách lấy 2 viên bi khác màu = Tổng số cách chọn 2 viên bi - Tổng số cách lấy 2 viên bi cùng màu = 36 - 10 = 26
+  \\(\Rightarrow \\) **Tổng số cách lấy 2 viên bi khác màu** = Tổng số cách chọn 2 viên bi - Tổng số cách lấy 2 viên bi cùng màu = 36 - 10 = 26
 
 - **Tính xác suất**:
   - Xác xuất bốc 2 viên cùng màu: P = \\(\frac{10}{36} \approx 0.278 \\)
   - Xác suất bốc 2 viên khác màu: P = \\(\frac{26}{36} \approx 0.722 \\)
 
+## Bài tập - Hoán vị, Chỉnh hợp, Tổ hợp
+
+**Hoán vị**:
+
+**Ví dụ 1**:
 

@@ -1,27 +1,3 @@
-// Hàm để tải và render file Markdown
-// function renderMarkdown(content) {
-//     const md = window.markdownit();
-//     const renderedContent = md.render(content);
-
-//     // Thêm nội dung đã render vào phần tử HTML
-//     const markdownContentElement = document.getElementById('markdown-content');
-//     markdownContentElement.innerHTML = renderedContent;
-
-//     // Sau khi render xong, thay thế các liên kết thành onclick
-//     const a_tags = markdownContentElement.getElementsByTagName('a');
-//     for (let a of a_tags) {
-//         const href = a.getAttribute('href');
-//         if (href && href.endsWith('.md')) {
-//             a.setAttribute('href', '#');
-//             a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
-//         } else {
-//             a.setAttribute('target', '_blank');
-//         }
-//     }
-
-//     MathJax.typeset();
-// }
-
 // Hàm trích xuất ID video từ URL YouTube
 function extractYouTubeID(url) {
     const regex = /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
@@ -66,20 +42,9 @@ function renderMarkdown(content) {
         }
     }
 
-    // window.MathJax = {
-    //     tex: {
-    //       inlineMath: [['$', '$'], ['\\(', '\\)']],
-    //       displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    //     },
-    //     startup: {
-    //       ready() {
-    //         MathJax.startup.defaultReady();
-    //         MathJax.typesetPromise();
-    //       }
-    //     }
-    //   };
-
-    MathJax.typeset();
+    if (window.MathJax) {
+        MathJax.typeset();
+    }
 }
 
 // Hàm để tải file Markdown khi nhấp vào liên kết

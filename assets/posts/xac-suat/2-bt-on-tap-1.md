@@ -78,8 +78,6 @@ Tính từng trường hợp bằng **Định lý Nhân**:
 
 **Giải - nhanh**: áp dụng Tổ hợp
 
-- **Không gian mẫu (\\(\Omega \\))** = 4 + 3 + 2 = 9
-
 - **Tổng số cách chọn 2 viên bi**: \\(\mathrm{C}_{9}^{2} = \frac{9!}{2!(9-2)!} = \frac{9.8.7!}{2.1.7!} = \frac{9.8}{2}=36 \\)
 
 - **Số cách lấy 2 viên bi cùng màu**:

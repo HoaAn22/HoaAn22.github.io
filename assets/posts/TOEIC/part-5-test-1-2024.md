@@ -62,7 +62,7 @@ Passengers who will be taking a connecting domestic flight should go to Terminal
 Hành khách sẽ đi một chuyến bay nối chuyến nội địa nên đến Nhà ga A.
 
 ---
-1.     Fresh and -- apple-cider donuts are available at Oakcrest Orchard’s retail shop for £6 per dozen.
+103. Fresh and -- apple-cider donuts are available at Oakcrest Orchard’s retail shop for £6 per dozen.
 
 A. eaten **(Được ăn)**
 

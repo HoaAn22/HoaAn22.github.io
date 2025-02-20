@@ -15,8 +15,6 @@
 
 Các nhóm đại từ trong bảng trên được chia thành năm loại chính: **đại từ nhân xưng**, **tân ngữ**, **đại từ phản thân**, **đại từ sở hữu** và **tính từ sở hữu**.
 
----
-
 ## **1. Đại từ nhân xưng (Personal Pronouns)**
 
 Đại từ nhân xưng được dùng để chỉ người hoặc vật thực hiện hành động trong câu (chủ ngữ).  

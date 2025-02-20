@@ -1,5 +1,7 @@
 # Ôn tập xác suất (Phần 1)
 
+[Phần 2](assets/posts/xac-suat/3-on-tap-2.md)
+
 ## Nguyên lý cơ bản trong xác suất
 
 - **Nguyên lý cộng (Addition Principle)**: Nguyên lý này áp dụng khi có nhiều cách thực hiện một công việc và **chúng không thể xảy ra đồng thời**.
@@ -54,3 +56,9 @@ $$A(n, k) = \frac{n!}{(n-k)!}$$
 $$C(n, k) = \frac{n!}{k!(n-k)!}$$
 
 - Trong đó: \\(k \leq n. \\)
+
+## Xác xuất cổ điển (Probability)
+
+Thực hiện phép thử (try), có không gian mẫu \\(\Omega \\) là tập hợp tất cả các kết quả có thể xảy ra. Biến cố (event) cần tính đặt tên là A với \\(\Omega_{A} \\) là tập hợp các kết quả có thể xảy ra cần tính, ta có công thức:
+
+$$P(A) = \frac{|\Omega_{A}|}{|\Omega|}$$

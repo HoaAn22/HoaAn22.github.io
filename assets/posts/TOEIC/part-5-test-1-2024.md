@@ -29,6 +29,7 @@ Former Sendai Company CEO Ken Nakata spoke about his career experiences.
 Cựu CEO của Công ty Sendai, Ken Nakata, đã nói về kinh nghiệm nghề nghiệp của ông ấy.
 
 ---
+
 102. Passengers who will be taking a -- domestic flight should go to Terminal A.
 
 A. connectivity **(-ity Danh từ)**
@@ -62,6 +63,7 @@ Passengers who will be taking a connecting domestic flight should go to Terminal
 Hành khách sẽ đi một chuyến bay nối chuyến nội địa nên đến Nhà ga A.
 
 ---
+
 103. Fresh and -- apple-cider donuts are available at Oakcrest Orchard’s retail shop for £6 per dozen.
 
 A. eaten **(Được ăn)**

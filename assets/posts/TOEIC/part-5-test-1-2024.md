@@ -258,6 +258,9 @@ Câu hỏi từ loại, Nghĩa: **Kiểm tra (Kiểm tra kỹ lưỡng, xem xét
 
 *Giải thích*
 
+Phân tích câu: *{Wheel alignments and brake system --} {are} {part of our vehicle service plan}*
+
+Câu hỏi về từ loại, **Wheel alignments and brake system --** cụm từ cần điền là một cụm danh từ với từ cần điền ở cuối của cụm, cần điền **danh từ** trong đáp án có **B và D** là danh từ nhưng nghĩa của **D** phù hợp hơn cho câu.
 
 *Từ vựng*
 
@@ -270,5 +273,126 @@ Câu hỏi từ loại, Nghĩa: **Kiểm tra (Kiểm tra kỹ lưỡng, xem xét
 | inspection   | /ɪnˈspɛkʃən/    | sự kiểm tra                |
 | inspector    | /ɪnˈspɛktər/    | người kiểm tra             |
 | inspect      | /ɪnˈspɛkt/      | kiểm tra                   |
-| vehicle      | /ˈviːɪkəl/      | phương tiện, xe cộ         |
+| vehicle      | /ˈviː.ə.kəl/    | phương tiện, xe cộ         |
 | service plan | /ˈsɜːrvɪs plæn/ | kế hoạch bảo dưỡng dịch vụ |
+
+*Dịch*
+
+Wheel alignments and brake system **inspections** are part of our vehicle service plan
+
+Căn chỉnh bánh xe và **kiểm tra** hệ thống phanh là một phần của kế hoạch dịch vụ xe của chúng tôi.
+
+---
+
+109. Registration for the Marketing Coalition Conference is now open -- September 30.
+
+*A. until* (cho đến)
+
+B. into (vào)
+
+C. yet (chưa)
+
+D. while (trong khi)
+
+*Giải thích*
+
+Phân tích câu: *{Registration for the Marketing Coalition Conference} {is} {now open} {-- September 30}*
+
+Câu hỏi về giới từ và từ vựng, đáp án **A** phù hợp nghĩa với câu.
+
+*Từ vựng*
+
+| Từ vựng      | Phiên âm IPA      | Nghĩa      |
+|--------------|-------------------|------------|
+| registration | /ˌrɛdʒɪˈstreɪʃən/ | sự đăng ký |
+| marketing    | /ˈmɑːrkɪtɪŋ/      | tiếp thị   |
+| coalition    | /ˌkoʊəˈleɪʃən/    | liên minh  |
+| conference   | /ˈkɑːnfərəns/     | hội nghị   |
+| open         | /ˈoʊpən/          | mở cửa     |
+
+*Dịch*
+
+Registration for the Marketing Coalition Conference is now open **until** September 30.
+
+Đăng ký tham dự Hội nghị Liên minh Tiếp thị hiện đã mở **cho đến** ngày 30 tháng 9.
+
+---
+
+110. Growth in the home entertainment industry has been -- this quarter.
+
+A. separate (Riêng biệt, tách rời)
+
+*B. limited* (Bị hạn chế, giới hạn)
+
+C. willing (Sẵn lòng)
+
+D. assorted (Đa dạng)
+
+*Giải thích*
+
+Phân tích câu: *G{rowth in the home entertainment industry} {has been} {--} {this quarter}*
+
+Câu hỏi về từ vựng, trong câu sử dụng thì hiện tại hoàn thành với động từ chính **Has been** sau đó cần thêm 1 tính từ phù hợp nghĩa với câu. Câu **B. limited** phù hợp nhất.
+
+*Từ vựng*
+
+| Từ vựng       | Loại từ | Phiên âm IPA      | Nghĩa                     |
+|---------------|---------|-------------------|---------------------------|
+| growth        | N       | /ɡroʊθ/           | sự tăng trưởng            |
+| entertainment | N       | /ˌɛntərˈteɪnmənt/ | giải trí                  |
+| industry      | N       | /ˈɪndəstri/       | ngành công nghiệp         |
+| quarter       | N       | /ˈkwɔːrtər/       | quý (trong năm tài chính) |
+| limited       | Adj     | /ˈlɪmɪtɪd/        | bị hạn chế, có giới hạn   |
+| separate      | Adj     | /ˈsɛp.ɚ.ət/       | riêng biệt, tách rời      |
+| willing       | Adj     | /ˈwɪl.ɪŋ/         | sẵn lòng                  |
+| assorted      | Adj     | /əˈsɔːr.t̬ɪd/     | đa dạng, đủ loại          |
+
+*Dịch*
+
+Growth in the home entertainment industry has been **limited** this quarter.
+
+Sự tăng trưởng trong ngành giải trí gia đình đã **bị hạn chế** trong quý này.
+
+---
+
+111. Hawson Furniture will be making -- on the east side of town on Thursday.
+
+*A. deliveries*
+
+B. delivered
+
+C. deliver
+
+D. deliverable
+
+*Giải thích*
+
+Phân tích câu: *{Hawson Furniture} {will be making --} {on the east side of town on Thursday}*
+
+Câu hỏi từ loại, Câu đã có **Chủ ngữ** và **Động từ chính** và động từ **make** thường kèm theo **danh từ** mang nghĩa là **làm việc gì đó**. Trong 4 đáp án có **A. deliveries** là một danh từ và phù hợp nghĩa với câu.
+
+*Từ vựng*
+
+| Từ vựng     | Loại từ  | Phiên âm IPA   | Nghĩa                       |
+|-------------|----------|----------------|-----------------------------|
+| deliver     | V        | /dɪˈlɪvər/     | giao hàng                   |
+| delivered   | V-ed/Adj | /dɪˈlɪvərd/    | đã giao, được giao          |
+| deliveries  | N        | /dɪˈlɪvəriz/   | những chuyến giao hàng      |
+| deliverable | Adj/N    | /dɪˈlɪvərəbəl/ | có thể giao, hàng giao được |
+| furniture   | N        | /ˈfɜrnɪtʃər/   | đồ nội thất                 |
+| make        | V        | /meɪk/         | tạo, thực hiện              |
+| side        | N        | /saɪd/         | phía, bên                   |
+| town        | N        | /taʊn/         | thị trấn                    |
+| Thursday    | N        | /ˈθɜrzdeɪ/     | thứ Năm                     |
+
+**Câu hoàn chỉnh**:
+
+Hawson Furniture will be making *deliveries* on the east side of town on Thursday.
+
+**Phiên âm IPA**:
+
+/ˈhɔːsən ˈfɜrnɪtʃər wɪl bi ˈmeɪkɪŋ dɪˈlɪvəriz ɒn ði iːst saɪd əv taʊn ɒn ˈθɜrzdeɪ/
+
+**Dịch**:
+
+Hawson Furniture sẽ thực hiện *các chuyến giao hàng* ở phía đông thị trấn vào thứ Năm.

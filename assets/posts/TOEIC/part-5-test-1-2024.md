@@ -24,9 +24,11 @@ Cụm từ cần điền là **-- career experiences**, đứng trước cụm d
 
 *Dịch*:
 
-Former Sendai Company CEO Ken Nakata spoke about his career experiences.
+Former Sendai Company CEO Ken Nakata spoke about *his* career experiences.
 
-Cựu CEO của Công ty Sendai, Ken Nakata, đã nói về kinh nghiệm nghề nghiệp của ông ấy.
+ˈfɔrmər Sendai ˈkʌmpəni CEO kɛn nɑˈkɑtə spoʊk əˈbaʊt hɪz kəˈrɪr ɪkˈspɪriənsɪz
+
+Cựu CEO của Công ty Sendai, Ken Nakata, đã nói về kinh nghiệm nghề nghiệp *của ông ấy*.
 
 ---
 
@@ -396,3 +398,228 @@ Hawson Furniture will be making *deliveries* on the east side of town on Thursda
 **Dịch**:
 
 Hawson Furniture sẽ thực hiện *các chuyến giao hàng* ở phía đông thị trấn vào thứ Năm.
+
+---
+
+112. The Marlton City Council does not have the authority to -- parking on city streets.
+A. drive
+B. prohibit
+C. bother
+D. travel
+
+**Giải thích**
+
+Phân tích câu: *{The Marlton City Council} {does not have} {the authority to -- parking} {on city streets}*
+
+Câu hỏi từ vựng, Cụm từ cần điền là *the authority to -- parking*, với *to* thường đi cùng *V0*. Nghĩa của cụm *the authority to* là *có quyền làm gì*. Cần 1 động từ phù hợp nghĩa với câu.
+
+**Từ vựng**
+
+| Từ vựng   | Loại từ | Phiên âm IPA  | Nghĩa                 |
+|-----------|---------|---------------|-----------------------|
+| authority | N       | /əˈθɔːr.ə.ti/ | quyền hạn, thẩm quyền |
+| prohibit  | V       | /prəˈhɪbɪt/   | cấm, ngăn cấm         |
+| parking   | N/Ving  | /ˈpɑːrkɪŋ/    | việc đỗ xe            |
+| city      | N       | /ˈsɪti/       | thành phố             |
+| council   | N       | /ˈkaʊn.səl/   | hội đồng              |
+| drive     | V       | /draɪv/       | lái xe                |
+| bother    | V       | /ˈbɒðər/      | làm phiền, quấy rầy   |
+| travel    | V       | /ˈtrævəl/     | đi du lịch, di chuyển |
+| street    | N       | /striːt/      | đường phố             |
+
+**Câu hoàn chỉnh:**
+
+The Marlton City Council does not have the authority to *prohibit* parking on city streets.
+
+**Phiên âm IPA:**
+
+/ðə ˈmɑːrltən ˈsɪti ˈkaʊn.səl dʌz nɒt hæv ði əˈθɔːr.ə.t̬i tuː prəˈhɪbɪt ˈpɑːrkɪŋ ɒn ˈsɪti striːts/
+
+**Dịch:**
+
+Hội đồng thành phố Marlton không có quyền *cấm* đỗ xe trên đường phố thành phố.
+
+113. Project Earth Group is -- for ways to reduce transport-related greenhouse gas emissions.
+
+*A. looking*
+
+B. seeing
+
+C. driving
+
+D. leaning
+
+**Giải thích**
+
+Phân tích câu: *{Project Earth Group} {is -- for ways} {to reduce transport-related greenhouse gas emissions}*
+
+Câu hỏi từ vựng, cụm từ cần điền là *is -- for ways* là *Thì hiện tại tiếp diễn (V-ing)*. Cần điền V-ing phù hợp nghĩa (*for thường kèm với look*).
+
+**Từ vựng**
+
+| Từ vựng        | Loại từ | Phiên âm IPA     | Nghĩa                  |
+|----------------|---------|------------------|------------------------|
+| look for       | V       | /lʊk fɔːr/       | tìm kiếm               |
+| way            | N       | /weɪz/           | cách, phương pháp      |
+| reduce         | V       | /rɪˈduːs/        | giảm                   |
+| transport      | N       | /ˈtrænspɔːrt/    | giao thông, vận chuyển |
+| greenhouse gas | N       | /ˈɡriːnhaʊs ɡæs/ | khí nhà kính           |
+| emission       | N       | /ɪˈmɪʃən/        | sự thải ra, khí thải   |
+| see            | V       | /siː/            | nhìn thấy              |
+| drive          | V       | /draɪv/          | lái xe, thúc đẩy       |
+| lean           | V       | /liːn/           | dựa vào, nghiêng về    |
+
+C**âu hoàn chỉnh:**
+Project Earth Group is *looking for* ways to reduce transport-related greenhouse gas emissions.
+
+**Phiên âm IPA:**
+
+/ˈprɒdʒɛkt ɜːrθ ɡruːp ɪz ˈlʊkɪŋ fɔːr weɪz tuː rɪˈdjuːs ˈtrænspɔːrt rɪˈleɪtɪd ˈɡriːnhaʊs ɡæs ɪˈmɪʃənz./
+
+**Dịch câu:**
+
+Tổ chức Project Earth đang *tìm kiếm* các cách để giảm lượng khí thải nhà kính liên quan đến giao thông.
+
+---
+
+114. Our skilled tailors are happy to design a custom-made suit that fits your style and budget --.
+
+A. perfect
+
+B. perfects
+
+*C. perfectly*
+
+D. perfection
+
+**Giải thích**
+
+Phân tích câu: *{Our skilled tailors} {are} {happy to design} {a custom-made suit} {that} {fits} {your style} {and} {budget} {--}*
+
+Câu hỏi từ loại, Câu đã đủ về mặt nghĩa và cấu trúc, cần chọn 1 *Trạng từ*
+
+**Từ vựng**
+
+| Từ vựng     | Loại từ | Phiên âm IPA   | Nghĩa               |
+|-------------|---------|----------------|---------------------|
+| tailor      | N       | /ˈteɪlər/      | thợ may             |
+| skilled     | Adj     | /skɪld/        | lành nghề, khéo léo |
+| custom-made | Adj     | /ˈkʌstəm meɪd/ | làm theo yêu cầu    |
+| suit        | N       | /suːt/         | bộ vest, bộ đồ      |
+| fit         | V       | /fɪt/          | vừa vặn, phù hợp    |
+| perfectly   | Adv     | /ˈpɝː.fektli/  | một cách hoàn hảo   |
+| perfect     | Adj     | /ˈpɝː.fekt/    | hoàn hảo            |
+| perfection  | N       | /pərˈfɛkʃən/   | sự hoàn hảo         |
+| budget      | N       | /ˈbʌdʒɪt/      | ngân sách           |
+| design      | V       | /dɪˈzaɪn/      | thiết kế            |
+
+**Câu hoàn chỉnh:**
+
+Our skilled tailors are happy to design a custom-made suit that fits your style and budget *perfectly*.
+
+**Phiên âm IPA:**
+
+/aʊər skɪld ˈteɪlərz ɑːr ˈhæpi tə dɪˈzaɪn ə ˈkʌstəm meɪd suːt ðæt fɪts jʊər staɪl ənd ˈbʌdʒɪt ˈpɜːrfɪktli./
+
+**Dịch:**
+
+Những thợ may lành nghề của chúng tôi rất vui được thiết kế một bộ vest theo yêu cầu, phù hợp với phong cách và ngân sách của bạn *một cách hoàn hảo*.
+
+---
+
+115. Project manager Hannah Chung has proved to be very -- with completing company projects.
+
+A. helpfulness
+
+B. help
+
+C. helpfully
+
+*D. helpful*
+
+**Giải thích**
+
+Phân tích câu: {Project manager Hannah Chung} {has proved to be very --} {with completing company projects}
+
+*Mẹo: đáp án -ness thường là bẩy*
+
+Câu hỏi từ loại, cụm từ cần điền là *has proved to be very --*, sau *proved (linking verb)* cần kèm 1 tính từ. Trong cụm từ cần điền chỉ có *very (trạng từ)* chưa có tính từ, cần điền 1 tính từ.
+
+**Từ vựng**
+
+| Từ vựng     | Loại từ | Phiên âm IPA  | Nghĩa                     |
+|-------------|---------|---------------|---------------------------|
+| project     | N       | /ˈprɒdʒɛkt/   | dự án                     |
+| manager     | N       | /ˈmænɪdʒər/   | người quản lý             |
+| prove       | V       | /pruːv/       | chứng tỏ, chứng minh      |
+| helpful     | Adj     | /ˈhɛlpfəl/    | hữu ích, sẵn sàng giúp đỡ |
+| helpfully   | Adv     | /ˈhɛlpfəli/   | một cách hữu ích          |
+| helpfulness | N       | /ˈhɛlpfəlnəs/ | sự giúp đỡ                |
+| complete    | V       | /kəmˈpliːt/   | hoàn thành                |
+| completion  | N       | /kəmˈpliːʃən/ | sự hoàn thành             |
+| company     | N       | /ˈkʌmpəni/    | công ty                   |
+
+**Câu hoàn chỉnh**:
+
+Project manager Hannah Chung has proved to be very *helpful* with completing company projects.
+
+**Phiên âm IPA**:
+
+/ˈprɒdʒɛkt ˈmænɪdʒər ˈhænə tʃʌŋ hæz pruːvd tə biː ˈvɛri ˈhɛlpfəl wɪð kəmˈpliːtɪŋ ˈkʌmpəni ˈprɒdʒɛkts./
+
+**Dịch câu**:
+
+Quản lý dự án Hannah Chung đã chứng minh được sự *hữu ích* của mình trong việc hoàn thành các dự án của công ty.
+
+---
+
+116. Lehua Vacation Club members will receive double points -- the month of August at participating hotels.
+
+A. onto
+
+B. above
+
+*C. during*
+
+D. between
+
+**Giải thích**
+
+Phân tích câu:
+
+| Đáp án     | Loại từ    | Nghĩa                             | Giải thích đúng/sai                                                                       |
+|------------|------------|-----------------------------------|-------------------------------------------------------------------------------------------|
+| A. onto    | prep.      | lên trên (bề mặt nào đó)          | Sai. "Onto" chỉ sự di chuyển đến một bề mặt, không dùng cho thời gian.                    |
+| B. above   | prep./adv. | ở trên (vị trí cao hơn)           | Sai. "Above" chỉ vị trí không liên quan đến thời gian.                                    |
+| C. during  | prep.      | trong suốt (khoảng thời gian)     | *Đúng*. "During" dùng để diễn tả một sự kiện diễn ra trong một khoảng thời gian cụ thể.   |
+| D. between | prep.      | giữa (hai thời điểm hoặc vật thể) | Sai. "Between" cần có hai mốc thời gian rõ ràng, không phù hợp với "the month of August". |
+
+**Từ vựng**
+
+| Từ vựng       | Loại từ | Phiên âm IPA      | Nghĩa                            |
+|---------------|---------|-------------------|----------------------------------|
+| receive       | v.      | /rɪˈsiːv/         | nhận, nhận được                  |
+| double        | adj.    | /ˈdʌb.əl/         | gấp đôi                          |
+| points        | n.      | /pɔɪnts/          | điểm số                          |
+| during        | prep.   | /ˈdʊr.ɪŋ/         | trong suốt (khoảng thời gian)    |
+| month         | n.      | /mʌnθ/            | tháng                            |
+| participating | adj.    | /pɑrˈtɪsəˌpeɪtɪŋ/ | tham gia                         |
+| hotels        | n.      | /hoʊˈtɛlz/        | khách sạn                        |
+| vacation      | n.      | /vəˈkeɪ.ʃən/      | kỳ nghỉ                          |
+| club          | n.      | /klʌb/            | câu lạc bộ                       |
+| members       | n.      | /ˈmɛmbərz/        | thành viên                       |
+| onto          | prep.   | /ˈɒn.tuː/         | lên trên                         |
+| above         | prep.   | /əˈbʌv/           | ở trên                           |
+| between       | prep.   | /bɪˈtwiːn/        | giữa (hai mốc thời gian/vật thể) |
+
+**Câu hoàn chỉnh:**
+
+Lehua Vacation Club members will receive double points *during* the month of August at participating hotels.
+
+**Phiên âm IPA:**
+
+/ˈleɪ.hu.ə vəˈkeɪ.ʃən klʌb ˈmɛmbərz wɪl rɪˈsiːv ˈdʌb.əl pɔɪnts ˈdʊr.ɪŋ ðə mʌnθ əv ˈɑgəst ət pɑrˈtɪsəˌpeɪtɪŋ hoʊˈtɛlz/
+
+**Dịch nghĩa:**
+
+Các thành viên của Lehua Vacation Club sẽ nhận được gấp đôi số điểm *trong suốt* tháng Tám tại các khách sạn tham gia.

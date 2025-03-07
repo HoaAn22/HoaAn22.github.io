@@ -16,7 +16,7 @@ function renderMarkdown(content) {
     // Xử lý ghi chú (không dùng return, xử lý trực tiếp)
     const notePattern = /\(([^)]+)\)\[note\.([^)]+)\]/g;
     renderedContent = renderedContent.replace(notePattern, function(match, text, annotation) {
-        return `<span class="e-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
+        return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
     });
 
     markdownContentElement.innerHTML = renderedContent;

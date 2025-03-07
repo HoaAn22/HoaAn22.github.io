@@ -167,3 +167,7 @@ body.dark-mode tr:nth-child(odd) {
 body.dark-mode tr:hover {
     background-color: rgb(30, 30, 30); /* Màu nền khi di chuột qua */
 }
+
+body.dark-mode .md-note{
+    background-color: rgb(90, 90, 90);
+}

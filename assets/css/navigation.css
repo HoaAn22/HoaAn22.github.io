@@ -132,7 +132,7 @@ tr:hover {
 }
 
 /* Ghi chú câu */
-.e-note {
+.md-note {
     position: relative;
     display: inline-block;
     background-color: #f8f9fa;
@@ -168,7 +168,7 @@ tr:hover {
     border-color: #333 transparent transparent transparent;
 }
 
-.e-note:hover .note-tooltip {
+.md-note:hover .note-tooltip {
     visibility: visible;
     opacity: 1;
 }

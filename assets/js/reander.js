@@ -8,10 +8,17 @@ function extractYouTubeID(url) {
 // Hàm để tải và render file Markdown
 function renderMarkdown(content) {
     const md = window.markdownit();
-    const renderedContent = md.render(content);
+    let renderedContent = md.render(content);
 
     // Thêm nội dung đã render vào phần tử HTML
     const markdownContentElement = document.getElementById('markdown-content');
+    
+    // Xử lý ghi chú (không dùng return, xử lý trực tiếp)
+    const notePattern = /\(([^)]+)\)\[note\.([^)]+)\]/g;
+    renderedContent = renderedContent.replace(notePattern, function(match, text, annotation) {
+        return `<span class="e-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
+    });
+
     markdownContentElement.innerHTML = renderedContent;
 
     // Sau khi render xong, thay thế các liên kết thành onclick hoặc iframe nếu là YouTube

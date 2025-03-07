@@ -130,3 +130,45 @@ tr:hover {
     color: white;
     font-weight: bold;
 }
+
+/* Ghi chú câu */
+.e-note {
+    position: relative;
+    display: inline-block;
+    background-color: #f8f9fa;
+    border-bottom: 1px dashed #007bff;
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+.note-tooltip {
+    visibility: hidden;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.note-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+.e-note:hover .note-tooltip {
+    visibility: visible;
+    opacity: 1;
+}

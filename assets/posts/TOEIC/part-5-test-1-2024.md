@@ -623,3 +623,363 @@ Lehua Vacation Club members will receive double points *during* the month of Aug
 **Dịch nghĩa:**
 
 Các thành viên của Lehua Vacation Club sẽ nhận được gấp đôi số điểm *trong suốt* tháng Tám tại các khách sạn tham gia.
+
+---
+
+117. The costumes were not received -- enough to be used in the first dress rehearsal.
+
+A. far
+
+B. very
+
+C. almost
+
+*D. soon*
+
+**Giải thích**
+
+Phân tích câu:
+
+
+
+| Đáp án    | Loại từ   | Nghĩa     | Giải thích đúng/sai                                                                                                          |
+|-----------|-----------|-----------|------------------------------------------------------------------------------------------------------------------------------|
+| A. far    | adv./adj. | xa, nhiều | Sai. "Far enough" có thể đúng trong ngữ cảnh chỉ khoảng cách, nhưng không phù hợp với nghĩa "được nhận kịp để sử dụng".      |
+| B. very   | adv.      | rất       | Sai. "Very" không đi trực tiếp với "enough", mà thường đi với tính từ hoặc trạng từ khác.                                    |
+| C. almost | adv.      | gần như   | Sai. "Almost enough" có nghĩa "gần như đủ", nhưng không phù hợp với ngữ cảnh về thời gian nhận trang phục.                   |
+| D. soon   | adv.      | sớm       | *Đúng*. "Soon enough" nghĩa là "đủ sớm", phù hợp với ngữ cảnh về thời gian nhận trang phục để sử dụng trong buổi tổng duyệt. |
+
+**Từ vựng**
+
+| Từ vựng   | Loại từ   | Phiên âm IPA | Nghĩa                     |
+|-----------|-----------|--------------|---------------------------|
+| receive   | v.        | /rɪˈsiːv/    | nhận, nhận được           |
+| enough    | adv./adj. | /ɪˈnʌf/      | đủ                        |
+| soon      | adv.      | /suːn/       | sớm                       |
+| rehearsal | n.        | /rɪˈhɜː.səl/ | buổi diễn tập, tổng duyệt |
+| costume   | n.        | /ˈkɑː.stuːm/ | trang phục biểu diễn      |
+| almost    | adv.      | /ˈɔːl.moʊst/ | gần như                   |
+| very      | adv.      | /ˈver.i/     | rất                       |
+| far       | adv./adj. | /fɑːr/       | xa, nhiều                 |
+
+**Câu hoàn chỉnh:**
+
+The costumes were not received *soon* enough to be used in the first dress rehearsal.
+
+**Phiên âm IPA:**
+
+/ðə ˈkɒs.tjuːmz wɜːr nɒt rɪˈsiːvd suːn ɪˈnʌf tuː biː juːzd ɪn ðə fɜːrst drɛs rɪˈhɜː.səl/
+
+**Dịch nghĩa:**
+
+Những bộ trang phục đã không được nhận đủ *sớm* để có thể sử dụng trong buổi tổng duyệt đầu tiên.
+
+---
+
+118. As a former publicist for several renowned orchestras, Mr. Wu would excel in the role of event --
+
+A. organized
+
+*B. organizer*
+
+C. organizes
+
+D. organizational
+
+**Giải thích**
+
+*mẹo: cuối câu thường là danh/ trạng từ. Trạng từ chiếm đa số. Chọn danh nếu câu chưa đủ nghĩa.*
+
+
+| Đáp án            | Loại từ                    | Nghĩa                   | Giải thích đúng/sai                                                                              |
+|-------------------|----------------------------|-------------------------|--------------------------------------------------------------------------------------------------|
+| A. organized      | adj./v. (quá khứ)          | có tổ chức / đã tổ chức | Sai. "Organized" là tính từ hoặc động từ dạng quá khứ, không phù hợp với vị trí danh từ.         |
+| B. organizer      | n.                         | người tổ chức           | *Đúng*. "Event organizer" (người tổ chức sự kiện) là một cụm danh từ đúng ngữ pháp và hợp nghĩa. |
+| C. organizes      | v. (chia ngôi thứ 3 số ít) | tổ chức                 | Sai. Động từ không thể đứng ở vị trí này.                                                        |
+| D. organizational | adj.                       | thuộc về tổ chức        | Sai. "Organizational" là tính từ, không thể đóng vai trò danh từ chỉ người.                      |
+
+**Từ vựng**
+
+| Từ vựng        | Loại từ | Phiên âm IPA            | Nghĩa                      |
+|----------------|---------|-------------------------|----------------------------|
+| former         | adj.    | /ˈfɔːr.mɚ/              | trước đây, cựu             |
+| publicist      | n.      | /ˈpʌb.lɪ.sɪst/          | Nhà báo                    |
+| renowned       | adj.    | /rɪˈnaʊnd/              | nổi tiếng                  |
+| orchestra      | n.      | /ˈɔːr.kɪ.strə/          | dàn nhạc                   |
+| excel          | v.      | /ɪkˈsɛl/                | xuất sắc, vượt trội        |
+| role           | n.      | /roʊl/                  | vai trò                    |
+| event          | n.      | /ɪˈvɛnt/                | sự kiện                    |
+| organizer      | n.      | /ˈɔːr.ɡə.naɪ.zɚ/        | người tổ chức              |
+| organizes      | v.      | /ˈɔːr.ɡə.naɪ.zɪz/       | tổ chức (ngôi thứ 3 số ít) |
+| organized      | adj./v. | /ˈɔːr.ɡə.naɪzd/         | có tổ chức / đã tổ chức    |
+| organizational | adj.    | /ˌɔːr.ɡən.ɪˈzeɪ.ʃən.əl/ | thuộc về tổ chức           |
+
+**Câu hoàn chỉnh:**
+
+As a former publicist for several renowned orchestras, Mr. Wu would excel in the role of event *organizer*.
+
+**Phiên âm IPA:**
+
+/æz ə ˈfɔːr.mɚ ˈpʌb.lɪ.sɪst fɔːr ˈsɛv.ɚ.əl rɪˈnaʊnd ɔːrˈkɛs.trəz, ˈmɪs.tɚ wuː wʊd ɪkˈsɛl ɪn ðə roʊl ʌv ɪˈvɛnt ˈɔːr.ɡə.naɪ.zɚ/
+
+**Dịch nghĩa:**
+
+Là một cựu nhà báo cho một số dàn nhạc nổi tiếng, ông Wu sẽ xuất sắc trong vai trò *người tổ chức* sự kiện.
+
+---
+
+119. The northbound lane on Davis Street will be -- closed because of the city’s bridge reinforcement project.
+
+*A. temporarily*
+
+B. competitively
+
+C. recently
+
+D. collectively
+
+**Giải thích**
+
+| Đáp án           | Loại từ | Nghĩa               | Giải thích đúng/sai                                                                                   |
+|------------------|---------|---------------------|-------------------------------------------------------------------------------------------------------|
+| A. temporarily   | adv.    | tạm thời            | *Đúng*. "Temporarily closed" có nghĩa là "bị đóng tạm thời", phù hợp với ngữ cảnh về công trình.      |
+| B. competitively | adv.    | một cách cạnh tranh | Sai. Không liên quan đến việc đóng đường.                                                             |
+| C. recently      | adv.    | gần đây             | Sai. "Recently closed" có nghĩa "mới bị đóng gần đây", nhưng thì của câu là tương lai, không phù hợp. |
+| D. collectively  | adv.    | một cách tập thể    | Sai. Không liên quan đến việc đóng đường.                                                             |
+
+**Từ vựng**
+
+| Từ vựng       | Loại từ | Phiên âm IPA       | Nghĩa                          |
+|---------------|---------|--------------------|--------------------------------|
+| temporarily   | adv.    | /ˈtɛmpəˌrɛrəli/    | tạm thời                       |
+| closed        | adj./v. | /kloʊzd/           | đóng / đã đóng                 |
+| reinforcement | n.      | /ˌriːɪnˈfɔːrsmənt/ | sự gia cố, củng cố, tăng cường |
+| project       | n.      | /ˈprɒdʒ.ɛkt/       | dự án                          |
+| lane          | n.      | /leɪn/             | làn đường                      |
+| recently      | adv.    | /ˈriːsəntli/       | gần đây                        |
+| competitively | adv.    | /kəmˈpɛtɪtɪvli/    | một cách cạnh tranh            |
+| collectively  | adv.    | /kəˈlɛktɪvli/      | một cách tập thể               |
+
+**Câu hoàn chỉnh:**
+
+The northbound lane on Davis Street will be *temporarily* closed because of the city’s bridge reinforcement project.
+
+**Phiên âm IPA:**
+
+/ðə nɔːrθ.baʊnd leɪn ɒn ˈdeɪ.vɪs striːt wɪl biː ˈtɛmpəˌrɛrəli kloʊzd bɪˈkɒz ʌv ðə ˈsɪtiz brɪdʒ ˌriːɪnˈfɔːrs.mənt ˈprɒdʒ.ɛkt/
+
+**Dịch nghĩa:**
+
+Làn đường phía Bắc trên đường Davis sẽ bị đóng *tạm thời* do dự án gia cố cầu của thành phố.
+
+---
+
+120. Airline representatives must handle a wide range of passenger issues, -- missed connections to lost luggage.
+
+*A. from*
+
+B. under
+
+C. on
+
+D. against
+
+**Giải thích**
+
+
+| Đáp án     | Loại từ | Nghĩa     | Giải thích đúng/sai                                                      |
+|------------|---------|-----------|--------------------------------------------------------------------------|
+| A. from    | prep.   | từ        | ✅ Đúng. "From ... to ..." diễn tả phạm vi từ vấn đề này đến vấn đề khác. |
+| B. under   | prep.   | dưới      | ❌ Sai. "Under" không phù hợp với cấu trúc liệt kê.                       |
+| C. on      | prep.   | trên      | ❌ Sai. "On" không diễn tả phạm vi vấn đề.                                |
+| D. against | prep.   | chống lại | ❌ Sai. "Against" thường mang nghĩa đối đầu, không phù hợp ở đây.         |
+
+**Từ vựng**
+
+| Từ vựng        | Loại từ | Phiên âm IPA           | Nghĩa                             |
+|----------------|---------|------------------------|-----------------------------------|
+| airline        | n.      | /ˈɛr.laɪn/             | hãng hàng không                   |
+| representative | n.      | /ˌrep.rɪˈzen.t̬ə.t̬ɪv/ | đại diện                          |
+| handle         | v.      | /ˈhændl/               | xử lý, giải quyết                 |
+| range          | n.      | /reɪndʒ/               | phạm vi, dải, loại                |
+| passenger      | n.      | /ˈpæsɪnʤɚ/             | hành khách                        |
+| issue          | n.      | /ˈɪʃuː/                | vấn đề                            |
+| missed         | adj.    | /mɪst/                 | bị lỡ (chuyến bay, cơ hội)        |
+| connection     | n.      | /kəˈnɛkʃən/            | sự kết nối, chuyến bay nối chuyến |
+| lost           | adj.    | /lɔst/                 | bị mất                            |
+| luggage        | n.      | /ˈlʌɡɪʤ/               | hành lý                           |
+| from           | prep.   | /frʌm/                 | từ (diễn tả phạm vi)              |
+| to             | prep.   | /tu/                   | đến (diễn tả phạm vi)             |
+
+**Câu hoàn chỉnh:**
+
+Airline representatives must handle a wide range of passenger issues, *from* missed connections *to* lost luggage.
+
+**Phiên âm IPA:**
+
+/ˈɛr.laɪn ˌrep.rɪˈzen.t̬ə.t̬ɪv məst ˈhændl ə waɪd reɪndʒ ʌv ˈpæsɪnʤɚ ˈɪʃuːz, frʌm mɪst kəˈnɛkʃənz tu lɔst ˈlʌɡɪʤ/
+
+**Dịch nghĩa:**
+
+Đại diện hãng hàng không phải xử lý một loạt các vấn đề về hành khách, *từ* lỡ nối chuyến *đến* mất hành lý.
+
+---
+
+121. The meeting notes were -- deleted, but Mr. Hahm was able to recreate them from memory.
+
+A. accident
+
+B. accidental
+
+C. accidents
+
+*D. accidentally*
+
+**Giải thích**
+
+| Đáp án          | Loại từ       | Nghĩa                     | Giải thích đúng/sai                                                |
+|-----------------|---------------|---------------------------|--------------------------------------------------------------------|
+| A. accident     | n.            | tai nạn, sự cố            | Sai. Danh từ không thể bổ nghĩa cho động từ.                       |
+| B. accidental   | adj.          | tình cờ, ngẫu nhiên       | Sai. Tính từ không thể bổ nghĩa cho động từ "deleted".             |
+| C. accidents    | n. (số nhiều) | các vụ tai nạn            | Sai. Không phù hợp về ngữ nghĩa và ngữ pháp.                       |
+| D. accidentally | adv.          | một cách tình cờ, vô tình | *Đúng*. Trạng từ bổ nghĩa cho động từ "deleted" trong câu bị động. |
+
+**Từ vựng**
+
+| Từ vựng      | Loại từ | Phiên âm IPA    | Nghĩa                     |
+|--------------|---------|-----------------|---------------------------|
+| accident     | n.      | /ˈæksɪdənt/     | tai nạn, sự cố            |
+| accidental   | adj.    | /ˌæksɪˈdɛntəl/  | tình cờ, ngẫu nhiên       |
+| accidentally | adv.    | /ˌæksɪˈdɛntəli/ | một cách tình cờ, vô tình |
+| delete       | v.      | /dɪˈliːt/       | xóa                       |
+| recreate     | v.      | /ˌriːkriˈeɪt/   | tái tạo lại               |
+| memory       | n.      | /ˈmɛməri/       | trí nhớ                   |
+
+
+**Câu hoàn chỉnh:**
+
+The meeting notes were *accidentally* deleted, but Mr. Hahm was able to recreate them from memory.
+
+**Phiên âm IPA:**
+
+/ðə ˈmiːtɪŋ noʊts wɜr ækˈsɪdəntəli dɪˈliːtɪd, bʌt ˈmɪstər hɑːm wəz ˈeɪbəl tuː ˌriːkriˈeɪt ðɛm frʌm ˈmɛməri/
+
+**Dịch nghĩa:**
+
+Biên bản cuộc họp đã *vô tình* bị xóa, nhưng ông Hahm có thể tạo lại nó từ trí nhớ.
+
+---
+
+122. The current issue of Farming Scene magazine predicts that the price of corn will rise 5 percent over the -- year.
+
+*A. next*
+
+B. with
+
+C. which
+
+D. now
+
+**Giải thích**
+
+| Đáp án   | Loại từ | Nghĩa          | Giải thích đúng/sai                                                                |
+|----------|---------|----------------|------------------------------------------------------------------------------------|
+| A. next  | adj.    | tiếp theo, tới | *Đúng*. "next year" có nghĩa là "năm tới", phù hợp với ngữ cảnh dự đoán tương lai. |
+| B. with  | prep.   | với            | Sai. Giới từ "with" không thể đứng trước danh từ "year" trong trường hợp này.      |
+| C. which | pron.   | cái nào, mà    | Sai. Đại từ quan hệ "which" không phù hợp về ngữ pháp.                             |
+| D. now   | adv.    | bây giờ        | Sai. Trạng từ "now" không thể đứng trước danh từ "year".                           |
+
+**Từ vựng**
+
+| Từ vựng | Loại từ | Phiên âm IPA | Nghĩa                             |
+|---------|---------|--------------|-----------------------------------|
+| current | adj.    | /ˈkʌrənt/    | hiện tại                          |
+| issue   | n.      | /ˈɪʃuː/      | số báo, vấn đề                    |
+| predict | v.      | /prɪˈdɪkt/   | dự đoán                           |
+| price   | n.      | /praɪs/      | giá cả                            |
+| corn    | n.      | /kɔrn/       | ngô, bắp                          |
+| rise    | v.      | /raɪz/       | tăng lên                          |
+| percent | n.      | /pɚˈsɛnt/    | phần trăm                         |
+| over    | prep.   | /ˈoʊvɚ/      | trong suốt (một khoảng thời gian) |
+| next    | adj.    | /nɛkst/      | tiếp theo, kế tiếp                |
+| year    | n.      | /jɪr/        | năm                               |
+
+**Câu hoàn chỉnh:**
+
+The current issue of Farming Scene magazine predicts that the price of corn will rise 5 percent over the *next* year.
+
+**Phiên âm IPA:**
+
+/ðə ˈkɜːrənt ˈɪʃuː ʌv ˈfɑːrmɪŋ siːn ˈmægəziːn prɪˈdɪkts ðæt ðə praɪs ʌv kɔrn wɪl raɪz faɪv pɚˈsɛnt ˈoʊvɚ ðə nɛkst jɪr/
+
+**Dịch nghĩa:**
+
+Số báo hiện tại của tạp chí Farming Scene dự đoán rằng giá ngô sẽ tăng 5% trong năm *tới*.
+
+---
+
+123. Anyone who still -- to take the fire safety training should do so before the end of the month.
+
+A. needing
+
+*B. needs*
+
+C. has needed
+
+D. were needing
+
+**Giải thích**
+
+*Học/Ghi chú*:
+* still là trạng từ, thường là dấu hiệu cho thì hiện tại đơn
+* Anyone là danh từ số ít
+
+Câu hỏi về chia động từ, câu chưa có động từ chính. Loại câu *V-ing*, danh từ số ít loại câu *were*.
+
+
+| Đáp án          | Loại từ             | Nghĩa       | Giải thích đúng/sai                                                                     |
+|-----------------|---------------------|-------------|-----------------------------------------------------------------------------------------|
+| A. needing      | V-ing               | đang cần    | Sai. Không thể dùng V-ing sau "who" trong trường hợp này.                               |
+| B. needs        | V (số ít)           | cần         | *Đúng*. "Anyone" là số ít nên động từ phải chia ở ngôi thứ ba số ít.                    |
+| C. has needed   | Hiện tại hoàn thành | đã cần      | Sai. Không phù hợp về ngữ nghĩa, vì câu nói về tình huống hiện tại.                     |
+| D. were needing | Quá khứ tiếp diễn   | đã đang cần | Sai. "Anyone" là số ít nên không thể dùng "were". Quá khứ tiếp diễn cũng không phù hợp. |
+
+**Từ vựng**
+
+| Từ vựng  | Loại từ  | Phiên âm IPA | Nghĩa                        |
+|----------|----------|--------------|------------------------------|
+| anyone   | pron.    | /ˈɛniˌwʌn/   | bất kỳ ai                    |
+| need     | v.       | /niːd/       | cần                          |
+| needs    | v.       | /niːdz/      | cần (chia ngôi thứ ba số ít) |
+| fire     | n.       | /faɪr/       | lửa                          |
+| safety   | n.       | /ˈseɪfti/    | an toàn                      |
+| training | n.       | /ˈtreɪnɪŋ/   | đào tạo, huấn luyện          |
+| should   | modal v. | /ʃʊd/        | nên                          |
+| before   | prep.    | /bɪˈfɔːr/    | trước khi                    |
+| end      | n.       | /ɛnd/        | kết thúc                     |
+| month    | n.       | /mʌnθ/       | tháng                        |
+
+
+**Câu hoàn chỉnh**:
+
+Anyone who still *needs* to take the fire safety training should do so before the end of the month.
+
+**Phiên âm IPA**:
+
+/ˈɛniˌwʌn huː stɪl niːdz tə teɪk ðə faɪr ˈseɪfti ˈtreɪnɪŋ ʃʊd duː soʊ bɪˈfɔːr ði ɛnd ʌv ðə mʌnθ/
+
+**Dịch nghĩa**:
+
+Bất kỳ ai vẫn *cần* tham gia huấn luyện an toàn cháy nổ thì nên làm điều đó trước cuối tháng.
+
+---
+
+124. Emerging technologies have -- begun to transform the shipping industry in ways that were once unimaginable.
+
+A. already
+
+B. exactly
+
+C. hardly
+
+D. closely

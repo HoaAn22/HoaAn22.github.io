@@ -96,48 +96,13 @@ tr:hover {
     background-color: #ddd; /* Màu nền khi di chuột qua */
 }
 
-#toc {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 250px;
-    background: #f8f8f8;
-    padding: 10px;
-    border: 1px solid #ddd;
-    max-height: 80vh;
-    overflow-y: auto;
-}
-
-#toc ul {
-    list-style: none;
-    padding: 0;
-}
-
-#toc li {
-    margin-bottom: 5px;
-}
-
-#toc a {
-    text-decoration: none;
-    color: blue;
-    display: block;
-    padding: 5px;
-    transition: background 0.3s ease-in-out;
-}
-
-#toc a.active {
-    background: #007bff;
-    color: white;
-    font-weight: bold;
-}
-
 /* Ghi chú câu */
 .md-note {
     position: relative;
     display: inline-block;
-    background-color: #f8f9fa;
-    border-bottom: 1px dashed #007bff;
-    padding: 0 2px;
+    background-color: #d2d2d2;
+    border-bottom: 1.2px solid rgb(0, 0, 255);
+    padding: 2px;
     cursor: pointer;
 }
 
@@ -171,4 +136,40 @@ tr:hover {
 .md-note:hover .note-tooltip {
     visibility: visible;
     opacity: 1;
+}
+
+/* Mục lục */
+#toc {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 250px;
+    background: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+#toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+#toc li {
+    margin-bottom: 5px;
+}
+
+#toc a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+    padding: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+#toc a.active {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
 }

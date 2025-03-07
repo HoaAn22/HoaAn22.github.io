@@ -164,8 +164,7 @@ D. their
 
 **Giải thích**
 
-(Yong-Soo Cosmetics)[note.Chủ ngữ] (will not charge)[note.Động từ chính] (for items on back order)[note.Tân ngữ] until (-- have left our warehouse)[note.Thiếu đại từ/ Chủ ngữ].
-
+(Yong-Soo Cosmetics)[note.Chủ ngữ] (will not charge)[note.Động từ chính] (for items on back order)[note.Tân ngữ] until *(-- have left our warehouse)[note.Thiếu đại từ/ Chủ ngữ]*.
 
 **Cấu trúc câu**
 - **Yong-Soo Cosmetics will not charge for items on back order** → Mệnh đề chính (thì tương lai đơn).

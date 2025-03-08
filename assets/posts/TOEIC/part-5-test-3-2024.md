@@ -280,3 +280,109 @@ Chúng tôi *yêu cầu* rằng bạn mang theo một danh mục các mẫu côn
 
 ---
 
+107. Members of the Bold Stone Farm Store receive -- discounts on all purchases.
+
+A. depth
+
+B. deepen
+
+*C. deep*
+
+D. deeply
+
+**Giải thích**
+
+(Members of the Bold Stone Farm Store)[note.Chủ ngữ] (receive)[note.Động từ chính, thì hiện tại đơn] (-- discounts)[note.Tân ngữ là cụm danh từ, cần điền tính từ] on all purchases.
+
+| Đáp án      | Loại từ | Nghĩa            | Lý do Đúng/Sai                                                        |
+|-------------|---------|------------------|-----------------------------------------------------------------------|
+| A. dep*th*  | n       | độ sâu           | Sai – "depth" là danh từ, không thể bổ nghĩa cho "discounts".         |
+| B. deep*en* | v       | làm sâu thêm     | Sai – "deepen" là động từ, không phù hợp trong vị trí này.            |
+| C. deep     | adj     | sâu, nhiều       | *Đúng – "deep discounts" (giảm giá sâu) là một cụm danh từ phổ biến.* |
+| D. deeply   | adv     | một cách sâu sắc | Sai – "deeply" là trạng từ, không bổ nghĩa trực tiếp cho danh từ.     |
+
+**Từ vựng**
+
+| Từ vựng  | Loại từ | Phiên âm IPA | Nghĩa            |
+|----------|---------|--------------|------------------|
+| deep     | adj     | /diːp/       | sâu, nhiều       |
+| deeply   | adv     | /ˈdiːp.li/   | một cách sâu sắc |
+| depth    | n       | /dɛpθ/       | độ sâu           |
+| deepen   | v       | /ˈdiː.pən/   | làm sâu thêm     |
+| discount | n       | /ˈdɪs.kaʊnt/ | giảm giá         |
+| purchase | n       | /ˈpɝː.tʃɪs/  | giao dịch mua    |
+| member   | n       | /ˈmɛm.bɚr/   | thành viên       |
+| receive  | v       | /rɪˈsiːv/    | nhận được        |
+
+**Câu hoàn chỉnh:**
+
+Members of the Bold Stone Farm Store receive *deep* discounts on all purchases.
+
+**Phiên âm IPA:**
+
+/ˈmɛm.bɚz ʌv ðə boʊld stoʊn fɑːrm stɔːr rɪˈsiːv diːp ˈdɪs.kaʊnts ɑn ɔːl ˈpɝː.tʃɪsɪz./
+
+**Dịch nghĩa:**
+
+Các thành viên của cửa hàng Bold Stone Farm nhận được các khoản giảm giá *sâu* trên tất cả các giao dịch mua.
+
+---
+
+108. If your plans change, please contact us at least 24 hours before the time of your --
+
+A. reserved
+
+B. reservation
+
+C. reservable
+
+D. reserve
+
+**Giải thích**
+
+(If your plans change)[note.Mệnh đề phụ], (please contact us at least 24 hours)[note.Chủ ngữ bị lược bỏ, câu mệnh lệnh] (before)[note.Có thể là: Giới từ + danh/cụm danh từ, Liên từ + mệnh đề, Trạng từ] (the time of your --)[note.Là cụm danh từ vì có "of", từ cuối cùng phải là danh từ]
+
+| Đáp án          | Loại từ               | Nghĩa                          | Lý do Đúng/Sai                                                                                        |
+|-----------------|-----------------------|--------------------------------|-------------------------------------------------------------------------------------------------------|
+| A. reserved     | adj (quá khứ phân từ) | được đặt trước                 | Sai – "reserved" là tính từ hoặc quá khứ phân từ, không thể đứng sau "your" trong cấu trúc này.       |
+| B. reservation  | n                     | sự đặt chỗ                     | *Đúng – "your reservation" (sự đặt chỗ của bạn) là một cụm danh từ hợp lý.*                           |
+| C. reserv*able* | adj                   | có thể đặt trước               | Sai – "reservable" là tính từ, không phù hợp với vị trí này.                                          |
+| D. reserve      | n/v                   | khu bảo tồn (n), đặt trước (v) | Sai – "reserve" khi là danh từ thường mang nghĩa "khu bảo tồn", không phù hợp trong ngữ cảnh đặt chỗ. |
+
+**Từ vựng**
+
+| Từ vựng       | Loại từ | Phiên âm IPA     | Nghĩa                          |
+|---------------|---------|------------------|--------------------------------|
+| *reservation* | n       | /ˌrɛz.ɚˈveɪ.ʃən/ | sự đặt chỗ                     |
+| reserved      | adj     | /rɪˈzɝːvd/       | được đặt trước, kín đáo        |
+| reservable    | adj     | /rɪˈzɝː.və.bəl/  | có thể đặt trước               |
+| reserve       | v/n     | /rɪˈzɝːv/        | đặt trước (v), khu bảo tồn (n) |
+| contact       | v       | /ˈkɑːn.tækt/     | liên hệ                        |
+| plan          | n       | /plæn/           | kế hoạch                       |
+| change        | v       | /tʃeɪndʒ/        | thay đổi                       |
+| *at least*    | adv     | /æt liːst/       | ít nhất                        |
+| before        | prep    | /bɪˈfɔːr/        | trước                          |
+
+**Câu hoàn chỉnh:**
+
+If your plans change, please contact us at least 24 hours before the time of your *reservation*.
+
+**Phiên âm IPA:**
+
+/ɪf jʊr plænz tʃeɪndʒ, pliːz ˈkɑːn.tækt ʌs æt liːst twɛnti fɔːr aʊərz bɪˈfɔːr ðə taɪm ʌv jʊr ˌrɛz.ɚˈveɪ.ʃən./
+
+**Dịch nghĩa:**
+
+Nếu kế hoạch của bạn thay đổi, vui lòng liên hệ với chúng tôi ít nhất 24 giờ trước thời gian *đặt chỗ *của bạn.
+
+---
+
+109. Hold the tomato seedling gently by the stem in order to avoid harming -- roots.
+
+*A. its*
+
+B. at
+
+C. that
+
+D. in

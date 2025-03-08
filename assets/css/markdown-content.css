@@ -20,6 +20,11 @@
     margin-bottom: 1em;
 }
 
+/* #markdown-content strong {
+    font-weight: bold;
+    font-size: 1.1em;
+} */
+
 #markdown-content em {
     color: rgb(0, 0, 255);
 }

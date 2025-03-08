@@ -373,7 +373,7 @@ If your plans change, please contact us at least 24 hours before the time of you
 
 **Dịch nghĩa:**
 
-Nếu kế hoạch của bạn thay đổi, vui lòng liên hệ với chúng tôi ít nhất 24 giờ trước thời gian *đặt chỗ *của bạn.
+Nếu kế hoạch của bạn thay đổi, vui lòng liên hệ với chúng tôi ít nhất 24 giờ trước thời gian *đặt chỗ* của bạn.
 
 ---
 
@@ -386,3 +386,293 @@ B. at
 C. that
 
 D. in
+
+**Giải thích**
+
+(Hold) (the tomato seedling gently) (by the stem) (in order to avoid harming) (-- roots)
+
+| Đáp án  | Loại từ         | Nghĩa      | Lý do Đúng/Sai                                                             |
+|---------|-----------------|------------|----------------------------------------------------------------------------|
+| A. its  | Đại từ sở hữu   | của nó     | *Đúng – "its roots" (rễ của cây con) phù hợp về ngữ nghĩa.*                |
+| B. at   | Giới từ         | tại, ở     | Sai – "at" không thể bổ nghĩa cho danh từ "roots".                         |
+| C. that | Đại từ chỉ định | đó, cái đó | Sai – "that roots" không đúng ngữ pháp vì "that" chỉ đi với danh từ số ít. |
+| D. in   | Giới từ         | trong      | Sai – "in" không phù hợp với cấu trúc câu.                                 |
+
+**Từ vựng**
+
+| Từ vựng       | Loại từ | Phiên âm IPA    | Nghĩa              |
+|---------------|---------|-----------------|--------------------|
+| its           | pron    | /ɪts/           | của nó             |
+| at            | prep    | /æt/            | tại, ở             |
+| that          | pron    | /ðæt/           | đó, cái đó         |
+| in            | prep    | /ɪn/            | trong              |
+| root          | n       | /ruːt/          | rễ cây             |
+| seedling      | n       | /ˈsiːd.lɪŋ/     | cây con            |
+| *gently*      | adv     | /ˈdʒɛnt.li/     | một cách nhẹ nhàng |
+| stem          | n       | /stɛm/          | thân cây           |
+| *harm*        | v       | /hɑːrm/         | làm hại            |
+| *in order to* | phrase  | /ɪn ˈɔːr.dɚ tu/ | để (chỉ mục đích)  |
+| *avoid*       | v       | /əˈvɔɪd/        | tránh              |
+
+**Câu hoàn chỉnh:**
+
+Hold the tomato seedling gently by the stem in order to avoid harming its roots.
+
+**Phiên âm IPA:**
+
+/hoʊld ðə təˈmeɪ.toʊ ˈsiːd.lɪŋ ˈdʒɛnt.li baɪ ðə stɛm ɪn ˈɔr.dɚ tu əˈvɔɪd ˈhɑːr.mɪŋ ɪts ruːts./
+
+**Dịch nghĩa:**
+
+Hãy cầm cây con cà chua nhẹ nhàng bằng thân cây để tránh làm hại rễ của nó.
+
+---
+
+110. At the registration table, be sure to collect your name tag -- entering the conference.
+
+A. very
+
+B. often
+
+C. always
+
+*D. before*
+
+**Giải thích**
+
+(At the registration table)[note.Cụm giới từ chỉ địa điểm], (be sure to collect your name tag)[note.Câu mệnh lệnh] (--)[note.Cần điền 1 liên từ] (entering the conference)[note.Mệnh đề]
+
+| Đáp án    | Loại từ | Nghĩa     | Lý do Đúng/Sai                                                                |
+|-----------|---------|-----------|-------------------------------------------------------------------------------|
+| A. very   | adv     | rất       | Sai – "very" không thể bổ nghĩa cho "entering".                               |
+| B. often  | adv     | thường    | Sai – "often entering" không hợp lý về nghĩa.                                 |
+| C. always | adv     | luôn luôn | Sai – "always entering" không đúng trong ngữ cảnh này.                        |
+| D. before | adv     | trước khi | *Đúng – "before entering" nghĩa là "trước khi vào", phù hợp với ý nghĩa câu.* |
+
+**Từ vựng**
+
+| Từ vựng      | Loại từ | Phiên âm IPA        | Nghĩa                   |
+|--------------|---------|---------------------|-------------------------|
+| before       | adv     | /bɪˈfɔːr/           | trước khi               |
+| enter        | v       | /ˈɛn.tɚ/            | vào, tham gia           |
+| conference   | n       | /ˈkɑːn.fɚ.əns/      | hội nghị                |
+| registration | n       | /ˌrɛdʒ.ɪˈstreɪ.ʃən/ | sự đăng ký              |
+| table        | n       | /ˈteɪ.bəl/          | bàn                     |
+| collect      | v       | /kəˈlɛkt/           | thu thập, nhận          |
+| name tag     | n       | /neɪm tæɡ/          | thẻ tên                 |
+| be sure to   | phrase  | /bi ʃʊr tu/         | hãy chắc chắn làm gì đó |
+
+**Câu hoàn chỉnh:**
+
+At the registration table, be sure to collect your name tag *before* entering the conference.
+
+**Phiên âm IPA:**
+
+/æt ðə ˌrɛdʒ.ɪˈstreɪ.ʃən ˈteɪ.bəl, bi ʃʊr tu kəˈlɛkt jʊr neɪm tæɡ bɪˈfɔːr ˈɛn.tɚ.ɪŋ ðə ˈkɑːn.fɚ.əns./
+
+**Dịch nghĩa:**
+
+Tại bàn đăng ký, hãy chắc chắn nhận thẻ tên của bạn *trước khi* vào hội nghị.
+
+---
+
+111. Maihama vehicles include an extended -- to cover engine repairs.
+
+A. record
+
+B. operation
+
+C. budget
+
+*D. warranty*
+
+**Giải thích**
+
+*Mẹo/Ghi chú: extended - warranty - repairs*
+
+| Đáp án       | Loại từ | Nghĩa               | Lý do Đúng/Sai                                                                                |
+|--------------|---------|---------------------|-----------------------------------------------------------------------------------------------|
+| A. record    | n       | hồ sơ, bản ghi      | Sai – "an extended record" không hợp lý, vì "record" không thể "chi trả cho sửa chữa".        |
+| B. operation | n       | hoạt động, vận hành | Sai – "an extended operation" không phù hợp với nghĩa của câu.                                |
+| C. budget    | n       | ngân sách           | Sai – "an extended budget" không hợp nghĩa với "to cover engine repairs".                     |
+| D. warranty  | n       | bảo hành            | *Đúng – "an extended warranty" nghĩa là "bảo hành mở rộng", có thể bao gồm sửa chữa động cơ.* |
+
+**Từ vựng**
+
+| Từ vựng  | Loại từ | Phiên âm IPA  | Nghĩa            |
+|----------|---------|---------------|------------------|
+| warranty | n       | /ˈwɔːr.ən.ti/ | bảo hành         |
+| extended | adj     | /ɪkˈstɛndɪd/  | được mở rộng     |
+| cover    | v       | /ˈkʌ.vɚ/      | chi trả, bao phủ |
+| engine   | n       | /ˈɛn.dʒɪn/    | động cơ          |
+| repair   | n       | /rɪˈpɛr/      | sự sửa chữa      |
+| vehicle  | n       | /ˈviː.ɪ.kəl/  | phương tiện      |
+| include  | v       | /ɪnˈkluːd/    | bao gồm          |
+
+**Câu hoàn chỉnh:**
+
+Maihama vehicles include an extended *warranty* to cover engine repairs.
+
+**Phiên âm IPA:**
+
+/ˌmaɪˈhɑː.mə ˈviː.ɪ.kəlz ɪnˈkluːd ən ɪkˈstɛndɪd ˈwɔː.rən.ti tə ˈkʌ.vɚ ˈɛn.dʒɪn rɪˈpɛrz./
+
+**Dịch nghĩa:**
+
+Các phương tiện của Maihama bao gồm *bảo hành* mở rộng để chi trả cho việc sửa chữa động cơ.
+
+---
+
+112. The hotel’s new Web site features an -- collection of high-quality images.
+
+A. absolute
+
+B. efficient
+
+*C. impressive*
+
+D. undefeated
+
+**Giải thích**
+
+*Mẹo/Ghi chú: impressive - images*
+
+| Đáp án        | Loại từ | Nghĩa     | Lý do Đúng/Sai                                                                                |
+|---------------|---------|-----------|-----------------------------------------------------------------------------------------------|
+| A. absolute   | adj     | tuyệt đối | Sai – "an absolute collection" không tự nhiên trong ngữ cảnh này.                             |
+| B. efficient  | adj     | hiệu quả  | Sai – "an efficient collection" không hợp lý vì "collection" không mang nghĩa hiệu quả.       |
+| C. impressive | adj     | ấn tượng  | *Đúng – "an impressive collection" hợp nghĩa vì hình ảnh chất lượng cao thường gây ấn tượng.* |
+| D. undefeated | adj     | bất bại   | Sai – "an undefeated collection" không có ý nghĩa phù hợp.                                    |
+
+**Từ vựng**
+
+| Từ vựng      | Loại từ | Phiên âm IPA      | Nghĩa               |
+|--------------|---------|-------------------|---------------------|
+| *impressive* | adj     | /ɪmˈprɛ.sɪv/      | ấn tượng            |
+| *absolute*   | adj     | /ˈæb.sə.luːt/     | tuyệt đối           |
+| *efficient*  | adj     | /ɪˈfɪʃ.ənt/       | hiệu quả            |
+| *undefeated* | adj     | /ˌʌn.dɪˈfiː.tɪd/  | bất bại             |
+| collection   | n       | /kəˈlɛk.ʃən/      | bộ sưu tập          |
+| feature      | v       | /ˈfiː.tʃɚ/        | có, sở hữu, bao gồm |
+| high-quality | adj     | /haɪ-ˈkwɑː.lə.ti/ | chất lượng cao      |
+| image        | n       | /ˈɪ.mɪdʒ/         | hình ảnh            |
+| hotel        | n       | /hoʊˈtɛl/         | khách sạn           |
+| Web site     | n       | /wɛb saɪt/        | trang web           |
+
+**Câu hoàn chỉnh:**
+
+The hotel’s new Web site features an *impressive* collection of high-quality images.
+
+**Phiên âm IPA:**
+
+/ðə hoʊˈtɛlz nuː wɛb saɪt ˈfiː.tʃɚz ən ɪmˈprɛ.sɪv kəˈlɛk.ʃən əv haɪ-ˈkwɑː.lə.ti ˈɪ.mɪdʒɪz./
+
+**Dịch nghĩa:**
+
+Trang web mới của khách sạn có một bộ sưu tập *ấn tượng* gồm những hình ảnh chất lượng cao.
+
+---
+
+113. On behalf of everyone at Uniontown Bank, we -- thank you for your continued patronage.
+
+A. deservedly
+
+B. commonly
+
+*C. sincerely*
+
+D. perfectly
+
+**Giải thích**
+
+*Mẹo/Ghi chú: *
+
+| Đáp án        | Loại từ | Nghĩa                 | Lý do Đúng/Sai                                                                   |
+|---------------|---------|-----------------------|----------------------------------------------------------------------------------|
+| A. deservedly | adv     | một cách xứng đáng    | Sai – Không phù hợp vì "deservedly thank" không phải cách diễn đạt tự nhiên.     |
+| B. commonly   | adv     | một cách thông thường | Sai – "commonly thank" không có ý nghĩa phù hợp trong ngữ cảnh cảm ơn.           |
+| C. sincerely  | adv     | một cách chân thành   | *Đúng – "sincerely thank" là cụm từ phổ biến để bày tỏ lòng biết ơn chân thành.* |
+| D. perfectly  | adv     | một cách hoàn hảo     | Sai – "perfectly thank" không tự nhiên trong ngữ cảnh này.                       |
+
+**Từ vựng**
+
+| Từ vựng    | Loại từ | Phiên âm IPA    | Nghĩa                 |
+|------------|---------|-----------------|-----------------------|
+| sincerely  | adv     | /sɪnˈsɪr.li/    | một cách chân thành   |
+| deservedly | adv     | /dɪˈzɝː.vɪd.li/ | một cách xứng đáng    |
+| commonly   | adv     | /ˈkɑː.mən.li/   | một cách thông thường |
+| perfectly  | adv     | /ˈpɝː.fɪkt.li/  | một cách hoàn hảo     |
+| thank      | v       | /θæŋk/          | cảm ơn                |
+| continued  | adj     | /kənˈtɪn.juːd/  | liên tục, lâu dài     |
+| patronage  | n       | /ˈpeɪ.trə.nɪdʒ/ | sự bảo trợ, sự ủng hộ |
+| behalf     | n       | /bɪˈhælf/       | thay mặt              |
+| everyone   | pron    | /ˈɛv.ri.wʌn/    | tất cả mọi người      |
+| bank       | n       | /bæŋk/          | ngân hàng             |
+
+**Câu hoàn chỉnh:**
+
+On behalf of everyone at Uniontown Bank, we *sincerely* thank you for your continued patronage.
+
+**Phiên âm IPA:**
+
+/ɑn bɪˈhælf əv ˈɛv.ri.wʌn æt ˈjuː.njən.taʊn bæŋk, wi sɪnˈsɪr.li θæŋk juː fɔr jʊr kənˈtɪn.juːd ˈpeɪ.trə.nɪdʒ./
+
+**Dịch nghĩa:**
+
+Thay mặt tất cả mọi người tại Ngân hàng Uniontown, chúng tôi *chân thành* cảm ơn bạn vì sự ủng hộ lâu dài của bạn.
+
+---
+
+114. Fragile equipment must be stored in a secure location so that nothing is -- damaged.
+
+A. accident
+
+B. accidents
+
+C. accidental
+
+D. accidentally
+
+**Giải thích**
+
+(Fragile equipment) (must be stored) (in a secure location) (*so that*)[note.Nghĩa: Để] (nothing) (is -- damaged)[note.Dạng bị động, giữa "to" và "động từ" cần điền 1 trạng từ]
+
+| Đáp án          | Loại từ | Nghĩa               | Lý do Đúng/Sai                                                                                                                 |
+|-----------------|---------|---------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| A. accident     | n       | tai nạn             | Sai – "accident" là danh từ, không thể bổ nghĩa cho động từ "damaged".                                                         |
+| B. accidents    | n       | các tai nạn         | Sai – "accidents" vẫn là danh từ số nhiều, không phù hợp trong câu.                                                            |
+| C. accidental   | adj     | tình cờ, không cố ý | Sai – "accidental" là tính từ, không thể đứng trước động từ để bổ nghĩa.                                                       |
+| D. accidentally | adv     | một cách tình cờ    | *Đúng – Trạng từ "accidentally" bổ nghĩa cho động từ "is damaged", diễn đạt nghĩa "bị hư hại một cách tình cờ, ngoài ý muốn".* |
+
+**Từ vựng**
+
+| Từ vựng        | Loại từ | Phiên âm IPA       | Nghĩa               |
+|----------------|---------|--------------------|---------------------|
+| *accidentally* | adv     | /ˌæk.sɪˈdɛn.təl.i/ | một cách tình cờ    |
+| accidental     | adj     | /ˌæk.sɪˈdɛn.təl/   | tình cờ, không cố ý |
+| *accident*     | n       | /ˈæk.sɪ.dənt/      | tai nạn             |
+| accidents      | n       | /ˈæk.sɪ.dənts/     | các tai nạn         |
+| *fragile*      | adj     | /ˈfræ.dʒəl/        | dễ vỡ               |
+| equipment      | n       | /ɪˈkwɪp.mənt/      | thiết bị            |
+| store          | v       | /stɔːr/            | lưu trữ, cất giữ    |
+| secure         | adj     | /sɪˈkjʊr/          | an toàn, chắc chắn  |
+| location       | n       | /loʊˈkeɪ.ʃən/      | vị trí, địa điểm    |
+| damage         | v       | /ˈdæ.mɪdʒ/         | làm hư hại          |
+| nothing        | pron    | /ˈnʌ.θɪŋ/          | không có gì         |
+| *so that*      | conj    | /soʊ ðæt/          | để mà               |
+
+**Câu hoàn chỉnh:**
+
+Fragile equipment must be stored in a secure location so that nothing is *accidentally* damaged.
+
+**Phiên âm IPA:**
+
+/ˈfræ.dʒəl ɪˈkwɪp.mənt mʌst bi stɔːrd ɪn ə sɪˈkjʊr loʊˈkeɪ.ʃən soʊ ðæt ˈnʌ.θɪŋ ɪz ˌæk.sɪˈdɛn.t̬əl.i ˈdæ.mɪdʒd./
+
+**Dịch nghĩa:**
+
+Thiết bị dễ vỡ phải được lưu trữ ở một nơi an toàn để không có gì bị hư hỏng *một cách tình cờ*.
+
+---
+
+115. 

@@ -146,9 +146,13 @@ Loại câu: Câu trần thuật thì tương lai đơn.
 **Câu hoàn chỉnh:**
 Mr. Peterson will travel *to* the Tokyo office for the annual meeting.
 
-Phiên âm IPA & Dịch câu:
-- /ˈmɪstər ˈpiːtərsən wɪl ˈtræv(ə)l tuː ðə ˈtoʊkioʊ ˈɒfɪs fɔːr ði ˈænjuəl ˈmiːtɪŋ./
-- Ông Peterson sẽ đi *đến* văn phòng Tokyo để tham dự cuộc họp thường niên.
+**Phiên âm IPA**
+
+/ˈmɪstər ˈpiːtərsən wɪl ˈtræv(ə)l tuː ðə ˈtoʊkioʊ ˈɒfɪs fɔːr ði ˈænjuəl ˈmiːtɪŋ./
+
+**Dịch câu:**
+
+Ông Peterson sẽ đi *đến* văn phòng Tokyo để tham dự cuộc họp thường niên.
 
 ---
 
@@ -164,7 +168,7 @@ D. their
 
 **Giải thích**
 
-(Yong-Soo Cosmetics)[note.Chủ ngữ] (will not charge)[note.Động từ chính] (for items on back order)[note.Tân ngữ] until *(-- have left our warehouse)[note.Thiếu đại từ/ Chủ ngữ]*.
+(Yong-Soo Cosmetics)[note.Chủ ngữ] (will not charge)[note.Động từ chính] (for items on back order)[note.Tân ngữ] until *(-- have left our warehouse)[note.Mệnh đề phụ thiếu chủ ngữ/đại từ]*.
 
 **Cấu trúc câu**
 - **Yong-Soo Cosmetics will not charge for items on back order** → Mệnh đề chính (thì tương lai đơn).

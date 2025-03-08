@@ -675,4 +675,101 @@ Thiết bị dễ vỡ phải được lưu trữ ở một nơi an toàn để 
 
 ---
 
-115. 
+115. The community picnic will be held -- the park behind the Seltzer Public Library.
+
+*A. in*
+
+B. all
+
+C. for
+
+D. here
+
+**Giải thích**
+
+(The community picnic)[note.Chủ ngữ] (will be held)[note.Động từ chính] (-- the park)[note.Cụm giới từ chỉ nơi chốn] behind the Seltzer Public Library
+
+| Đáp án  | Loại từ | Nghĩa          | Lý do Đúng/Sai                                                                       |
+|---------|---------|----------------|--------------------------------------------------------------------------------------|
+| A. in   | prep    | trong, ở trong | *Đúng – "in the park" (trong công viên) là cụm từ phù hợp để diễn đạt địa điểm.*     |
+| B. all  | adv/adj | tất cả         | Sai – "all" không phù hợp về nghĩa và không thể đứng trước một danh từ chỉ địa điểm. |
+| C. for  | prep    | cho, vì        | Sai – "for the park" không mang ý nghĩa chỉ vị trí.                                  |
+| D. here | adv     | ở đây          | Sai – "here the park" không phải là cụm từ hợp lệ trong tiếng Anh.                   |
+
+**Từ vựng**
+
+| Từ vựng      | Loại từ     | Phiên âm IPA    | Nghĩa           |
+|--------------|-------------|-----------------|-----------------|
+| in           | prep        | /ɪn/            | trong, ở trong  |
+| park         | n           | /pɑːrk/         | công viên       |
+| behind       | prep        | /bɪˈhaɪnd/      | phía sau        |
+| library      | n           | /ˈlaɪ.brɛr.i/   | thư viện        |
+| picnic       | n           | /ˈpɪk.nɪk/      | buổi dã ngoại   |
+| will be held | v (bị động) | /wɪl bi hɛld/   | sẽ được tổ chức |
+| community    | adj         | /kəˈmjuː.nə.ti/ | cộng đồng       |
+| public       | adj         | /ˈpʌb.lɪk/      | công cộng       |
+
+**Câu hoàn chỉnh:**
+
+The community picnic will be held *in* the park behind the Seltzer Public Library.
+
+**Phiên âm IPA:**
+
+/ðə kəˈmjuː.nə.ti ˈpɪk.nɪk wɪl bi hɛld ɪn ðə pɑːrk bɪˈhaɪnd ðə ˈsɛlt.sɚ ˈpʌb.lɪk ˈlaɪ.brɛr.i./
+
+**Dịch nghĩa:**
+
+Buổi dã ngoại cộng đồng sẽ được tổ chức *ở* công viên phía sau Thư viện Công cộng Seltzer.
+
+---
+
+116. The new hires -- for an orientation on May 10 at 9:00 a.m.
+
+A. to be gathering
+
+*B. will gather*
+
+C. gathering
+
+D. to gather
+
+**Giải thích**
+
+(The new hires)[note.Chủ ngữ] (--)[note.Thiếu động từ chính] (for an orientation)[note.Tân ngữ] on May 10 at 9:00 a.m
+
+| Đáp án             | Loại từ                               | Nghĩa             | Lý do Đúng/Sai                                                                                                            |
+|--------------------|---------------------------------------|-------------------|---------------------------------------------------------------------------------------------------------------------------|
+| A. to be gathering | cụm động từ (to be + V-ing)           | để đang tập trung | Sai – "to be gathering" không phù hợp vì không thể đứng sau chủ ngữ mà không có động từ chính.                            |
+| B. will gather     | thì tương lai đơn                     | sẽ tập trung      | *Đúng – "will gather" diễn tả hành động xảy ra trong tương lai, phù hợp với trạng ngữ thời gian "on May 10 at 9:00 a.m."* |
+| C. gathering       | V-ing (danh động từ/hiện tại phân từ) | đang tập trung    | Sai – "gathering" không thể đứng một mình làm động từ chính trong câu mà không có trợ động từ.                            |
+| D. to gather       | động từ nguyên mẫu (to V)             | để tập trung      | Sai – "to gather" chỉ mục đích nhưng không thể làm động từ chính trong câu.                                               |
+
+**Từ vựng**
+
+| Từ vựng         | Loại từ | Phiên âm IPA        | Nghĩa             |
+|-----------------|---------|---------------------|-------------------|
+| will *gather*   | v (tlđ) | /wɪl ˈɡæð.ɚ/        | sẽ tập trung      |
+| to be gathering | v (cụm) | /tuː bi ˈɡæð.ɚɪŋ/   | để đang tập trung |
+| gathering       | v-ing   | /ˈɡæð.ɚɪŋ/          | đang tập trung    |
+| to gather       | v       | /tuː ˈɡæð.ɚ/        | để tập trung      |
+| *orientation*   | n       | /ˌɔːr.i.enˈteɪ.ʃən/ | buổi định hướng   |
+| hires           | n       | /haɪərz/            | nhân viên mới     |
+| for             | prep    | /fɔːr/              | cho, để           |
+| on              | prep    | /ɑːn/               | vào (ngày)        |
+| at              | prep    | /æt/                | vào (giờ)         |
+
+**Câu hoàn chỉnh:**
+
+The new hires *will gather* for an orientation on May 10 at 9:00 a.m.
+
+**Phiên âm IPA:**
+
+/ðə nuː ˈhaɪərz wɪl ˈɡæð.ɚ fɔːr ən ˌɔːr.i.enˈteɪ.ʃən ɑːn meɪ tɛn æt naɪn əˈem/
+
+**Dịch nghĩa:**
+
+Những nhân viên mới *sẽ tập trung* để tham gia buổi định hướng vào ngày 10 tháng 5 lúc 9 giờ sáng.
+
+---
+
+117. 

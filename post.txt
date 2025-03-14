@@ -1,0 +1,17 @@
+Các kiến thức cần ôn tập lại
+
+Xác suất, Thống Kê, Bayes, Đồ Thị, cấu trúc dữ liệu và giải thuật, 
+Logic học, cấu trúc rời rạc, toán rời rạc, Đại số tuyến tính
+giải tích
+Kiến trúc hướng dịch vụ và Điện toán đám mây
+Lập trình phân tích dữ liệu
+Tối ưu hóa cho Khoa học dữ liệu
+Khai thác dữ liệu và ứng dụng
+Phát triển ứng dụng
+Học máy/ Học sâu
+Ngôn ngữ tự nhiên
+Kỹ thuật tài chính
+Thị giác máy tính
+Các nền tảng dữ liệu
+Nhập môn dữ liệu lớn
+Tài chính

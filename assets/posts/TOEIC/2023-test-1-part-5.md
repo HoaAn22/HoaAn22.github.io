@@ -12,7 +12,7 @@ D. was encouraged
 
 **Giải thích câu**
 
-When she held her last meeting, [Ms. Toba](note.Chủ ngữ) (------- her sales staff to)[note.Thiếu động từ chính, cụm từ encouraged...to] perform even better next quarter
+When she held her last meeting, [Ms. Toba](note.Chủ ngữ) [------- her sales staff to](note.Thiếu động từ chính, cụm từ encouraged...to) perform even better next quarter
 
 *Mẹo/Ghi chú: encoureaged ... to (Khuyến kích ... hành động)*
 
@@ -43,7 +43,7 @@ When she held her last meeting, [Ms. Toba](note.Chủ ngữ) (------- her sales 
 
 **Câu hoàn chỉnh**:
 
-When she held her last meeting, Ms. Toba (*encouraged*)[note.Khuyến khích] her (sales staff)[note.Nhân viên kinh doanh] *to* (perform even better)[note.Thế hiện tốt hơn] next quarter.  
+When she held her last meeting, Ms. Toba [encouraged](note.Khuyến khích) her [sales staff](note.Nhân viên kinh doanh) *to* [perform even better](note.Thế hiện tốt hơn) next quarter.
 
 /wɛn ʃi hɛld hɜr læst ˈmiːtɪŋ, mɪz ˈtoʊbə ɪnˈkɜːrɪdʒd hɜr seɪlz stæf tuː pərˈfɔːrm ˈiːvən ˈbɛtər nɛkst ˈkwɔːrtər./  
 

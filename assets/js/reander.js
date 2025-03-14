@@ -13,8 +13,10 @@ function renderMarkdown(content) {
     // Thêm nội dung đã render vào phần tử HTML
     const markdownContentElement = document.getElementById('markdown-content');
     
-    // Xử lý ghi chú (không dùng return, xử lý trực tiếp)
-    const notePattern = /\[([^)]+)\]\(note\.([^)]+)\)/g;
+    // Xử lý ghi chú
+    // const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/g;
+    const notePattern = /\[(.+?)\]\(note\.([^)]+)\)/g;
+
     renderedContent = renderedContent.replace(notePattern, function(match, text, annotation) {
         return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
     });

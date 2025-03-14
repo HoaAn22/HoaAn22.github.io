@@ -32,6 +32,8 @@
 #markdown-content code {
     background-color: lightgray;
     border-radius: 2px;
+    font-size: 14px;
+    line-height: 1.5; /* Tăng khoảng cách giữa các dòng */
 }
 
 #markdown-content code.language-python,
@@ -45,7 +47,7 @@
     background: linear-gradient(to right, #3776AB, #FFD43B);
     border: 1px solid black;
     border-radius: 4px;
-    padding: 15px;
+    padding: 10px;
     margin: 10px auto;
     max-width: 800px;
     margin-bottom: 1em;
@@ -61,7 +63,7 @@
     background-color: #F7DF1E;
     border: 1px solid black;
     border-radius: 4px;
-    padding: 15px;
+    padding: 10px;
     margin: 10px auto;
     max-width: 800px;
     margin-bottom: 1em;
@@ -76,7 +78,7 @@
     background: linear-gradient(to right, #264DE4 50%, #2965F1 50%);
     border: 1px solid black;
     border-radius: 4px;
-    padding: 15px;
+    padding: 10px;
     margin: 10px auto;
     max-width: 800px;
     margin-bottom: 1em;
@@ -93,7 +95,7 @@ pre {
     position: relative;
     padding: 10px;
 }
- 
+
 .language-python::before {
     content: "Python";
     display: inline-block;
@@ -101,7 +103,7 @@ pre {
     border: 1px solid black;
     color: white;
     font-size: 14px;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding: 4px 8px;
     /* border-radius: 4px 4px 0 0; */
     border-radius: 4px;
@@ -117,7 +119,7 @@ pre {
     border: 1px solid black;
     /* color: white; */
     font-size: 14px;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding: 4px 8px;
     border-radius: 4px;
     position: absolute;
@@ -132,7 +134,7 @@ pre {
     border: 1px solid black;
     color: white;
     font-size: 14px;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding: 4px 8px;
     border-radius: 4px;
     position: absolute;

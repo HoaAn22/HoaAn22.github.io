@@ -400,19 +400,19 @@ D. therefore
 
 **Từ vựng**
 
-| Từ vựng    | Loại từ  | Phiên âm IPA  | Nghĩa           |
-|------------|----------|---------------|-----------------|
-| who        | Pronoun  | /huː/         | người mà        |
-| around     | Adv/Prep | /əˈraʊnd/     | xung quanh      |
-| that       | Conj     | /ðæt/         | rằng            |
-| therefore  | Adv      | /ˈðer.fɔːr/   | do đó           |
-| seminar    | N        | /ˈsɛm.ɪ.nɑːr/ | hội thảo        |
-| begin      | V        | /bɪˈɡɪn/      | bắt đầu         |
-| attend*ee* | N        | /əˈtɛn.diː/   | người tham dự   |
-| assure     | V        | /əˈʃʊr/       | đảm bảo         |
-| scheduled  | Adj      | /ˈskɛdʒ.uːld/ | theo lịch trình |
-| presenter  | N        | /prɪˈzɛn.tɚ/  | diễn giả        |
-| appear     | V        | /əˈpɪr/       | xuất hiện       |
+| Từ vựng     | Loại từ  | Phiên âm IPA  | Nghĩa           |
+|-------------|----------|---------------|-----------------|
+| who         | Pronoun  | /huː/         | người mà        |
+| around      | Adv/Prep | /əˈraʊnd/     | xung quanh      |
+| that        | Conj     | /ðæt/         | rằng            |
+| *therefore* | Adv      | /ˈðer.fɔːr/   | do đó           |
+| seminar     | N        | /ˈsɛm.ɪ.nɑːr/ | hội thảo        |
+| begin       | V        | /bɪˈɡɪn/      | bắt đầu         |
+| attend*ee*  | N        | /əˈtɛn.diː/   | người tham dự   |
+| *assure*    | V        | /əˈʃʊr/       | đảm bảo         |
+| scheduled   | Adj      | /ˈskɛdʒ.uːld/ | theo lịch trình |
+| presenter   | N        | /prɪˈzɛn.tɚ/  | diễn giả        |
+| *appear*    | V        | /əˈpɪr/       | xuất hiện       |
 
 **Câu hoàn chỉnh**
 

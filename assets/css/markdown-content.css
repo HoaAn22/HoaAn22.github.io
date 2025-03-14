@@ -35,14 +35,14 @@
 }
 
 #markdown-content code.language-python,
-#markdown-content code.language-css {
+#markdown-content code.language-css,
+#markdown-content code.language-js {
     background-color:inherit;
     color: inherit;
 }
 
-#markdown-content pre code.language-python,
-#markdown-content pre code.language-css {
-    background-color: #f5f5f5;
+#markdown-content pre code.language-python {
+    background: linear-gradient(to right, #3776AB, #FFD43B);
     border: 1px solid black;
     border-radius: 4px;
     padding: 15px;
@@ -54,6 +54,90 @@
     white-space: pre;
     display: block;
     width: 100%;
+    color: white;
+}
+
+#markdown-content pre code.language-js {
+    background-color: #F7DF1E;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    margin-bottom: 1em;
+    overflow-x: auto;
+    font-family: monospace;
+    white-space: pre;
+    display: block;
+    width: 100%;
+}
+
+#markdown-content pre code.language-css {
+    background: linear-gradient(to right, #264DE4 50%, #2965F1 50%);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    margin-bottom: 1em;
+    overflow-x: auto;
+    font-family: monospace;
+    white-space: pre;
+    display: block;
+    width: 100%;
+    color: white; /* Giữ chữ nổi bật */
+}
+
+/* Tạo name tag cho code */
+pre {
+    position: relative;
+    padding: 10px;
+}
+ 
+.language-python::before {
+    content: "Python";
+    display: inline-block;
+    background-color: #3776AB;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    /* border-radius: 4px 4px 0 0; */
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.language-js::before {
+    content: "JavaScript";
+    display: inline-block;
+    background-color: #F7DF1E;
+    border: 1px solid black;
+    /* color: white; */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.language-css::before {
+    content: "Css";
+    display: inline-block;
+    background-color: #264DE4;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
 }
 
 /* Áp dụng các kiểu cho thẻ mjx-container */

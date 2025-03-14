@@ -25,25 +25,25 @@ When she held her last meeting, [Ms. Toba](note.Chủ ngữ) [------- her sales 
 
 **Từ vựng**
 
-| Từ vựng                   | Loại từ | Phiên âm IPA      | Nghĩa                |
-|---------------------------|---------|-------------------|----------------------|
-| encourage                 | V       | /ɪnˈkɜːrɪdʒ/      | khuyến khích         |
-| encouraged                | V       | /ɪnˈkɜːrɪdʒd/     | đã khuyến khích      |
-| is encouraging            | V       | /ɪz ɪnˈkɜːrɪdʒɪŋ/ | đang khuyến khích    |
-| was encouraged            | V       | /wəz ɪnˈkɜːrɪdʒd/ | đã được khuyến khích |
-| sales staff               | N       | /seɪlz stæf/      | nhân viên kinh doanh |
-| perform                   | V       | /pərˈfɔːrm/       | thực hiện, thể hiện  |
-| quarter                   | N       | /ˈkwɔːrtər/       | quý (trong năm)      |
-| meeting                   | N       | /ˈmiːtɪŋ/         | cuộc họp             |
-| last                      | Adj     | /læst/            | cuối cùng            |
-| (held)[note.Verb2 - hold] | V       | /hɛld/            | đã tổ chức, đã giữ   |
-| next                      | Adj     | /nekst/           | tiếp theo            |
-| even                      | Adv     | /ˈiːvən/          | thậm chí             |
-| better                    | Adj     | /ˈbɛtər/          | tốt hơn              |
+| Từ vựng                     | Loại từ | Phiên âm IPA      | Nghĩa                |
+|-----------------------------|---------|-------------------|----------------------|
+| encourage                   | V       | /ɪnˈkɜːrɪdʒ/      | khuyến khích         |
+| encouraged                  | V       | /ɪnˈkɜːrɪdʒd/     | đã khuyến khích      |
+| is encouraging              | V       | /ɪz ɪnˈkɜːrɪdʒɪŋ/ | đang khuyến khích    |
+| was encouraged              | V       | /wəz ɪnˈkɜːrɪdʒd/ | đã được khuyến khích |
+| sales staff                 | N       | /seɪlz stæf/      | nhân viên kinh doanh |
+| perform                     | V       | /pərˈfɔːrm/       | thực hiện, thể hiện  |
+| quarter                     | N       | /ˈkwɔːrtər/       | quý (trong năm)      |
+| meeting                     | N       | /ˈmiːtɪŋ/         | cuộc họp             |
+| last                        | Adj     | /læst/            | cuối cùng            |
+| [*held*](note.Verb2 - hold) | V       | /hɛld/            | đã tổ chức, đã giữ   |
+| next                        | Adj     | /nekst/           | tiếp theo            |
+| even                        | Adv     | /ˈiːvən/          | thậm chí             |
+| better                      | Adj     | /ˈbɛtər/          | tốt hơn              |
 
 **Câu hoàn chỉnh**:
 
-When she held her last meeting, Ms. Toba [encouraged](note.Khuyến khích) her [sales staff](note.Nhân viên kinh doanh) *to* [perform even better](note.Thế hiện tốt hơn) next quarter.
+When she held her last meeting, Ms. Toba [*encouraged*](note.Khuyến khích) her [sales staff](note.Nhân viên kinh doanh) *to* [perform even better](note.Thế hiện tốt hơn) next quarter.
 
 /wɛn ʃi hɛld hɜr læst ˈmiːtɪŋ, mɪz ˈtoʊbə ɪnˈkɜːrɪdʒd hɜr seɪlz stæf tuː pərˈfɔːrm ˈiːvən ˈbɛtər nɛkst ˈkwɔːrtər./  
 
@@ -61,7 +61,7 @@ D. at
 
 **Giải thích**
 
-(All staff)[note.Chủ ngữ] (have been informed)[note.Động từ chính dạng bị động, thì hiện tại hoàn thành] (------- the proposed partnership)[note.Cụm giới từ] with ERI Finance
+[All staff](note.Chủ ngữ) [have been informed](note.Động từ chính dạng bị động, thì hiện tại hoàn thành) [------- the proposed partnership](note.Cụm giới từ) with ERI Finance
 
 *Mẹo/Ghi chú: informed - about*
 
@@ -87,15 +87,11 @@ D. at
 
 **Câu hoàn chỉnh**:  
 
-All staff have been informed *about* the proposed partnership with ERI Finance.  
+All staff have been informed *about* the [proposed partnership](note.Quan hệ đối tác được đề xuất) with ERI Finance.  
 
 **Phiên âm IPA**:  
 
 /ɔːl stæf hæv bɪn ɪnˈfɔːrmd əˈbaʊt ðə prəˈpoʊzd ˈpɑːrtnərʃɪp wɪð ˈiːɑːrˈaɪ faɪnæns./  
-
-**Dịch nghĩa**:  
-
-Tất cả nhân viên đã được thông báo *về* quan hệ đối tác được đề xuất với ERI Finance.
 
 ---
 
@@ -134,14 +130,11 @@ D. he
 | Friday     | N       | /ˈfraɪdeɪ/   | thứ Sáu                    |
 | will       | Modal   | /wɪl/        | sẽ (trợ động từ tương lai) |
 
-**Câu hoàn chỉnh**:  
-On Friday, Mr. Nakamura will discuss *his* ideas for supporting busy waiters.  
+**Câu hoàn chỉnh**:
 
-**Phiên âm IPA**:  
-/ɔn ˈfraɪdeɪ, ˈmɪstər ˌnækəˈmʊrə wɪl dɪˈskʌs hɪz aɪˈdiəz fɔːr səˈpɔːrtɪŋ ˈbɪzi ˈweɪtərz./  
+On Friday, Mr. Nakamura will discuss *his* ideas for [supporting busy waiters](note.Hỗ trợ nhân viên phục vụ bận rộn).  
 
-**Dịch nghĩa**:  
-Vào thứ Sáu, ông Nakamura sẽ thảo luận về những ý tưởng *của ông ấy* để hỗ trợ các nhân viên phục vụ bận rộn.
+/ɔn ˈfraɪdeɪ, ˈmɪstər ˌnækəˈmʊrə wɪl dɪˈskʌs hɪz aɪˈdiəz fɔːr səˈpɔːrtɪŋ ˈbɪzi ˈweɪtərz./
 
 ---
 
@@ -164,6 +157,8 @@ D. finish
 | C. succeed | V       | thành công         | Sai – Không phù hợp về nghĩa, không thể "thành công tài nguyên".                                  |
 | D. finish  | V       | hoàn thành         | Sai – Không phù hợp về nghĩa, tài nguyên và động vật hoang dã không phải thứ có thể "hoàn thành". |
 
+**Từ vựng**
+
 | Từ vựng             | Loại từ     | Phiên âm IPA          | Nghĩa              |
 |---------------------|-------------|-----------------------|--------------------|
 | allow               | V           | /əˈlaʊ/               | cho phép           |
@@ -179,15 +174,9 @@ D. finish
 
 **Câu hoàn chỉnh**:  
 
-The Forestry Commission was created to manage the state’s natural resources and wildlife.  
+The [Forestry](note.Lâm nghiệp) [Commission](note.Ủy ban) was created to *manage* the state’s [natural resources](note.Tài nguyên thiên nhiên) and [wildlife](note.Động vật hoang dã). 
 
-**Phiên âm IPA**:  
-
-/ðə ˈfɔːrɪstri kəˈmɪʃən wəz kriˈeɪtɪd tuː ˈmænɪdʒ ðə steɪts ˈnætʃrəl rɪˈsɔːrsɪz ənd ˈwaɪldlaɪf./  
-
-**Dịch nghĩa**:  
-
-Ủy ban Lâm nghiệp được thành lập để quản lý tài nguyên thiên nhiên và động vật hoang dã của bang.
+/ðə ˈfɔːrɪstri kəˈmɪʃən wəz kriˈeɪtɪd tuː ˈmænɪdʒ ðə steɪts ˈnætʃrəl rɪˈsɔːrsɪz ənd ˈwaɪldlaɪf./
 
 ---
 
@@ -203,7 +192,9 @@ C. safeness
 
 **Giải thích**
 
-(By following established guidelines)[note.Cụm trạng từ chỉ cách thức], (construction workers) (will be able to complete)[note.Động từ chính] (their tasks -------)[note.Thiếu trạng từ].
+[By following established guidelines](note.Cụm trạng từ chỉ cách thức), [construction workers](note.Chủ ngữ) [will be able to complete](note.Động từ chính) [their tasks -------](note.Thiếu trạng từ).
+
+*Mẹo: -ness thường là đáp án sai*
 
 | Đáp án      | Loại từ | Nghĩa            | Lý do Đúng/Sai                                                              |
 |-------------|---------|------------------|-----------------------------------------------------------------------------|
@@ -226,13 +217,9 @@ C. safeness
 
 **Câu hoàn chỉnh**
 
-By following established guidelines, construction workers will be able to complete their tasks safely.  
+[By](note.Bằng cách) [following](note.Làm theo) [established](note.Được có sẵn) [guidelines](note.Hướng dẫn), [construction workers](note.Công nhân xây dựng) will be able to complete their tasks [*safely*](note.Một cách an toàn).  
 
-/baɪ ˈfɑː.loʊ.ɪŋ ɪˈstæb.lɪʃt ˈɡaɪd.laɪnz, kənˈstrʌk.ʃən ˈwɝː.kɚz wɪl bi ˈeɪ.bəl tu kəmˈpliːt ðɛr tæsks ˈseɪf.li/  
-
-**Dịch nghĩa**:  
-
-Bằng cách tuân theo các hướng dẫn đã thiết lập, công nhân xây dựng sẽ có thể hoàn thành công việc của họ một cách an toàn.
+/baɪ ˈfɑː.loʊ.ɪŋ ɪˈstæb.lɪʃt ˈɡaɪd.laɪnz, kənˈstrʌk.ʃən ˈwɝː.kɚz wɪl bi ˈeɪ.bəl tu kəmˈpliːt ðɛr tæsks ˈseɪf.li/
 
 ---
 

@@ -101,7 +101,8 @@ tr:hover {
     position: relative;
     display: inline-block;
     background-color: #d2d2d2;
-    border-bottom: 1.2px solid rgb(0, 0, 255);
+    border-left: 4px solid #ff9800;
+    /* border-bottom: 1.2px solid rgb(0, 0, 255); */
     padding: 2px;
     cursor: pointer;
 }

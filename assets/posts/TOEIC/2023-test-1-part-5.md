@@ -422,7 +422,42 @@ Before the seminar began, (attendees)[note.Người tham dự] (were assured)[no
 
 ---
 
-110. 
+110. Forever Pet has been a leader in bringing new products, ------ Fun Bone and Chew Right, to the market.
+
+A. however
+
+B. furthermore
+
+C. as if
+
+*D. such as*
+
+**Giải thích**
+
+| Đáp án         | Loại từ  | Nghĩa         | Lý do Đúng/Sai                                  |
+|----------------|----------|---------------|-------------------------------------------------|
+| A. however     | Trạng từ | tuy nhiên     | Sai – Không mang nghĩa liệt kê ví dụ.           |
+| B. furthermore | Trạng từ | hơn nữa       | Sai – Không phù hợp ngữ nghĩa.                  |
+| C. as if       | Liên từ  | như thể       | Sai – Không phù hợp với ngữ cảnh.               |
+| D. such as     | Cụm từ   | chẳng hạn như | *Đúng – Dùng để liệt kê các ví dụ về sản phẩm.* |
+
+**Từ vựng**
+
+| Từ vựng     | Loại từ | Phiên âm IPA   | Nghĩa         |
+|-------------|---------|----------------|---------------|
+| however     | Adv     | /haʊˈev.ɚ/     | tuy nhiên     |
+| furthermore | Adv     | /ˈfɝː.ðɚ.mɔːr/ | hơn nữa       |
+| as if       | Conj    | /æz ɪf/        | như thể       |
+| such as     | Phrase  | /sʌtʃ æz/      | chẳng hạn như |
+| leader      | N       | /ˈliː.dɚ/      | người dẫn đầu |
+| bring       | V       | /brɪŋ/         | mang đến      |
+| product     | N       | /ˈprɑː.dʌkt/   | sản phẩm      |
+| market      | N       | /ˈmɑːr.kɪt/    | thị trường    |
+
+**Câu hoàn chỉnh:**
+Forever Pet (has been a leader)[note.Dẫn đầu] in bringing new products, (such as)[note.Chẳng hạn như] (Fun Bone and Chew Right)[note.Liệt kê sản phẩm], (to the market)[note.Ra thị trường].  
+
+/ ˈfɔː.rɛ.vɚ pɛt hæz bɪn ə ˈliː.dɚ ɪn ˈbrɪŋ.ɪŋ nuː ˈprɑː.dʌkts, sʌtʃ æz fʌn boʊn ænd tʃuː raɪt, tuː ðə ˈmɑːr.kɪt /
 
 ---
 

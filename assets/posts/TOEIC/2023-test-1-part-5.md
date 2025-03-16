@@ -235,7 +235,7 @@ C. available
 
 **Giải thích**
 
-(With her numerous credentials)[note.Cụm giới từ], (Dr. Kwan)[note.Chủ ngữ] (is)[note.Động từ chính, động từ tobe] (highly -------)[note.Từ cần điền là 1 tính từ] to teach medieval history at Maston University
+[With her numerous credentials](note.Cụm giới từ), [Dr. Kwan](note.Chủ ngữ) [is](note.Động từ chính) [highly -------](note.Từ cần điền là 1 tính từ) to teach medieval history at Maston University
 
 *Mẹo/Ghi chú: Sau tobe có 3 trường hợp V-ed/V-ing/Tính từ cần chọn tính từ phù hợp nghĩa trong trường hợp này*
 
@@ -261,13 +261,10 @@ C. available
 | *medieval*    | Adj          | /ˌmɛd.iˈiː.vəl/ | (thuộc) thời trung cổ     |
 
 **Câu hoàn chỉnh:**
-"With her numerous credentials, Dr. Kwan is highly *qualified* to teach medieval history at Maston University."
+
+With her [numerous](note.Nhiều) [credentials](note.Chứng chỉ), Dr. Kwan is highly *qualified* to teach medieval history at Maston University.
 
 / wɪð hɜr ˈnuː.mɚ.rəs krəˈden.ʃəlz, ˈdɑːk.tɚ kwɑːn ɪz ˈhaɪ.li ˈkwɑː.lə.faɪd tuː tiːʧ mɪˈdiː.vəl ˈhɪs.tɚ.i æt ˈmæs.tən ˌjuː.nɪˈvɝː.sə.ti /
-
-**Dịch nghĩa:**
-
-"Với nhiều chứng chỉ của mình, Tiến sĩ Kwan *đủ điều kiện* để giảng dạy lịch sử trung cổ tại Đại học Maston."
 
 ---
 

@@ -12,12 +12,19 @@ function renderMarkdown(content) {
 
     // Thêm nội dung đã render vào phần tử HTML
     const markdownContentElement = document.getElementById('markdown-content');
-    
-    // Xử lý ghi chú
-    const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/gi;
-    // const notePattern = /\[(.+?)\]\(note\.([^)]+)\)/g;
+    if (!markdownContentElement) return;
 
-    renderedContent = renderedContent.replace(notePattern, function(match, text, annotation) {
+    // // Xử lý ghi chú
+    // const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/g;
+    // // const notePattern = /\[(.+?)\]\(note\.(.+?)\)/g;
+
+    // renderedContent = renderedContent.replace(notePattern, function(match, text, annotation) {
+    //     return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
+    // });
+
+    // Xử lý ghi chú dạng [text](note.annotation)
+    const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/gi;
+    renderedContent = renderedContent.replace(notePattern, (_, text, annotation) => {
         return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
     });
 
@@ -52,7 +59,8 @@ function renderMarkdown(content) {
     }
 
     if (window.MathJax) {
-        MathJax.typeset();
+        // MathJax.typeset();
+        MathJax.typesetPromise();
     }
 }
 

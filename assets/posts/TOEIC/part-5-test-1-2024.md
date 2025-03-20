@@ -12,7 +12,7 @@ D. himself **(Đại từ phản thân)**
 
 *Giải thích*:
 
-Phân tích thành phần câu: {Former} {Sendai Company CEO} {Ken Nakata} {spoke about} {-- career experiences}
+Phân tích thành phần câu: [Former Sendai Company CEO Ken Nakata](note. Chủ ngữ) [spoke about](note. Động từ chính) [-- career experiences](note. Cụm tân ngữ)
 
 Cụm từ cần điền là **-- career experiences**, đứng trước cụm danh từ cần điền **tính từ/tính từ sở hữu**
 
@@ -24,11 +24,9 @@ Cụm từ cần điền là **-- career experiences**, đứng trước cụm d
 
 *Dịch*:
 
-Former Sendai Company CEO Ken Nakata spoke about *his* career experiences.
+[Former](note. Cựu) Sendai Company CEO Ken Nakata spoke about *his* [career experiences](note. Kinh nghiệm nghề nghiệp).
 
-ˈfɔrmər Sendai ˈkʌmpəni CEO kɛn nɑˈkɑtə spoʊk əˈbaʊt hɪz kəˈrɪr ɪkˈspɪriənsɪz
-
-Cựu CEO của Công ty Sendai, Ken Nakata, đã nói về kinh nghiệm nghề nghiệp *của ông ấy*.
+/ˈfɔrmər Sendai ˈkʌmpəni CEO kɛn nɑˈkɑtə spoʊk əˈbaʊt hɪz kəˈrɪr ɪkˈspɪriənsɪz/
 
 ---
 
@@ -60,7 +58,7 @@ Cụm từ cần điền là **a -- domestic flight**, đứng trước cụm da
 
 *Dịch*:
 
-Passengers who will be taking a connecting domestic flight should go to Terminal A.
+[Passengers](note. Hành khách) who will be taking a [*connecting*](note. Trong ngữ cảnh: Nối chuyến) [domestic flight](note. Chuyến bay nội địa) should go to [Terminal](note. Cổng) A.
 
 Hành khách sẽ đi một chuyến bay nối chuyến nội địa nên đến Nhà ga A.
 

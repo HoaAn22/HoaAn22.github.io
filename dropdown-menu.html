@@ -1,9 +1,45 @@
 <button class="category-btn">Thu gọn/Mở rộng</button> <!-- Tạo nút thu gọn khi ở chế độ mobile -->
   <div class="dropdown-container"> <!-- Class để ẩn các mục khi ở chế độ mobile -->
     <div class="dropdown"> <!-- Class tạo danh sách các mục -->
-      <a href="#" class="dropbtn">Nền tảng toán</a> <!-- Tên danh sách -->
+      <a href="#" class="dropbtn">Dự án cá nhân</a> <!-- Tên danh sách -->
       <div class="dropdown-category"> <!-- Class QUAN TRỌNG cần tạo sau dropbtn-->
         <div class="dropdown-item"> <!-- Class để tạo danh sách chứa các bài viết -->
+          <a href="#">Đồ án tốt nghiệp</a>
+          <div class="dropdown-content">
+            <a href="#">Giới thiệu dự án</a>
+            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md')">Giới thiệu về kỹ thuật tài chính</a>
+            <a href="#">Lạm phát</a>
+            <a href="#">Lãi suất</a>
+            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md')">Tỷ giá - Phần 1</a>
+            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/3-ty-gia-phan-2.md')">Tỷ giá - Phần 2</a>
+            <a href="#">Ngân hàng Trung Ương</a>
+            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md')">Hoạt động thị trường mở</a>
+            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/5-thi-truong-mo-fed.md')">Hoạt động thị trường mở ở Mỹ</a>
+            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/6-cong-cu-phai-sinh.md')">Công cụ phái sinh tiền tệ</a>
+            <a href="#">Danh mục đầu tư</a>
+            <a href="#">Kiến thức về Tài Chính</a>
+            <a href="#">Kiến thức về Kỹ thuật</a>
+            <a href="#">Phân tích kết quả trực quan</a>
+          </div>
+        </div>
+        <div class="dropdown-item">
+          <a href="#">Hệ thống - Giao dịch thuật toán</a>
+          <div class="dropdown-content">
+            <a href="#">Giới thiệu dự án</a>
+          </div>
+        </div>
+        <div class="dropdown-item">
+          <a href="#">Web - Thu thập, trực quan và dự đoán giá cổ phiếu</a>
+          <div class="dropdown-content">
+            <a href="#">Giới thiệu dự án</a>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <div class="dropdown"> 
+      <a href="#" class="dropbtn">Nền tảng toán</a> 
+      <div class="dropdown-category"> 
+        <div class="dropdown-item"> 
           <a href="#">Xác xuất</a>
           <div class="dropdown-content">
             <a href="#" onclick="loadMarkdownFile('assets/posts/xac-suat/1-on-tap-1.md')">Ôn tập - phần 1</a>
@@ -145,16 +181,6 @@
           <a href="#">Kỹ thuật tài chính</a>
           <div class="dropdown-content">
             <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/lectures01.md')">Chương 1</a>
-            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/1-gioi-thieu.md')">Giới thiệu về kỹ thuật tài chính</a>
-            <a href="#">Lạm phát</a>
-            <a href="#">Lãi suất</a>
-            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/2-ty-gia-phan-1.md')">Tỷ giá - Phần 1</a>
-            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/3-ty-gia-phan-2.md')">Tỷ giá - Phần 2</a>
-            <a href="#">Ngân hàng Trung Ương</a>
-            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/4-thi-truong-mo.md')">Hoạt động thị trường mở</a>
-            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/5-thi-truong-mo-fed.md')">Hoạt động thị trường mở ở Mỹ</a>
-            <a href="#" onclick="loadMarkdownFile('assets/posts/ky-thuat-tai-chinh/6-cong-cu-phai-sinh.md')">Công cụ phái sinh tiền tệ</a>
-            <a href="#">Danh mục đầu tư</a>
           </div>
         </div>
         <div class="dropdown-item">
@@ -264,7 +290,7 @@
       </div>
     </div>
     <div class="dropdown">
-      <a href="#" class="dropbtn">Sách</a>
+      <a href="#" class="dropbtn">Note - Sách/Kiến thức</a>
       <div class="dropdown-category">
         <div class="dropdown-item">
           <a href="#">ML&DS for Finance</a>

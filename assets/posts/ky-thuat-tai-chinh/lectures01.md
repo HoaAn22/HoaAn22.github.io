@@ -24,10 +24,12 @@ Khi lãi suất tăng lên người dân, người mà còn nợ các khoản va
 
 **Giới thiệu về Kỹ thuật tài chính**
 
-Kỹ thuật tài chính, nghiên cứu tập trung vào chứng khoán phái sinh bao gồm: Hợp đồng kỳ hạn, hợp đồng tương lai, quyền chọn,... Chứng khoán phái sinh/Sản phẩm phái sinh: là một dạng hợp đồng có giá trị được xác định từ giá trị của [**tài sản/biến cố cơ sở (2)**](note. Underlying assets/variables).
+Kỹ thuật tài chính, nghiên cứu tập trung vào chứng khoán phái sinh bao gồm: Hợp đồng kỳ hạn, hợp đồng tương lai, quyền chọn,... Chứng khoán phái sinh/Sản phẩm phái sinh: là một dạng hợp đồng có giá trị được xác định từ giá trị của [**tài sản/biến cố cơ sở (2)**](note. Underlying assets/variables)
 
 Kỹ thuật tài chính giúp tạo nên các sản phẩm phái sinh dựa trên sự tính toán cân bằng giữa tài sản và biến cố để đáp ứng được yêu cầu cụ thể. Bằng cách ứng dụng toán học vào tài chính, kỹ thuật tài chính còn đóng vai trò quan trọng trong định giá và quản lý rủi ro của các sản phẩm phái sinh.
 
 ## Chú thích về thuật ngữ
 
-**(2)**. Tài sản/biến số cơ sở (Underlying assets/variables) trong chứng khoán phái sinh là những yếu tố quyết định giá trị của hợp đồng phái sinh. 2 yếu tố này là 2 yếu tố quyết định nên giá trị của Chứng khoán phái sinh.
+**(1).** 
+
+**(2).** Tài sản/biến số cơ sở (Underlying assets/variables) trong chứng khoán phái sinh là những yếu tố quyết định giá trị của hợp đồng phái sinh. 2 yếu tố này là 2 yếu tố quyết định nên giá trị của Chứng khoán phái sinh.

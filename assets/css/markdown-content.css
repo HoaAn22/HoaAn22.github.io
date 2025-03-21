@@ -14,11 +14,6 @@
     border-bottom: 1.2px solid black;
 }
 
-#markdown-content .layout h1,
-#markdown-content .layout h2 {
-    border-bottom: none;
-}
-
 #markdown-content p {
     margin-bottom: 1em;
 }

@@ -139,47 +139,6 @@ tr:hover {
     opacity: 1;
 }
 
-.container {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-.layout {
-    padding: 15px;
-    background: #e0e0e0;
-    border-radius: 5px;
-    border: 0.5px solid black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.layout:first-child {
-    grid-column: span 3;
-}
-.layout:nth-child(2) {
-    grid-column: span 3;
-}
-.layout:nth-child(3) {
-    grid-column: 1;
-}
-.layout:nth-child(4) {
-    grid-column: span 2;
-}
-.layout:nth-child(5) {
-    grid-column: span 2;
-}
-.layout:nth-child(6) {
-    grid-column: 3;
-}
-/* .layout:last-child {
-    grid-column: span 3;
-} */
-
-/* .layout h1 {
-    font-size: 1.1em;
-    color: blue;
-    border-bottom: none;
-} */
-
 /* Mục lục */
 #toc {
     position: fixed;

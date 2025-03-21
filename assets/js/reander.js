@@ -22,7 +22,6 @@ function renderMarkdown(content) {
     //     return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
     // });
 
-    // Xử lý ghi chú dạng [text](note.annotation)
     const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/gi;
     renderedContent = renderedContent.replace(notePattern, (_, text, annotation) => {
         return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
@@ -30,35 +29,30 @@ function renderMarkdown(content) {
 
     markdownContentElement.innerHTML = renderedContent;
 
-    // Sau khi render xong, thay thế các liên kết thành onclick hoặc iframe nếu là YouTube
     const a_tags = markdownContentElement.getElementsByTagName('a');
     for (let a of a_tags) {
         const href = a.getAttribute('href');
 
         if (href) {
             if (href.endsWith('.md')) {
-                // Xử lý file Markdown (tải nội dung thay vì chuyển trang)
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
-            } else if (href.includes('www.youtube.com/embed/')){
-            // (href.includes('youtube.com') || href.includes('youtu.be'))
-                // Chuyển đổi URL YouTube thành iframe
-                const videoId = extractYouTubeID(href);
-                if (videoId) {
-                    const videoContainer = document.createElement('div');
-                    videoContainer.classList.add('video-container');
-                    videoContainer.innerHTML = `
-                        <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
-                    `;
-                    a.replaceWith(videoContainer); // Thay thế thẻ <a> bằng iframe
-                }
-            } else {
-                // Mở các liên kết bình thường trong tab mới
+            }  else if (href.includes('youtube.com') || href.includes('youtu.be')){
+                    const videoId = extractYouTubeID(href);
+                    if (videoId) {
+                        const videoContainer = document.createElement('div');
+                        videoContainer.classList.add('video-container');
+                        videoContainer.innerHTML = `
+                            <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+                        `;
+                        a.replaceWith(videoContainer); // Thay thế thẻ <a> bằng iframe
+                    }
+                }    
+            else {
                 a.setAttribute('target', '_blank');
             }
         }
     }
-
     if (window.MathJax) {
         // MathJax.typeset();
         MathJax.typesetPromise();

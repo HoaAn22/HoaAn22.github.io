@@ -73,7 +73,7 @@
     .container {
         grid-template-columns: 1fr; /* Chuyển về 1 cột */
         gap: 5px; /* Giảm khoảng cách giữa các ô */
-        padding: 5px; /* Giảm padding container */
+        padding: 10px; /* Giảm padding container */
         position: relative;
     }
 

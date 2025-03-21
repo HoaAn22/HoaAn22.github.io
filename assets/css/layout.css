@@ -51,13 +51,13 @@ footer {
 }
 .container {
     max-width: 100%;
-    padding: 10px;
+    padding: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 10px;
     background-color: #ffffff;
-    border: 2px solid black;
+    border: 1.5px solid black;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -160,7 +160,7 @@ footer {
     /* text-align: center; */
 }
 
-.container::before {
+/* .container::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -168,5 +168,25 @@ footer {
     width: 100%;
     height: 2px;
     background: black;
+    box-shadow: 0 -20px black, 0 -40px black, 0 20px black, 0 40px black;
+} */
+
+.container::before,
+.container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+
+.container::before {
+    top: 25%; /* Đường kẻ đầu tiên */
+    box-shadow: 0 -20px black, 0 -40px black, 0 20px black, 0 40px black;
+}
+
+.container::after {
+    top: 75%; /* Đường kẻ cuối cùng */
     box-shadow: 0 -20px black, 0 -40px black, 0 20px black, 0 40px black;
 }

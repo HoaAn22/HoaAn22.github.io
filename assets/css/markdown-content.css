@@ -10,10 +10,13 @@
 }
 
 #markdown-content h1,
-#markdown-content h2,
-.main h1, 
-.main h2 {
-    border-bottom: 1.5px solid gray;
+#markdown-content h2 {
+    border-bottom: 1.2px solid black;
+}
+
+#markdown-content .layout h1,
+#markdown-content .layout h2 {
+    border-bottom: none;
 }
 
 #markdown-content p {

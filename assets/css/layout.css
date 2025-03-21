@@ -73,6 +73,7 @@ footer {
     /* font-size: 18px; */
     /* font-weight: bold; */
     transition: transform 0.2s ease-in-out;
+    z-index: 1;
 }
 .layout:hover {
     transform: scale(1.02);

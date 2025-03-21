@@ -29,6 +29,11 @@ body.dark-mode .content {
     color: #f0f0f0;
 }
 
+body.dark-mode .layout:nth-child(3),
+body.dark-mode .layout:nth-child(6){
+    color: black;
+}
+
 body.dark-mode .dropdown-category {
     background-color: #3998fd;
 }

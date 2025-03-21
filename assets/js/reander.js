@@ -40,7 +40,8 @@ function renderMarkdown(content) {
                 // Xử lý file Markdown (tải nội dung thay vì chuyển trang)
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
-            } else if (href.includes('youtube.com') || href.includes('youtu.be')) {
+            } else if (href.includes('www.youtube.com/embed/')){
+            // (href.includes('youtube.com') || href.includes('youtu.be'))
                 // Chuyển đổi URL YouTube thành iframe
                 const videoId = extractYouTubeID(href);
                 if (videoId) {

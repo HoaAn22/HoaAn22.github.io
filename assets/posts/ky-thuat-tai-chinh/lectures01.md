@@ -8,8 +8,8 @@ Bắt đầu từ 2007, sự sụp đổ của các khoản vay dưới chuẩn 
 
 * Lãi suất vào những năm 1990 thấp, dẫn đến hình thành nên "bong bóng bất động sản".
 * Các "bong bóng bất động sản" được duy trì bởi các khoan vay dưới chuẩn. 
-* Do nhu cầu thêm vốn để cho vay, các ngân hàng đóng gói các khoảng vay thành các [**MBS(1)**](note. Mortgage-Backed Securities) và sự đánh giá không đúng chuẩn của các công ty xếp hạng tín dụng.
-* Sự cảm tính và tin tưởng của các nhà đầu tư vào tình hình kinh tế. Kể cả khi họ thấy được rủ roi tiềm ẩn.
+* Do nhu cầu thêm vốn để cho vay, các ngân hàng đóng gói các khoản vay thành các [**MBS(1)**](note. Mortgage-Backed Securities) và sự đánh giá không đúng chuẩn của các công ty xếp hạng tín dụng.
+* Sự cảm tính và tin tưởng của các nhà đầu tư vào tình hình kinh tế bất ổn. Kể cả khi họ thấy được rủ roi tiềm ẩn.
 
 *Cuộc khủng hoảng kinh tế bắt đầu như thế nào?*
 
@@ -18,7 +18,7 @@ Nhận thấy tình trạng lãi suất thấp, hình thành nên tình trạng 
 Khi lãi suất tăng lên người dân, người mà còn nợ các khoản vay mua nhà không còn đủ điều kiện tài chính để chi trả cho các khoan vay, các khoản vay đồng loạt vỡ nợ, các ngân hàng buộc phải thu hồi căn nhà thế chấp để chi trả. Nhưng nhà thu về nhiều trong khi nhu cầu mua bất động sản giảm do lãi suất tăng, lại kéo theo giá nhà giảm và người dân cảm thấy giá trị bất động sản không còn đủ động lực để tiếp tục trả các khoản vay. Khiến nên kinh tế trở thành 1 vòng lẩn quẩn, làm suy thoái nền kinh tế.
 
 *Video tham khảo về cuộc khủng hoảng tài chính:*
-[Khủng Hoảng Tài Chính 2008: Giải Thích Đơn Giản](www.youtube.com/watch?v=ptJBSM7TWFI)
+* [Khủng Hoảng Tài Chính 2008: Giải Thích Đơn Giản](https://www.youtube.com/watch?v=ptJBSM7TWFI)
 
 ---
 

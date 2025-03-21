@@ -51,7 +51,7 @@ footer {
 }
 .container {
     max-width: 100%;
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
@@ -62,7 +62,7 @@ footer {
     overflow: hidden;
 }
 .layout {
-    padding: 20px;
+    padding: 10px;
     background: linear-gradient(white, #ddd);
     border-radius: 8px;
     border: 1px solid black;

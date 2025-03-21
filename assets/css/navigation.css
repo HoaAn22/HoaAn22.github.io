@@ -164,9 +164,15 @@ tr:hover {
 .layout:nth-child(4) {
     grid-column: span 2;
 }
-.layout:last-child {
-    grid-column: span 3;
+.layout:nth-child(5) {
+    grid-column: span 2;
 }
+.layout:nth-child(6) {
+    grid-column: 3;
+}
+/* .layout:last-child {
+    grid-column: span 3;
+} */
 
 /* .layout h1 {
     font-size: 1.1em;

@@ -53,7 +53,8 @@ footer {
     max-width: 100%;
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 10px;
     background-color: #ffffff;
     border: 2px solid black;

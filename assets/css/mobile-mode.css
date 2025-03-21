@@ -137,17 +137,26 @@
     .layout:nth-child(1)::after,
     .layout:nth-child(2)::after,
     .layout:nth-child(4)::after,
-    .layout:nth-child(5)::after,
     .layout:nth-child(6)::after {
         content: "";
         position: absolute;
-        /* top: ; */
         right: 0px;
         width: 120px;
         height: 30px;
         background: black;
-        z-index: 100;
+        z-index: 2;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .layout:nth-child(5)::after{
+        left: auto;
+        right: 0px;
+    }
+
+    /* Ẩn các phần tử ::after không thuộc danh sách trên */
+    .layout:nth-child(3)::after,
+    .layout:nth-child(7)::after {
+        display: none;
     }
 
     /* Loại bỏ phím đen ở vị trí không hợp lệ (C, E, F, B không có nốt đen bên phải) */

@@ -50,7 +50,6 @@ img {
 }
 
 /* Định nghĩa kiểu cho toàn bộ bảng */
-
 /* display: block;
 overflow-x: auto;
 -webkit-overflow-scrolling: touch; */
@@ -64,7 +63,6 @@ table {
     font-size: 16px; /* Kích thước chữ */
     margin: 10px auto; /* Căn giữa hộp */
 }
-
 
 /* Định nghĩa kiểu cho các ô và đường viền */
 table, th, td {

@@ -73,7 +73,7 @@ footer {
     /* font-size: 18px; */
     /* font-weight: bold; */
     transition: transform 0.2s ease-in-out;
-    z-index: 1;
+    z-index: 10;
 }
 .layout:hover {
     transform: scale(1.02);
@@ -82,14 +82,12 @@ footer {
 
 .layout:first-child {
     grid-column: span 3;
-    background: black;
-    color: white;
+    background: white;
 }
 
 .layout:nth-child(2) {
     grid-column: span 3;
-    background: #222;
-    color: white;
+    background: white;
 }
 
 .layout:nth-child(3) {
@@ -105,8 +103,7 @@ footer {
 .layout:nth-child(4),
 .layout:nth-child(5) {
     grid-column: span 2;
-    background: black;
-    color: white;
+    background: white;
 }
 .layout:last-child {
     grid-column: span 3;
@@ -114,8 +111,46 @@ footer {
 
 .layout:nth-child(7) {
     grid-column: span 3;
-    background: #222;
-    color: white;
+    background: white;
+}
+
+.layout:nth-child(1)::after,
+.layout:nth-child(2)::after,
+.layout:nth-child(4)::after,
+.layout:nth-child(7)::after {
+    content: "";
+    position: absolute;
+    /* top: ; */
+    right: 0px;
+    width: 120px;
+    height: 30px;
+    background: black;
+    z-index: 100;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.layout:nth-child(6)::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 120px;
+    height: 30px;
+    background: black;
+    z-index: 100;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.layout:nth-child(3)::after,
+.layout:nth-child(5)::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 120px;
+    height: 30px;
+    background: black;
+    z-index: 100;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #markdown-content .layout h1,

@@ -69,4 +69,19 @@
         max-width: 300px; /* Giới hạn chiều rộng ô để giảm độ giãn bảng */
         font-size: 13px; /* Giảm kích thước chữ */
     }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: 1fr 1fr; */
+    }
+
+    .layout:nth-child(3),
+    .layout:nth-child(5) {
+        grid-column: 1;
+    }
+
+    .layout:nth-child(4),
+    .layout:nth-child(6) {
+        grid-column: 2;
+    }
 }

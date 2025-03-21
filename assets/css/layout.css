@@ -73,7 +73,6 @@ footer {
     /* font-size: 18px; */
     /* font-weight: bold; */
     transition: transform 0.2s ease-in-out;
-    z-index: 10;
 }
 .layout:hover {
     transform: scale(1.02);
@@ -121,11 +120,10 @@ footer {
     content: "";
     position: absolute;
     /* top: ; */
-    right: 0px;
+    right: -1px;
     width: 120px;
     height: 30px;
     background: black;
-    z-index: 100;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -133,11 +131,10 @@ footer {
     content: "";
     position: absolute;
     bottom: -20px;
-    right: 0px;
+    right: -1px;
     width: 120px;
     height: 30px;
     background: black;
-    z-index: 100;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -145,11 +142,10 @@ footer {
 .layout:nth-child(5)::after {
     content: "";
     position: absolute;
-    left: 0px;
+    left: -1px;
     width: 120px;
     height: 30px;
     background: black;
-    z-index: 100;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -160,33 +156,15 @@ footer {
     /* text-align: center; */
 }
 
-/* .container::before {
+.container::before {
     content: "";
     position: absolute;
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
-    background: black;
-    box-shadow: 0 -20px black, 0 -40px black, 0 20px black, 0 40px black;
-} */
-
-.container::before,
-.container::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
     height: 1px;
     background: black;
-}
-
-.container::before {
-    top: 25%; /* Đường kẻ đầu tiên */
-    box-shadow: 0 -20px black, 0 -40px black, 0 20px black, 0 40px black;
-}
-
-.container::after {
-    top: 75%; /* Đường kẻ cuối cùng */
-    box-shadow: 0 -20px black, 0 -40px black, 0 20px black, 0 40px black;
+    box-shadow: 0 -140px black, 0 -160px black, 0 -180px black, 0 -200px black, 0 -220px black,
+                0 -20px black, 0 -40px black, 0 20px black, 0 40px black,
+                0 140px black, 0 160px black, 0 180px black, 0 200px black, 0 220px black;       
 }

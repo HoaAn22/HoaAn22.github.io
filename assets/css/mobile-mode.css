@@ -140,7 +140,7 @@
     .layout:nth-child(6)::after {
         content: "";
         position: absolute;
-        right: 0px;
+        right: -1px;
         width: 120px;
         height: 30px;
         background: black;
@@ -150,7 +150,7 @@
 
     .layout:nth-child(5)::after{
         left: auto;
-        right: 0px;
+        right: -1px;
     }
 
     /* Ẩn các phần tử ::after không thuộc danh sách trên */

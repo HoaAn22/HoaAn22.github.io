@@ -119,7 +119,6 @@ footer {
 .layout:nth-child(7)::after {
     content: "";
     position: absolute;
-    /* top: ; */
     right: -1px;
     width: 120px;
     height: 30px;

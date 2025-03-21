@@ -144,13 +144,14 @@
         width: 120px;
         height: 30px;
         background: black;
-        z-index: 2;
+        z-index: 1;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
 
     .layout:nth-child(5)::after{
         left: auto;
         right: -1px;
+        z-index: 1;
     }
 
     /* Ẩn các phần tử ::after không thuộc danh sách trên */

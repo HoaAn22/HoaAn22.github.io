@@ -44,12 +44,17 @@ footer {
     flex-basis: 80%;
     padding: 20px;
     /* background-color: #fff; */
+    /* position: relative;
+    overflow: hidden;
+    border: 1.5px solid black;
+    border-radius: 5px; */
 }
 .container {
     max-width: 100%;
     padding: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    top: -10px;
     /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 10px;
     background-color: #ffffff;
@@ -58,6 +63,7 @@ footer {
     position: relative;
     overflow: hidden;
 }
+
 .layout {
     padding: 10px;
     /* background: linear-gradient(white, #ddd); */

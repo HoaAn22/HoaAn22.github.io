@@ -16,8 +16,8 @@ body {
 
 /* Layout Components */
 header {
-    background-color: #F8F8F8;
-    color: #333333;
+    background-color: #1C1C1C;
+    color: white;
     padding: 1em;
     text-align: center;
 }
@@ -27,6 +27,7 @@ main {
     justify-content: space-between;
     padding: 20px;
     flex-grow: 1;
+    /* background-color: #E5E5E5; */
 }
 
 footer {
@@ -34,14 +35,15 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: auto;
-    background-color: #F8F8F8;
+    background-color: #1C1C1C;
+    color: white;
 }
 
 /* Content Styles */
 .content {
     flex-basis: 80%;
     padding: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 .container {
     max-width: 100%;

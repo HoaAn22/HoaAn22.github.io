@@ -70,22 +70,21 @@
         font-size: 13px; /* Giảm kích thước chữ */
     }
 
-    #sidebar-placeholder{
+    /* #sidebar-placeholder{
         --section-max-width: none;
         --section-width: 100%;
         max-width: var(--section-max-width);
         width: var(--section-width);
-    }
+    } */
 
     .container {
         grid-template-columns: 1fr; /* Chuyển về 1 cột */
         gap: 5px; /* Giảm khoảng cách giữa các ô */
         padding: 10px; /* Giảm padding container */
         position: relative;
-        width: 110%;
+        /* width: 110%;
         max-width: var(--section-max-width);
-        /* margin: 0 auto; */
-        margin-left: -10px;
+        margin-left: -10px; */
     }
 
     .layout:first-child,

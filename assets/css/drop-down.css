@@ -1,7 +1,8 @@
 /* Dropdown Styles */
 .dropdown {
     position: relative;
-    margin-bottom: 10px;
+    /* Khoảng cách giữa các dropdown */
+    margin-bottom: 10px; 
 }
 
 .sidebar {

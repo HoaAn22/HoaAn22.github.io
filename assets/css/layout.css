@@ -167,7 +167,10 @@ footer {
     width: 100%;
     height: 1px;
     background: black;
-    box-shadow: 0 -140px black, 0 -160px black, 0 -180px black, 0 -200px black, 0 -220px black,
+    /* Khoảng cách 100px */
+    box-shadow: 0 -320px black, 0 -340px black, 0 -360px black, 0 -380px black, 0 -400px black,
+                0 -140px black, 0 -160px black, 0 -180px black, 0 -200px black, 0 -220px black,
                 0 -20px black, 0 -40px black, 0 20px black, 0 40px black,
-                0 140px black, 0 160px black, 0 180px black, 0 200px black, 0 220px black;       
+                0 140px black, 0 160px black, 0 180px black, 0 200px black, 0 220px black,
+                0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black;
 }

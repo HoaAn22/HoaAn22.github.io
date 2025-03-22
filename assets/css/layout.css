@@ -41,20 +41,35 @@ footer {
 
 /* Content Styles */
 .content {
+    display: flex;
+    flex-direction: column;
     flex-basis: 80%;
     padding: 20px;
+    /* height: 100%; */
     /* background-color: #fff; */
     /* position: relative;
     overflow: hidden;
     border: 1.5px solid black;
     border-radius: 5px; */
 }
+
+section {
+    flex: 1;
+}
+
+#markdown-content {
+    flex: 1;
+}
+
+section {
+    margin-top: -20px;
+}
+
 .container {
-    max-width: 100%;
+    flex: 1;
     padding: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    top: -10px;
     /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 10px;
     background-color: #ffffff;
@@ -62,6 +77,7 @@ footer {
     border-radius: 5px;
     position: relative;
     overflow: hidden;
+
 }
 
 .layout {
@@ -167,10 +183,54 @@ footer {
     width: 100%;
     height: 1.5px;
     background: black;
-    /* Khoảng cách 100px */
-    box-shadow: 0 -320px black, 0 -340px black, 0 -360px black, 0 -380px black, 0 -400px black,
+    box-shadow: 0 -500px black, 0 -520px black, 0 -540px black, 0 -560px black, 0 -580px black,
+                0 -320px black, 0 -340px black, 0 -360px black, 0 -380px black, 0 -400px black,
                 0 -140px black, 0 -160px black, 0 -180px black, 0 -200px black, 0 -220px black,
                 0 -20px black, 0 -40px black, 0 20px black, 0 40px black,
                 0 140px black, 0 160px black, 0 180px black, 0 200px black, 0 220px black,
-                0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black;
+                0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black,
+                0 500px black, 0 520px black, 0 540px black, 0 560px black, 0 580px black;
 }
+
+
+/* .container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background: black;
+
+    --first: 0px;
+    --spacing: 20px;
+    --tab: 100px;
+
+    box-shadow: 
+                0 calc(var(--first) + var(--spacing) * 2 + var(--tab) * 1) black,
+                0 calc(var(--first) + var(--spacing) * 3 + var(--tab) * 1) black,
+                0 calc(var(--first) + var(--spacing) * 4 + var(--tab) * 1) black,
+                0 calc(var(--first) + var(--spacing) * 5 + var(--tab) * 1) black,
+                0 calc(var(--first) + var(--spacing) * 6 + var(--tab) * 1) black,
+
+                0 calc(var(--first) + var(--spacing) * 2) black,
+                0 calc(var(--first) + var(--spacing) * 1) black,
+                0 var(--first) black,
+                0 calc(var(--first) - var(--spacing) * 1) black,
+                0 calc(var(--first) - var(--spacing) * 2) black;
+} */
+
+/* .container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        to bottom,
+        black 0px,
+        black 0.5px,
+        transparent 100px
+    );
+} */

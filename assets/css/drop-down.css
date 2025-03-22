@@ -3,30 +3,28 @@
     position: relative;
     /* Khoảng cách giữa các dropdown */
     margin-bottom: 10px; 
+    /* padding: 0px; */
 }
 
 .sidebar {
-    flex-basis: 20%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
+    flex-basis: 20%;
+    padding: 0px;
     /* background: black; */
     /* border-radius: 5px; */
     /* border: 1.5px solid black; */
 }
 
 .dropbtn {
-    /* background-color: #007bff; */
-    /* background-color: black; */
-    background-color: white;;
-    /* color: white; */
-    color: black;
-    border: 1px solid black;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
     display: block;
     cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .dropdown-category {
@@ -37,7 +35,7 @@
     background-color: #505050;
     border: 1px solid black;
     border-radius: 5px;
-    min-width: 160px;
+    min-width: 100px;
     z-index: 1;
     left: 100%;
     top: 0;
@@ -65,12 +63,12 @@
     z-index: 1;
 }
 
-.dropdown-category a, .dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    /* color: white; */
-    color: black;
+.dropdown-item a,
+.dropdown-content a {
     display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
 }
 
 /* .dropdown-category a:hover, .dropdown-content a:hover {
@@ -81,7 +79,7 @@
 .category-btn {
     display: none;
     width: 100%;
-    padding: 10px 15px;
+    padding: 10px;
     background: linear-gradient(to right, white, black);
     color: black;
     border: 1.5px solid black;
@@ -90,6 +88,7 @@
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /* Transition Effects */

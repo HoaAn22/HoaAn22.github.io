@@ -4,12 +4,20 @@
         flex-direction: column;
     }
 
+    .content {
+        padding: 0px;
+    }
+
     .sidebar, .content {
         flex-basis: 100%;
     }
 
     .sidebar {
         width: 100%;
+    }
+
+    section {
+        margin-top: 10px;
     }
 
     .dropdown {
@@ -78,13 +86,12 @@
     } */
 
     .container {
-        grid-template-columns: 1fr; /* Chuyển về 1 cột */
-        gap: 5px; /* Giảm khoảng cách giữa các ô */
-        padding: 10px; /* Giảm padding container */
+        flex: 1;
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 5px;
         position: relative;
-        /* width: 110%;
-        max-width: var(--section-max-width);
-        margin-left: -10px; */
+        top: 0px;
     }
 
     .layout:first-child,

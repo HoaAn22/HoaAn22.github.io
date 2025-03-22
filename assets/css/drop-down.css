@@ -117,6 +117,7 @@
     background: black;
 }
 
-.dropdown:nth-child(4n-1)::after{
+.dropdown:nth-child(7n-4)::after,
+.dropdown:nth-child(7n)::after {
     display: none;
 }

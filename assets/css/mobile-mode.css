@@ -150,14 +150,14 @@
     }
 
     /* Ẩn các phần tử ::after không thuộc danh sách trên */
-    /* .layout:nth-child(3)::after,
+    .layout:nth-child(3)::after,
     .layout:nth-child(7)::after {
         display: none;
-    } */
-
-    .layout:nth-child(4n-1)::after {
-        display: none;
     }
+
+    /* .layout:nth-child(4n-1)::after {
+        display: none;
+    } */
 
     /* Loại bỏ phím đen ở vị trí không hợp lệ (C, E, F, B không có nốt đen bên phải) */
     /* .layout:nth-child(3n + 3)::after {

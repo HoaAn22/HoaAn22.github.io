@@ -42,7 +42,7 @@ body.dark-mode #sidebar-placeholder {
 } */
 
 body.dark-mode .layout {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 /* body.dark-mode .dropdown-category {

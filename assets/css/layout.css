@@ -165,7 +165,7 @@ footer {
     top: 50%;
     left: 0;
     width: 100%;
-    height: 1px;
+    height: 1.5px;
     background: black;
     /* Khoảng cách 100px */
     box-shadow: 0 -320px black, 0 -340px black, 0 -360px black, 0 -380px black, 0 -400px black,

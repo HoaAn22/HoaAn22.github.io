@@ -50,15 +50,7 @@ body.dark-mode .layout {
 } */
 
 body.dark-mode #markdown-content em {
-    color: #4da6ff;
-}
-
-body.dark-mode a{
-    color: #4da6ff;
-}
-
-body.dark-mode .layout a {
-    color: rgb(0, 0, 255);
+    color: #4169E1;
 }
 
 /* thẻ a có class='dropbth' sẽ được giữ nguyên màu chữ */

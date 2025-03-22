@@ -19,13 +19,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007bff;
 }
 
 a {
-    color: rgb(0, 0, 255);
+    color: #4169E1;
 }
 
+ol {
+    padding-left: 5px;
+    /* margin-left: 5px; */
+}
 /* Image Styles */
 img {
     max-width: 90%;
@@ -75,7 +78,7 @@ table, th, td {
 
 /* Định nghĩa kiểu cho tiêu đề bảng */
 th {
-    background-color: #007bff; /* Màu nền của hàng tiêu đề */
+    background-color: #4169E1; /* Màu nền của hàng tiêu đề */
     color: white; /* Màu chữ của tiêu đề */
     font-weight: bold; /* In đậm chữ */
 }

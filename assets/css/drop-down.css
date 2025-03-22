@@ -4,12 +4,26 @@
     margin-bottom: 10px;
 }
 
+.sidebar {
+    flex-basis: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* background: black; */
+    /* border-radius: 5px; */
+    /* border: 1.5px solid black; */
+}
+
 .dropbtn {
-    background-color: #007bff;
-    color: white;
+    /* background-color: #007bff; */
+    /* background-color: black; */
+    background-color: white;;
+    /* color: white; */
+    color: black;
+    border: 1px solid black;
     padding: 10px 15px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 5px;
     display: block;
     cursor: pointer;
 }
@@ -17,8 +31,11 @@
 .dropdown-category {
     display: none;
     position: absolute;
-    background-color: #3998fd;
-    border-radius: 4px;
+    /* background-color: #3998fd; */
+    /* background-color: white; */
+    background-color: #333333;
+    border: 1px solid black;
+    border-radius: 5px;
     min-width: 160px;
     z-index: 1;
     left: 100%;
@@ -28,6 +45,8 @@
 
 .dropdown-item {
     position: relative;
+    /* color: white; */
+    /* text-decoration: underline; */
 }
 
 .dropdown-content {
@@ -36,16 +55,19 @@
     left: 100%;
     top: 0;
     min-width: 160px;
-    background-color: #7abaff;
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* background-color: #7abaff; */
+    background-color: #808080;
+    border: 1px solid black;
+    /* text-decoration: underline; */
+    border-radius: 5px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
 }
 
 .dropdown-category a, .dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
 }
 
@@ -58,12 +80,12 @@
     display: none;
     width: 100%;
     padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
+    background: linear-gradient(to right, white, black);
+    color: black;
+    border: 1.5px solid black;
     text-align: left;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -71,4 +93,30 @@
 /* Transition Effects */
 .dropdown-category, .dropdown-content {
     transition: all 0.3s ease;
+}
+
+#sidebar-placeholder {
+    border: white;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Gây lỗi hiển thị */
+/* .dropdown:hover {
+    transform: scale(1.02);
+} */
+
+.dropdown::after{
+    content: "";
+    position: absolute;
+    right: -1px;
+    bottom: -10px;
+    width: 60px;
+    height: 15px;
+    background: black;
+}
+
+.dropdown:nth-child(4n-1)::after{
+    display: none;
 }

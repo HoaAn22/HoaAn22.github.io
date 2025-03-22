@@ -107,7 +107,6 @@
         width: 100px;
         height: 20px;
         background: black;
-        z-index: 2;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
     }
 
@@ -119,7 +118,6 @@
         width: 25%;
         height: 60%;
         background: black;
-        z-index: 3;
     } */
     
     /* .layout:nth-child(odd)::after {
@@ -130,7 +128,6 @@
         width: 120px;
         height: 30px;
         background: black;
-        z-index: 1;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     } */
 
@@ -144,19 +141,21 @@
         width: 120px;
         height: 30px;
         background: black;
-        /* z-index: 1; */
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
 
     .layout:nth-child(5)::after{
         left: auto;
         right: -1px;
-        /* z-index: 1; */
     }
 
     /* Ẩn các phần tử ::after không thuộc danh sách trên */
-    .layout:nth-child(3)::after,
+    /* .layout:nth-child(3)::after,
     .layout:nth-child(7)::after {
+        display: none;
+    } */
+
+    .layout:nth-child(4n-1)::after {
         display: none;
     }
 

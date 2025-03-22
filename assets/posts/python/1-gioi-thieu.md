@@ -1,3 +1,6 @@
+# Giới thiệu python
+Download: [Python](https://www.python.org/downloads/windows/)
+
 # Tổng hợp thư viện python
 
 ## Thư viện thu thập dữ liệu
@@ -25,6 +28,10 @@ Scipy
 chardet: Thư viện xử lý file mã hóa
 
 pdfplumber: Xử lý file pdf
+
+# Thư viện xây dựng ứng dụng
+
+Django
 
 ## Thư viện xây dựng và kết nối CSDL
 

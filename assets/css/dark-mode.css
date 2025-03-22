@@ -57,6 +57,10 @@ body.dark-mode a{
     color: #4da6ff;
 }
 
+body.dark-mode .layout a {
+    color: rgb(0, 0, 255);
+}
+
 /* thẻ a có class='dropbth' sẽ được giữ nguyên màu chữ */
 body.dark-mode a.dropbtn{
     color: inherit;

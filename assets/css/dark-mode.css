@@ -188,3 +188,11 @@ body.dark-mode .md-note{
     background-color: rgb(50, 50, 50);
     border: 0.5px solid white;
 } */
+
+body.dark-mode #markdown-content {
+    border: 1.5px solid #f0f0f0;
+}
+
+body.dark-mode #markdown-content:has(.container) {
+    border: none;
+}

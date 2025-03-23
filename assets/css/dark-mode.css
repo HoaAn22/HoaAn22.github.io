@@ -59,9 +59,12 @@ body.dark-mode a.dropbtn{
 }
 
 body.dark-mode .note {
-    background-color: #6e6e6e;
-    border-left-color: #ff9800;
+    background-color: #3e3e3e;
     color: #f0f0f0;
+}
+
+body.dark-mode .md-note{
+    background-color: #3e3e3e;
 }
 
 /* body.dark-mode .dropdown-content {
@@ -178,10 +181,6 @@ body.dark-mode tr:nth-child(odd) {
 /* Đổi màu khi di chuột qua hàng */
 body.dark-mode tr:hover {
     background-color: rgb(30, 30, 30); /* Màu nền khi di chuột qua */
-}
-
-body.dark-mode .md-note{
-    background-color: #6e6e6e;
 }
 
 /* body.dark-mode .layout{

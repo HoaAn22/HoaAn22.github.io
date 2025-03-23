@@ -78,10 +78,6 @@
     z-index: 1;
 }
 
-
-
-
-
 /* .dropdown-category a:hover, .dropdown-content a:hover {
     background-color: #f1f1f1;
 } */
@@ -120,7 +116,7 @@
     transform: scale(1.02);
 } */
 
-.dropdown::after{
+.dropdown::after {
     content: "";
     position: absolute;
     right: -1px;

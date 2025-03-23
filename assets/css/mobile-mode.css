@@ -83,7 +83,7 @@
         font-size: 13px; /* Giảm kích thước chữ */
     }
 
-    /* #sidebar-placeholder{
+    /* #sidebar-placeholder {
         --section-max-width: none;
         --section-width: 100%;
         max-width: var(--section-max-width);

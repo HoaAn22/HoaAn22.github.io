@@ -72,11 +72,6 @@ body.dark-mode .md-note{
     box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
 } */
 
-body.dark-mode .dropdown-category a, 
-body.dark-mode .dropdown-content a {
-    color: #f0f0f0;
-}
-
 /* body.dark-mode .dropdown-category a:hover, 
 body.dark-mode .dropdown-content a:hover {
     background-color: #4d4d4d;

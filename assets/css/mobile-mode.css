@@ -29,6 +29,11 @@
         text-align: left;
     }
 
+    .dropdown-item,
+    .dropdown-content {
+        width: auto;
+    }
+
     .dropdown-category, .dropdown-content {
         min-width: 100%;
         left: 0;

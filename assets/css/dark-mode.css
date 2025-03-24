@@ -30,7 +30,6 @@ body.dark-mode .sidebar {
 }
 
 body.dark-mode #sidebar-placeholder {
-    background-color: white;
     transition: background-color 0.3s, color 0.3s;
     color: black;
 }
@@ -41,8 +40,12 @@ body.dark-mode #sidebar-placeholder {
     color: #f0f0f0;
 } */
 
+body.dark-mode #sidebar-placeholder,
+body.dark-mode .dropbtn,
+body.dark-mode .container,
 body.dark-mode .layout {
     color: rgb(0, 0, 0);
+    background-color: #f8f8f8;
 }
 
 /* body.dark-mode .dropdown-category {
@@ -113,7 +116,7 @@ body.dark-mode .main h2 {
     top: 10px; /* Khoảng cách từ phía trên màn hình */
     right: 10px; /* Khoảng cách từ phía phải màn hình */
     z-index: 1000; /* Đảm bảo nút nằm trên cùng */
-    background-color: white; /* Màu nền (có thể thay đổi tuỳ thích) */
+    background-color: white; /* Màu nền*/
     border-radius: 10px; /* Bo tròn nút */
     border: 1px solid black;
     padding: 5px; /* Khoảng cách bên trong nút */

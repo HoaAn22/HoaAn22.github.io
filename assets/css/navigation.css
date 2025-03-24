@@ -1,8 +1,10 @@
 /* Navigation Styles */
-ul ul {
-    border-left: 1px solid gray; /* Đường viền bên trái */
-    padding-left: 20px; /* Tạo khoảng cách giữa đường viền và nội dung */
+ul ul li {
+    /* border-left: 1px solid gray; */
+    padding-left: 10px;
     /* background-color: #f0f0f0; */
+    border: 1.2px solid black;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -29,6 +31,7 @@ ol {
     /* padding-left: 20px; */
     margin-left: 20px;
 }
+
 /* Image Styles */
 img {
     max-width: 90%;
@@ -175,3 +178,4 @@ tr:hover {
     color: white;
     font-weight: bold;
 }
+

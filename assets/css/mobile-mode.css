@@ -186,4 +186,15 @@
         display: none;
     } */
 
+    .bar {
+        opacity: 0.5;  
+    }
+
+    header .wave-bars {
+        display: none;
+    }
+    
+    footer .wave-bars {
+        display: none;
+    }
 }

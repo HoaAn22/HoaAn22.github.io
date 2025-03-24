@@ -19,12 +19,11 @@
 }
 
 /* #markdown-content strong {
-    font-weight: bold;
     font-size: 1.1em;
 } */
 
 #markdown-content em {
-    color: rgb(0, 0, 255);
+    color: #4169E1;
 }
 
 #markdown-content code {

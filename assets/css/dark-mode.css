@@ -190,3 +190,7 @@ body.dark-mode #markdown-content {
 body.dark-mode #markdown-content:has(.container) {
     border: none;
 }
+
+body.dark-mode ul ul li {
+    border: 1.2px solid #f0f0f0;;
+}

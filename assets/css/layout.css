@@ -16,6 +16,7 @@ body {
 
 /* Layout Components */
 header {
+    position: relative;
     background-color: #1C1C1C;
     color: white;
     padding: 1em;
@@ -31,12 +32,14 @@ main {
 }
 
 footer {
+    position: relative;
     padding: 10px;
     width: 100%;
     text-align: center;
     margin-top: auto;
     background-color: #1C1C1C;
     color: white;
+    padding: 1.5em;
 }
 
 /* Content Styles */

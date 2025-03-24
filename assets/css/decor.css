@@ -1,0 +1,38 @@
+.wave-bars {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    pointer-events: none;
+}
+
+.bar {
+    width: 15px;
+    height: 80px;
+    background: #f0f0f0;
+    animation: wave-animation 3s infinite ease-in-out;
+    transition: opacity 0.3s ease, height 0.3s ease;
+    /* mix-blend-mode: multiply; */
+}
+
+.bar:nth-child(3),
+.bar:nth-child(5),
+.bar:nth-child(8),
+.bar:nth-child(10),
+.bar:nth-child(12) {
+    width: 1.5px;
+    height: 55px;
+}
+
+header .wave-bars {
+    top: 0;
+    right: 50px;
+    flex-direction: row-reverse;
+}
+
+footer .wave-bars {
+    bottom: 0;
+    left: 50px;
+    flex-direction: row-reverse;
+    transform: rotate(180deg);
+}
+

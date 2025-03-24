@@ -1,16 +1,15 @@
 .wave-bars {
+    pointer-events: none;
     position: absolute;
     display: flex;
     gap: 5px;
-    pointer-events: none;
 }
 
 .bar {
     width: 15px;
     height: 80px;
     background: #f8f8f8;
-    animation: wave-animation 3s infinite ease-in-out;
-    transition: opacity 0.3s ease, height 0.3s ease;
+    /* opacity: 0.5; */
     /* mix-blend-mode: multiply; */
 }
 
@@ -35,4 +34,3 @@ footer .wave-bars {
     flex-direction: row-reverse;
     transform: rotate(180deg);
 }
-

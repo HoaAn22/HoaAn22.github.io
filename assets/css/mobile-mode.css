@@ -186,15 +186,20 @@
         display: none;
     } */
 
-    .bar {
-        opacity: 0.5;  
-    }
+    /* .bar {
+        opacity: 0.5;
+    } */
 
     header .wave-bars {
         display: none;
+        /* right: auto !important; 
+        left: 0; */
     }
     
     footer .wave-bars {
         display: none;
+        /* left: auto !important;
+        right: 0; */
     }
+
 }

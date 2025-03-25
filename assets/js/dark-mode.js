@@ -1,3 +1,6 @@
+// Check for saved dark mode preference
+const savedDarkMode = localStorage.getItem('darkMode');
+
 function setDarkMode(isDark) {
     if (isDark) {
         document.body.classList.add('dark-mode');
@@ -6,9 +9,6 @@ function setDarkMode(isDark) {
     }
     localStorage.setItem('darkMode', isDark);
 }
-
-// Check for saved dark mode preference
-const savedDarkMode = localStorage.getItem('darkMode');
 
 // Apply the saved preference or default to light mode
 if (savedDarkMode === 'true') {

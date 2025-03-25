@@ -28,15 +28,21 @@ Kỹ thuật tài chính, nghiên cứu tập trung vào chứng khoán phái si
 
 Kỹ thuật tài chính giúp tạo nên các sản phẩm phái sinh dựa trên sự tính toán cân bằng giữa tài sản và biến cố để đáp ứng được yêu cầu cụ thể. Bằng cách ứng dụng toán học vào tài chính, kỹ thuật tài chính còn đóng vai trò quan trọng trong định giá và quản lý rủi ro các sản phẩm phái sinh.
 
+---
+
 **Mục tiêu của môn học**
 
-
+---
 
 **Ứng dụng của [FE](note. Financial Engineering) trong định giá Chứng khoán Phái sinh & Quản lý rủi ro**
 
 Mô hình hóa và tính toán mối quan hệ giữa giá của [**tài sản cơ sở (2)**](note. Underlying assets/variables) và giá của sản phẩm phái sinh.
 
+---
 
+**Bài tập**
+
+---
 
 # Chú thích về thuật ngữ
 

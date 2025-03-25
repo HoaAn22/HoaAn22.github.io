@@ -5,7 +5,10 @@
     gap: 5px;
 }
 
-.bar {
+
+/* Trang trí cho header & footer (destop) */
+header .bar,
+footer .bar {
     width: 15px;
     height: 80px;
     background: #f8f8f8;
@@ -13,11 +16,16 @@
     /* mix-blend-mode: multiply; */
 }
 
-.bar:nth-child(3),
-.bar:nth-child(5),
-.bar:nth-child(8),
-.bar:nth-child(10),
-.bar:nth-child(12) {
+header .bar:nth-child(3),
+header .bar:nth-child(5),
+header .bar:nth-child(8),
+header .bar:nth-child(10),
+header .bar:nth-child(12),
+footer .bar:nth-child(3),
+footer .bar:nth-child(5),
+footer .bar:nth-child(8),
+footer .bar:nth-child(10),
+footer .bar:nth-child(12) {
     width: 1.5px;
     height: 55px;
 }

@@ -87,8 +87,8 @@
     display: none;
     width: 100%;
     padding: 10px;
-    background: linear-gradient(to right, white, black);
-    color: black;
+    background: black;
+    color: #f8f8f8;
     border: 1.5px solid black;
     text-align: left;
     cursor: pointer;

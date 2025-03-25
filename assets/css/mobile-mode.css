@@ -202,4 +202,14 @@
         right: 0; */
     }
 
+    body.dark-mode #sidebar-placeholder{
+        background-color: black;
+    }
+    body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) {
+        background-color: #f8f8f8;
+    }
+    body.dark-mode .category-btn {
+        border: 1.5px solid #f8f8f8;
+    }
+
 }

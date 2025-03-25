@@ -202,19 +202,30 @@
         right: 0; */
     }
 
-    body.dark-mode #sidebar-placeholder{
+    #sidebar-placeholder,
+    body.dark-mode #sidebar-placeholder {
         background-color: #1C1C1C;
     }
+
+    .category-btn,
     body.dark-mode .category-btn {
         border: none;
         border-radius: 0px;
     }
+    #sidebar-placeholder:has(.dropdown-container.show),
     body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) {
         background-color: #f8f8f8;
+        transition: background-color 0.3s, color 0.3s;
     }
+
+    #sidebar-placeholder:has(.dropdown-container.show) .category-btn,
     body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) .category-btn {
         border: 1.5px solid #1C1C1C;
         border-radius: 5px;
+    }
+
+    #sidebar-placeholder {
+        border: 1.5px solid black;
     }
 
     body.dark-mode #sidebar-placeholder {

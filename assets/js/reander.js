@@ -53,6 +53,7 @@ function renderMarkdown(content) {
 }
 
 // Hàm để tải file Markdown khi nhấp vào liên kết
+
 // function loadMarkdownFile(filePath) {
 //     fetch(filePath)
 //         .then(response => response.text())

@@ -30,6 +30,11 @@ footer .bar:nth-child(12) {
     height: 55px;
 }
 
+header .wave-bars,
+footer .wave-bars {
+    gap: 5px;
+}
+
 header .wave-bars {
     top: 0;
     right: 50px;
@@ -41,4 +46,30 @@ footer .wave-bars {
     left: 50px;
     flex-direction: row-reverse;
     transform: rotate(180deg);
+}
+
+/* Trang trí Danh mục (mobile) */
+.category-btn .wave-bars {
+    gap: 3px;
+}
+
+.category-btn .bar {
+    width: 15px;
+    height: 40px;
+    background: #f8f8f8;
+}
+
+.category-btn .bar:nth-child(2),
+.category-btn .bar:nth-child(4),
+.category-btn .bar:nth-child(7),
+.category-btn .bar:nth-child(9),
+.category-btn .bar:nth-child(11) {
+    width: 1.2px;
+    height: 25px;
+}
+
+.category-btn .wave-bars {
+    top: 0;
+    right: 0px;
+    flex-direction: row-reverse;
 }

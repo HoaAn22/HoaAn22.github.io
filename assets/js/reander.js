@@ -73,6 +73,40 @@ function renderMarkdown(content) {
 //         .catch(error => console.error('Error loading file:', error));
 // }
 
+// function loadMarkdownFile(filePath) {
+//     fetch(filePath)
+//         .then(response => response.text())
+//         .then(text => {
+//             renderMarkdown(text);
+//             window.location.hash = encodeURIComponent(filePath); // Cập nhật URL hash
+
+//             // Cập nhật <title> thành tiêu đề bài viết từ link <a>
+//             const links = document.querySelectorAll('a[onclick]'); // Lấy tất cả thẻ <a> có thuộc tính [onclick]
+//             let selectedTitle = "";
+            
+//             for (let link of links) { // Duyệt tất cả thẻ <a> tìm được
+//                 const onclickValue = link.getAttribute('onclick'); // Lấy nội dung của thuộc tính [onclick]
+//                 if (onclickValue.includes(filePath)) { // Nếu nội dung thuộc tính chứa 'filePath'
+//                     selectedTitle = link.innerText.trim(); // Lưu lại tiêu đề từ thẻ <a>
+                    
+//                     let parent = link.parentElement.parentElement; // Lấy thẻ cha của nó
+//                     while (parent) { // Duyệt lên trên để tìm thẻ <a> khác trong thẻ cha
+//                         let parentLink = parent.querySelector('a'); // Tìm thẻ <a> trong thẻ cha
+//                         if (parentLink && parentLink !== link) { // Nếu tìm thấy và không phải chính nó
+//                             document.title = `[${parentLink.innerText.trim()}] - ${selectedTitle} - An's blog`;
+//                             return;
+//                         }
+//                         parent = parent.parentElement; // Tiếp tục tìm kiếm ở cấp cha tiếp theo
+//                     }
+                    
+//                     document.title = `${selectedTitle} - An's blog`; // Nếu không tìm thấy thẻ <a> cha thì dùng tiêu đề gốc
+//                     return;
+//                 }
+//             }
+//         })
+//         .catch(error => console.error('Error loading file:', error));
+// }
+
 function loadMarkdownFile(filePath) {
     fetch(filePath)
         .then(response => response.text())
@@ -81,26 +115,34 @@ function loadMarkdownFile(filePath) {
             window.location.hash = encodeURIComponent(filePath); // Cập nhật URL hash
 
             // Cập nhật <title> thành tiêu đề bài viết từ link <a>
-            const links = document.querySelectorAll('a[onclick]'); // Lấy tất cả thẻ <a> có thuộc tính [onclick]
+            const links = document.querySelectorAll('a[onclick]');
             let selectedTitle = "";
-            
-            for (let link of links) { // Duyệt tất cả thẻ <a> tìm được
-                const onclickValue = link.getAttribute('onclick'); // Lấy nội dung của thuộc tính [onclick]
-                if (onclickValue.includes(filePath)) { // Nếu nội dung thuộc tính chứa 'filePath'
-                    selectedTitle = link.innerText.trim(); // Lưu lại tiêu đề từ thẻ <a>
-                    
-                    let parent = link.parentElement; // Lấy thẻ cha của nó
-                    while (parent) { // Duyệt lên trên để tìm thẻ <a> khác trong thẻ cha
-                        let parentLink = parent.querySelector('a'); // Tìm thẻ <a> trong thẻ cha
-                        if (parentLink && parentLink !== link) { // Nếu tìm thấy và không phải chính nó
-                            document.title = `[${parentLink.innerText.trim()}] - ${selectedTitle}`;
-                            return;
+            let categoryTitle = "";
+
+            for (let link of links) {
+                const onclickValue = link.getAttribute('onclick');
+                if (onclickValue.includes(filePath)) { 
+                    selectedTitle = link.innerText.trim(); 
+
+                    let parent = link.parentElement;
+                    while (parent) { 
+                        if (parent.classList.contains("dropdown-item")) { // Chỉ lấy tiêu đề từ dropdown-item
+                            let parentLink = parent.querySelector('a'); 
+                            if (parentLink && parentLink !== link) { 
+                                categoryTitle = parentLink.innerText.trim(); 
+                            }
+                            break;
                         }
-                        parent = parent.parentElement; // Tiếp tục tìm kiếm ở cấp cha tiếp theo
+                        parent = parent.parentElement;
                     }
-                    
-                    document.title = `${selectedTitle} - An's blog`; // Nếu không tìm thấy thẻ <a> cha thì dùng tiêu đề gốc
-                    return;
+
+                    // Cập nhật tiêu đề đúng format mong muốn
+                    if (categoryTitle) {
+                        document.title = `[${categoryTitle}] - ${selectedTitle}`;
+                    } else {
+                        document.title = `${selectedTitle} - An's blog`;
+                    }
+                    return; 
                 }
             }
         })

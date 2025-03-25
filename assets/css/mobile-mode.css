@@ -215,5 +215,8 @@
         border: 1.5px solid #1C1C1C;
     }
 
+    #markdown-content iframe {
+        height: 200px;
+    }
 
 }

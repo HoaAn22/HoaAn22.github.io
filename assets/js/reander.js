@@ -15,13 +15,6 @@ function renderMarkdown(content) {
     if (!markdownContentElement) return;
 
     // // Xử lý ghi chú
-    // const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/g;
-    // // const notePattern = /\[(.+?)\]\(note\.(.+?)\)/g;
-
-    // renderedContent = renderedContent.replace(notePattern, function(match, text, annotation) {
-    //     return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
-    // });
-
     const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/gi;
     renderedContent = renderedContent.replace(notePattern, (_, text, annotation) => {
         return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
@@ -59,12 +52,21 @@ function renderMarkdown(content) {
     }
 }
 
-// Hàm để tải file Markdown khi nhấp vào liên kết
+// // Hàm để tải file Markdown khi nhấp vào liên kết
 function loadMarkdownFile(filePath) {
     fetch(filePath)
         .then(response => response.text())
         .then(text => {
             renderMarkdown(text);
+            window.location.hash = encodeURIComponent(filePath); // Cập nhật URL hash
         })
         .catch(error => console.error('Error loading file:', error));
 }
+
+// Kiểm tra URL hash khi trang load lại
+document.addEventListener('DOMContentLoaded', () => {
+    const hash = decodeURIComponent(window.location.hash.substring(1));
+    if (hash) {
+        loadMarkdownFile(hash);
+    }
+});

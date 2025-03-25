@@ -41,7 +41,7 @@
 }
 
 #markdown-content pre code.language-python {
-    background: linear-gradient(to right, #3776AB, #FFD43B);
+    background: linear-gradient(to right, #3776AB, #3776AB, #FFD43B);
     border: 1px solid black;
     border-radius: 4px;
     padding: 10px;

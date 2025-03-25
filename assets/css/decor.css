@@ -1,4 +1,4 @@
-.wave-bars {
+.piano-keys {
     pointer-events: none;
     position: absolute;
     display: flex;
@@ -6,8 +6,8 @@
 }
 
 /* Trang trí cho header & footer (destop) */
-header .bar,
-footer .bar {
+header .keys,
+footer .keys {
     width: 15px;
     height: 80px;
     background: #f8f8f8;
@@ -15,32 +15,32 @@ footer .bar {
     /* mix-blend-mode: multiply; */
 }
 
-header .bar:nth-child(3),
-header .bar:nth-child(5),
-header .bar:nth-child(8),
-header .bar:nth-child(10),
-header .bar:nth-child(12),
-footer .bar:nth-child(3),
-footer .bar:nth-child(5),
-footer .bar:nth-child(8),
-footer .bar:nth-child(10),
-footer .bar:nth-child(12) {
+header .keys:nth-child(3),
+header .keys:nth-child(5),
+header .keys:nth-child(8),
+header .keys:nth-child(10),
+header .keys:nth-child(12),
+footer .keys:nth-child(3),
+footer .keys:nth-child(5),
+footer .keys:nth-child(8),
+footer .keys:nth-child(10),
+footer .keys:nth-child(12) {
     width: 1.5px;
     height: 55px;
 }
 
-header .wave-bars,
-footer .wave-bars {
+header .piano-keys,
+footer .piano-keys {
     gap: 5px;
 }
 
-header .wave-bars {
+header .piano-keys {
     top: 0;
     right: 50px;
     flex-direction: row-reverse;
 }
 
-footer .wave-bars {
+footer .piano-keys {
     bottom: 0;
     left: 50px;
     flex-direction: row-reverse;
@@ -48,26 +48,26 @@ footer .wave-bars {
 }
 
 /* Trang trí Danh mục (mobile) */
-.category-btn .wave-bars {
+.category-btn .piano-keys {
     gap: 3px;
 }
 
-.category-btn .bar {
+.category-btn .keys {
     width: 15px;
     height: 40px;
     background: #f8f8f8;
 }
 
-.category-btn .bar:nth-child(2),
-.category-btn .bar:nth-child(4),
-.category-btn .bar:nth-child(7),
-.category-btn .bar:nth-child(9),
-.category-btn .bar:nth-child(11) {
+.category-btn .keys:nth-child(2),
+.category-btn .keys:nth-child(4),
+.category-btn .keys:nth-child(7),
+.category-btn .keys:nth-child(9),
+.category-btn .keys:nth-child(11) {
     width: 1.2px;
     height: 25px;
 }
 
-.category-btn .wave-bars {
+.category-btn .piano-keys {
     top: 0;
     right: 0px;
     flex-direction: row-reverse;

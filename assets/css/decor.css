@@ -71,4 +71,5 @@ footer .wave-bars {
     top: 0;
     right: 0px;
     flex-direction: row-reverse;
+    transform: rotate(180deg);
 }

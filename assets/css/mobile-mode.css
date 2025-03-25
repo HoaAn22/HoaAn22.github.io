@@ -212,6 +212,7 @@
         border: none;
         border-radius: 0px;
     }
+    
     #sidebar-placeholder:has(.dropdown-container.show),
     body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) {
         background-color: #f8f8f8;

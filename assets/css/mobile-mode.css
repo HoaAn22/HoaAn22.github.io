@@ -215,6 +215,10 @@
         border: 1.5px solid #1C1C1C;
     }
 
+    body.dark-mode #sidebar-placeholder {
+        border: 1.5px solid #f8f8f8;
+    }
+
     #markdown-content iframe {
         height: 200px;
     }

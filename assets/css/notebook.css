@@ -43,38 +43,30 @@
     display: block;
     /* Tự động fit vào dữ liệu */
     width: 100%;
-    border: 1.2px solid #1C1C1C;
+    /* border: 1.2px solid #1C1C1C; */
 }
 
 #notebook-content table, 
 #notebook-content th, 
 #notebook-content td {
-    border: 1px solid black;
     padding: 0px;
     text-align: left;
-    /* max-width: px; */
-    /* word-wrap: break-word; */
 }
 
 #notebook-content th, 
 #notebook-content td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: left;
-    max-width: 400%;
-    /* word-wrap: break-word; */
+    padding: 5px;
+    text-align: center;
+    max-width: 400px;
+}
+
+#notebook-content th{
+    background-color: transparent;
+    color: black;
 }
 
 body:has(#notebook-content) header h1{
     font-size: 32px;
-}
-
-body:has(#notebook-content) header ul li a{
-    font-size: 16px;
-}
-
-body:has(#notebook-content) header{
-    padding: 0.75em;
 }
 
 html:has(#notebook-content) a{
@@ -82,8 +74,18 @@ html:has(#notebook-content) a{
     text-decoration: underline;
 }
 
-body:has(#notebook-content) footer{
-    padding: 1.75em;
+body:has(#notebook-content) header ul li a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body:has(#notebook-content) footer {
+    font-size: 16px;
+    padding: 1.25em;
+}
+
+body:has(#notebook-content) header{
+    padding: 0.75em;
 }
 
 body.dark-mode #notebook-content h1,
@@ -152,6 +154,34 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime
     color: #616161;
 }
 
+main:has(#markdown-content) .dropdown {
+    margin-bottom: 10px; 
+}
+
+main:has(#markdown-content) .dropdown a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main:has(#markdown-content) .dropdown a {
+    color: black;
+}
+
+main:has(#markdown-content) .dropdown-item a,
+main:has(#markdown-content) .dropdown-content a {
+    color: #f8f8f8;
+}
+
+main:has(#markdown-content) .sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    padding: 0px;
+}
+
+#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"]{
+    overflow-x: hidden;
+}
 
 @media (max-width: 768px) {
 

@@ -78,10 +78,10 @@
         display: block;
     }
     
-    table, th, td {
-        max-width: 300px; /* Giới hạn chiều rộng ô để giảm độ giãn bảng */
-        font-size: 13px; /* Giảm kích thước chữ */
-    }
+    /* table, th, td {
+        max-width: 300px;
+        font-size: 13px;
+    } */
 
     /* #sidebar-placeholder {
         --section-max-width: none;

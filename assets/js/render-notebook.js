@@ -20,6 +20,28 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+// // Lưu đường dẫn notebook vào hash và chuyển hướng
+// function loadNotebook(notebookPath) {
+//     window.location.hash = notebookPath;  // Lưu đường dẫn vào hash
+//     window.location.href = "notebook.html";  // Điều hướng sang trang notebook.html
+// }
+
+// // Khi vào notebook.html, load nội dung notebook
+// document.addEventListener("DOMContentLoaded", function () {
+//     let notebookPath = window.location.hash.substring(1);  // Lấy giá trị từ hash và loại bỏ ký tự '#'
+//     if (notebookPath) {
+//         fetch(notebookPath)
+//             .then(response => response.text())
+//             .then(html => {
+//                 document.getElementById("notebook-content").innerHTML = html;
+//             })
+//             .catch(error => {
+//                 document.getElementById("notebook-content").innerHTML = "Không thể tải notebook.";
+//                 console.error("Lỗi tải notebook:", error);
+//             });
+//     }
+// });
+
 
 // // Lưu đường dẫn notebook vào URL hash và chuyển hướng
 // function loadNotebook(notebookPath) {

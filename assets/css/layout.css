@@ -19,7 +19,7 @@ header {
     position: relative;
     background-color: #1C1C1C;
     color: white;
-    padding: 1em;
+    padding: 0.75em;
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ footer {
     margin-top: auto;
     background-color: #1C1C1C;
     color: white;
-    padding: 1.5em;
+    padding: 1.25em;
 }
 
 /* Content Styles */

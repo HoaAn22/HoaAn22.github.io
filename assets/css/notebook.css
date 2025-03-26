@@ -118,6 +118,9 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime
     color: black;
 }
 
+body.dark-mode #notebook-content thead tr th{
+    color: #f8f8f8;
+}
 
 #notebook-content .dropbtn a{
     text-decoration: none;
@@ -152,6 +155,11 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime
 #markdown-content .jp-InputPrompt.jp-InputArea-prompt,
 #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt{
     color: #616161;
+}
+
+body.dark-mode #markdown-content .jp-InputPrompt.jp-InputArea-prompt,
+body.dark-mode #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt{
+    color: #f8f8f8;
 }
 
 main:has(#markdown-content) .dropdown {

@@ -1,7 +1,11 @@
-
-
 #markdown-content:has(main){
     border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#markdown-content .colab-df-container {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -40,15 +44,43 @@
     border: 1.2px solid #1C1C1C;
 }
 
-/* #notebook-content table, 
+#notebook-content table, 
 #notebook-content th, 
 #notebook-content td {
     border: 1px solid black;
     padding: 10px;
     text-align: left;
-    max-width: 800px;
-    word-wrap: break-word;
+    /* max-width: px; */
+    /* word-wrap: break-word; */
     overflow-x: auto;
-} */
+}
 
+body:has(#notebook-content) header{
+    padding: 1.25em;
+}
 
+body:has(#notebook-content) footer{
+    padding: 1.75em;
+}
+
+body.dark-mode #notebook-content h1,
+body.dark-mode #notebook-content h2,
+body.dark-mode #notebook-content h3,
+body.dark-mode #notebook-content h4,
+body.dark-mode #notebook-content h5,
+body.dark-mode #notebook-content h6,
+body.dark-mode #notebook-content p,
+body.dark-mode #notebook-content pre {
+    color: #f8f8f8;
+}
+
+body.dark-mode #notebook-content pre span:not(.c1):not(.c2):not(.k):not(.kn) {
+    color: black;
+}
+
+@media (max-width: 768px) {
+
+    #notebook-content table {
+        width: 400px;
+    }
+}

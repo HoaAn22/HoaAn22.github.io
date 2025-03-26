@@ -52,7 +52,7 @@ def convert_ipynb_to_html(input_dir, output_dir):
 
 def main():
     input_dir = "assets/notebooks"
-    output_dir = "assets/convert"
+    output_dir = "assets/notebooks/convert"
     
     if not os.path.isdir(input_dir):
         print("Thư mục đầu vào không tồn tại!")

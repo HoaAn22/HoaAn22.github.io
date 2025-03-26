@@ -156,3 +156,33 @@ document.addEventListener('DOMContentLoaded', () => {
         loadMarkdownFile(hash);
     }
 });
+
+// // Lưu đường dẫn notebook vào localStorage và chuyển hướng
+// function loadNotebook(notebookPath) {
+//     localStorage.setItem("selectedNotebook", notebookPath);
+//     window.location.href = "notebook.html"; // Điều hướng đến trang hiển thị notebook
+// }
+
+// // Khi vào notebook.html, load nội dung notebook
+// document.addEventListener("DOMContentLoaded", function () {
+//     let notebookPath = localStorage.getItem("selectedNotebook");
+//     if (notebookPath) {
+//         fetch(notebookPath)
+//             .then(response => response.text())
+//             .then(html => {
+//                 // Tạo một thẻ div tạm để xử lý nội dung HTML
+//                 let tempDiv = document.createElement("div");
+//                 tempDiv.innerHTML = html;
+
+//                 // Xóa tất cả các thẻ <script> và <style>
+//                 tempDiv.querySelectorAll("script, style, link[rel='stylesheet']").forEach(el => el.remove());
+
+//                 // Lấy nội dung sạch và hiển thị lên trang
+//                 document.getElementById("notebook-content").innerHTML = tempDiv.innerHTML;
+//             })
+//             .catch(error => {
+//                 document.getElementById("notebook-content").innerHTML = "Không thể tải notebook.";
+//                 console.error("Lỗi tải notebook:", error);
+//             });
+//     }
+// });

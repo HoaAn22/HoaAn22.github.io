@@ -1,0 +1,54 @@
+
+
+#markdown-content:has(main){
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#markdown-content:has(main) #notebook-content {
+    flex: 1;
+    /* padding: 15px; */
+    /* display: grid; */
+    /* background-color: white; */
+    border: 1.5px solid black;
+    border-radius: 5px;
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* max-width: 80% !important; */
+}
+
+#notebook-content main {
+    flex: 1;
+    flex-direction: column;
+    gap: 10px; /* Khoảng cách giữa các div */
+    margin: auto; /* Căn giữa nội dung */
+    max-width: 100%;
+}
+
+#notebook-content main div{
+    flex: 1;
+}
+
+#notebook-content main div pre{
+    overflow-x: auto;
+}
+
+#notebook-content table {
+    width: 800px;
+    border: 1.2px solid #1C1C1C;
+}
+
+/* #notebook-content table, 
+#notebook-content th, 
+#notebook-content td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    max-width: 800px;
+    word-wrap: break-word;
+    overflow-x: auto;
+} */
+
+

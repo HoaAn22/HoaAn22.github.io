@@ -80,7 +80,6 @@ section {
     border-radius: 5px;
     position: relative;
     overflow: hidden;
-
 }
 
 .layout {
@@ -188,7 +187,6 @@ section {
                 0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black,
                 0 500px black, 0 520px black, 0 540px black, 0 560px black, 0 580px black;
 }
-
 
 /* .container::before {
     content: "";

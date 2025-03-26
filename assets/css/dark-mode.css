@@ -52,10 +52,6 @@ body.dark-mode .layout {
     background-color: #3998fd;
 } */
 
-body.dark-mode #markdown-content em {
-    color: #4169E1;
-}
-
 /* thẻ a có class='dropbth' sẽ được giữ nguyên màu chữ */
 body.dark-mode a.dropbtn{
     color: inherit;
@@ -80,28 +76,38 @@ body.dark-mode .dropdown-content a:hover {
     background-color: #4d4d4d;
 } */
 
-body.dark-mode #markdown-content code {
+body.dark-mode #markdown-content code:not([class]) {
     background-color: #3d3d3d;
-    color: #f0f0f0;
-    border-radius: 2px;
+    color: #f8f8f8;
+}
+/* 
+body.dark-mode #markdown-content code.language-python,
+body.dark-mode #markdown-content code.language-css,
+body.dark-mode #markdown-content code.language-js {
+    background-color:inherit;
+    color: inherit;
+} */
+
+body.dark-mode #markdown-content code.language-python,
+body.dark-mode #markdown-content code.language-css {
+    border: 1px solid #f8f8f8;
 }
 
-body.dark-mode #markdown-content code.language-python {
-    background-color:#2c2c2c;
-    border: 1px solid #ddd;
-    color: inherit;
+body.dark-mode #markdown-content code.language-js {
+    border: 1px solid #f8f8f8;
+    color: black;
 }
 
 body.dark-mode #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"]{
     background-color: #2c2c2c;
-    border: 1px solid #ddd;
+    border: 1px solid #f8f8f8;
 }
 
-/* body.dark-mode #markdown-content pre:has(code.language-python) {
-    background-color: #6F9E45;
-    border-radius: 4px;
-    padding: 10px;
-} */
+body.dark-mode .language-python::before,
+body.dark-mode .language-js::before,
+body.dark-mode .language-css::before {
+    border: 1px solid #f8f8f8;
+}
 
 body.dark-mode #markdown-content h1,
 body.dark-mode #markdown-content h2,
@@ -202,7 +208,6 @@ body.dark-mode .container {
     background-color: #2c2c2c;;
     border: 1.5px solid #f8f8f8;
 }
-
 
 body.dark-mode .container::before {
     content: "";

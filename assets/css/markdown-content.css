@@ -1,4 +1,4 @@
-/* Markdown Content Styles */
+/* Định dạng văn bản */
 #markdown-content h1,
 #markdown-content h2,
 #markdown-content h3,
@@ -18,19 +18,22 @@
     margin-bottom: 1em;
 }
 
-/* #markdown-content strong {
-    font-size: 1.1em;
-} */
-
 #markdown-content em {
     color: #4169E1;
 }
 
+#markdown-content ol,
+#markdown-content ul,
+#markdown-content li {
+    margin-bottom: 0.5em;
+}
+
+/* Định dạng hiển thị code */
 #markdown-content code {
+    font-size: 15px;
+    line-height: 1.5;
     background-color: lightgray;
-    border-radius: 2px;
-    font-size: 14px;
-    line-height: 1.5; /* Tăng khoảng cách giữa các dòng */
+    border-radius: 5px;
 }
 
 #markdown-content code.language-python,
@@ -40,10 +43,11 @@
     color: inherit;
 }
 
-#markdown-content pre code.language-python {
-    background: linear-gradient(to right, #3776AB, #3776AB, #FFD43B);
+#markdown-content pre code.language-python,
+#markdown-content pre code.language-js,
+#markdown-content pre code.language-css {
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 10px;
     margin: 10px auto;
     max-width: 800px;
@@ -53,93 +57,61 @@
     white-space: pre;
     display: block;
     width: 100%;
+}
+
+#markdown-content pre code.language-python
+{
+    background: linear-gradient(to right, #3776AB, #3776AB, #FFD43B);
     color: white;
 }
 
 #markdown-content pre code.language-js {
     background-color: #F7DF1E;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px auto;
-    max-width: 800px;
-    margin-bottom: 1em;
-    overflow-x: auto;
-    font-family: monospace;
-    white-space: pre;
-    display: block;
-    width: 100%;
 }
 
 #markdown-content pre code.language-css {
     background: linear-gradient(to right, #264DE4 50%, #2965F1 50%);
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px auto;
-    max-width: 800px;
-    margin-bottom: 1em;
-    overflow-x: auto;
-    font-family: monospace;
-    white-space: pre;
-    display: block;
-    width: 100%;
-    color: white; /* Giữ chữ nổi bật */
+    color: white;
 }
 
-/* Tạo name tag cho code */
 pre {
     position: relative;
-    padding: 10px;
+    padding: 5px;
+}
+
+.language-python::before,
+.language-js::before,
+.language-css::before {
+    content: "";
+    display: inline-block;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    /* font-weight: bold; */
+    padding: 4px 8px;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
 }
 
 .language-python::before {
     content: "Python";
-    display: inline-block;
     background-color: #3776AB;
-    border: 1px solid black;
-    color: white;
-    font-size: 14px;
-    /* font-weight: bold; */
-    padding: 4px 8px;
-    /* border-radius: 4px 4px 0 0; */
-    border-radius: 4px;
-    position: absolute;
-    top: -10px;
-    left: 10px;
 }
 
 .language-js::before {
     content: "JavaScript";
-    display: inline-block;
     background-color: #F7DF1E;
-    border: 1px solid black;
-    /* color: white; */
-    font-size: 14px;
-    /* font-weight: bold; */
-    padding: 4px 8px;
-    border-radius: 4px;
-    position: absolute;
-    top: -10px;
-    left: 10px;
+    color: black;
 }
 
-.language-css::before {
+.language-css::before  {
     content: "Css";
-    display: inline-block;
     background-color: #264DE4;
-    border: 1px solid black;
-    color: white;
-    font-size: 14px;
-    /* font-weight: bold; */
-    padding: 4px 8px;
-    border-radius: 4px;
-    position: absolute;
-    top: -10px;
-    left: 10px;
 }
 
-/* Áp dụng các kiểu cho thẻ mjx-container */
+/* Định dạng công thức toán */
 #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
     background-color: #f5f5f5;
     border: 1px solid black;
@@ -153,35 +125,4 @@ pre {
     white-space: pre;
     display: block;
     width: 100%;
-}
-
-#markdown-content li {
-    margin-bottom: 0.5em;
-}
-
-#markdown-content ol {
-    margin-bottom: 0.5em;
-}
-
-#markdown-content .video-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-}
-#markdown-content iframe {
-    width: 100%;
-    height: 400px;
-    border: none;
-}
-
-#markdown-content {
-    border: 1.5px solid black;
-    border-radius: 5px;
-    padding: 15px;
-}
-
-#markdown-content:has(.container) {
-    border: none;
-    padding: 0px;
 }

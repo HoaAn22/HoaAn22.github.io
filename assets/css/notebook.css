@@ -5,12 +5,6 @@
     padding: 0;
 }
 
-#markdown-content .colab-df-container {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
 #markdown-content:has(main) #notebook-content {
     flex: 1;
     /* padding: 15px; */
@@ -37,6 +31,39 @@
 
 #notebook-content main div pre{
     overflow-x: auto;
+}
+
+#markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #markdown-content .colab-df-container,
+#markdown-content .colab-df-container > div,
+#markdown-content .colab-df-container > div > table{
+    flex: 1;
+} */
+
+#markdown-content .colab-df-container{
+    flex: 1;
+}
+
+#markdown-content .colab-df-container {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 0;
+}
+
+#markdown-content .colab-df-container > div > table{
+    flex-direction: column;
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    /* overflow-x: auto; */
+    padding: 0;
+    border: none;
+    margin-top:5px;
 }
 
 #notebook-content table {
@@ -130,28 +157,6 @@ body.dark-mode #notebook-content thead tr th{
     border-radius: 5px;
 }
 
-#markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult {
-    display: flex;
-    flex-direction: column;
-}
-
-#markdown-content .colab-df-container,
-#markdown-content .colab-df-container > div,
-#markdown-content .colab-df-container > div > table{
-    flex: 1;
-}
-
-#markdown-content .colab-df-container > div > table{
-    flex-direction: column;
-    margin: auto;
-    max-width: 100%;
-    display: block;
-    /* overflow-x: auto; */
-    padding: 0;
-    border: none;
-    margin-top:5px;
-}
-
 #markdown-content .jp-InputPrompt.jp-InputArea-prompt,
 #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt{
     color: #616161;
@@ -189,11 +194,6 @@ main:has(#markdown-content) .sidebar {
 
 #notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"]{
     overflow-x: hidden;
-}
-
-
-#notebook-content .colab-df-container{
-    overflow: auto;
 }
 
 @media (max-width: 768px) {

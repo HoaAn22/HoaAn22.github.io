@@ -23,6 +23,7 @@
     gap: 10px; /* Khoảng cách giữa các div */
     margin: auto; /* Căn giữa nội dung */
     max-width: 100%;
+    padding: 0px;
 }
 
 #notebook-content main div{

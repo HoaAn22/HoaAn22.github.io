@@ -146,7 +146,7 @@ body.dark-mode #notebook-content thead tr th{
     margin: auto;
     max-width: 100%;
     display: block;
-    overflow-x: auto;
+    /* overflow-x: auto; */
     padding: 0;
     border: none;
     margin-top:5px;
@@ -189,6 +189,11 @@ main:has(#markdown-content) .sidebar {
 
 #notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"]{
     overflow-x: hidden;
+}
+
+
+#notebook-content .colab-df-container{
+    overflow: auto;
 }
 
 @media (max-width: 768px) {

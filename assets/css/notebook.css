@@ -1,81 +1,121 @@
-/* === General Markdown Content Styling === */
-#markdown-content:has(main) {
+#markdown-content:has(main){
     border: none;
     display: flex;
     flex-direction: column;
     padding: 0;
 }
 
-#markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
-#markdown-content .colab-df-container {
-    display: flex;
-    flex-direction: column;
+#markdown-content:has(main) #notebook-content {
     flex: 1;
-    overflow: auto;
-    padding: 0;
-}
-
-#markdown-content .colab-df-container > div > table {
-    display: block;
-    flex-direction: column;
-    margin: auto;
-    max-width: 100%;
-    padding: 0;
-    border: none;
-    margin-top: 5px;
-}
-
-#markdown-content .jp-InputPrompt.jp-InputArea-prompt,
-#markdown-content .jp-OutputPrompt.jp-OutputArea-prompt {
-    color: #616161;
-}
-
-/* === Notebook Content Styling === */
-#notebook-content {
-    flex: 1;
+    /* padding: 15px; */
+    /* display: grid; */
+    /* background-color: white; */
     border: 1.5px solid black;
     border-radius: 5px;
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* max-width: 80% !important; */
 }
 
 #notebook-content main {
     flex: 1;
     flex-direction: column;
-    gap: 10px;
-    margin: auto;
+    gap: 10px; /* Khoảng cách giữa các div */
+    margin: auto; /* Căn giữa nội dung */
     max-width: 100%;
-    padding: 0;
+    padding: 0px;
 }
 
-#notebook-content main div {
+#notebook-content main div{
     flex: 1;
 }
 
-#notebook-content main div pre {
+#notebook-content main div pre{
     overflow-x: auto;
+}
+
+#markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #markdown-content .colab-df-container,
+#markdown-content .colab-df-container > div,
+#markdown-content .colab-df-container > div > table{
+    flex: 1;
+} */
+
+#markdown-content .colab-df-container{
+    flex: 1;
+}
+
+#markdown-content .colab-df-container {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 5px;
+}
+
+#markdown-content .colab-df-container > div > table{
+    flex-direction: column;
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    /* overflow-x: auto; */
+    padding: 0;
+    border: none;
+    margin-top:5px;
 }
 
 #notebook-content table {
     display: block;
+    /* Tự động fit vào dữ liệu */
     width: 100%;
+    /* border: 1.2px solid #1C1C1C; */
 }
 
-#notebook-content th,
+#notebook-content table, 
+#notebook-content th, 
+#notebook-content td {
+    padding: 0px;
+    text-align: left;
+}
+
+#notebook-content th, 
 #notebook-content td {
     padding: 5px;
     text-align: center;
     max-width: 400px;
 }
 
-#notebook-content th {
+#notebook-content th{
     background-color: transparent;
     color: black;
 }
 
-#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] {
-    overflow-x: hidden;
+body:has(#notebook-content) header h1{
+    font-size: 32px;
 }
 
-/* === Dark Mode Styling === */
+html:has(#notebook-content) a{
+    color: #4169E1;
+    text-decoration: underline;
+}
+
+body:has(#notebook-content) header ul li a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body:has(#notebook-content) footer {
+    font-size: 16px;
+    padding: 1.25em;
+}
+
+body:has(#notebook-content) header{
+    padding: 0.75em;
+}
+
 body.dark-mode #notebook-content h1,
 body.dark-mode #notebook-content h2,
 body.dark-mode #notebook-content h3,
@@ -101,47 +141,16 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output {
 body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output pre {
     color: black;
 }
-
-body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime-type="text/plain"] {
+body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime-type="text/plain"]{
     background-color: #f8f8f8;
     color: black;
 }
 
-body.dark-mode #notebook-content thead tr th {
+body.dark-mode #notebook-content thead tr th{
     color: #f8f8f8;
 }
 
-body.dark-mode #markdown-content .jp-InputPrompt.jp-InputArea-prompt,
-body.dark-mode #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt {
-    color: #f8f8f8;
-}
-
-/* === Header and Footer Styling === */
-body:has(#notebook-content) header h1 {
-    font-size: 32px;
-}
-
-body:has(#notebook-content) header {
-    padding: 0.75em;
-}
-
-body:has(#notebook-content) footer {
-    font-size: 16px;
-    padding: 1.25em;
-}
-
-/* === Links and Buttons === */
-html:has(#notebook-content) a {
-    color: #4169E1;
-    text-decoration: underline;
-}
-
-body:has(#notebook-content) header ul li a {
-    font-size: 16px;
-    text-decoration: none;
-}
-
-#notebook-content .dropbtn a {
+#notebook-content .dropbtn a{
     text-decoration: none;
     color: black;
     background-color: white;
@@ -149,14 +158,26 @@ body:has(#notebook-content) header ul li a {
     border-radius: 5px;
 }
 
-/* === Dropdown and Sidebar Styling === */
+#markdown-content .jp-InputPrompt.jp-InputArea-prompt,
+#markdown-content .jp-OutputPrompt.jp-OutputArea-prompt{
+    color: #616161;
+}
+
+body.dark-mode #markdown-content .jp-InputPrompt.jp-InputArea-prompt,
+body.dark-mode #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt{
+    color: #f8f8f8;
+}
+
 main:has(#markdown-content) .dropdown {
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
 
 main:has(#markdown-content) .dropdown a {
     font-size: 16px;
     text-decoration: none;
+}
+
+main:has(#markdown-content) .dropdown a {
     color: black;
 }
 
@@ -169,18 +190,22 @@ main:has(#markdown-content) .sidebar {
     display: flex;
     flex-direction: column;
     flex-basis: 20%;
-    padding: 0;
+    padding: 0px;
 }
 
-/* === Responsive Design === */
+#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"]{
+    overflow-x: hidden;
+}
+
 @media (max-width: 768px) {
-    #notebook-content div:has(> table) {
+
+    #notebook-content div:has(> table){
         display: block;
         width: 400px;
     }
 
-    #notebook-content table .dataframe th,
-    #notebook-content table .dataframe td {
+    #notebook-content table .dataframe th, 
+    #notebook-content table .dataframe td{
         width: 100px;
     }
 }

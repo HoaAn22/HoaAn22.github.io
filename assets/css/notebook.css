@@ -90,7 +90,7 @@ body.dark-mode #notebook-content pre {
     color: #f8f8f8;
 }
 
-body.dark-mode #notebook-content pre span:not(.c1):not(.c2):not(.k):not(.kn) {
+body.dark-mode #notebook-content pre span:not(.p):not(.c1):not(.c2):not(.k):not(.kn):not(.s1):not(.s2):not(.o):not(.ow):not(.mi):not(.si):not(.sd) {
     color: black;
 }
 

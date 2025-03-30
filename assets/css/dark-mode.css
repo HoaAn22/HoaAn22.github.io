@@ -202,6 +202,7 @@ body.dark-mode #markdown-content:has(.container) {
 
 body.dark-mode ul ul li {
     border: 1.2px solid #f0f0f0;;
+    background-color: #3e3e3e;
 }
 
 body.dark-mode .container {

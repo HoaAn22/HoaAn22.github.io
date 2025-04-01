@@ -73,9 +73,9 @@
 - Sử dụng công cụ hỗ trợ như Grammarly, Elsa Speak, Anki.
 
 # Tài nguyên học tiếng anh
-[DailyDictation - Web luyện nghe Tiếng Anh](https://dailydictation.com/exercises)
+[DailyDictation - Luyện nghe Tiếng Anh](https://dailydictation.com/exercises)
 
-[Study4 - Web bài tập (Tiếng Anh)](https://study4.com/tests/toeic/)
+[Study4 - Bài tập (Tiếng Anh)](https://study4.com/tests/toeic/)
 
 [Playlist - Học Tiếng Anh](#)
 

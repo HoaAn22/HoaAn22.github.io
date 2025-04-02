@@ -59,6 +59,7 @@
     width: 100%;
 }
 
+
 #notebook-content th,
 #notebook-content td {
     padding: 5px;
@@ -115,6 +116,12 @@ body.dark-mode #markdown-content .jp-InputPrompt.jp-InputArea-prompt,
 body.dark-mode #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt {
     color: #f8f8f8;
 }
+
+/* body.dark-mode #markdown-content table,
+body.dark-mode #markdown-content th,
+body.dark-mode #markdown-content td {
+    border: none;
+} */
 
 /* === Header and Footer Styling === */
 body:has(#notebook-content) header h1 {

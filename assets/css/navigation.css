@@ -33,9 +33,34 @@ a {
 }
 
 ol {
-    /* padding-left: 20px; */
+    margin-left: 35px;
+}
+
+ol li::marker {
+    color: #4169E1;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* ol {
+    list-style: none;
+    counter-reset: list-counter;
     margin-left: 20px;
 }
+  
+ol li {
+counter-increment: list-counter;
+position: relative;
+padding-left: 20px;
+}
+  
+ol li::before {
+content: counter(list-counter) ".";
+position: absolute;
+left: 0;
+color: #4169E1;
+font-weight: bold;
+} */
 
 /* Image Styles */
 img {
@@ -134,7 +159,6 @@ tr:hover {
     display: inline-block;
     background-color: #d2d2d2;
     border-left: 1.5px solid #4169E1;
-    /* border-bottom: 1.2px solid rgb(0, 0, 255); */
     padding: 1.5px;
     cursor: pointer;
 }

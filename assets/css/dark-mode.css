@@ -167,9 +167,15 @@ body.dark-mode .dark-mode-icon {
     opacity: 1;
 }
 
-body.dark-mode table,
+/* body.dark-mode table,
 body.dark-mode th,
 body.dark-mode td {
+    border: 1px solid #ddd;
+} */
+
+body.dark-mode #markdown-content table:not(#notebook-content table),
+body.dark-mode #markdown-content th:not(#notebook-content th),
+body.dark-mode #markdown-content td:not(#notebook-content td){
     border: 1px solid #ddd;
 }
 

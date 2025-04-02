@@ -8,9 +8,9 @@ ul ul li {
     border-radius: 5px;
 }
 
-/* ul ul li:has(code[class]) {
+ul ul li:has(code[class]) {
     border: none;
-} */
+}
 
 nav ul {
     list-style: none;
@@ -82,6 +82,7 @@ img {
     max-width: 800px;
     margin: auto;
 }
+
 #markdown-content iframe {
     width: 100%;
     height: 400px;
@@ -126,7 +127,7 @@ table {
 /* Định nghĩa kiểu cho các ô và đường viền */
 table, th, td {
     border: 1px solid black; /* Đường viền giữa các ô */
-    padding: 10px; /* Khoảng cách bên trong mỗi ô */
+    padding: 5px; /* Khoảng cách bên trong mỗi ô */
     text-align: left; /* Canh trái văn bản */
     max-width: 800px; /* Giới hạn chiều rộng mỗi ô */
     word-wrap: break-word; /* Ngắt dòng nếu nội dung quá dài */

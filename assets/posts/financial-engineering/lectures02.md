@@ -6,3 +6,18 @@
 
 [Hàm khối xác suất (Probability Mass Function - PMF)](https://vi.wikipedia.org/wiki/H%C3%A0m_kh%E1%BB%91i_x%C3%A1c_su%E1%BA%A5t)
 
+---
+
+Kì vọng
+
+Phương sai
+
+---
+
+Phân phối Xác suất
+
+
+
+**Chú thích**
+
+

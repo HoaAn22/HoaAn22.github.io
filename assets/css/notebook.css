@@ -59,7 +59,6 @@
     width: 100%;
 }
 
-
 #notebook-content th,
 #notebook-content td {
     padding: 5px;
@@ -117,11 +116,22 @@ body.dark-mode #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt {
     color: #f8f8f8;
 }
 
-
 body.dark-mode #notebook-content table,
 body.dark-mode #notebook-content th,
 body.dark-mode #notebook-content td {
     border: none;
+}
+
+body.dark-mode #notebook-content thead tr:nth-child(even) {
+    background-color: #2b2b2b;
+}
+
+body.dark-mode #notebook-content thead tr:nth-child(odd) {
+    background-color: rgb(90, 90, 90);
+}
+
+body.dark-mode #notebook-content thead tr:hover {
+    background-color: rgb(30, 30, 30);
 }
 
 /* === Header and Footer Styling === */
@@ -194,6 +204,6 @@ main:has(#markdown-content) .sidebar {
 
     #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
     #markdown-content .colab-df-container {
-    padding-right: 15px;
+        padding-right: 15px;
     }
 }

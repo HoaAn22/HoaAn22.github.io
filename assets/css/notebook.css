@@ -117,11 +117,12 @@ body.dark-mode #markdown-content .jp-OutputPrompt.jp-OutputArea-prompt {
     color: #f8f8f8;
 }
 
-/* body.dark-mode #markdown-content table,
-body.dark-mode #markdown-content th,
-body.dark-mode #markdown-content td {
+
+body.dark-mode #notebook-content table,
+body.dark-mode #notebook-content th,
+body.dark-mode #notebook-content td {
     border: none;
-} */
+}
 
 /* === Header and Footer Styling === */
 body:has(#notebook-content) header h1 {

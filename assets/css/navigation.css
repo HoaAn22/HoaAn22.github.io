@@ -8,9 +8,9 @@ ul ul li {
     border-radius: 5px;
 }
 
-ul ul li:has(code[class]) {
+/* ul ul li:has(code[class]) {
     border: none;
-}
+} */
 
 nav ul {
     list-style: none;

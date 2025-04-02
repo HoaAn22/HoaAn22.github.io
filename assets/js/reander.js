@@ -27,24 +27,27 @@ function renderMarkdown(content) {
         const href = a.getAttribute('href');
 
         if (href) {
-            if (href.endsWith('.md')) {
+            if (!href.includes('notebooks') && href.endsWith('.md')) {
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
-            }  else if (href.includes('youtube.com') || href.includes('youtu.be')){
-                    const videoId = extractYouTubeID(href);
-                    if (videoId) {
-                        const videoContainer = document.createElement('div');
-                        videoContainer.classList.add('video-container');
-                        videoContainer.innerHTML = `
-                            <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
-                        `;
-                        a.replaceWith(videoContainer); // Thay thế thẻ <a> bằng iframe
-                    }
-                }    
-            else {
+            } else if (href.includes('notebooks') && href.endsWith('.html')) {
+                a.setAttribute('href', '#');
+                a.setAttribute('onclick', `loadNotebook('${href}')`);
+            } else if (href.includes('youtube.com') || href.includes('youtu.be')) {
+                const videoId = extractYouTubeID(href);
+                if (videoId) {
+                    const videoContainer = document.createElement('div');
+                    videoContainer.classList.add('video-container');
+                    videoContainer.innerHTML = `
+                        <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+                    `;
+                    a.replaceWith(videoContainer); // Thay thế thẻ <a> bằng iframe
+                }
+            } else {
                 a.setAttribute('target', '_blank');
             }
         }
+        
     }
     if (window.MathJax) {
         // MathJax.typeset();

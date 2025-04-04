@@ -106,7 +106,7 @@ img {
 /* Note Styles */
 .note {
     background-color: #f9f9f9;
-    border-left: 4px solid #ff9800;
+    border-left: 5px solid #ff9800;
     padding: 10px;
     margin: 20px 0;
     font-family: Arial, sans-serif;

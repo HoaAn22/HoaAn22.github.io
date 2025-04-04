@@ -1,6 +1,7 @@
 # Ôn tập xác suất (Phần 2)
 
 [Phần 1](assets/posts/xac-suat/1-on-tap-1.md)
+[Phần 2](assets/posts/xac-suat/3-on-tap-2.md)
 
 ## Các quy tác tính xác suất
 
@@ -34,10 +35,3 @@ Công thức xác suất có điều kiện được hình thành từ các tín
 $$P = \frac{số }{tổng}$$
 
 Khi biết rằng biến cố **B** đã xảy ra, chúng ta chỉ quan tâm đến những lần biến cố **B** đã xảy ra, thay vì phải xét toàn bộ **không gian mẫu \\(\Omega \\)**.
-
-Số trường hợp thuận lợi cho trường hợp này là
-
-| Căn trái  | Căn giữa  |  Căn phải |
-| :-------- | :-------: | --------: |
-| Dữ liệu 1 | Dữ liệu 2 | Dữ liệu 3 |
-| Dữ liệu 4 | Dữ liệu 5 | Dữ liệu 6 |

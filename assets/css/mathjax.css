@@ -31,7 +31,7 @@ mjx-c.mjx-c222B.TEX-S2::before {
     left: 10px; /* Dịch sang phải */
 }
 
-/* Dấu tổng */
+/* Hàm tổng - Sum */
 mjx-c.mjx-c2211.TEX-S1::before {
     position: relative;
     transform: scaleX(1.5) ;

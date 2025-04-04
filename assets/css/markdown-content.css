@@ -139,7 +139,7 @@ mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
 mjx-c.mjx-c222B.TEX-S2::before {
     position: relative; 
     display: inline-block; /* Giúp transform hoạt động */
-    transform: scaleY(1.8) skewX(-20deg); /* Kéo dài theo chiều dọc và nghiêng về bên phải */
-    top: -3px; /* Di chuyển lên trên */
+    transform: scaleY(1.9) skewX(-20deg); /* Kéo dài theo chiều dọc và nghiêng về bên phải */
+    top: -5px; /* Di chuyển lên trên */
     left: 10px; /* Dịch sang phải */
 }

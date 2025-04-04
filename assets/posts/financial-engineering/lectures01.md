@@ -58,19 +58,3 @@ Khi lãi suất tăng lên người dân, người mà còn nợ các khoản va
 **(1).** *MBS*
 
 **(2).** *Tài sản/biến số cơ sở (Underlying assets/variables)* có thể là cổ phiếu, hàng hóa, tỷ giá hối đoái hoặc lãi suất. Giá của chúng thường không cố định mà biến động theo thời gian.
-
-| Thành phần             | Nội dung                   | Giải thích                                                                |
-|------------------------|----------------------------|---------------------------------------------------------------------------|
-| Underlying Asset       | Tài sản cơ sở              | Cổ phiếu, lãi suất, tỷ giá, hàng hóa...                                   |
-| Dynamics               | Động lực của giá           | Mô hình hóa sự biến động ngẫu nhiên của tài sản (dùng stochastic process) |
-| Derivative             | Sản phẩm phái sinh         | Option, Forward, Swap, Exotic Derivatives (sản phẩm phức tạp)             |
-| Mathematical Modeling  | Mô hình toán học           | Dùng lý thuyết xác suất để mô tả dynamics và pricing                      |
-| Probabilistic Model    | Mô hình xác suất           | VD: Black-Scholes, Heston, Merton Jump, Cox-Ingersoll-Ross...             |
-| Computational Scheme   | Phương pháp tính toán      | Dùng các thuật toán số để tính ra giá hoặc rủi ro                         |
-| Binomial Tree          | Cây nhị phân               | Phương pháp rời rạc mô phỏng giá tài sản                                  |
-| PDE                    | Phương trình đạo hàm riêng | Áp dụng khi bài toán pricing dẫn đến PDE                                  |
-| Monte Carlo Simulation | Mô phỏng Monte Carlo       | Mô phỏng nhiều đường đi ngẫu nhiên của asset để ước lượng giá trị kỳ vọng |
-| Fast Fourier Transform | Biến đổi Fourier nhanh     | Dùng trong pricing bằng hàm sinh đặc trưng (Characteristic Function)      |
-| Risk Management        | Quản trị rủi ro            | Đo lường và phòng ngừa rủi ro như Delta, Gamma, Vega...                   |
-| Implementation         | Triển khai cài đặt         | Chủ yếu dùng C/C++ vì tốc độ và tối ưu bộ nhớ                             |
-

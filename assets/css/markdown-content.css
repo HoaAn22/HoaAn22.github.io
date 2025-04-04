@@ -19,7 +19,7 @@
 }
 
 #markdown-content em {
-    color: #4169E1;
+    color: var(--highlight-color);
 }
 
 #markdown-content ol,
@@ -32,8 +32,8 @@
 #markdown-content code {
     font-size: 15px;
     line-height: 1.5;
-    background-color: lightgray;
-    border-radius: 5px;
+    background-color: var(--block-color);
+    /* border-radius: 5px; */
 }
 
 #markdown-content code.language-python,
@@ -113,15 +113,15 @@ pre {
 
 /* Định dạng công thức toán */
 #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
-    background-color: #f5f5f5;
+    background-color: var(--note-background-color);
     border: 1px solid black;
-    border-radius: 4px;
-    padding: 15px;
+    border-radius: 5px;
+    padding: 20px;
     max-width: 800px;
-    margin: 10px auto; /* Căn giữa hộp */
-    margin-bottom: 1em;
+    /* margin: 10px auto; */
+    /* margin-bottom: 1em; */
     overflow-x: auto;
-    font-family: monospace;
+    /* font-family: monospace; */
     white-space: pre;
     display: block;
     width: 100%;

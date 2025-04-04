@@ -1,11 +1,14 @@
 /* Navigation Styles */
 ul ul li {
     /* border-left: 1px solid gray; */
-    padding-left: 10px;
-    /* background-color: #f0f0f0; */
+    padding: 10px;
     border: 1.2px solid black;
-    background-color: #d2d2d2;
+    background-color: var(--note-background-color);
     border-radius: 5px;
+}
+
+ul ul ul li {
+    list-style-type: disc;
 }
 
 ul ul li:has(code[class]) {
@@ -29,7 +32,7 @@ nav ul li a {
 }
 
 a {
-    color: #4169E1;
+    color: var(--highlight-color);
 }
 
 ol {
@@ -37,7 +40,7 @@ ol {
 }
 
 ol li::marker {
-    color: #4169E1;
+    color: var(--highlight-color);
     font-weight: bold;
     font-size: 1.1em;
 }
@@ -58,7 +61,7 @@ ol li::before {
 content: counter(list-counter) ".";
 position: absolute;
 left: 0;
-color: #4169E1;
+color: var(--highlight-color);
 font-weight: bold;
 } */
 
@@ -135,7 +138,7 @@ table, th, td {
 
 /* Định nghĩa kiểu cho tiêu đề bảng */
 th {
-    background-color: #4169E1; /* Màu nền của hàng tiêu đề */
+    background-color: var(--highlight-color); /* Màu nền của hàng tiêu đề */
     color: white; /* Màu chữ của tiêu đề */
     font-weight: bold; /* In đậm chữ */
 }
@@ -158,8 +161,8 @@ tr:hover {
 .md-note {
     position: relative;
     display: inline-block;
-    background-color: #d2d2d2;
-    border-left: 1.5px solid #4169E1;
+    background-color: var(--block-color);
+    border-left: 1.5px solid var(--highlight-color);
     padding: 1.5px;
     cursor: pointer;
 }

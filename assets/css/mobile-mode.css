@@ -233,4 +233,8 @@
         height: 200px;
     }
 
+    #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
+        width: 80%;
+    }
+
 }

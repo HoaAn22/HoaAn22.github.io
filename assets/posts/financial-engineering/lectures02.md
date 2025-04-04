@@ -11,11 +11,8 @@
     * *Chú thích*:
 
         **Khác biệt giữa X và x:**
-
-        | Ký hiệu | Ý nghĩa             | Vai trò                                                                    |
-        |---------|---------------------|----------------------------------------------------------------------------|
-        | **X** | **Biến ngẫu nhiên** | Là một hàm ánh xạ kết quả của một phép thử (hiểu như công thức tổng quát). |
-        | **x** | **Giá trị cụ thể**  | Là một **giá trị cụ thể** mà biến ngẫu nhiên **X** có thể nhận được.     |
+        * **X (Biến ngẫu nhiên)**: là một hàm ánh xạ kết quả của một phép thử (hiểu như công thức tổng quát
+        * **x (Giá trị cụ thể)**: là một **giá trị cụ thể** mà biến ngẫu nhiên **X** có thể nhận được.
 
         **Cách hình dung:**
 

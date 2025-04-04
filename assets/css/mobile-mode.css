@@ -208,10 +208,17 @@
         border: none;
         border-radius: 0px;
     }
-    
-    #sidebar-placeholder:has(.dropdown-container.show),
+
+    #sidebar-placeholder:has(.dropdown-container.show){
+        background-color: white;
+    }
+
     body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) {
         background-color: #f8f8f8;
+    }
+
+    #sidebar-placeholder:has(.dropdown-container.show),
+    body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) {
         transition: background-color 0.3s, color 0.3s;
     }
 
@@ -236,5 +243,11 @@
     #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
         width: 80%;
     }
+    ul {
+        padding-left: var(--mobile-spacing);
+    }
 
+    li p mjx-container.MathJax.CtxtMenu_Attached_0[display="true"]{
+        margin-left: var(--mobile-spacing);
+    }
 }

@@ -10,7 +10,7 @@ header .keys,
 footer .keys {
     width: 15px;
     height: 70px;
-    background: #f8f8f8;
+    background: white;
     /* opacity: 0.5; */
     /* mix-blend-mode: multiply; */
 }
@@ -55,7 +55,7 @@ footer .piano-keys {
 .category-btn .keys {
     width: 15px;
     height: 40px;
-    background: #f8f8f8;
+    background: white;
 }
 
 .category-btn .keys:nth-child(2),

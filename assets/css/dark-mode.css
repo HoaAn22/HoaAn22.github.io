@@ -116,7 +116,7 @@ body.dark-mode .main h2 {
     border-radius: 10px; /* Bo tròn nút */
     border: 1px solid black;
     padding: 5px; /* Khoảng cách bên trong nút */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
 
     /* Đặt nút nằm ngang */
@@ -221,4 +221,11 @@ body.dark-mode .container::before {
                 0 140px var(--darkmode-content-color), 0 160px var(--darkmode-content-color), 0 180px var(--darkmode-content-color), 0 200px var(--darkmode-content-color), 0 220px var(--darkmode-content-color),
                 0 320px var(--darkmode-content-color), 0 340px var(--darkmode-content-color), 0 360px var(--darkmode-content-color), 0 380px var(--darkmode-content-color), 0 400px var(--darkmode-content-color),
                 0 500px var(--darkmode-content-color), 0 520px var(--darkmode-content-color), 0 540px var(--darkmode-content-color), 0 560px var(--darkmode-content-color), 0 580px var(--darkmode-content-color);
+}
+
+body.dark-mode header .keys,
+body.dark-mode footer .keys,
+body.dark-mode .category-btn .keys {
+    background: var(--darkmode-content-color);
+    transition: background-color 0.3s, color 0.3s;
 }

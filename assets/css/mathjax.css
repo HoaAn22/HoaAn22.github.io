@@ -41,13 +41,13 @@ mjx-c.mjx-c2211.TEX-S1::before {
 /* Số nằm trên */
 mjx-texatom[size="s"] mjx-c.mjx-c1D466.TEX-I::before{
     position: relative;
-    left: -4px;
+    left: -5px;
     top: -7px;
 }
 
 /* Số nằm dưới */
 mjx-texatom[size="s"] mjx-c.mjx-c1D465.TEX-I::before{
     position: relative;
-    left: -4px;
+    left: -5px;
     bottom: -7px;
 }

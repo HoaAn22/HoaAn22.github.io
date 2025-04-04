@@ -12,20 +12,20 @@
 
         **Khác biệt giữa X và x:**
         * **X (Biến ngẫu nhiên)**: là một hàm ánh xạ kết quả của một phép thử (hiểu như công thức tổng quát
-        * **x (Giá trị cụ thể)**: là một **giá trị cụ thể** mà biến ngẫu nhiên **X** có thể nhận được.
+        * **\\(x_{i} \\) (Giá trị cụ thể)**: là một **giá trị cụ thể** mà biến ngẫu nhiên **X** có thể nhận được.
 
         **Cách hình dung:**
 
         Giả sử bạn tung một con xúc xắc.
 
         - X: là biến ngẫu nhiên biểu diễn số chấm trên mặt hiện ra.
-        - x: là một giá trị cụ thể, ví dụ 3, 4, hoặc 6.
+        - \\(x_{i} \\): là một giá trị cụ thể, ví dụ 3, 4, hoặc 6.
 
         Khi đó:
 
-        P(X = x) nghĩa là *xác suất để xúc xắc ra đúng giá trị x* 
+        P(X = \\(x_{i} \\)) nghĩa là *xác suất để xúc xắc ra đúng giá trị \\(x_{i} \\)* 
 
-        \\( P(X = 4) = \frac{1}{6} \\) *Xác suất tung 4 nút*
+        P(X = 4) = \\(\frac{1}{6} \\) *Xác suất tung 4 nút*
 
     * **Tính chất của hàm khối xác suất:**
 

@@ -126,7 +126,7 @@ mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
     background-color: var(--note-background-color);
     border: 1px solid black;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     max-width: 825px;
     width: 100%;
     margin: 10px auto;
@@ -142,4 +142,25 @@ mjx-c.mjx-c222B.TEX-S2::before {
     transform: scaleY(1.9) skewX(-20deg); /* Kéo dài theo chiều dọc và nghiêng về bên phải */
     top: -5px; /* Di chuyển lên trên */
     left: 10px; /* Dịch sang phải */
+}
+
+/* Dấu tổng */
+mjx-c.mjx-c2211.TEX-S1::before {
+    position: relative;
+    transform: scaleY(1.2);
+    left: 12px;
+}
+
+/* Số nằm trên */
+mjx-texatom[size="s"] mjx-c.mjx-c1D466.TEX-I::before{
+    position: relative;
+    left: -5px;
+    top: -7px;
+}
+
+/* Số nằm dưới */
+mjx-texatom[size="s"] mjx-c.mjx-c1D465.TEX-I::before{
+    position: relative;
+    left: -5px;
+    bottom: -8px;
 }

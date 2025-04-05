@@ -15,16 +15,16 @@ footer .keys {
     /* mix-blend-mode: multiply; */
 }
 
-header .keys:nth-child(3),
-header .keys:nth-child(5),
-header .keys:nth-child(8),
-header .keys:nth-child(10),
-header .keys:nth-child(12),
-footer .keys:nth-child(3),
-footer .keys:nth-child(5),
-footer .keys:nth-child(8),
-footer .keys:nth-child(10),
-footer .keys:nth-child(12) {
+header .keys:nth-child(2),
+header .keys:nth-child(4),
+header .keys:nth-child(7),
+header .keys:nth-child(9),
+header .keys:nth-child(11),
+footer .keys:nth-child(2),
+footer .keys:nth-child(4),
+footer .keys:nth-child(7),
+footer .keys:nth-child(9),
+footer .keys:nth-child(11) {
     width: 1.5px;
     height: 55px;
 }

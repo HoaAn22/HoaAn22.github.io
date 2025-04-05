@@ -80,8 +80,8 @@
                 // Nếu MathJax đã sẵn sàng, gọi để render các công thức toán học
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
             } else {
-                // Nếu MathJax chưa sẵn sàng, thử lại sau 100ms
-                setTimeout(renderMath, 100);
+                // Nếu MathJax chưa sẵn sàng, thử lại
+                setTimeout(renderMath, 1000);
             }
         }
     </script>    

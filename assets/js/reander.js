@@ -10,7 +10,7 @@ function renderMath() {
         MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
     } else {
         // Nếu MathJax chưa sẵn sàng, thử đợi rồi gọi lại
-        setTimeout(renderMath, 100); // kiểm tra lại sau 100ms
+        setTimeout(renderMath, 1000);
     }
 }
 

@@ -32,10 +32,15 @@
 #notebook-content h1.notebook-title,
 body.dark-mode #notebook-content h1.notebook-title {
     border-bottom: none;
-    text-decoration: underline;
-    color: var(--highlight-color);
     font-size: 2em;
     text-align: center;
+    text-decoration: underline;
+    color: var(--highlight-color);
+    padding: 20px;
+}
+
+#notebook-content h1.notebook-title {
+    background-color: var(--block-color);
 }
 
 #notebook-content main {
@@ -83,6 +88,7 @@ table.dataframe {
 #notebook-content img {
     display: block;
     width: 100%;
+    height: 500px;
     margin-left: 0px;
 }
 
@@ -99,6 +105,10 @@ body.dark-mode #notebook-content li,
 body.dark-mode #notebook-content p,
 body.dark-mode #notebook-content pre {
     color: var(--darkmode-content-color);
+}
+
+body.dark-mode #notebook-content h1.notebook-title {
+    background-color: var(--darkmode-block-color);
 }
 
 body.dark-mode #notebook-content pre span:not(.p):not(.c1):not(.c2):not(.k):not(.kn):not(.kc):not(.s1):not(.s2):not(.o):not(.ow):not(.mi):not(.si):not(.sd) {
@@ -210,5 +220,9 @@ main:has(#markdown-content) .sidebar {
     #notebook-content table .dataframe th,
     #notebook-content table .dataframe td {
         width: 100px;
+    }
+
+    #notebook-content img {
+        height: auto;
     }
 }

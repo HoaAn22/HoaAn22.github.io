@@ -56,6 +56,11 @@ function renderMarkdown(content) {
 }
 
 function loadMarkdownFile(filePath) {
+    // Nếu đang ở trang notebook.html thì chuyển sang index.html trước
+    if (window.location.pathname.includes("notebook.html")) {
+        window.location.href = `index.html#${encodeURIComponent(filePath)}`;
+        return;
+    }
     fetch(filePath)
         .then(response => response.text())
         .then(text => {

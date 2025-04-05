@@ -50,8 +50,8 @@ function renderMarkdown(content) {
         
     }
     if (window.MathJax) {
-        // MathJax.typeset();
-        MathJax.typesetPromise();
+        MathJax.typeset();
+        // MathJax.typesetPromise();
     }
 }
 
@@ -61,6 +61,7 @@ function loadMarkdownFile(filePath) {
         window.location.href = `index.html#${encodeURIComponent(filePath)}`;
         return;
     }
+
     fetch(filePath)
         .then(response => response.text())
         .then(text => {
@@ -109,4 +110,3 @@ document.addEventListener('DOMContentLoaded', () => {
         loadMarkdownFile(hash);
     }
 });
- 

@@ -63,9 +63,14 @@ def main():
         return
     
     # Hỏi người dùng chọn chế độ ghi đè
-    print("1. Không ghi đè - các file đã render trước")
-    print("2. Ghi đè - các file đã render trước")
-    choice = input("Nhập lựa chọn (1 hoặc 2): ").strip()
+    print("1. ❌ - Không ghi đè")
+    print("2. ✅ - Ghi đè")
+    print('-----------------------------------------------')
+    print("Nhập lựa chọn 1 hoặc 2. Mặc định 'KHÔNG GHI ĐÈ'")
+    print("[Ctrl + C] - để thoát")
+    print('-----------------------------------------------')
+    # choice = input("Nhập lựa chọn (1 hoặc 2), Ctrl + C để : ").strip()
+    choice = input().strip()
     print('---')
 
     if choice == "1":

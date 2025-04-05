@@ -74,16 +74,23 @@
     <script src="assets/js/render-notebook.js" defer></script>
     <script src="assets/js/markdown-it.min.js"></script>
     <script src="assets/js/MathJax-2.7.7/MathJax.js?config=TeX-AMS_CHTML-full,Safe"></script>
+    <script>
+        function renderMath() {
+            if (window.MathJax && window.MathJax.Hub && MathJax.Hub.Queue) {
+                // Nếu MathJax đã sẵn sàng, gọi để render các công thức toán học
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+            } else {
+                // Nếu MathJax chưa sẵn sàng, thử lại sau 100ms
+                setTimeout(renderMath, 100);
+            }
+        }
+    </script>    
     <script type="text/x-mathjax-config">
         init_mathjax = function() {
             if (window.MathJax) {
-                // MathJax loaded
                 MathJax.Hub.Config({
                     TeX: {
-                        equationNumbers: {
-                            autoNumber: "AMS",
-                            useLabelIds: true
-                        }
+                        equationNumbers: { autoNumber: "AMS", useLabelIds: true }
                     },
                     tex2jax: {
                         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -93,28 +100,15 @@
                     },
                     displayAlign: 'center',
                     messageStyle: 'none',
-                    CommonHTML: {
-                        linebreaks: {
-                            automatic: true
-                        }
-                    }
+                    CommonHTML: { linebreaks: { automatic: true } }
                 });
     
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-            } else {
-                // MathJax not ready, retry after delay
-                setTimeout(function() {
-                    if (window.MathJax) {
-                        init_mathjax(); // Retry
-                    } else {
-                        location.reload(); // Force reload as fallback
-                    }
-                }, 100); // Retry after 100ms
+                // Gọi hàm renderMath để kiểm tra MathJax đã sẵn sàng chưa
+                renderMath();
             }
-        };
-    
+        }
         init_mathjax();
-    </script>    
+    </script>
     <!-- <script type="text/javascript" id="MathJax-script" async
       src="assets/js/tex-mml-chtml.js"></script> -->
     <script src="assets/js/dropdown.js" defer></script>

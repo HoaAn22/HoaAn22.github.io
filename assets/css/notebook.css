@@ -29,6 +29,15 @@
     border-radius: 5px;
 }
 
+#notebook-content h1.notebook-title,
+body.dark-mode #notebook-content h1.notebook-title {
+    border-bottom: none;
+    text-decoration: underline;
+    color: var(--highlight-color);
+    font-size: 2em;
+    text-align: center;
+}
+
 #notebook-content main {
     flex: 1;
     flex-direction: column;

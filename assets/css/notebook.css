@@ -6,35 +6,6 @@
     padding: 0;
 }
 
-/* #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
-#markdown-content .colab-df-container{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    overflow: auto;
-    padding: 0px;
-} */
-
-#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
-#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-}
-
-/* .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > div > table {
-    width: 100% !important;
-    table-layout: fixed; 
-} */
-
-table.dataframe {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    overflow: auto;
-    width: 100%;
-}
-
 #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > .colab-df-container > div > table,
 #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > div > table {
     display: block;
@@ -75,6 +46,14 @@ table.dataframe {
     overflow-x: auto;
 }
 
+table.dataframe {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+}
+
 #notebook-content table {
     display: block;
     width: 100%;
@@ -92,9 +71,11 @@ table.dataframe {
     color: black;
 }
 
-/* #notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] {
-    overflow-x: hidden;
-} */
+#notebook-content img {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+}
 
 /* === Dark Mode Styling === */
 body.dark-mode #notebook-content h1,
@@ -221,13 +202,4 @@ main:has(#markdown-content) .sidebar {
     #notebook-content table .dataframe td {
         width: 100px;
     }
-
-    /* #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
-    #markdown-content .colab-df-container {
-        padding-right: 80px;
-    } */
-
-    /* table.dataframe {
-        padding-right: 10px;
-    } */
 }

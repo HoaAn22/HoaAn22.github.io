@@ -13,7 +13,7 @@ def calculate_file_hash(filepath):
         hasher.update(buf)
     return hasher.hexdigest()
 
-def convert_ipynb_to_html(input_dir, output_dir):
+def convert_ipynb_to_html(input_dir, output_dir, overwrite=False):
     """
     Chuyển đổi tất cả các file Jupyter Notebook (.ipynb) trong thư mục sang HTML.
     """
@@ -33,8 +33,12 @@ def convert_ipynb_to_html(input_dir, output_dir):
                 file_hash = calculate_file_hash(input_path)
                 
                 if file_hash in converted_hashes:
-                    print(f'Bỏ qua: {filename} (Đã có trong thư mục convert)')
-                    continue
+                    if not overwrite:
+                        print(f'file {filename} (Đã được chuyển đổi trước đó) - Không ghi đè')
+                        print('---')
+                        continue
+                    else:
+                        print(f'file {filename} (Đã được chuyển đổi trước đó) - Ghi đè')
                 
                 try:
                     # Chuyển đổi sang HTML
@@ -58,7 +62,21 @@ def main():
         print("Thư mục đầu vào không tồn tại!")
         return
     
-    convert_ipynb_to_html(input_dir, output_dir)
+    # Hỏi người dùng chọn chế độ ghi đè
+    print("1. Không ghi đè - các file đã render trước")
+    print("2. Ghi đè - các file đã render trước")
+    choice = input("Nhập lựa chọn (1 hoặc 2): ").strip()
+    print('---')
+
+    if choice == "1":
+        overwrite = False
+    elif choice == "2":
+        overwrite = True
+    else:
+        print("Lựa chọn không hợp lệ. Mặc định: Không ghi đè.")
+        overwrite = False
+    
+    convert_ipynb_to_html(input_dir, output_dir, overwrite=overwrite)
     print("\nĐã hoàn thành chuyển đổi file .ipynb")
 
 if __name__ == "__main__":

@@ -63,6 +63,7 @@ li p span.mjx-chtml.MJXc-display{
 }
 
 span.mjx-chtml.MJXc-display {
+    display: block;
     background-color: var(--note-background-color);
     border: 1px solid black;
     border-radius: 5px;
@@ -72,16 +73,15 @@ span.mjx-chtml.MJXc-display {
     margin: 10px auto;
     overflow-x: auto;
     white-space: pre;
-    display: block;
 }
 
 /* Dark-mode */
-
 body.dark-mode span.mjx-chtml.MJXc-display{
     background-color: var(--darkmode-note-background-color);
     border: 1px solid var(--darkmode-content-color);
 }
 
+/* Mobile mode */
 @media (max-width: 768px) {
     li p span.mjx-chtml.MJXc-display{
         margin-left: 15px;

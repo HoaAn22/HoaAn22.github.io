@@ -50,8 +50,4 @@
 
 Phân phối Xác suất
 
-
-
 **Chú thích**
-
-

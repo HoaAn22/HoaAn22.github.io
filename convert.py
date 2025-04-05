@@ -33,7 +33,7 @@ def convert_ipynb_to_html(input_dir, output_dir):
                 file_hash = calculate_file_hash(input_path)
                 
                 if file_hash in converted_hashes:
-                    print(f'Bỏ qua: {filename} (đã chuyển đổi trước đó)')
+                    print(f'Bỏ qua: {filename} (Đã có trong thư mục convert)')
                     continue
                 
                 try:
@@ -46,7 +46,7 @@ def convert_ipynb_to_html(input_dir, output_dir):
                     # Lưu hash vào log
                     hash_log.write(f'{file_hash}\n')
                     hash_log.flush()
-                    print(f'Đã chuyển đổi: {filename} -> HTML')
+                    print(f'Đã chuyển đổi: {filename} sang .html')
                 except Exception as e:
                     print(f'Lỗi khi chuyển đổi {filename}: {e}')
 
@@ -59,7 +59,7 @@ def main():
         return
     
     convert_ipynb_to_html(input_dir, output_dir)
-    print("\nĐã hoàn tất chuyển đổi tất cả các file Jupyter Notebook sang HTML!")
+    print("\nĐã hoàn thành chuyển đổi file .ipynb")
 
 if __name__ == "__main__":
     main()

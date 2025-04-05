@@ -6,16 +6,37 @@
     padding: 0;
 }
 
-#markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
-#markdown-content .colab-df-container {
+/* #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
+#markdown-content .colab-df-container{
     display: flex;
     flex-direction: column;
     flex: 1;
     overflow: auto;
     padding: 0px;
+} */
+
+#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
+#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
-#markdown-content .colab-df-container > div > table {
+/* .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > div > table {
+    width: 100% !important;
+    table-layout: fixed; 
+} */
+
+table.dataframe {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+}
+
+#markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > .colab-df-container > div > table,
+#markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > div > table {
     display: block;
     flex-direction: column;
     margin: auto;
@@ -71,9 +92,9 @@
     color: black;
 }
 
-#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] {
+/* #notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] {
     overflow-x: hidden;
-}
+} */
 
 /* === Dark Mode Styling === */
 body.dark-mode #notebook-content h1,
@@ -194,7 +215,6 @@ main:has(#markdown-content) .sidebar {
 @media (max-width: 768px) {
     #notebook-content div:has(> table) {
         display: block;
-        width: 400px;
     }
 
     #notebook-content table .dataframe th,
@@ -202,8 +222,12 @@ main:has(#markdown-content) .sidebar {
         width: 100px;
     }
 
-    #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
+    /* #markdown-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult,
     #markdown-content .colab-df-container {
-        padding-right: 15px;
-    }
+        padding-right: 80px;
+    } */
+
+    /* table.dataframe {
+        padding-right: 10px;
+    } */
 }

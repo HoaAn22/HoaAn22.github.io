@@ -27,10 +27,10 @@ function renderMarkdown(content) {
         const href = a.getAttribute('href');
 
         if (href) {
-            if (!href.includes('notebooks') && href.endsWith('.md')) {
+            if (href.startsWith('assets') && href.endsWith('.md')) {
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
-            } else if (href.includes('notebooks') && href.endsWith('.html')) {
+            } else if (href.startsWith('assets') && href.endsWith('.html')) {
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadNotebook('${href}')`);
             } else if (href.includes('youtube.com') || href.includes('youtu.be')) {

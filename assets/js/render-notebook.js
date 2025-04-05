@@ -1,46 +1,45 @@
-// Lưu đường dẫn notebook vào localStorage và chuyển hướng
+// Gọi hàm để mở notebook với URL có query string (?file=...)
 function loadNotebook(notebookPath) {
-    localStorage.setItem("selectedNotebook", notebookPath);
-    window.location.href = "notebook.html";  // Điều hướng sang trang notebook.html
+    const encodedPath = encodeURIComponent(notebookPath);
+    window.location.href = `notebook.html?file=${encodedPath}`;
 }
 
 function renderMath() {
     if (window.MathJax) {
-        // MathJax loaded
-            MathJax.Hub.Config({
-                TeX: {
-                    equationNumbers: {
+        MathJax.Hub.Config({
+            TeX: {
+                equationNumbers: {
                     autoNumber: "AMS",
                     useLabelIds: true
-                    }
-                },
-                tex2jax: {
-                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                    processEscapes: true,
-                    processEnvironments: true
-                },
-                displayAlign: 'center',
-                messageStyle: 'none',
-                CommonHTML: {
-                    linebreaks: {
-                    automatic: true
-                    }
                 }
-            });
-
-            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-        } else {
-        // Nếu MathJax chưa sẵn sàng, thử đợi rồi gọi lại
+            },
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            displayAlign: 'center',
+            messageStyle: 'none',
+            CommonHTML: {
+                linebreaks: {
+                    automatic: true
+                }
+            }
+        });
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    } else {
         setTimeout(renderMath, 100);
     }
 }
 
-// Khi vào notebook.html, load nội dung notebook
+// Khi vào notebook.html, load nội dung notebook từ query string
 document.addEventListener("DOMContentLoaded", function () {
-    let notebookPath = localStorage.getItem("selectedNotebook");
+    const params = new URLSearchParams(window.location.search);
+    const notebookPath = params.get("file");
+
     if (notebookPath) {
-        fetch(notebookPath)
+        fetch(decodeURIComponent(notebookPath))
             .then(response => response.text())
             .then(html => {
                 document.getElementById("notebook-content").innerHTML = html;
@@ -55,15 +54,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 for (let link of links) {
                     const onclickValue = link.getAttribute('onclick');
-                    if (onclickValue.includes(notebookPath)) { 
-                        selectedTitle = link.innerText.trim(); 
+                    if (onclickValue.includes(notebookPath)) {
+                        selectedTitle = link.innerText.trim();
 
                         let parent = link.parentElement;
-                        while (parent) { 
+                        while (parent) {
                             if (parent.classList.contains("dropdown-item")) {
-                                let parentLink = parent.querySelector('a'); 
-                                if (parentLink && parentLink !== link) { 
-                                    categoryTitle = parentLink.innerText.trim(); 
+                                let parentLink = parent.querySelector('a');
+                                if (parentLink && parentLink !== link) {
+                                    categoryTitle = parentLink.innerText.trim();
                                 }
                                 break;
                             }
@@ -75,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         } else {
                             document.title = `${selectedTitle} - An's blog`;
                         }
-                        return; 
+                        return;
                     }
                 }
             })

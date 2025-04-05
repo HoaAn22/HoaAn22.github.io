@@ -77,12 +77,12 @@
     <script type="text/x-mathjax-config">
         init_mathjax = function() {
             if (window.MathJax) {
-            // MathJax loaded
+                // MathJax loaded
                 MathJax.Hub.Config({
                     TeX: {
                         equationNumbers: {
-                        autoNumber: "AMS",
-                        useLabelIds: true
+                            autoNumber: "AMS",
+                            useLabelIds: true
                         }
                     },
                     tex2jax: {
@@ -95,16 +95,26 @@
                     messageStyle: 'none',
                     CommonHTML: {
                         linebreaks: {
-                        automatic: true
+                            automatic: true
                         }
                     }
                 });
     
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+            } else {
+                // MathJax not ready, retry after delay
+                setTimeout(function() {
+                    if (window.MathJax) {
+                        init_mathjax(); // Retry
+                    } else {
+                        location.reload(); // Force reload as fallback
+                    }
+                }, 100); // Retry after 100ms
             }
-        }
+        };
+    
         init_mathjax();
-    </script>
+    </script>    
     <!-- <script type="text/javascript" id="MathJax-script" async
       src="assets/js/tex-mml-chtml.js"></script> -->
     <script src="assets/js/dropdown.js" defer></script>

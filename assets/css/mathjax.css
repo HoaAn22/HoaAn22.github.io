@@ -75,6 +75,13 @@ span.mjx-chtml.MJXc-display {
     display: block;
 }
 
+/* Dark-mode */
+
+body.dark-mode span.mjx-chtml.MJXc-display{
+    background-color: var(--darkmode-note-background-color);
+    border: 1px solid var(--darkmode-content-color);
+}
+
 @media (max-width: 768px) {
     li p span.mjx-chtml.MJXc-display{
         margin-left: 15px;

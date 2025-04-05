@@ -76,17 +76,6 @@
     <script src="assets/js/MathJax-2.7.7/MathJax.js?config=TeX-AMS_CHTML-full,Safe"></script>
     <script>
         function renderMath() {
-            if (window.MathJax && window.MathJax.Hub && MathJax.Hub.Queue) {
-                // Nếu MathJax đã sẵn sàng, gọi để render các công thức toán học
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-            } else {
-                // Nếu MathJax chưa sẵn sàng, thử lại
-                setTimeout(renderMath, 1000);
-            }
-        }
-    </script>    
-    <script type="text/x-mathjax-config">
-        init_mathjax = function() {
             if (window.MathJax) {
                 MathJax.Hub.Config({
                     TeX: {
@@ -102,12 +91,11 @@
                     messageStyle: 'none',
                     CommonHTML: { linebreaks: { automatic: true } }
                 });
-    
-                // Gọi hàm renderMath để kiểm tra MathJax đã sẵn sàng chưa
-                renderMath();
+            }else {
+                setTimeout(renderMath, 100);
             }
         }
-        init_mathjax();
+        renderMath();
     </script>
     <!-- <script type="text/javascript" id="MathJax-script" async
       src="assets/js/tex-mml-chtml.js"></script> -->

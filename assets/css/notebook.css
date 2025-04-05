@@ -36,7 +36,7 @@ body.dark-mode #notebook-content h1.notebook-title {
     text-align: center;
     text-decoration: underline;
     color: var(--highlight-color);
-    padding: 20px;
+    padding: 15px;
 }
 
 #notebook-content h1.notebook-title {

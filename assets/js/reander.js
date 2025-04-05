@@ -5,6 +5,15 @@ function extractYouTubeID(url) {
     return match ? match[1] : null;
 }
 
+function renderMath() {
+    if (window.MathJax && window.MathJax.Hub && MathJax.Hub.Queue) {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    } else {
+        // Nếu MathJax chưa sẵn sàng, thử đợi rồi gọi lại
+        setTimeout(renderMath, 100); // kiểm tra lại sau 100ms
+    }
+}
+
 // Hàm để tải và render file Markdown
 function renderMarkdown(content) {
     const md = window.markdownit();
@@ -49,10 +58,12 @@ function renderMarkdown(content) {
         }
         
     }
-    if (window.MathJax) {
-        MathJax.typeset();
-        // MathJax.typesetPromise();
-    }
+    renderMath()
+    // if (window.MathJax) {
+    //     MathJax.typeset();
+    //     // MathJax.typesetPromise();
+    // }
+    
 }
 
 function loadMarkdownFile(filePath) {

@@ -51,3 +51,32 @@ mjx-texatom[size="s"] mjx-c.mjx-c1D465.TEX-I::before{
     left: -5px;
     bottom: -7px;
 }
+
+/* Định dạng công thức theo phiên bản mới - đẹp hơn */
+li p:has(span.mjx-chtml.MJXc-display){
+    display: flex;
+}
+
+li p span.mjx-chtml.MJXc-display{
+    flex: 1;
+    margin-left: 40px;
+}
+
+span.mjx-chtml.MJXc-display {
+    background-color: var(--note-background-color);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 825px;
+    width: 100%;
+    margin: 10px auto;
+    overflow-x: auto;
+    white-space: pre;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    li p span.mjx-chtml.MJXc-display{
+        margin-left: 15px;
+    }
+}

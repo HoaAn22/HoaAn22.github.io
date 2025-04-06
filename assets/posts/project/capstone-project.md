@@ -11,7 +11,7 @@
 
 _Nguồn dữ liệu:_ Yahoo Finance, Google Finance, Federal Reserve Economic Data, World Bank Open Data, Ngân hàng Trung ương,...
 
-Code mẫu thu thập xem tại [NoteBook](assets/notebooks/convert/financial_data_collection.html)[*](note. Tài liệu này chỉ mang tính chất tham khảo và không phải bản hoàn chỉnh của đồ án tốt nghiệp) này.
+Code mẫu thu thập xem tại [NoteBook](assets/notebooks/convert/financial_data_collection.html)[*Lưu ý*](note. Tài liệu này chỉ mang tính chất tham khảo và không phải bản hoàn chỉnh của đồ án tốt nghiệp) này.
 
 ---
 

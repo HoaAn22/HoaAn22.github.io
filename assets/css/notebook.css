@@ -30,7 +30,7 @@ body.dark-mode #notebook-content h1.notebook-title {
     border-bottom: none;
     font-size: 2em;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: var(--highlight-color);
     padding: 15px;
     margin-left: -5px;

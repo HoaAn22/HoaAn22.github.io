@@ -163,7 +163,7 @@ tr:hover {
     display: inline-block;
     background-color: var(--block-color);
     border-left: 1.5px solid var(--highlight-color);
-    padding: 0px 5px;
+    padding-right: 10px;
     cursor: pointer;
 }
 
@@ -181,9 +181,8 @@ tr:hover {
     opacity: 0;
     transition: opacity 0.3s;
     z-index: 1;
-
     width: max-content;
-    max-width: 500px;
+    max-width: 400px;
     white-space: normal;
     overflow-wrap: break-word;
 }
@@ -239,4 +238,3 @@ tr:hover {
     color: white;
     font-weight: bold;
 }
-

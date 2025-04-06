@@ -50,7 +50,7 @@ function renderMarkdown(content) {
     const md = window.markdownit();
     let renderedContent = md.render(content);
 
-    // Thêm nội dung đã render vào phần tử HTML
+    // Thêm nội dung đã render vào phần tử HTM
     const markdownContentElement = document.getElementById('markdown-content');
     if (!markdownContentElement) return;
 

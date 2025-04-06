@@ -33,12 +33,15 @@ body.dark-mode #notebook-content h1.notebook-title {
     /* text-decoration: underline; */
     color: var(--highlight-color);
     padding: 15px;
+    margin-top: 5px;
     margin-left: -5px;
     margin-right: -5px;
 }
 
 #notebook-content h1.notebook-title {
     background-color: var(--block-color);
+    border-top: 1.2px solid black;
+    border-bottom: 1.2px solid black;
 }
 
 #notebook-content main {
@@ -110,6 +113,8 @@ body.dark-mode #notebook-content pre {
 
 body.dark-mode #notebook-content h1.notebook-title {
     background-color: var(--darkmode-block-color);
+    border-top: 1.2px solid var(--darkmode-content-color);
+    border-bottom: 1.2px solid var(--darkmode-content-color);
 }
 
 body.dark-mode #notebook-content{

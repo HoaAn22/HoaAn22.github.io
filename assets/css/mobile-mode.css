@@ -250,4 +250,8 @@
     li p mjx-container.MathJax.CtxtMenu_Attached_0[display="true"]{
         margin-left: var(--mobile-spacing);
     }
+
+    .note-tooltip {
+        max-width: 300px;
+    }
 }

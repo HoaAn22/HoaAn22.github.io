@@ -69,20 +69,19 @@ document.addEventListener("DOMContentLoaded", function () {
                             parent = parent.parentElement;
                         }
 
-                        // Cập nhật <title>
-                        if (categoryTitle) {
-                            document.title = `[${categoryTitle}] - ${selectedTitle}`;
-                        } else {
-                            document.title = `${selectedTitle} - An's blog`;
-                        }
-
                         // Thêm thẻ <h1> vào đầu nội dung notebook
                         const notebookContainer = document.getElementById("notebook-content");
                         const titleHeading = document.createElement("h1");
                         titleHeading.textContent = `Notebook: ${selectedTitle}`;
                         titleHeading.classList.add("notebook-title");
                         notebookContainer.prepend(titleHeading);
-                        
+
+                        // Cập nhật <title>
+                        if (categoryTitle) {
+                            document.title = `[${categoryTitle}] - ${selectedTitle}`;
+                        } else {
+                            document.title = `${selectedTitle} - An's blog`;
+                        }
                         return;
                     }
                 }

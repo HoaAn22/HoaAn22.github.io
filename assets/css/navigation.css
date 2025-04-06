@@ -163,7 +163,8 @@ tr:hover {
     display: inline-block;
     background-color: var(--block-color);
     border-left: 1.5px solid var(--highlight-color);
-    padding-right: 10px;
+    /*top - right - bottom - left */
+    padding:0 20px 0 0;
     cursor: pointer;
 }
 

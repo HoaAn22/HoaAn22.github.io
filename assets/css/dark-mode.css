@@ -49,12 +49,12 @@ body.dark-mode a.dropbtn{
 }
 
 body.dark-mode .note {
-    background-color: var(--darkmode-block-color);
+    background-color: var(--darkmode-note-background-color);
     color: #f0f0f0;
 }
 
 body.dark-mode .md-note{
-    background-color: var(--darkmode-block-color);
+    background-color: var(--darkmode-note-background-color);
 }
 
 /* body.dark-mode .dropdown-content {

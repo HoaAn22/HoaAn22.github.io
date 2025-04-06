@@ -39,7 +39,7 @@ body.dark-mode #notebook-content h1.notebook-title {
 }
 
 #notebook-content h1.notebook-title {
-    background-color: var(--block-color);
+    background-color: #f5f5f5;
     border-top: 1.2px solid black;
     border-bottom: 1.2px solid black;
 }
@@ -112,7 +112,7 @@ body.dark-mode #notebook-content pre {
 }
 
 body.dark-mode #notebook-content h1.notebook-title {
-    background-color: var(--darkmode-block-color);
+    background-color: #3a3a3a;
     border-top: 1.2px solid var(--darkmode-content-color);
     border-bottom: 1.2px solid var(--darkmode-content-color);
 }

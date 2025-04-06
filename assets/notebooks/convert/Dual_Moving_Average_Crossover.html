@@ -7804,7 +7804,15 @@ a.anchor-link {
 <li><strong>Khuyết điểm:</strong> dễ ảnh hưởng bởi nhiễu</li>
 </ul>
 <hr/>
-<p>Trung bình động hàm mũ (Exponential Moving Average - <strong>EMA</strong>)</p>
+<p>Trung bình động lũy thừa (Exponential Moving Average - <strong>EMA</strong>): tính toán bằng cách gán <strong>mức độ trọng số</strong> khác nhau cho các giá trị gần, giúp đường EMA mượt hơn và nhạy cảm hơn với biến động gần trên thị trường.</p>
+<p>$$EMA_t = (Close_t -Close_{t-1})\times \text{Độ nhạy} + EMA_{t-1}$$</p>
+<p>Trong đó:</p>
+<ul>
+<li><strong>Close</strong>: giá đóng cửa</li>
+<li><strong>t</strong>: thời điểm tính EMA</li>
+<li><strong>t-1</strong>: thời điểm trước đó</li>
+<li><strong>độ nhạy</strong>: là hệ số chọn trước, xác định mức độ ảnh hưởng của giá gần đây đến giá trị EMA</li>
+</ul>
 </div>
 </div>
 </div>

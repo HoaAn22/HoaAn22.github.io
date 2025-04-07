@@ -164,7 +164,7 @@ tr:hover {
     background-color: var(--block-color);
     border-left: 1.5px solid var(--highlight-color);
     /*top - right - bottom - left */
-    padding:0 15px 0 0;
+    padding:0 5px 0 0;
     cursor: pointer;
 }
 
@@ -179,7 +179,8 @@ tr:hover {
     transform: translateY(-50%); */
     background-color: #333;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    border: 1.5px solid var(--darkmode-content-color);
     border-radius: 5px;
     white-space: nowrap;
     opacity: 0;
@@ -190,17 +191,6 @@ tr:hover {
     white-space: normal;
     overflow-wrap: break-word;
 }
-
-/* .note-tooltip::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #333 transparent transparent transparent;
-} */
 
 .md-note:hover .note-tooltip {
     visibility: visible;

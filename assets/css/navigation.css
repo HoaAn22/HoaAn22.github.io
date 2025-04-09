@@ -196,39 +196,3 @@ tr:hover {
     visibility: visible;
     opacity: 1;
 }
-
-/* Mục lục */
-#toc {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 250px;
-    background: #f8f8f8;
-    padding: 10px;
-    border: 1px solid #ddd;
-    max-height: 80vh;
-    overflow-y: auto;
-}
-
-#toc ul {
-    list-style: none;
-    padding: 0;
-}
-
-#toc li {
-    margin-bottom: 5px;
-}
-
-#toc a {
-    text-decoration: none;
-    color: blue;
-    display: block;
-    padding: 5px;
-    transition: background 0.3s ease-in-out;
-}
-
-#toc a.active {
-    background: #007bff;
-    color: white;
-    font-weight: bold;
-}

@@ -19,6 +19,10 @@
 }
 
 /* === Notebook Content Styling === */
+html:has(#notebook-content) em {
+    color: var(--highlight-color);
+}
+
 #notebook-content {
     flex: 1;
     border: 1.5px solid black;

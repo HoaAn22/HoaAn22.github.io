@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(html => {
                 document.getElementById("notebook-content").innerHTML = html;
                 renderMath();
-                updateNotebookTitle(notebookPath);
+                // updateNotebookTitle(notebookPath);
             })
             .catch(error => console.error('Error loading file:', error));
     }

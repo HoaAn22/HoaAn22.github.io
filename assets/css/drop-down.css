@@ -4,6 +4,8 @@
     /* Khoảng cách giữa các dropdown */
     margin-bottom: 10px; 
     /* padding: 0px; */
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .sidebar {

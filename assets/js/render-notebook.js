@@ -1,3 +1,4 @@
+// URL Query String
 function loadNotebook(notebookPath) {
     const encodedPath = encodeURIComponent(notebookPath);
     window.location.href = `notebook.html?file=${encodedPath}`;

@@ -5,42 +5,33 @@ function extractYouTubeID(url) {
     return match ? match[1] : null;
 }
 
-// function renderMath() {
-//     if (window.MathJax && window.MathJax.Hub && MathJax.Hub.Queue) {
-//         MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-//     } else {
-//         setTimeout(renderMath, 100);
-//     }
-// }
-
+// Hàm render công thức toán học sử dụng MathJax
 function renderMath() {
     if (window.MathJax) {
-        // MathJax loaded
-            MathJax.Hub.Config({
-                TeX: {
-                    equationNumbers: {
+        MathJax.Hub.Config({
+            TeX: {
+                equationNumbers: {
                     autoNumber: "AMS",
                     useLabelIds: true
-                    }
-                },
-                tex2jax: {
-                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                    processEscapes: true,
-                    processEnvironments: true
-                },
-                displayAlign: 'center',
-                messageStyle: 'none',
-                CommonHTML: {
-                    linebreaks: {
-                    automatic: true
-                    }
                 }
-            });
+            },
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            displayAlign: 'center',
+            messageStyle: 'none',
+            CommonHTML: {
+                linebreaks: {
+                    automatic: true
+                }
+            }
+        });
 
-            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-        } else {
-        // Nếu MathJax chưa sẵn sàng, thử đợi rồi gọi lại
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    } else {
         setTimeout(renderMath, 100);
     }
 }
@@ -50,11 +41,10 @@ function renderMarkdown(content) {
     const md = window.markdownit();
     let renderedContent = md.render(content);
 
-    // Thêm nội dung đã render vào phần tử HTM
     const markdownContentElement = document.getElementById('markdown-content');
     if (!markdownContentElement) return;
 
-    // // Xử lý ghi chú
+    // Ghi chú tùy chỉnh
     const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/gi;
     renderedContent = renderedContent.replace(notePattern, (_, text, annotation) => {
         return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
@@ -81,26 +71,28 @@ function renderMarkdown(content) {
                     videoContainer.innerHTML = `
                         <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
                     `;
-                    a.replaceWith(videoContainer); // Thay thế thẻ <a> bằng iframe
+                    a.replaceWith(videoContainer);
                 }
             } else {
                 a.setAttribute('target', '_blank');
             }
         }
-        
     }
-    renderMath()
-    // if (window.MathJax) {
-    //     MathJax.typeset();
-    //     // MathJax.typesetPromise();
-    // }
-    
+
+    renderMath();
 }
 
+// Lấy query string
+function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
+
+// Load file Markdown
 function loadMarkdownFile(filePath) {
     // Nếu đang ở trang notebook.html thì chuyển sang index.html trước
     if (window.location.pathname.includes("notebook.html")) {
-        window.location.href = `index.html#${encodeURIComponent(filePath)}`;
+        window.location.href = `index.html?file=${encodeURIComponent(filePath)}`;
         return;
     }
 
@@ -108,47 +100,49 @@ function loadMarkdownFile(filePath) {
         .then(response => response.text())
         .then(text => {
             renderMarkdown(text);
-            window.location.hash = encodeURIComponent(filePath); // Cập nhật URL hash
 
-            // Cập nhật <title> thành tiêu đề bài viết từ link <a>
+            // Cập nhật URL bằng query string
+            const newUrl = `${window.location.pathname}?file=${encodeURIComponent(filePath)}`;
+            window.history.replaceState(null, '', newUrl);
+
+            // Cập nhật <title>
             const links = document.querySelectorAll('a[onclick]');
             let selectedTitle = "";
             let categoryTitle = "";
 
             for (let link of links) {
                 const onclickValue = link.getAttribute('onclick');
-                if (onclickValue.includes(filePath)) { 
-                    selectedTitle = link.innerText.trim(); 
+                if (onclickValue.includes(filePath)) {
+                    selectedTitle = link.innerText.trim();
 
                     let parent = link.parentElement;
-                    while (parent) { 
-                        if (parent.classList.contains("dropdown-item")) { // Chỉ lấy tiêu đề từ dropdown-item
-                            let parentLink = parent.querySelector('a'); 
-                            if (parentLink && parentLink !== link) { 
-                                categoryTitle = parentLink.innerText.trim(); 
+                    while (parent) {
+                        if (parent.classList.contains("dropdown-item")) {
+                            let parentLink = parent.querySelector('a');
+                            if (parentLink && parentLink !== link) {
+                                categoryTitle = parentLink.innerText.trim();
                             }
                             break;
                         }
                         parent = parent.parentElement;
                     }
 
-                    // Cập nhật tiêu đề đúng format mong muốn
                     if (categoryTitle) {
                         document.title = `[${categoryTitle}] - ${selectedTitle}`;
                     } else {
                         document.title = `${selectedTitle} - An's blog`;
                     }
-                    return; 
+                    return;
                 }
             }
         })
         .catch(error => console.error('Error loading file:', error));
 }
 
-// Kiểm tra URL hash khi trang load lại
+// Load khi trang được tải
 document.addEventListener('DOMContentLoaded', () => {
-    const hash = decodeURIComponent(window.location.hash.substring(1));
-    if (hash) {
-        loadMarkdownFile(hash);
+    const fileParam = getQueryParam('file');
+    if (fileParam) {
+        loadMarkdownFile(fileParam);
     }
 });

@@ -108,7 +108,7 @@ def show_file_selector(input_dir):
 def start_conversion():
     subdir = dir_entry.get().strip()
 
-    input_dir = os.path.join("assets/notebooks", subdir) if subdir else "assets/notebooks"
+    input_dir = os.path.join("assets/notebooks/.ipynb", subdir) if subdir else "assets/notebooks/.ipynb"
     output_dir = os.path.join("assets/notebooks/.convert", subdir) if subdir else "assets/notebooks/.convert"
 
     if not os.path.isdir(input_dir):

@@ -71,12 +71,12 @@ function updateNotebookTitle(notebookPath) {
             }
             const notebookContainer = document.getElementById("notebook-content");
 
-            updateHeaderNotebook(selectedTitle);
-            setTimeout(() => {
-                if (!document.querySelector('h1.notebook-title')) {
-                    updateHeaderNotebook(selectedTitle);
-                }
-            }, 100);
+            // updateHeaderNotebook(selectedTitle);
+            // setTimeout(() => {
+            //     if (!document.querySelector('h1.notebook-title')) {
+            //         updateHeaderNotebook(selectedTitle);
+            //     }
+            // }, 100);
             
             if (categoryTitle) {
                 document.title = `[${categoryTitle}] - ${selectedTitle}`;
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(html => {
                 document.getElementById("notebook-content").innerHTML = html;
                 renderMath();
-                // updateNotebookTitle(notebookPath);
+                updateNotebookTitle(notebookPath);
             })
             .catch(error => console.error('Error loading file:', error));
     }

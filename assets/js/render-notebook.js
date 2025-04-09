@@ -1,3 +1,10 @@
+// Chuyển trang index.html render file .md
+// Tránh xung đột khi cùng dùng URL Query String
+function loadMarkdown(path) {
+    const encodedPath = encodeURIComponent(path);
+    window.location.href = `index.html?file=${encodedPath}`;
+}
+
 // URL Query String
 function loadNotebook(notebookPath) {
     const encodedPath = encodeURIComponent(notebookPath);
@@ -83,7 +90,7 @@ function updateNotebookTitle(notebookPath) {
 
 document.addEventListener("DOMContentLoaded", function () {
     const params = new URLSearchParams(window.location.search);
-    const notebookPath = params.get("file"); //Đã được decode có thể dùng trực tiếp `fetch(notebookPath)`
+    const notebookPath = params.get("file"); // Đã được decode có thể dùng trực tiếp `fetch(notebookPath)`
 
     if (notebookPath) {
         fetch(decodeURIComponent(notebookPath))
@@ -91,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(html => {
                 document.getElementById("notebook-content").innerHTML = html;
                 renderMath();
-                updateNotebookTitle(notebookPath)
+                updateNotebookTitle(notebookPath);
             })
             .catch(error => console.error('Error loading file:', error));
     }

@@ -13,7 +13,7 @@
 //         const href = a.getAttribute('href');
 //         if (href && href.endsWith('.md')) {
 //             a.setAttribute('href', '#');
-//             a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
+//             a.setAttribute('onclick', `loadMarkdown('${href}')`);
 //         } else {
 //             a.setAttribute('target', '_blank');
 //         }
@@ -47,7 +47,7 @@ function renderMarkdown(content) {
             if (href.endsWith('.md')) {
                 // Xử lý file Markdown (tải nội dung thay vì chuyển trang)
                 a.setAttribute('href', '#');
-                a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
+                a.setAttribute('onclick', `loadMarkdown('${href}')`);
             } else if (href.includes('youtube.com') || href.includes('youtu.be')) {
                 // Chuyển đổi URL YouTube thành iframe
                 const videoId = extractYouTubeID(href);
@@ -83,7 +83,7 @@ function renderMarkdown(content) {
     //   };
 
 // Hàm để tải file Markdown khi nhấp vào liên kết
-function loadMarkdownFile(filePath) {
+function loadMarkdown(filePath) {
     fetch(filePath)
         .then(response => response.text())
         .then(text => {
@@ -179,7 +179,7 @@ function renderMarkdown(content) {
         if (href) {
             if (href.startsWith('assets') && href.endsWith('.md')) {
                 a.setAttribute('href', '#');
-                a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
+                a.setAttribute('onclick', `loadMarkdown('${href}')`);
             } else if (href.startsWith('assets') && href.endsWith('.html')) {
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadNotebook('${href}')`);
@@ -207,7 +207,7 @@ function renderMarkdown(content) {
     
 }
 
-function loadMarkdownFile(filePath) {
+function loadMarkdown(filePath) {
     // Nếu đang ở trang notebook.html thì chuyển sang index.html trước
     if (window.location.pathname.includes("notebook.html")) {
         window.location.href = `index.html#${encodeURIComponent(filePath)}`;
@@ -259,6 +259,6 @@ function loadMarkdownFile(filePath) {
 document.addEventListener('DOMContentLoaded', () => {
     const hash = decodeURIComponent(window.location.hash.substring(1));
     if (hash) {
-        loadMarkdownFile(hash);
+        loadMarkdown(hash);
     }
 });

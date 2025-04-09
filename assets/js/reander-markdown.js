@@ -1,3 +1,10 @@
+// Chuyển trang notebook.html render file .ipynb
+// Tránh xung đột khi cùng dùng URL Query String
+function loadNotebook(path) {
+    const encodedPath = encodeURIComponent(path);
+    window.location.href = `notebook.html?file=${encodedPath}`;
+}
+
 // Hàm trích xuất ID video từ URL YouTube
 function extractYouTubeID(url) {
     const regex = /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
@@ -5,7 +12,6 @@ function extractYouTubeID(url) {
     return match ? match[1] : null;
 }
 
-// Hàm render công thức toán học sử dụng MathJax
 function renderMath() {
     if (window.MathJax) {
         MathJax.Hub.Config({
@@ -36,7 +42,7 @@ function renderMath() {
     }
 }
 
-// Hàm để tải và render file Markdown
+// Hàm xử lý văn bản Markdown
 function renderMarkdown(content) {
     const md = window.markdownit();
     let renderedContent = md.render(content);
@@ -59,7 +65,7 @@ function renderMarkdown(content) {
         if (href) {
             if (href.startsWith('assets') && href.endsWith('.md')) {
                 a.setAttribute('href', '#');
-                a.setAttribute('onclick', `loadMarkdownFile('${href}')`);
+                a.setAttribute('onclick', `loadMarkdown('${href}')`);
             } else if (href.startsWith('assets') && href.endsWith('.html')) {
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadNotebook('${href}')`);
@@ -89,7 +95,7 @@ function getQueryParam(param) {
 }
 
 // Load file Markdown
-function loadMarkdownFile(filePath) {
+function loadMarkdown(filePath) {
     // Nếu đang ở trang notebook.html thì chuyển sang index.html trước
     if (window.location.pathname.includes("notebook.html")) {
         window.location.href = `index.html?file=${encodeURIComponent(filePath)}`;
@@ -143,6 +149,6 @@ function loadMarkdownFile(filePath) {
 document.addEventListener('DOMContentLoaded', () => {
     const fileParam = getQueryParam('file');
     if (fileParam) {
-        loadMarkdownFile(fileParam);
+        loadMarkdown(fileParam);
     }
 });

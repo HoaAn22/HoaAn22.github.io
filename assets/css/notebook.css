@@ -125,7 +125,7 @@ body.dark-mode #notebook-content{
     border: 1.5px solid var(--darkmode-content-color);
 }
 
-body.dark-mode #notebook-content pre span:not(.p):not(.c1):not(.c2):not(.k):not(.kn):not(.kc):not(.s1):not(.s2):not(.o):not(.ow):not(.mi):not(.si):not(.sd) {
+body.dark-mode #notebook-content pre span:not(.p):not(.c1):not(.c2):not(.k):not(.kc):not(.kn):not(.kt):not(.s1):not(.s2):not(.o):not(.ow):not(.mi):not(.si):not(.sd) {
     color: black;
 }
 

@@ -18,6 +18,10 @@
     margin-top: 5px;
 }
 
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] > table {
+    margin: 0px;
+}
+
 /* === Notebook Content Styling === */
 html:has(#notebook-content) em {
     color: var(--highlight-color);

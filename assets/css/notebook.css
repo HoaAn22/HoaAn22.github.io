@@ -7,19 +7,24 @@
     padding: 5px;
 }
 
-#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > .colab-df-container > div > table,
-#notebook-content .jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] > div > table {
-    display: block;
-    flex-direction: column;
-    margin: auto;
-    max-width: 100%;
-    padding: 0;
-    border: none;
-    margin-top: 5px;
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container {
+    display: table-cell;
 }
 
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] > table {
-    margin: 0px;
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"]{
+    overflow-x: auto;
+}
+
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] {
+    display: table-cell
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* === Notebook Content Styling === */
@@ -69,14 +74,7 @@ body.dark-mode #notebook-content h1.notebook-title {
     overflow-x: auto;
 }
 
-table.dataframe {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    overflow: auto;
-    width: 100%;
-}
-
+/* Làm cho table không thể phóng to */
 #notebook-content table {
     display: block;
     width: 100%;
@@ -129,7 +127,8 @@ body.dark-mode #notebook-content{
     border: 1.5px solid var(--darkmode-content-color);
 }
 
-body.dark-mode #notebook-content p code {
+body.dark-mode #notebook-content p code,
+body.dark-mode #notebook-content li code {
     color: var(--darkmode-content-color);
     background-color: var(--darkmode-note-background-color);
 }
@@ -238,6 +237,10 @@ main:has(#notebook-content) .sidebar {
 @media (max-width: 768px) {
     #notebook-content div:has(> table) {
         display: block;
+    }
+
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] {
+        display: table-cell
     }
 
     #notebook-content table .dataframe th,

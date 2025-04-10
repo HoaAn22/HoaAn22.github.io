@@ -1,5 +1,4 @@
-/* === General Markdown Content Styling === */
-#notebook-content{
+#notebook-content {
     display: flex;
     flex-direction: column;
     border: 1.5px solid black;
@@ -7,27 +6,28 @@
     padding: 5px;
 }
 
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container {
-    display: table-cell;
-}
-
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"]{
-    overflow-x: auto;
-}
-
-
+/* Định dạng table */
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container,
 #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] {
-    display: table-cell
+    display: table-cell;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
 }
 
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table{
+#notebook-content table,
+#notebook-content th,
+#notebook-content td {
+    text-align: left;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
     display: table;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
-/* === Notebook Content Styling === */
 html:has(#notebook-content) em {
     color: var(--highlight-color);
 }
@@ -74,19 +74,6 @@ body.dark-mode #notebook-content h1.notebook-title {
     overflow-x: auto;
 }
 
-/* Làm cho table không thể phóng to */
-#notebook-content table {
-    display: block;
-    width: 100%;
-}
-
-#notebook-content th,
-#notebook-content td {
-    padding: 5px;
-    text-align: center;
-    max-width: 400px;
-}
-
 #notebook-content th {
     background-color: transparent;
     color: black;
@@ -102,7 +89,6 @@ body.dark-mode #notebook-content h1.notebook-title {
     margin-left: 0px;
 }
 
-/* === Dark Mode Styling === */
 body.dark-mode #notebook-content h1,
 body.dark-mode #notebook-content h2,
 body.dark-mode #notebook-content h3,
@@ -177,7 +163,6 @@ body.dark-mode #notebook-content img {
     border-right: none;
 }
 
-/* === Header and Footer Styling === */
 body:has(#notebook-content) header h1 {
     font-size: 32px;
 }
@@ -191,7 +176,6 @@ body:has(#notebook-content) footer {
     padding: 1.25em;
 }
 
-/* === Links and Buttons === */
 html:has(#notebook-content) a {
     color: var(--highlight-color);
     text-decoration: underline;
@@ -235,20 +219,22 @@ main:has(#notebook-content) .sidebar {
 
 /* === Responsive Design === */
 @media (max-width: 768px) {
-    #notebook-content div:has(> table) {
-        display: block;
-    }
-
-    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] {
-        display: table-cell
-    }
-
-    #notebook-content table .dataframe th,
-    #notebook-content table .dataframe td {
-        width: 100px;
-    }
-
     #notebook-content img {
         height: auto;
+    }
+
+    div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table,
+    div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] table {
+        max-width: initial; 
+    }
+
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div {
+        display: block;
+        overflow-x: auto;
+    }
+
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div table {
+        display: block;
+        width: 100%;
     }
 }

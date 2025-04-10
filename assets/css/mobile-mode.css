@@ -78,9 +78,7 @@
         display: block;
     }
     
-    table:not(div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table), 
-    th:not(div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table), 
-    td:not(div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table) {
+    table, th, td {
         max-width: 300px;
         font-size: 13px;
     }

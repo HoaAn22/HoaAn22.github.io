@@ -11,7 +11,7 @@
 ### 1. Phát âm chuẩn (Tuần 1 - 2)
 - Học bảng IPA (International Phonetic Alphabet) để phát âm đúng ngay từ đầu.  
 - Nguồn học:  
-  - "BBC Learning English – The Sounds of English" (YouTube).  
+  - [BBC Learning English – The Sounds of English](https://www.youtube.com/@bbclearningenglish) (YouTube).  
   - "Rachel’s English" (YouTube).  
   - Ứng dụng: Elsa Speak, Cake.  
 - Thực hành:  

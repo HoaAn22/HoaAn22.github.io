@@ -69,7 +69,7 @@ function renderMarkdown(content) {
             } else if (href.startsWith('assets') && href.endsWith('.html')) {
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadNotebook('${href}')`);
-            } else if (href.includes('youtube.com') || href.includes('youtu.be')) {
+            } else if (href.includes('youtube.com/watch')) {
                 const videoId = extractYouTubeID(href);
                 if (videoId) {
                     const videoContainer = document.createElement('div');
@@ -86,6 +86,7 @@ function renderMarkdown(content) {
     }
 
     renderMath();
+    
 }
 
 // Lấy query string

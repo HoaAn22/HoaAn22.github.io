@@ -1,3 +1,67 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+/* Navigation Styles */
+ul ul li {
+    /* border-left: 1px solid gray; */
+    padding: 10px;
+    border: 1.2px solid black;
+    background-color: var(--note-background-color);
+    border-radius: 5px;
+}
+
+ul ul ul li {
+    list-style-type: disc;
+}
+
+ul ul li:has(code[class]) {
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+a {
+    color: var(--highlight-color);
+}
+
+ol {
+    margin-left: 35px;
+}
+
+ol li::marker {
+    color: var(--highlight-color);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content img {
+    background-color: white;
+    display: block; /* Chuyển thẻ img thành block để dễ xử lý */
+}
+
 /* Nút đóng/mở Dark mode */
 .dark-mode-toggle {
     position: fixed;
@@ -22,6 +86,7 @@ body.dark-mode .dark-mode-toggle {
 }
 
 .dark-mode-toggle img {
+    display: block;
     width: 25px;
     height: 25px;
     object-fit: contain;
@@ -60,12 +125,33 @@ body.dark-mode main {
 }
 
 /* Định dạng table */
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container,
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div,
 #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] {
-    display: table-cell;
-    /* display: flex; */
+    /* display: table-cell; */
+    display: flex;
+    flex-direction: column;
     /* flex-direction: row; */
-    /* flex-direction: column; */
+    padding: 0;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] > table {
+    flex: 1;
+    padding: 0;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div div.colab-df-buttons {
+    display: none;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div table{
+    display: table;
+    flex: 1;
+    /* width: 100%; */
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div table {
+    margin-top: 5px;
 }
 
 #notebook-content table,
@@ -93,12 +179,6 @@ body.dark-mode #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.j
 
 html:has(#notebook-content) em {
     color: var(--highlight-color);
-}
-
-#notebook-content {
-    flex: 1;
-    border: 1.5px solid black;
-    border-radius: 5px;
 }
 
 #notebook-content h1.notebook-title,
@@ -129,7 +209,7 @@ body.dark-mode #notebook-content h1.notebook-title {
     padding: 0;
 }
 
-#notebook-content main div {
+#notebook-content main div:not(div.colab-df-buttons) {
     flex: 1;
 }
 
@@ -282,6 +362,24 @@ main:has(#notebook-content) .sidebar {
 
 /* === Responsive Design === */
 @media (max-width: 768px) {
+    div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table,
+    div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] table {
+        max-width: initial; 
+    }
+
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div table,
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        padding-right: 10px;
+    }
+
+    header .piano-keys,
+    footer .piano-keys {
+        display: none;
+    }
+
     main {
         flex-direction: column;
     }
@@ -392,28 +490,10 @@ main:has(#notebook-content) .sidebar {
         transition: background-color 0.3s, color 0.3s;
     }
 
-    header .piano-keys,
-    footer .piano-keys {
-        display: none;
-    }
-
     #notebook-content img {
         height: auto;
     }
-
-    div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table,
-    div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] table {
-        max-width: initial; 
+    div.colab-df-buttons {
+        display: none;
     }
-
-    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div {
-        display: block;
-        overflow-x: auto;
-    }
-
-    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div table {
-        display: block;
-        width: 100%;
-    }
-
 }

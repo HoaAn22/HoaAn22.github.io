@@ -1,3 +1,58 @@
+/* Nút đóng/mở Dark mode */
+.dark-mode-toggle {
+    position: fixed;
+    top: 10px; /* Khoảng cách từ phía trên màn hình */
+    right: 10px; /* Khoảng cách từ phía phải màn hình */
+    z-index: 1000; /* Đảm bảo nút nằm trên cùng */
+    background-color: white; /* Màu nền*/
+    border-radius: 10px; /* Bo tròn nút */
+    border: 1px solid black;
+    padding: 5px; /* Khoảng cách bên trong nút */
+    cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
+
+    /* Đặt nút nằm ngang */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+body.dark-mode .dark-mode-toggle {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.dark-mode-toggle img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.light-mode-icon {
+    opacity: 1;
+}
+
+.dark-mode-icon {
+    opacity: 0;
+}
+
+body.dark-mode .light-mode-icon {
+    opacity: 0;
+}
+
+body.dark-mode .dark-mode-icon {
+    opacity: 1;
+}
+
+/* Dark mode */
+body.dark-mode main {
+    background-color: #2c2c2c;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Notebook content */
+
 #notebook-content {
     display: flex;
     flex-direction: column;
@@ -19,6 +74,16 @@
 #notebook-content th,
 #notebook-content td {
     text-align: left;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
+    border: 1.5px solid black;
+}
+
+body.dark-mode #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
+    border: 1.5px solid var(--darkmode-content-color);
 }
 
 #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
@@ -237,4 +302,5 @@ main:has(#notebook-content) .sidebar {
         display: block;
         width: 100%;
     }
+
 }

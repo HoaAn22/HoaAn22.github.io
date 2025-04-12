@@ -1,3 +1,54 @@
+/* Dark mode toggle styles */
+.dark-mode-toggle {
+    position: fixed;
+    top: 10px; /* Khoảng cách từ phía trên màn hình */
+    right: 10px; /* Khoảng cách từ phía phải màn hình */
+    z-index: 1000; /* Đảm bảo nút nằm trên cùng */
+    background-color: white; /* Màu nền*/
+    border-radius: 10px; /* Bo tròn nút */
+    border: 1px solid black;
+    padding: 5px; /* Khoảng cách bên trong nút */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
+
+    /* Đặt nút nằm ngang */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+/* Dark mode toggle styles */
+body.dark-mode .dark-mode-toggle {
+    background-color: black;
+    border: 1px solid white;
+}
+
+/*  display: flex; Nằm ngang
+    align-items: center; */
+
+.dark-mode-toggle img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.light-mode-icon {
+    opacity: 1;
+}
+
+.dark-mode-icon {
+    opacity: 0;
+}
+
+body.dark-mode .light-mode-icon {
+    opacity: 0;
+}
+
+body.dark-mode .dark-mode-icon {
+    opacity: 1;
+}
+
 /* Dark mode styles */
 body.dark-mode {
     /* background-color: #1a1a1a; */
@@ -104,57 +155,6 @@ body.dark-mode #markdown-content h2,
 body.dark-mode .main h1, 
 body.dark-mode .main h2 {
     border-bottom-color: var(--darkmode-content-color);
-}
-
-/* Dark mode toggle styles */
-.dark-mode-toggle {
-    position: fixed;
-    top: 10px; /* Khoảng cách từ phía trên màn hình */
-    right: 10px; /* Khoảng cách từ phía phải màn hình */
-    z-index: 1000; /* Đảm bảo nút nằm trên cùng */
-    background-color: white; /* Màu nền*/
-    border-radius: 10px; /* Bo tròn nút */
-    border: 1px solid black;
-    padding: 5px; /* Khoảng cách bên trong nút */
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-    cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
-
-    /* Đặt nút nằm ngang */
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
-}
-
-/* Dark mode toggle styles */
-body.dark-mode .dark-mode-toggle {
-    background-color: black;
-    border: 1px solid white;
-}
-
-/*  display: flex; Nằm ngang
-    align-items: center; */
-
-.dark-mode-toggle img {
-    width: 25px;
-    height: 25px;
-    object-fit: contain;
-    transition: opacity 0.3s ease;
-}
-
-.light-mode-icon {
-    opacity: 1;
-}
-
-.dark-mode-icon {
-    opacity: 0;
-}
-
-body.dark-mode .light-mode-icon {
-    opacity: 0;
-}
-
-body.dark-mode .dark-mode-icon {
-    opacity: 1;
 }
 
 body.dark-mode table,

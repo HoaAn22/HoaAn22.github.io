@@ -79,7 +79,9 @@
         display: block;
     }
     
-    table, th, td {
+    #markdown-content table, 
+    #markdown-content th, 
+    #markdown-content td {
         max-width: 300px;
         font-size: 13px;
     }

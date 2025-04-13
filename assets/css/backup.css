@@ -8,7 +8,17 @@
     padding: 20px;
 } */
 
+/* #notebook-content .dropbtn a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+} */
 
+/* body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output {
+    background-color: #EE9999;
+} */
 
 /* Navigation Styles */
 ul ul li {
@@ -34,14 +44,6 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-}
-
-nav ul li a {
-    text-decoration: none;
-}
-
-a {
-    color: var(--highlight-color);
 }
 
 ol {
@@ -117,23 +119,8 @@ body.dark-mode main {
     transition: background-color 0.3s, color 0.3s;
 }
 
-
-
 /* Định dạng table */
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div,
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] {
-    /* display: table-cell; */
-    display: flex;
-    flex-direction: column;
-    /* flex-direction: row; */
-    padding: 0;
-}
 
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] > table {
-    flex: 1;
-    padding: 0;
-}
 
 #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div div.colab-df-buttons {
     display: none;
@@ -145,31 +132,12 @@ body.dark-mode main {
     /* width: 100%; */
 }
 
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div table {
-    margin-top: 5px;
-}
-
-#notebook-content table,
-#notebook-content th,
-#notebook-content td {
-    text-align: left;
-    white-space: normal;
-    overflow-wrap: break-word;
-}
-
 #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
     border: 1.5px solid black;
 }
 
 body.dark-mode #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
     border: 1.5px solid var(--darkmode-content-color);
-}
-
-#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
-    display: table;
-    width: 100%;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 html:has(#notebook-content) em {
@@ -199,10 +167,6 @@ body.dark-mode #notebook-content h1.notebook-title {
     flex: 1;
 }
 
-#notebook-content main div pre {
-    overflow-x: auto;
-}
-
 #notebook-content th {
     background-color: transparent;
     color: black;
@@ -218,73 +182,10 @@ body.dark-mode #notebook-content h1.notebook-title {
     margin-left: 0px;
 }
 
-body.dark-mode #notebook-content h1,
-body.dark-mode #notebook-content h2,
-body.dark-mode #notebook-content h3,
-body.dark-mode #notebook-content h4,
-body.dark-mode #notebook-content h5,
-body.dark-mode #notebook-content h6,
-body.dark-mode #notebook-content ol,
-body.dark-mode #notebook-content ul,
-body.dark-mode #notebook-content li,
-body.dark-mode #notebook-content p,
-body.dark-mode #notebook-content pre {
-    color: var(--darkmode-content-color);
-}
-
 body.dark-mode #notebook-content h1.notebook-title {
     background-color: #3a3a3a;
     border-top: 1.2px solid var(--darkmode-content-color);
     border-bottom: 1.2px solid var(--darkmode-content-color);
-}
-
-body.dark-mode #notebook-content{
-    border: 1.5px solid var(--darkmode-content-color);
-}
-
-body.dark-mode #notebook-content p code,
-body.dark-mode #notebook-content li code {
-    color: var(--darkmode-content-color);
-    background-color: var(--darkmode-note-background-color);
-}
-
-body.dark-mode #notebook-content pre span:not(.p):not(.c1):not(.c2):not(.k):not(.kc):not(.kn):not(.kt):not(.s1):not(.s2):not(.o):not(.ow):not(.mi):not(.si):not(.sd) {
-    color: black;
-}
-
-body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output {
-    background-color: #EE9999;
-}
-
-body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output pre {
-    color: black;
-}
-
-body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime-type="text/plain"] {
-    background-color: var(--darkmode-content-color);
-    color: black;
-}
-
-body.dark-mode #notebook-content thead tr th {
-    color: var(--darkmode-content-color);
-}
-
-body.dark-mode #notebook-content table,
-body.dark-mode #notebook-content th,
-body.dark-mode #notebook-content td {
-    border: none;
-}
-
-body.dark-mode #notebook-content thead tr:nth-child(even) {
-    background-color: #2b2b2b;
-}
-
-body.dark-mode #notebook-content thead tr:nth-child(odd) {
-    background-color: rgb(90, 90, 90);
-}
-
-body.dark-mode #notebook-content thead tr:hover {
-    background-color: rgb(30, 30, 30);
 }
 
 body.dark-mode #notebook-content img {
@@ -296,38 +197,9 @@ nav ul {
     margin-right: 202px;
 }
 
-body:has(#notebook-content) footer {
-    font-size: 16px;
-    padding: 20px;
-}
-
-html:has(#notebook-content) a {
-    color: var(--highlight-color);
-    text-decoration: underline;
-}
-
-#notebook-content .dropbtn a {
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
 /* === Dropdown and Sidebar Styling === */
 main:has(#notebook-content) .dropdown {
     margin-bottom: 10px;
-}
-
-main:has(#notebook-content) .dropdown a {
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
-}
-
-main:has(#notebook-content) .dropdown-item a,
-main:has(#notebook-content) .dropdown-content a {
-    color: #f8f8f8;
 }
 
 main:has(#notebook-content) .sidebar {
@@ -339,18 +211,7 @@ main:has(#notebook-content) .sidebar {
 
 /* === Responsive Design === */
 @media (max-width: 768px) {
-    div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table,
-    div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] table {
-        max-width: initial; 
-    }
-
-    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div table,
-    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div table {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        padding-right: 10px;
-    }
+    
 
     header .piano-keys,
     footer .piano-keys {

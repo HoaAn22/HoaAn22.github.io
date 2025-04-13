@@ -16,11 +16,20 @@ body {
 
 /* Layout Components */
 header {
+    display: flex;
     position: relative;
     background-color: #1C1C1C;
+    justify-content: space-between;
+    align-items: flex-start;
     color: white;
-    padding: 0.75em;
-    text-align: center;
+    padding: 20px;
+    /* text-align: center; */
+    text-align: left; /* căn trái nội dung */
+}
+
+header h1,
+header nav {
+    display: flex;
 }
 
 main {
@@ -39,7 +48,7 @@ footer {
     margin-top: auto;
     background-color: #1C1C1C;
     color: white;
-    padding: 1.25em;
+    padding: 20px;
 }
 
 /* Content Styles */

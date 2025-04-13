@@ -30,6 +30,8 @@ body.dark-mode .dark-mode-toggle {
     width: 25px;
     height: 25px;
     object-fit: contain;
+    user-select: none;
+    -webkit-user-drag: none;
     transition: opacity 0.3s ease;
 }
 

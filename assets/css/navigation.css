@@ -7,32 +7,43 @@ ul ul li {
     border-radius: 5px;
 }
 
-ul ul ul li {
-    list-style-type: disc;
-}
-
-ul ul li:has(code[class]) {
-    border: none;
-}
-
 nav ul {
     list-style: none;
+    gap: 5px;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
 }
 
-nav ul li {
+/* nav ul li {
     margin: 0 10px;
-}
+} */
 
 nav ul li a {
+    display: block;
     text-decoration: none;
+    color: var(--darkmode-content-color);
+    border: 1.5px solid var(--darkmode-content-color);
+    border-radius: 5px;
+    padding: 5px;
+    /* margin-top: 0px; */
+}
+
+nav ul {
+    margin-right: 202px;
 }
 
 a {
     color: var(--highlight-color);
+}
+
+ul ul ul li {
+    list-style-type: disc;
+}
+
+ul ul li:has(code[class]) {
+    border: none;
 }
 
 ol {

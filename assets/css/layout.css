@@ -27,8 +27,7 @@ header {
     text-align: left; /* căn trái nội dung */
 }
 
-header h1,
-header nav {
+header h1 {
     display: flex;
 }
 
@@ -196,45 +195,3 @@ section {
                 0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black,
                 0 500px black, 0 520px black, 0 540px black, 0 560px black, 0 580px black;
 }
-
-/* .container::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 1.5px;
-    background: black;
-
-    --first: 0px;
-    --spacing: 20px;
-    --tab: 100px;
-
-    box-shadow: 
-                0 calc(var(--first) + var(--spacing) * 2 + var(--tab) * 1) black,
-                0 calc(var(--first) + var(--spacing) * 3 + var(--tab) * 1) black,
-                0 calc(var(--first) + var(--spacing) * 4 + var(--tab) * 1) black,
-                0 calc(var(--first) + var(--spacing) * 5 + var(--tab) * 1) black,
-                0 calc(var(--first) + var(--spacing) * 6 + var(--tab) * 1) black,
-
-                0 calc(var(--first) + var(--spacing) * 2) black,
-                0 calc(var(--first) + var(--spacing) * 1) black,
-                0 var(--first) black,
-                0 calc(var(--first) - var(--spacing) * 1) black,
-                0 calc(var(--first) - var(--spacing) * 2) black;
-} */
-
-/* .container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: repeating-linear-gradient(
-        to bottom,
-        black 0px,
-        black 0.5px,
-        transparent 100px
-    );
-} */

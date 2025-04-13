@@ -1,3 +1,15 @@
+/* body:has(#notebook-content) header {
+    display: flex;
+    position: relative;
+    background-color: #1C1C1C;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 20px;
+} */
+
+
+
 /* Navigation Styles */
 ul ul li {
     /* border-left: 1px solid gray; */
@@ -105,14 +117,7 @@ body.dark-mode main {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Notebook content */
-#notebook-content {
-    display: flex;
-    flex-direction: column;
-    border: 1.5px solid black;
-    border-radius: 5px;
-    padding: 5px;
-}
+
 
 /* Định dạng table */
 #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
@@ -188,15 +193,6 @@ body.dark-mode #notebook-content h1.notebook-title {
     background-color: #f5f5f5;
     border-top: 1.2px solid black;
     border-bottom: 1.2px solid black;
-}
-
-#notebook-content main {
-    flex: 1;
-    flex-direction: column;
-    gap: 10px;
-    margin: auto;
-    max-width: 100%;
-    padding: 0;
 }
 
 #notebook-content main div:not(div.colab-df-buttons) {
@@ -294,34 +290,6 @@ body.dark-mode #notebook-content thead tr:hover {
 body.dark-mode #notebook-content img {
     border: 1.5px solid var(--darkmode-content-color);
     border-right: none;
-}
-
-body:has(#notebook-content) header h1 {
-    font-size: 32px;
-}
-
-body:has(#notebook-content) header {
-    display: flex;
-    position: relative;
-    background-color: #1C1C1C;
-    justify-content: space-between;
-    align-items: flex-start;
-    color: white;
-    padding: 20px;
-    /* text-align: center; */
-    text-align: left; /* căn trái nội dung */
-}
-
-body:has(#notebook-content) header ul li a {
-    font-size: 16px;
-    text-decoration: none;
-    display: block;
-    text-decoration: none;
-    color: var(--darkmode-content-color);
-    border: 1.5px solid var(--darkmode-content-color);
-    border-radius: 5px;
-    padding: 5px;
-    /* margin-top: 0px; */
 }
 
 nav ul {
@@ -511,7 +479,7 @@ main:has(#notebook-content) .sidebar {
         border: 1.5px solid var(--darkmode-content-color);
         border-radius: 5px;
         padding: 5px;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
 
     /* nav {
@@ -524,7 +492,7 @@ main:has(#notebook-content) .sidebar {
         display: flex;
         flex-direction: column;
         margin-left: 5px;
-        margin-right: 0;
+        margin-right: 30px;
     }
 
     /* nav ul {
@@ -547,4 +515,52 @@ main:has(#notebook-content) .sidebar {
         align-items: center;
         text-align: center;
     } */
+     
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header h1 {
+        min-width: max-content;
+        /* border: 1.5px solid var(--darkmode-content-color); */
+        /* border-radius: 5px; */
+        padding: 5px;
+    }
+
+    nav {
+        display: none;
+    }
+    nav.show {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-top: 1px solid #ccc;
+        padding: 0;
+        /* display: block; */
+        background-color: #1C1C1C;
+        border: 1.5px solid var(--darkmode-content-color);
+        z-index: 1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav ul {
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 10px;
+    }
+    #headerMenu {
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-drag: none;
+        border: 1.5px solid var(--darkmode-content-color);
+        border-radius: 5px;
+        padding: 5px;
+    }
 }

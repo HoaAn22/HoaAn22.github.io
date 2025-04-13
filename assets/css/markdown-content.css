@@ -110,3 +110,43 @@ pre {
     content: "Css";
     background-color: #264DE4;
 }
+
+table {
+    width: 800px;
+    max-width: 100%;
+    border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+    font-family: Arial, sans-serif; /* Font chữ cho bảng */
+    margin: 20px 0; /* Khoảng cách bên ngoài bảng */
+    font-size: 16px; /* Kích thước chữ */
+    margin: 10px auto; /* Căn giữa hộp */
+}
+
+/* Định nghĩa kiểu cho các ô và đường viền */
+table, th, td {
+    border: 1px solid black; /* Đường viền giữa các ô */
+    padding: 5px; /* Khoảng cách bên trong mỗi ô */
+    text-align: left; /* Canh trái văn bản */
+    max-width: 800px; /* Giới hạn chiều rộng mỗi ô */
+    word-wrap: break-word; /* Ngắt dòng nếu nội dung quá dài */
+}
+
+/* Định nghĩa kiểu cho tiêu đề bảng */
+th {
+    background-color: var(--highlight-color); /* Màu nền của hàng tiêu đề */
+    color: white; /* Màu chữ của tiêu đề */
+    font-weight: bold; /* In đậm chữ */
+}
+
+/* Định nghĩa kiểu cho hàng lẻ và chẵn */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Màu nền cho hàng chẵn */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Màu nền cho hàng lẻ */
+}
+
+/* Đổi màu khi di chuột qua hàng */
+tr:hover {
+    background-color: #ddd; /* Màu nền khi di chuột qua */
+}

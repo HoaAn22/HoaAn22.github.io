@@ -1,73 +1,118 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Header Responsive</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An's Blog</title>
+    <style>
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            position: relative;
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        header h1 {
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+        #headerMenu {
+            display: none;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .dark-mode-toggle {
+            display: flex;
+            align-items: center;
+        }
+        .dark-mode-icon, .light-mode-icon {
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+        }
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      background-color: #333;
-      color: white;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 1.5rem;
-    }
-
-    nav ul {
-      display: flex;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      gap: 1.5rem;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-    }
-
-    /* Mobile layout */
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      nav ul {
-        flex-direction: column;
-        gap: 0.5rem;
-        margin-top: 1rem;
-      }
-    }
-  </style>
+        /* ===== MOBILE STYLES ===== */
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: #fff;
+                border-top: 1px solid #ccc;
+                padding: 10px 20px;
+            }
+            nav.show {
+                display: block;
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+            #headerMenu {
+                display: inline-block;
+            }
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Trang chủ</a></li>
-        <li><a href="#">Dịch vụ</a></li>
-        <li><a href="#">Liên hệ</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>An's blog
+            <div id="headerMenu" style="font-size: 20px; border: 1.5px solid black; border-radius: 5px; padding: 5px; user-select: none; -webkit-user-drag: none;">…</div>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div id="darkModeToggle" class="dark-mode-toggle">
+            <img src="assets/images/dark-mode.png" alt="Toggle Light Mode" class="dark-mode-icon">
+            <img src="assets/images/light-mode.png" alt="Toggle Dark Mode" class="light-mode-icon">
+        </div>
+    </header>
 
-  <main style="padding: 2rem;">
-    <p>Chào mừng bạn đến với trang web mẫu.</p>
-  </main>
+    <main style="padding: 20px;">
+        <h2>Welcome to An's Blog</h2>
+        <p>This is a sample page to demonstrate the responsive header with toggle menu and dark mode icon layout.</p>
+    </main>
 
+    <script>
+        const headerMenu = document.getElementById('headerMenu');
+        const nav = document.querySelector('header nav');
+
+        headerMenu.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    </script>
 </body>
 </html>

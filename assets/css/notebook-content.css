@@ -1,0 +1,32 @@
+/* Nội dung */
+#notebook-content {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#notebook-content main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+}
+
+/* Table */
+
+
+/* Bố cục */
+body:has(#notebook-content) header h1 {
+    font-size: 32px;
+}
+
+body:has(#notebook-content) header ul li a {
+    font-size: 16px;
+}
+
+/* Dark mode */
+
+/* Mobile mode */

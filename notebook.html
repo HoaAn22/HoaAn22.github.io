@@ -15,12 +15,16 @@
     <!-- <link rel="stylesheet" href="assets/css/mathjax.css"> -->
     <link rel="stylesheet" href="assets/css/decor.css">
     <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/navigation.css">
     <link rel="stylesheet" href="assets/css/drop-down.css">
-    <link rel="stylesheet" href="assets/css/notebook.css">
+    <!-- <link rel="stylesheet" href="assets/css/markdown-content.css"> -->
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/mobile-mode.css">
+    <link rel="stylesheet" href="assets/css/notebook-content.css">
 </head>
 <body>
     <header>
-        <h1>An's blog</h1>
+        <h1 id="headerMenu">An's blog</h1>
         <div class="decor">
             <div class="piano-keys">
                 <div class="keys"></div>
@@ -44,12 +48,12 @@
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="about.html">About</a></li>
                 <!-- <li><a href="assets/cv.pdf" target="_blank">CV</a></li> -->
-                <div id="darkModeToggle" class="dark-mode-toggle">
-                    <img src="assets/images/dark-mode.png" alt="Toggle Light Mode" class="dark-mode-icon">
-                    <img src="assets/images/light-mode.png" alt="Toggle Dark Mode" class="light-mode-icon">
-                </div>
             </ul>
         </nav>
+        <div id="darkModeToggle" class="dark-mode-toggle">
+            <img src="assets/images/dark-mode.png" alt="Toggle Light Mode" class="dark-mode-icon">
+            <img src="assets/images/light-mode.png" alt="Toggle Dark Mode" class="light-mode-icon">
+        </div>
     </header>
     <main>
         <div class="sidebar">
@@ -80,6 +84,7 @@
             <div class="keys"></div>
         </div>  
     </footer>
+    <script src="assets/js/mobile-mode.js" defer></script>
     <script src="assets/js/dropdown.js" defer></script>
     <script src="assets/js/render-notebook.js" defer></script>
     <script src="assets/js/markdown-it.min.js"></script>

@@ -252,6 +252,8 @@
     }
 
     .note-tooltip {
-        max-width: 300px;
+        /* left: 100%;
+        transform: translateY(50%); */
+        max-width: 200px;
     }
 }

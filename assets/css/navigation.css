@@ -174,9 +174,6 @@ tr:hover {
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
-    /* top: 50%;
-    left: 110%;
-    transform: translateY(-50%); */
     background-color: #333;
     color: white;
     padding: 10px;

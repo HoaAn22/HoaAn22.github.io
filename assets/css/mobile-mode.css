@@ -1,3 +1,7 @@
+#headerMenu {
+    display: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     main {
@@ -305,13 +309,15 @@
         gap: 10px;
     }
     #headerMenu {
-        font-family: 'Bravura';
+        display: block;
+        position: relative;
+        font-size: 22px;
         cursor: pointer;
         user-select: none;
         -webkit-user-drag: none;
         border: 1.5px solid var(--darkmode-content-color);
         border-radius: 5px;
-        margin-top: -5px;
         padding: 5px 10px 0px 10px;
     }
 }
+

@@ -275,10 +275,13 @@
     } */
 
     header h1 {
+        /* display: block; */
+        /* position: relative; */
         min-width: max-content;
+        /* right: 50%; */
         /* border: 1.5px solid var(--darkmode-content-color); */
         /* border-radius: 5px; */
-        padding: 5px;
+        /* padding: 5px; */
     }
 
     nav {
@@ -309,20 +312,48 @@
         gap: 10px;
     }
     #headerMenu {
-        display: block;
+        display: flex;
         position: relative;
         font-size: 22px;
         cursor: pointer;
         user-select: none;
         -webkit-user-drag: none;
-        border: 1.5px solid var(--darkmode-content-color);
-        border-radius: 5px;
-        padding: 5px 10px 0px 10px;
+        padding: 5px 10px 3px 10px;
+        border-right: 1.5px solid var(--darkmode-content-color);
+        /* top: 5px; */
+        right: inherit;
     }
 
+    /* header { */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+    /* } */
+
     .dark-mode-toggle {
-        top: 50%; /* Khoảng cách từ phía trên màn hình */
-        right: 0px; /* Khoảng cách từ phía phải màn hình */
+        position: relative;
+        top:0;
+        right: 0;
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        border-radius: 0;
+    }
+    body.dark-mode .dark-mode-toggle {
+        background-color: black;
+        border: none;
+    }
+
+    .dark-mode-toggle img {
+        width: 100%;
+    }
+
+    div.header-controls {
+        display: flex;
+        background-color: black;
+        border: 1.5px solid var(--darkmode-content-color);
+        border-radius: 5px;
     }
 }
 

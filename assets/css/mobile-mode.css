@@ -284,17 +284,18 @@
         display: flex;
         position: absolute;
         top: 100%;
-        left: 0;
+        /* left: 0; */
         width: 100%;
         background-color: #fff;
         border-top: 1px solid #ccc;
         padding: 0;
         /* display: block; */
-        background-color: #1C1C1C;
-        border: 1.5px solid var(--darkmode-content-color);
+        background-color: #3e3e3e;
+        border-bottom: 1px solid var(--darkmode-content-color);
         z-index: 1;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px;
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
     }
     nav ul {
         flex:1;
@@ -309,6 +310,7 @@
         -webkit-user-drag: none;
         border: 1.5px solid var(--darkmode-content-color);
         border-radius: 5px;
-        padding: 5px;
+        margin-top: -5px;
+        padding: 5px 10px 0px 10px;
     }
 }

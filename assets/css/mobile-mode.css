@@ -18,6 +18,9 @@
     .content {
         padding: 0px;
     }
+    ul {
+        padding-left: var(--mobile-spacing);
+    }
     #markdown-content th, 
     #markdown-content td {
         max-width: auto;

@@ -110,23 +110,13 @@
     body.dark-mode #sidebar-placeholder {
         background-color: #1C1C1C;
     }
-
-    
-
     #sidebar-placeholder:has(.dropdown-container.show){
         background-color: white;
     }
-
-    
-
     #sidebar-placeholder:has(.dropdown-container.show),
     body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) {
         transition: background-color 0.3s, color 0.3s;
     }
-
-    
-
-    
 
     body.dark-mode #sidebar-placeholder {
         border: 1.5px solid #f8f8f8;
@@ -135,14 +125,6 @@
     #markdown-content iframe {
         height: 200px;
     }
-
-    
-    ul {
-        padding-left: var(--mobile-spacing);
-    }
-
-
-
     .note-tooltip {
         /* left: 100%;
         transform: translateY(50%); */

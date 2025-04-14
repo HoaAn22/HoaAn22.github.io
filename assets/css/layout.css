@@ -29,6 +29,9 @@ header {
 
 header h1 {
     display: flex;
+    padding: 5px;
+    border: 1.5px solid var(--darkmode-content-color);
+    border-radius: 5px;
 }
 
 main {

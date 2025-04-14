@@ -40,6 +40,8 @@
     div.header-controls {
         display: flex;
         flex-shrink: 0;
+        position: relative;
+        top: 5px;
         background-color: black;
         border: 1.5px solid var(--darkmode-content-color);
         border-radius: 5px;

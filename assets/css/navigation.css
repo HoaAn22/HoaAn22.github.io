@@ -46,6 +46,11 @@ ul ul li:has(code[class]) {
     border: none;
 }
 
+header h1 a {
+    text-decoration: none;
+    color: var(--darkmode-content-color);
+}
+
 ol {
     margin-left: 35px;
 }

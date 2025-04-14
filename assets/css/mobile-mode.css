@@ -305,6 +305,7 @@
         gap: 10px;
     }
     #headerMenu {
+        font-family: 'Bravura';
         cursor: pointer;
         user-select: none;
         -webkit-user-drag: none;

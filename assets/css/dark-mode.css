@@ -124,6 +124,7 @@ body.dark-mode #markdown-content code:not([class]) {
     background-color: #3d3d3d;
     color: var(--darkmode-content-color);
 }
+
 /* 
 body.dark-mode #markdown-content code.language-python,
 body.dark-mode #markdown-content code.language-css,

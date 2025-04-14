@@ -1,3 +1,10 @@
+/* #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"] {
+    width: 80%;
+}
+li p mjx-container.MathJax.CtxtMenu_Attached_0[display="true"]{
+    margin-left: var(--mobile-spacing);
+} */
+
 /* Định dạng công thức MathJax */
 li p:has(span.mjx-chtml.MJXc-display){
     display: flex;
@@ -33,3 +40,4 @@ body.dark-mode span.mjx-chtml.MJXc-display{
         margin-left: 15px;
     }
 }
+

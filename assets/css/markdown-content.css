@@ -1,4 +1,9 @@
 /* Định dạng văn bản */
+#markdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
 #markdown-content h1,
 #markdown-content h2,
 #markdown-content h3,
@@ -112,23 +117,26 @@ pre {
 }
 
 table {
-    width: 800px;
-    max-width: 100%;
+    display: table;
+    margin: auto;
+    width: 100%;
+    /* max-width: 100%; */
     border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
     font-family: Arial, sans-serif; /* Font chữ cho bảng */
-    margin: 20px 0; /* Khoảng cách bên ngoài bảng */
     font-size: 16px; /* Kích thước chữ */
-    margin: 10px auto; /* Căn giữa hộp */
 }
 
 /* Định nghĩa kiểu cho các ô và đường viền */
 table, th, td {
-    border: 1px solid black; /* Đường viền giữa các ô */
+    /* border: 1px solid black; */
     padding: 5px; /* Khoảng cách bên trong mỗi ô */
     text-align: left; /* Canh trái văn bản */
-    max-width: 800px; /* Giới hạn chiều rộng mỗi ô */
+    /* max-width: 800px; */
     word-wrap: break-word; /* Ngắt dòng nếu nội dung quá dài */
 }
+/* th, td {
+    border-right: 1px solid black;
+} */
 
 /* Định nghĩa kiểu cho tiêu đề bảng */
 th {

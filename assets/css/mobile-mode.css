@@ -41,10 +41,10 @@
         display: flex;
         flex-shrink: 0;
         position: relative;
-        top: 5px;
         background-color: black;
         border: 1.5px solid var(--darkmode-content-color);
         border-radius: 5px;
+        overflow: hidden;
     }
     nav ul {
         flex:1;
@@ -82,7 +82,8 @@
         /* top: 5px; */
         right: inherit;
     }
-    .dark-mode-toggle {
+    .dark-mode-toggle, 
+    body.dark-mode .dark-mode-toggle {
         display: flex;
         flex-shrink: 0;
         position: relative;

@@ -24,6 +24,14 @@ html:has(#notebook-content) em {
     color: var(--highlight-color);
 }
 
+#notebook-content div:has(pre) + p {
+    margin-top: 1em;
+}
+
+#notebook-content div[class=highlight] pre {
+    color: var(--highlight-color);
+}
+
 #notebook-content div.jp-CodeMirrorEditor.jp-Editor.jp-InputArea-editor[data-type="inline"] pre {
     overflow-x: auto;
 }

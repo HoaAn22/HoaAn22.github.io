@@ -94,12 +94,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (notebookPath) {
         fetch(decodeURIComponent(notebookPath))
-            .then(response => response.text())
+            .then(response => {
+                // Kiểm tra mã trạng thái của phản hồi
+                if (!response.ok) {
+                    throw new Error(response.status);
+                }
+                return response.text();
+            })
             .then(html => {
                 document.getElementById("notebook-content").innerHTML = html;
                 renderMath();
                 updateNotebookTitle(notebookPath);
             })
-            .catch(error => console.error('Error loading file:', error));
+            .catch(error => {
+                console.error('Error loading file:', error);
+                // document.getElementById("notebook-content").innerHTML = "<p>" + error.message + "Không thể tải Notebook.</p>";
+                const notebookContainer = document.getElementById("notebook-content");
+                // notebookContainer.innerHTML = `<p>${error.message}</p>`;
+                notebookContainer.innerHTML = `<p>Không thể tải Notebook</p>`;
+            });
     }
 });

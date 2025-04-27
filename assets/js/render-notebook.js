@@ -69,8 +69,8 @@ function updateNotebookTitle(notebookPath) {
                 }
                 parent = parent.parentElement;
             }
-            const notebookContainer = document.getElementById("notebook-content");
 
+            // const notebookContainer = document.getElementById("notebook-content");
             // updateHeaderNotebook(selectedTitle);
             // setTimeout(() => {
             //     if (!document.querySelector('h1.notebook-title')) {

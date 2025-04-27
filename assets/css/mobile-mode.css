@@ -16,6 +16,7 @@
         margin-top: 10px;
     }
     .content {
+        max-width: 100%;
         padding: 0px;
     }
     ul {
@@ -27,6 +28,9 @@
         font-size: 13px;
         white-space: normal;
         overflow-wrap: break-word;
+    }
+    #markdown-content iframe {
+        height: 200px;
     }
 
     /* Giao diện mobile */

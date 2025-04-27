@@ -1,0 +1,13 @@
+#markdown-content p.nonstandard-p {
+    text-indent: 0;
+    margin-bottom: 15px;
+}
+
+#markdown-content p.nonstandard-p:has(+ ul) {
+    margin-bottom: 0;
+}
+
+#markdown-content ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

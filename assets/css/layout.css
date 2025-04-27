@@ -58,7 +58,12 @@ footer {
     display: flex;
     flex-direction: column;
     flex-basis: 80%;
+    flex-shrink: 0;
+    max-width: 80%;
     padding: 20px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
     /* height: 100%; */
     /* background-color: #fff; */
     /* position: relative;
@@ -197,4 +202,10 @@ section {
                 0 140px black, 0 160px black, 0 180px black, 0 200px black, 0 220px black,
                 0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black,
                 0 500px black, 0 520px black, 0 540px black, 0 560px black, 0 580px black;
+}
+
+span.quote {
+    color: #fd7e14;
+    font-size: 0.75em;
+    vertical-align: super;
 }

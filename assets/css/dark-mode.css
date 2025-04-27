@@ -6,7 +6,7 @@
     z-index: 1000; /* Đảm bảo nút nằm trên cùng */
     background-color: white; /* Màu nền*/
     border-radius: 10px; /* Bo tròn nút */
-    border: 1px solid black;
+    border: 1.5px solid black;
     padding: 5px; /* Khoảng cách bên trong nút */
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
@@ -20,7 +20,7 @@
 /* Dark mode toggle styles */
 body.dark-mode .dark-mode-toggle {
     background-color: black;
-    border: 1px solid white;
+    border: 1.5px solid white;
 }
 
 /*  display: flex; Nằm ngang
@@ -106,8 +106,14 @@ body.dark-mode .note {
     color: #f0f0f0;
 }
 
-body.dark-mode .md-note{
-    background-color: var(--darkmode-note-background-color);
+body.dark-mode .md-note {
+    background-color: var(--darkmode-block-color);
+    border: 1.2px solid var(--darkmode-content-color);
+    border-left: 2px solid var(--highlight-color);
+}
+
+body.dark-mode #markdown-content span.key-term {
+    background-color: var(--darkmode-block-color);
 }
 
 /* body.dark-mode .dropdown-content {

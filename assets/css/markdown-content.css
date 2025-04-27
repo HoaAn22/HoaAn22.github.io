@@ -16,11 +16,25 @@
 
 #markdown-content h1,
 #markdown-content h2 {
-    border-bottom: 1.2px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+#markdown-content h1 code {
+    font-size: inherit;
 }
 
 #markdown-content p {
-    margin-bottom: 1em;
+    line-height: 1.5;
+    text-indent: 2em;
+    margin-bottom: 5px;
+}
+
+#markdown-content p:has( + ul) {
+    margin-bottom: 0;
+}
+
+#markdown-content li p {
+    text-indent: 0;
 }
 
 #markdown-content em {
@@ -31,6 +45,7 @@
 #markdown-content ul,
 #markdown-content li {
     margin-bottom: 0.5em;
+    line-height: 1.5;
 }
 
 /* Định dạng hiển thị code */
@@ -157,4 +172,9 @@ tr:nth-child(odd) {
 /* Đổi màu khi di chuột qua hàng */
 tr:hover {
     background-color: #ddd; /* Màu nền khi di chuột qua */
+}
+
+#markdown-content span.key-term {
+    background-color: var(--block-color);
+    border-left: 2px solid var(--highlight-color);
 }

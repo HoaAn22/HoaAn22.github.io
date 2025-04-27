@@ -12,56 +12,109 @@ function extractYouTubeID(url) {
     return match ? match[1] : null;
 }
 
+// Cấu hình và render MathJax
 function renderMath() {
     if (window.MathJax) {
         MathJax.Hub.Config({
             TeX: {
-                equationNumbers: {
-                    autoNumber: "AMS",
-                    useLabelIds: true
-                }
+                equationNumbers: { autoNumber: "AMS", useLabelIds: true }
             },
             tex2jax: {
-                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
                 processEscapes: true,
                 processEnvironments: true
             },
             displayAlign: 'center',
             messageStyle: 'none',
-            CommonHTML: {
-                linebreaks: {
-                    automatic: true
-                }
-            }
+            CommonHTML: { linebreaks: { automatic: true } }
         });
-
         MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
     } else {
         setTimeout(renderMath, 100);
     }
 }
 
-// Hàm xử lý văn bản Markdown
-function renderMarkdown(content) {
-    const md = window.markdownit();
+// Cập nhật tiêu đề dựa trên file đang mở
+function updateNotebookTitle(filePath) {
+    const links = document.querySelectorAll('a[onclick]');
+    let selectedTitle = "";
+    let categoryTitle = "";
+
+    for (let link of links) {
+        const onclickValue = link.getAttribute('onclick');
+        if (onclickValue.includes(filePath)) {
+            selectedTitle = link.innerText.trim();
+            let parent = link.parentElement;
+            while (parent) {
+                if (parent.classList.contains("dropdown-item")) {
+                    let parentLink = parent.querySelector('a');
+                    if (parentLink && parentLink !== link) {
+                        categoryTitle = parentLink.innerText.trim();
+                    }
+                    break;
+                }
+                parent = parent.parentElement;
+            }
+            if (categoryTitle) {
+                document.title = `[${categoryTitle}] - ${selectedTitle}`;
+            } else {
+                document.title = `${selectedTitle} - An's blog`;
+            }
+            break;
+        }
+    }
+}
+
+// Danh sách các file Markdown cần xử lý đặc biệt (ngoại lệ)
+function getExcludeLinks() {
+    return [
+        'cv.md',
+        'portfolio.md',
+        // Thêm các file markdown đặc biệt khác tại đây
+    ];
+}
+
+// Hàm hiển thị nội dung Markdown (và xử lý ngoại lệ)
+function renderMarkdown(content, isExcluded = false) {
+    // const md = window.markdownit();
+    const md = window.markdownit({
+        breaks: false
+    });
     let renderedContent = md.render(content);
 
+    if (isExcluded) {
+        renderedContent = renderedContent.replace(/<p>/g, '<p class="nonstandard-p">');
+    }
+
+    // Tự động gán link cho URL
+    renderedContent = renderedContent.replace(/(?<!["'=])(https?:\/\/[^\s<>"']+)/g, (url) => `<a href="${url}" target="_blank">${url}</a>`);
+
+    // Ghi chú đặc biệt theo cú pháp [text](note.annotation)
+    renderedContent = renderedContent.replace(/\[([^\]]+)\]\(note\.([^)]+)\)/gi, (_, text, annotation) =>
+        `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`
+    );
+
+    renderedContent = renderedContent.replace(/\b([a-zA-Z0-9._%+-]+@gmail\.com)\b/g, (email) => 
+        `<a href="mailto:${email}">${email}</a>`
+    );
+
+    // Tô đậm thuật ngữ định dạng [#term]
+    renderedContent = renderedContent.replace(/\[#(.*?)\]/g, '<span class="key-term">$1</span>');
+
+    // Xuống dòng an toàn
+    renderedContent = renderedContent.replace(/&lt;br&gt;|<br>/gi, '<br>');
+
+    // Tô màu trích dẫn dạng [1], [2], ...
+    renderedContent = renderedContent.replace(/\[(\d+)\]/g, '<span class="quote">[$1]</span>');
+
     const markdownContentElement = document.getElementById('markdown-content');
-    if (!markdownContentElement) return;
-
-    // Ghi chú tùy chỉnh
-    const notePattern = /\[([^\]]+)\]\(note\.([^)]+)\)/gi;
-    renderedContent = renderedContent.replace(notePattern, (_, text, annotation) => {
-        return `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`;
-    });
-
     markdownContentElement.innerHTML = renderedContent;
 
+    // Gắn sự kiện vào các thẻ <a>
     const a_tags = markdownContentElement.getElementsByTagName('a');
     for (let a of a_tags) {
         const href = a.getAttribute('href');
-
         if (href) {
             if (href.startsWith('assets') && href.endsWith('.md')) {
                 a.setAttribute('href', '#');
@@ -69,14 +122,12 @@ function renderMarkdown(content) {
             } else if (href.startsWith('assets') && href.endsWith('.html')) {
                 a.setAttribute('href', '#');
                 a.setAttribute('onclick', `loadNotebook('${href}')`);
-            } else if (href.includes('youtube.com/watch')) {
+            } else if (href.includes('youtube.com/watch') || href.includes('youtu.be')) {
                 const videoId = extractYouTubeID(href);
                 if (videoId) {
                     const videoContainer = document.createElement('div');
                     videoContainer.classList.add('video-container');
-                    videoContainer.innerHTML = `
-                        <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
-                    `;
+                    videoContainer.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>`;
                     a.replaceWith(videoContainer);
                 }
             } else {
@@ -86,18 +137,20 @@ function renderMarkdown(content) {
     }
 
     renderMath();
-    
 }
 
-// Lấy query string
+// Lấy giá trị từ query string (?file=xxx)
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
 }
 
-// Load file Markdown
+// Load nội dung Markdown
 function loadMarkdown(filePath) {
-    // Nếu đang ở trang notebook.html thì chuyển sang index.html trước
+    const excludeLinks = getExcludeLinks();
+    const isExcluded = excludeLinks.some(excludedFile => filePath.includes(excludedFile));
+
+    // Nếu đang ở trang notebook.html thì chuyển về index.html
     if (window.location.pathname.includes("notebook.html")) {
         window.location.href = `index.html?file=${encodeURIComponent(filePath)}`;
         return;
@@ -106,47 +159,15 @@ function loadMarkdown(filePath) {
     fetch(filePath)
         .then(response => response.text())
         .then(text => {
-            renderMarkdown(text);
-
-            // Cập nhật URL bằng query string
+            renderMarkdown(text, isExcluded);
             const newUrl = `${window.location.pathname}?file=${encodeURIComponent(filePath)}`;
             window.history.replaceState(null, '', newUrl);
-
-            // Cập nhật <title>
-            const links = document.querySelectorAll('a[onclick]');
-            let selectedTitle = "";
-            let categoryTitle = "";
-
-            for (let link of links) {
-                const onclickValue = link.getAttribute('onclick');
-                if (onclickValue.includes(filePath)) {
-                    selectedTitle = link.innerText.trim();
-
-                    let parent = link.parentElement;
-                    while (parent) {
-                        if (parent.classList.contains("dropdown-item")) {
-                            let parentLink = parent.querySelector('a');
-                            if (parentLink && parentLink !== link) {
-                                categoryTitle = parentLink.innerText.trim();
-                            }
-                            break;
-                        }
-                        parent = parent.parentElement;
-                    }
-
-                    if (categoryTitle) {
-                        document.title = `[${categoryTitle}] - ${selectedTitle}`;
-                    } else {
-                        document.title = `${selectedTitle} - An's blog`;
-                    }
-                    return;
-                }
-            }
+            updateNotebookTitle(filePath);
         })
         .catch(error => console.error('Error loading file:', error));
 }
 
-// Load khi trang được tải
+// Khi trang được tải
 document.addEventListener('DOMContentLoaded', () => {
     const fileParam = getQueryParam('file');
     if (fileParam) {

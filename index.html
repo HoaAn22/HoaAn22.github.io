@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/markdown-content.css">
     <link rel="stylesheet" href="assets/css/dark-mode.css">
     <link rel="stylesheet" href="assets/css/mobile-mode.css">
+    <link rel="stylesheet" href="assets/css/nonstandard.css">
 </head>
 <body>
     <header>
@@ -56,6 +57,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="#" onclick="loadMarkdown('assets/posts/project/portfolio.md')">Portfolio</a></li>
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="about.html">About</a></li>
                 <!-- <li><a href="assets/cv.pdf" target="_blank">CV</a></li> -->
@@ -72,7 +74,8 @@
                     <div class="container">
                         <div class="layout">
                             <h2>Giới thiệu</h2>
-                            <p>(Đang cập nhật)</p>
+                            <p>Data analytics (Finance) | Data engineer | Data scientist | Quantitative research | Blockchain Developer</p>
+                            <hr>
                             <!-- <p>Là sinh viên ngành Khoa học Dữ liệu với đam mê Tài chính và công nghệ blockchain. Mong muốn thực tập tại công ty về lĩnh vực liên quan để rèn luyện kỹ năng chuyên môn về lập trình, tài chính, học hỏi về smart contract và phát triển sản phẩm thực tế. Mục tiêu dài hạn là trở thành Quantitative Research/ Blockchain Developer/ Financial analyst / Data analyst, đóng góp vào các giải pháp Web3.</p> -->
                         </div>
                         <div class="layout">
@@ -105,7 +108,9 @@
                                     <a href="https://www.w3schools.com/django/index.php"  target="_blank">Django</a>,...
                                 </li>
                                 <li>
-                                    Thư viện cho Tài chính: yfinance, vnstock, backtesting,...
+                                    Thư viện cho Tài chính: yfinance, vnstock, 
+                                    <a href="https://docs.ccxt.com/" target="_blank">ccxt</a>,
+                                    backtesting,...
                                 </li>
                                 <li>
                                     Cơ sở dữ liệu: MySQL, PostgreSQL, MongoDB
@@ -129,37 +134,28 @@
                         <div class="layout">
                             <h2>Kinh nghiệm</h2>
                             <ul>
-                                <li>(Đang cập nhật)</li>
-                                <!-- <li>
+                                <li>
                                     (2025)<br>
                                     <strong>Giảng viên Cao đẳng - Công nghệ Thông tin</strong><br>
                                     <a href="https://dcoht.edu.vn/" target="_blank">DCoHT - Cao đẳng công nghệ cao Đồng Nai</a>
-                                </li> -->
+                                </li>
                             </ul>
                         </div>
                         <div class="layout">
-                            <h2>Dự án</h2>
+                            <h2><a href="#" onclick="loadMarkdown('assets/posts/project/portfolio.md')">Dự án</a></h2>
                             <ul>
                                 <li>
                                     (12/2024)<br>
-                                    <strong><a href="#" onclick="loadMarkdownFile('assets/posts/project/capstone-project.md')">Đồ án tốt nghiệp:</a></strong> Xây dựng hệ thống thu thập thông tin kinh tế vĩ mô và dự đoán tỷ giá<br>
-                                    <strong>Mô tả:</strong> Tự động hóa crawl data từ các trang web ngân hàng Trung Ương và các nguồn dữ liệu khác. Phân tích yếu tố vĩ mô tương quan ảnh hưởng đến tỷ giá và xây dựng mô hình học máy dự đoán tỷ giá.<br>
-                                    <strong>Công nghệ:</strong> Selenium, BeautifulSoup4, Machine Learning, MySQL, Docker, Airflow
+                                    <strong><a href="#" onclick="loadMarkdown('assets/posts/project/capstone-project.md')">Đồ án tốt nghiệp: Xây dựng hệ thống thu thập thông tin kinh tế vĩ mô và dự đoán tỷ giá</a></strong><br>
+                                    <strong>Mô tả: </strong>Tự động hóa crawl data từ các trang web ngân hàng Trung Ương và dữ liệu kinh tế vĩ mô. Phân tích yếu tố vĩ mô tương quan ảnh hưởng đến tỷ giá và xây dựng mô hình học máy dự đoán tỷ giá.<br>
+                                    
+                                </li>
+                                <li>
+                                    (04/2025)<br>
+                                    <strong><a href="#" onclick="loadMarkdown('assets/posts/project/algorithmic-trading.md')">Hệ thống giao dịch thuật toán (Crypto)</a></strong><br>
+                                    <strong>Mô tả: </strong><br>
                                 </li>
                             </ul> 
-                        </div>
-                        <div class="layout">
-                            <h2>Chứng chỉ</h2>
-                            <ul>
-                                <li>(07/2024)<br>
-                                    <strong>Python</strong>
-                                    <a href="https://www.kaggle.com/learn/certification/hen2200/python" target="_blank" >Kaggle</a>
-                                </li>
-                                <!-- <li>(05/2025 - Hiện tại)<br>
-                                    <strong>Nghiệp vụ sư phạm dạy trình độ cao đẳng, trung cấp</strong><br>
-                                    <a href="https://ite.hcmute.edu.vn/TopicId/23d2ea12-d7cd-4ced-a778-42ea88c2a6b5/boi-duong-nghiep-vu-su-pham" target="_blank">Viện sư phạm kỹ thuật</a>
-                                </li> -->
-                            </ul>
                         </div>
                         <div class="layout">
                             <h2>Học vấn</h2>
@@ -168,7 +164,7 @@
                                     <strong>Kỹ sư Khoa học dữ liệu</strong><br>
                                     <a href="https://fit.iuh.edu.vn/news.html@detail@188@3266@Nganh-Khoa-hoc-du-lieu" target="_blank">IUH - Đại học Công nghiệp TP.HCM</a>
                                 </li>
-                                <!-- <li>(2025)<br>
+                                <li>(2025)<br>
                                     <strong>Cử nhân Ngôn ngữ Anh</strong><br>
                                     <strong>(Văn bằng 2)</strong><br>
                                     <a href="https://mit.vn/"  target="_blank">MIT - Đại học Công nghệ Miền Đông</a>
@@ -177,12 +173,26 @@
                                     <strong>Thạc sĩ Tài chính - Ngân hàng</strong><br>
                                     <strong>(Định hướng Fintech)</strong><br>
                                     <a href="https://hub.edu.vn/" target="_blank">HUB - Đại học Ngân Hàng TP.HCM</a>
-                                </li> -->
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="layout">
+                            <h2>Chứng chỉ</h2>
+                            <ul>
+                                <li>(07/2024)<br>
+                                    <strong>Python</strong>
+                                    <a href="https://www.kaggle.com/learn/certification/hen2200/python" target="_blank" >Kaggle</a>
+                                </li>
+                                <li>(05/2025 - 08/2025)<br>
+                                    <strong>Nghiệp vụ sư phạm dạy trình độ cao đẳng, trung cấp</strong><br>
+                                    <a href="https://ite.hcmute.edu.vn/TopicId/23d2ea12-d7cd-4ced-a778-42ea88c2a6b5/boi-duong-nghiep-vu-su-pham" target="_blank">Viện sư phạm kỹ thuật</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="layout">
                             <h2>Thông tin liên hệ</h2>
-                            <p>Email: <a href="mailto:antran22112002@gmail.com" target="_blank">antran22112002@gmail.com</a></p>
+                            <p><strong>Email: </strong><a href="mailto:antran22112002@gmail.com" target="_blank">antran22112002@gmail.com</a></p>
+                            <p><strong>Phone number: </strong>0877 590 058</p>
                             <!-- <p>LinkedIn: </p> -->
                         </div>
                     </div> 

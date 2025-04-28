@@ -32,6 +32,7 @@
 
 .dropdown-category {
     display: none;
+    /* position: relative; */
     position: absolute;
     /* background-color: #3998fd; */
     /* background-color: white; */

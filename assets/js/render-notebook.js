@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // document.getElementById("notebook-content").innerHTML = "<p>" + error.message + "Không thể tải Notebook.</p>";
                 const notebookContainer = document.getElementById("notebook-content");
                 // notebookContainer.innerHTML = `<p>${error.message}</p>`;
-                notebookContainer.innerHTML = `<p>Không thể tải Notebook</p>`;
+                notebookContainer.innerHTML = `<p>Không thể tải Notebook. Kiểm tra lại đường dẫn.</p>`;
             });
     }
 });

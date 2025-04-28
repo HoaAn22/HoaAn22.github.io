@@ -209,3 +209,13 @@ span.quote {
     font-size: 0.75em;
     vertical-align: super;
 }
+
+a.download {
+    display: block;
+    position: absolute;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    top: 2px;
+    right: 2px;
+}

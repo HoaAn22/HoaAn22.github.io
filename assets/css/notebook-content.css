@@ -28,6 +28,14 @@ html:has(#notebook-content) em {
     margin-top: 1em;
 }
 
+#notebook-content p:has( + ul) {
+    margin-bottom: 0;
+}
+
+#notebook-content p + ul {
+    margin-top: 0;
+}
+
 #notebook-content div[class=highlight] pre {
     color: var(--highlight-color);
 }

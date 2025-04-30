@@ -107,6 +107,7 @@ function renderMarkdown(content, isExcluded = false) {
 
     // Tô màu trích dẫn dạng [1], [2], ...
     renderedContent = renderedContent.replace(/\[(\d+)\]/g, '<span class="quote">[$1]</span>');
+    renderedContent = renderedContent.replace(/\[([^\]]+)\]/g, '<span class="quote">[$1]</span>');
 
     const markdownContentElement = document.getElementById('markdown-content');
     markdownContentElement.innerHTML = renderedContent;

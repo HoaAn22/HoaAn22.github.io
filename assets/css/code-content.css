@@ -1,0 +1,18 @@
+#markdown-content code.language-python,
+#markdown-content code.language-css,
+#markdown-content code.language-js,
+#markdown-content code.language-bash {
+    background-color:inherit;
+    color: inherit;
+}
+#markdown-content pre code:has([class]) {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+    overflow-x: auto;
+    font-family: monospace;
+    white-space: pre;
+    display: block;
+    width: 100%;
+}

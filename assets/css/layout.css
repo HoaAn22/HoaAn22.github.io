@@ -59,11 +59,12 @@ footer {
     flex-direction: column;
     flex-basis: 80%;
     flex-shrink: 0;
+    position: relative;
     max-width: 80%;
     padding: 20px;
     white-space: normal;
     word-wrap: break-word;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* height: 100%; */
     /* background-color: #fff; */
     /* position: relative;
@@ -208,6 +209,10 @@ span.quote {
     color: #fd7e14;
     font-size: 0.75em;
     vertical-align: super;
+}
+
+span.quote a {
+    color: #fd7e14;
 }
 
 a.download {

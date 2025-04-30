@@ -17,8 +17,9 @@ Django temple
 4. Khai báo app đã tạo vào dự án.
     ![khai báo](assets/images/django/1.png)
 5. Khởi chạy django bằng lệnh `python manage.py runserver [Cổng](note. có thẻ để trống mặc định là 8000)`
-    ![alt text](assets\posts\django\image-1.png)
+    ![Thông báo](assets/images/django/2.png)
     Sau khi chạy lệnh thông báo xuất hiện như thế này là thành công và có thể bắt đầu xây dựng dự án web.
+    ![Thành công](assets/images/django/3.png)
 
 ## Tạo view và url
 

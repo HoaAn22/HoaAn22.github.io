@@ -96,6 +96,8 @@ img {
 }
 
 #markdown-content .video-container {
+    display: flex;
+    flex-direction: column;
     position: relative;
     width: 100%;
     max-width: 800px;

@@ -13,7 +13,7 @@
 Web3 được định nghĩa là thế hệ tiếp theo của website, sau Web 2.0 là thế hệ web động với tính tương tác cao cho phép đọc, viết, đóng góp và chia sẻ nội dung. Nhưng Web 2.0 vẫn được quản lý từ cá nhân/tổ chức cung cấp web site. Web3 mang ý tưởng mang đến web site phi tập trung do người dùng sở hữu, không được quản lý bởi tổ chức nào.
 
 ![Lịch sử hình thành web](assets/images/algorithmic-trading/history-web.png)
-(Nguồn ảnh: https://www.adjust.com/glossary/web3/)
+(Nguồn ảnh: https://www.adjust.com/glossary/web3/ )
 
 **Lịch sử phát triển**
 - **Ý tưởng hình thành  World Wide Web:** năm 1989, tại tổ chức CERN (Tổ chức nghiên cứu Hạt nhân Châu Âu), nhà khoa học người Anh Tim Berners-Lee đề xuất hệ thống siêu văn bản nằm chia sẽ thông tin giữa các nhà nghiên cứu[[interdata](https://interdata.vn/blog/world-wide-web/)]. Đến ngày 06/08/1991, trang web đầu tiên được công bố công khai trên internet, đánh dấu sự ra đời của internet.[[kinhtevadubao](https://kinhtevadubao.vn/world-wide-web-ra-doi-the-nao-2680.html)]<br>
@@ -24,10 +24,18 @@ Web3 được định nghĩa là thế hệ tiếp theo của website, sau Web 2
 
 **Ưu nhược điểm của Web3, Blockchain & hệ thống phi tập trung**
 
+**Ưu điểm:**
+- Minh bạch và công bằng: Ưu điểm lớn nhất của hệ thống Web3 là các thông tin (Giao dịch) được ghi lại bằng công nghệ Blockchain không thể bị sửa đổi và gần như không thể thao túng.
+- Quyền kiểm soát dữ liệu cá nhân: Người dùng có quyền sở hữu và kiểm kiểm soát với dữ liệu của mình, không bị phụ thuộc vào hệ thống hoặc nền tảng tập trung (Nhà phát hành/ Ngân hàng,...)
+
+**Nhược điểm:**
+- Hệ thống phi tập trung mặc dù trao quyền cho người dùng như cũng đem đến một nhược điểm rất lớn. Việc không có quản lý tập trung từ một tổ chức, khi mất hoặc quên khóa riêng (private key) đồng nghĩa với việc mất quyền truy cập vào tài sản của mình.
+- Pháp lý về Web3, Blockchain & hệ thống phi tập trung tại nhiều quốc gia vẫn chưa được rõ ràng, dẫn đến rủi ro về pháp lý.
+- Khó tiếp cận: công nghệ mới và phức tạp cho người dùng mới tìm hiểu và tiếp cận. 
 
 ## Blockchain, Crypto & Tài chính
 
-*Với nhiều ưu điểm, Web3 được kỳ vọng ứng dụng cho nhiều lĩnh vực như game NFT, Bất động sản, Quản lý công, quản lý doanh nghiệp, Nghệ thuật,... do  nhu cầu về bảo mật và quyền sử dụng dữ liệu đang trở nên quan trọng trong thời kỳ phát triển hiện nay. Crypto (tiền điện tử) là một ứng dụng tiêu biểu, được chú ý và phát triển mạnh mẽ do tính ứng dụng cao vì sự minh bạch và sau sự kiện khủng hoảng toàn cầu 2008 các nhà đầu tư bắt đầu quan tâm đến 1 hệ thống tài chính phi tập trung thay vì hệ thống tài chính được cang tiệp từ ngân hàng trung ương.*
+Với nhiều ưu điểm, Web3 được kỳ vọng ứng dụng cho nhiều lĩnh vực như game NFT, Bất động sản, Quản lý công, quản lý doanh nghiệp, nghệ thuật,... do  nhu cầu về bảo mật và quyền sử dụng dữ liệu đang trở nên quan trọng trong thời kỳ phát triển hiện nay. Crypto (tiền điện tử) là một ứng dụng tiêu biểu, được chú ý và phát triển mạnh mẽ do tính ứng dụng cao vì sự minh bạch và sau sự kiện khủng hoảng toàn cầu 2008 các nhà đầu tư bắt đầu quan tâm đến 1 hệ thống tài chính phi tập trung thay vì hệ thống tài chính được cang tiệp từ ngân hàng trung ương.
 
 **Công nghệ blockchain** là nền tảng cốt lỗi của tiền điện tử. **Blockchain** như là một sổ tay kỹ thuật được chia sẻ và bất biến, ghi lại tất cả các giao dịch và theo dõi tài sảng trong mạng lưới, không thể chỉnh sử và thay đổi đảm bảo tính minh bạch cho tất cả các giao dịch.[3]
 
@@ -103,13 +111,19 @@ Xây dựng 1 hệ thống giao dịch cần thu thực hiện các bước thu 
 
 Bước cuối cùng là tìm hiểu về API và kết nối hệ thống đến các sàn giao dịch, đối với chứng khoán các sàn giao dịch lớn thường cung cấp sẵn API để khách hàng có nhu cầu sử dụng, bạn có thể tìm hiểu tại trang chủ. Đối với tị trường crypto, thư viện ccxt giúp công việc này trở nên đơn giản hơn, bởi ngoài việc lấy dữ liệu giá, thư viện cung cấp kết nối đến rất nhiều sàn lớn như Binance, Bybit,...
 
-## Triển khai hệ thống
-
 ## Phát triển và Triển khai Chiến lược Giao dịch 
+
+**Các chiến lược giao dịch:**
+- Giao dịch theo ngày (Day Trading) là giao dịch nhiều lệnh trong 1 ngày tận dùng biến động giá để thu lợi nhuận.
+- Giao dịch theo xu hướng (Swing Trading) là nắm bắt các xu hướng dài hạn vài ngày đến vài tuần để đặt lệnh hợp lý tối ưu phí giao dịch.
+- Holding là chiến lược đầu tư dài hạn, cần nhắm vững giá trị nội tại và xu hướng phát triển của đồng coin đầu tư, đầu tư các đồng coin có tính ổn định và xu hướng tốt. Bỏ qua các biến động ngắn hạn.
+- Lướt sóng (Scalping) 
 
 ## Đánh giá thuật toán và tối ưu hệ thống
 
 **Bảng so sách chiến lược giao dịch**
+
+## Triển khai hệ thống
 
 ## Rủi ro hệ thống
 
@@ -117,4 +131,4 @@ Bước cuối cùng là tìm hiểu về API và kết nối hệ thống đế
 
 ## File & Tài liệu tham khảo
 
-- [pdf](assets/files/pdf/algorithmic-trading.pdf)
+- [file báo cáo (pdf)](assets/files/pdf/algorithmic-trading.pdf)

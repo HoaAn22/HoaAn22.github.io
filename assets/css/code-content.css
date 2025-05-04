@@ -5,6 +5,7 @@
     background-color:inherit;
     color: inherit;
 }
+
 #markdown-content pre code:has([class]) {
     border: 1px solid black;
     border-radius: 5px;
@@ -15,4 +16,8 @@
     white-space: pre;
     display: block;
     width: 100%;
+}
+
+#markdown-content pre code.language-bash {
+    background-color: var(--input-code-color);
 }

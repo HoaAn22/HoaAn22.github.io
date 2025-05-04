@@ -79,8 +79,7 @@
     width: 100%;
 }
 
-#markdown-content pre code.language-python
-{
+#markdown-content pre code.language-python {
     background: linear-gradient(to right, #3776AB, #3776AB, #FFD43B);
     color: white;
 }

@@ -7510,7 +7510,18 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Thu-th%E1%BA%ADp-d%E1%BB%AF-li%E1%BB%87u">Thu thập dữ liệu<a class="anchor-link" href="#Thu-th%E1%BA%ADp-d%E1%BB%AF-li%E1%BB%87u">¶</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7536,6 +7547,100 @@ a.anchor-link {
 <span class="c1"># Thư viện trực quan dữ liệu</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">ccxt</span>
+
+<span class="c1"># Khởi tạo đối tượng sàn Bybit</span>
+<span class="n">exchange</span> <span class="o">=</span> <span class="n">ccxt</span><span class="o">.</span><span class="n">bybit</span><span class="p">()</span>
+
+<span class="c1"># Lấy giá của ETH/USDT (hoặc ETH bất kỳ cặp giao dịch nào trên sàn)</span>
+<span class="n">symbol</span> <span class="o">=</span> <span class="s1">'ETH/USDT'</span>
+<span class="n">ticker</span> <span class="o">=</span> <span class="n">exchange</span><span class="o">.</span><span class="n">fetch_ticker</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
+
+<span class="c1"># In giá hiện tại (last price)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Giá hiện tại của </span><span class="si">{</span><span class="n">symbol</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">ticker</span><span class="p">[</span><span class="s1">'last'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Giá hiện tại của ETH/USDT: 1595.86
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">ccxt</span>
+
+<span class="c1"># Khởi tạo đối tượng sàn Bybit</span>
+<span class="n">exchange</span> <span class="o">=</span> <span class="n">ccxt</span><span class="o">.</span><span class="n">bybit</span><span class="p">()</span>
+
+<span class="c1"># Xem tài liệu giúp đỡ về phương thức fetch_ohlcv của sàn Bybit</span>
+<span class="n">help</span><span class="p">(</span><span class="n">exchange</span><span class="o">.</span><span class="n">fetch_ohlcv</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Help on method fetch_ohlcv in module ccxt.bybit:
+
+fetch_ohlcv(
+    symbol: str,
+    timeframe='1m',
+    since: Optional[int] = None,
+    limit: Optional[int] = None,
+    params={}
+) -&gt; List[list] method of ccxt.bybit.bybit instance
+    fetches historical candlestick data containing the open, high, low, and close price, and the volume of a market
+
+    https://bybit-exchange.github.io/docs/v5/market/kline
+    https://bybit-exchange.github.io/docs/v5/market/mark-kline
+    https://bybit-exchange.github.io/docs/v5/market/index-kline
+    https://bybit-exchange.github.io/docs/v5/market/preimum-index-kline
+
+    :param str symbol: unified symbol of the market to fetch OHLCV data for
+    :param str timeframe: the length of time each candle represents
+    :param int [since]: timestamp in ms of the earliest candle to fetch
+    :param int [limit]: the maximum amount of candles to fetch
+    :param dict [params]: extra parameters specific to the exchange API endpoint
+    :param int [params.until]: the latest time in ms to fetch orders for
+    :param boolean [params.paginate]: default False, when True will automatically paginate by calling self endpoint multiple times. See in the docs all the [availble parameters](https://github.com/ccxt/ccxt/wiki/Manual#pagination-params)
+    :returns int[][]: A list of candles ordered, open, high, low, close, volume
+
+</pre>
 </div>
 </div>
 </div>
@@ -7579,7 +7684,6 @@ a.anchor-link {
     <span class="n">from_str</span> <span class="o">=</span> <span class="n">from_time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">"%H:%M:%S </span><span class="si">%d</span><span class="s2">-%m-%Y"</span><span class="p">)</span>
     <span class="n">to_str</span> <span class="o">=</span> <span class="n">to_time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">"%H:%M:%S </span><span class="si">%d</span><span class="s2">-%m-%Y"</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Lấy dữ liệu từ: </span><span class="si">{</span><span class="n">from_str</span><span class="si">}</span><span class="s2"> - </span><span class="si">{</span><span class="n">to_str</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
 
     <span class="n">all_data</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">ohlcv</span><span class="p">)</span>
 

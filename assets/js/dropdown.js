@@ -1,6 +1,6 @@
 // Tải Menu vào trang
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('dropdown-menu.html')
+    fetch('menu.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('sidebar-placeholder').innerHTML = data;

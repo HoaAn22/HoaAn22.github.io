@@ -165,7 +165,7 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output pre{
 }
 
 body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime-type="text/plain"] {
-    background-color: var(--output-code-color);
+    background-color: var(--input-code-color);
 }
 
 /* Mobile mode */

@@ -8,32 +8,9 @@
 
 **Lợi ích của hệ thống giao dịch thuật toán:** **Thứ nhất**, tốc độ đặt lệnh, việc sử dụng hệ thống giao dịch thuật toán nhanh hơn đáng kể khi đặt lệnh thủ công, vừa nhanh và tiện lợi, hơn hết hệ thống luôn giám sát thị trường, giúp đặt lệnh dựa trên những biến động mà con người khó có thể phản ứng kịp. **Thứ hai**, giao dịch thuật toán loại bỏ các yếu tố cảm xúc chỉ dựa trên phân tích và toán học, giúp đảm bảo giao dịch chỉ thực hiện dựa trên logic và khách quan, tránh tâm lý nhà đầu tư hoan mang khi thị trường có biến động. **Thứ ba**, Các công cụ mạnh mẽ trong lập trình sẽ giúp hệ thống tính toán, kiểm tra và triển khai hiệu quả chiến lược.[1]
 
-## Web3 và lịch sử phát triển của web
-
-Web3 được định nghĩa là thế hệ tiếp theo của website, sau Web 2.0 là thế hệ web động với tính tương tác cao cho phép đọc, viết, đóng góp và chia sẻ nội dung. Nhưng Web 2.0 vẫn được quản lý từ cá nhân/tổ chức cung cấp web site. Web3 mang ý tưởng mang đến web site phi tập trung do người dùng sở hữu, không được quản lý bởi tổ chức nào.
-
-![Lịch sử hình thành web](assets/images/algorithmic-trading/history-web.png)
-(Nguồn ảnh: https://www.adjust.com/glossary/web3/ )
-
-**Lịch sử phát triển**
-- **Ý tưởng hình thành  World Wide Web:** năm 1989, tại tổ chức CERN (Tổ chức nghiên cứu Hạt nhân Châu Âu), nhà khoa học người Anh Tim Berners-Lee đề xuất hệ thống siêu văn bản nằm chia sẽ thông tin giữa các nhà nghiên cứu[[interdata](https://interdata.vn/blog/world-wide-web/)]. Đến ngày 06/08/1991, trang web đầu tiên được công bố công khai trên internet, đánh dấu sự ra đời của internet.[[kinhtevadubao](https://kinhtevadubao.vn/world-wide-web-ra-doi-the-nao-2680.html)]<br>
-    *Sự ra đời của web, như một cuộc cách mạng về công nghệ, sự kiện này cũng góp phần xảy ra sự kiện Bong bóng dot-com [(Đọc thêm)](assets/posts/economic-event/dotcom-bubble.md)*.
-- **Web 1.0 (1990-2004):** là thế hệ web đầu tiên, các trang web tĩnh, chủ yếu dùng để cung cấp thông tin 1 chiều từ nhà phát hành/tổ chức đến người dùng. Người dùng chỉ có thẻ xem, không thể tương tác[[sgod](https://sgod.vn/news/introduction-to-web3-710ca65719069)][[blockchainwork](https://insider.blockchainwork.net/su-khac-biet-giua-web-1-0-web-2-0-va-web-3-0)].
-- **Web 2.0 (2004 - nay):** Đánh dấu sự cải tiến từ web tĩnh sang web động, sự hỗ trợ của các công nghệ mới. web 2.0 cho phép người dùng ngoài đọc, ghi và có tính tương tác cao hơn.
-- **Web 3.0 hay web3 (Đang trong quá trình phát triển và hoàn thiện):** về ý tưởng web3 được Gavin Wood, đồng sáng lập Ethereum và người sáng lập Polkadot, đề xuất vào năm 2014. Ông mô tả Web3 như một "hệ sinh thái trực tuyến phi tập trung dựa trên blockchain", nhằm mục tiêu trao quyền kiểm soát dữ liệu và danh tính cho người dùng, thay vì phụ thuộc vào các nền tảng tập trung như Facebook hay Google.[[investopedia](https://www.investopedia.com/polkadot-definition-6362436)]
-
-**Ưu nhược điểm của Web3, Blockchain & hệ thống phi tập trung**
-
-**Ưu điểm:**
-- Minh bạch và công bằng: Ưu điểm lớn nhất của hệ thống Web3 là các thông tin (Giao dịch) được ghi lại bằng công nghệ Blockchain không thể bị sửa đổi và gần như không thể thao túng.
-- Quyền kiểm soát dữ liệu cá nhân: Người dùng có quyền sở hữu và kiểm kiểm soát với dữ liệu của mình, không bị phụ thuộc vào hệ thống hoặc nền tảng tập trung (Nhà phát hành/ Ngân hàng,...)
-
-**Nhược điểm:**
-- Hệ thống phi tập trung mặc dù trao quyền cho người dùng như cũng đem đến một nhược điểm rất lớn. Việc không có quản lý tập trung từ một tổ chức, khi mất hoặc quên khóa riêng (private key) đồng nghĩa với việc mất quyền truy cập vào tài sản của mình.
-- Pháp lý về Web3, Blockchain & hệ thống phi tập trung tại nhiều quốc gia vẫn chưa được rõ ràng, dẫn đến rủi ro về pháp lý.
-- Khó tiếp cận: công nghệ mới và phức tạp cho người dùng mới tìm hiểu và tiếp cận. 
-
 ## Blockchain, Crypto & Tài chính
+
+[Tìm hiểu về Web3](assets/posts/knowledge/web3.md)
 
 Với nhiều ưu điểm, Web3 được kỳ vọng ứng dụng cho nhiều lĩnh vực như game NFT, Bất động sản, Quản lý công, quản lý doanh nghiệp, nghệ thuật,... do  nhu cầu về bảo mật và quyền sử dụng dữ liệu đang trở nên quan trọng trong thời kỳ phát triển hiện nay. Crypto (tiền điện tử) là một ứng dụng tiêu biểu, được chú ý và phát triển mạnh mẽ do tính ứng dụng cao vì sự minh bạch và sau sự kiện khủng hoảng toàn cầu 2008 các nhà đầu tư bắt đầu quan tâm đến 1 hệ thống tài chính phi tập trung thay vì hệ thống tài chính được cang tiệp từ ngân hàng trung ương.
 

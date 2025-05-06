@@ -1,1 +1,1 @@
-(Nội dung đang được cập nhật)
+"*The best way to learn is to teach.*"

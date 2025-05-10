@@ -1,7 +1,6 @@
 # Ôn tập xác suất (Phần 2)
 
-[Phần 1](assets/posts/xac-suat/1-on-tap-1.md)
-[Phần 2](assets/posts/xac-suat/3-on-tap-2.md)
+[Phần 1](assets/posts/probability/1-on-tap-1.md)
 
 ## Các quy tác tính xác suất
 

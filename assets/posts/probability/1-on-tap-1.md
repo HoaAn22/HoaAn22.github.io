@@ -1,6 +1,6 @@
 # Ôn tập xác suất (Phần 1)
 
-
+[Phần 2](assets/posts/probability/3-on-tap-2.md)
 
 ## Nguyên lý cơ bản trong xác suất
 

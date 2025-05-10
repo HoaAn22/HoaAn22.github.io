@@ -1,9 +1,22 @@
 #markdown-content code.language-python,
 #markdown-content code.language-css,
 #markdown-content code.language-js,
-#markdown-content code.language-bash {
+#markdown-content code.language-bash,
+#markdown-content code.language-explain {
     background-color:inherit;
     color: inherit;
+}
+
+#markdown-content pre code.language-explain {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+    overflow-x: auto;
+    white-space: pre;
+    display: block;
+    width: 100%;
 }
 
 #markdown-content pre code:has([class]) {

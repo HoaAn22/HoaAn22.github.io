@@ -71,7 +71,8 @@ function getExcludeLinks() {
     return [
         'cv.md',
         'portfolio.md',
-        // Thêm các file markdown đặc biệt khác tại đây
+        'hoa-hoc/',
+        // Thêm các file markdown đặc biệt khác tại đây có thể thêm thư mục sẽ xử lý các file trong thư mục
     ];
 }
 
@@ -107,7 +108,7 @@ function renderMarkdown(content, isExcluded = false) {
 
     // Tô màu trích dẫn dạng [1], [2], ...
     renderedContent = renderedContent.replace(/\[(\d+)\]/g, '<span class="quote">[$1]</span>');
-    renderedContent = renderedContent.replace(/\[([^\]]+)\]/g, '<span class="quote">[$1]</span>');
+    // renderedContent = renderedContent.replace(/\[([^\]]+)\]/g, '<span class="quote">[$1]</span>');
 
     const markdownContentElement = document.getElementById('markdown-content');
     markdownContentElement.innerHTML = renderedContent;

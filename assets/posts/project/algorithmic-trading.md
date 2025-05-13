@@ -96,7 +96,7 @@ Bước cuối cùng là tìm hiểu về API và kết nối hệ thống đế
 - Holding là chiến lược đầu tư dài hạn, cần nhắm vững giá trị nội tại và xu hướng phát triển của đồng coin đầu tư, đầu tư các đồng coin có tính ổn định và xu hướng tốt. Bỏ qua các biến động ngắn hạn.
 - Lướt sóng (Scalping) là một chiến lược tốc độ nhanh tập trung vào  kiếm lợi nhuận từ các biến động giá nhỏ trong khoảng thời gian ngắn.[37]
 - Kinh doanh chênh lệch giá (Arbitrage) là khai thác khác biệt về giá của cùng 1 loại tài sản trên các sàn giao dịch khác nhau.[36]
-- Đảo chiều trung bình (Mean Reversion) dự trên giả định rằng tài sản cuối cùng sẽ quay lại mức trung bình trong lịch sử của chúng.[45] Mức trung bình lịch sử là gí trung bình, lợi xuất trung bình hoặc một mức cân bằng được tính bằng phương pháp thống kê, trung bình cộng hoặc trung bình động (moving average),.. Cơ chế của nó là khi tài sản được định giá vực mức trung bình (cao) giá của tài sản sẽ có xu hướng giảm xuống và **NGƯỢC LẠI**. Tuy nhiên, một số loại tài sản có mức tăng trưởng mạnh có thể không tuân theo giả thuyết.
+- Đảo chiều trung bình (Mean Reversion) dự trên giả định rằng tài sản cuối cùng sẽ quay lại mức trung bình trong lịch sử của chúng.[45] Mức trung bình lịch sử là gía trung bình, lợi suất trung bình hoặc một mức cân bằng được tính bằng phương pháp thống kê, trung bình cộng hoặc trung bình động (moving average),.. Cơ chế của nó là khi tài sản được định giá vực mức trung bình (cao) giá của tài sản sẽ có xu hướng giảm xuống và **NGƯỢC LẠI**. Tuy nhiên, một số loại tài sản có mức tăng trưởng mạnh có thể không tuân theo giả thuyết.
 
 **Thiết kế và lựa cho chiến lược giao dịch cá nhân**
 

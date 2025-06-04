@@ -19,3 +19,13 @@ git clone <link_project>
 
 để clone dự án về máy, link dự án được lấy trong tư mục dự án của github
 ![Vào git bash](assets/images/git/git-3.png)
+
+---
+
+**Danh mục bài viết cùng chủ đề**
+1. [Khởi tạo dự án](assets/posts/git-github-githubio/1-khoi-tao-du-an.md)
+2. Thiết lập tài khoản
+3. Push code
+4. Pull code
+5. Quay về commit cũ
+6. Tổng hợp các thao tác với git

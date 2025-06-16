@@ -53,7 +53,13 @@ Khi lãi suất tăng lên người dân, người mà còn nợ các khoản va
 
 ---
 
-# Chú thích về thuật ngữ
+## Thực hành
+
+[Lab 1: Đường trung bình động](assets/notebooks/convert/Dual_Moving_Average_Crossover.html)
+
+---
+
+## Chú thích về thuật ngữ
 
 **(1).** *MBS*
 

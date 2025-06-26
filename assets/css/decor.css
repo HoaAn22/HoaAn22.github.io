@@ -1,0 +1,75 @@
+.piano-keys {
+    pointer-events: none;
+    position: absolute;
+    display: flex;
+    gap: 5px;
+}
+
+/* Trang trí cho header & footer (destop) */
+header .keys,
+footer .keys {
+    width: 15px;
+    height: 70px;
+    background: white;
+    /* opacity: 0.5; */
+    /* mix-blend-mode: multiply; */
+}
+
+header .keys:nth-child(2),
+header .keys:nth-child(4),
+header .keys:nth-child(7),
+header .keys:nth-child(9),
+header .keys:nth-child(11),
+footer .keys:nth-child(2),
+footer .keys:nth-child(4),
+footer .keys:nth-child(7),
+footer .keys:nth-child(9),
+footer .keys:nth-child(11) {
+    width: 1.5px;
+    height: 55px;
+}
+
+header .piano-keys,
+footer .piano-keys {
+    gap: 5px;
+}
+
+header .piano-keys {
+    top: 0;
+    right: 50px;
+    flex-direction: row-reverse;
+}
+
+footer .piano-keys {
+    bottom: 0;
+    left: 50px;
+    flex-direction: row-reverse;
+    transform: rotate(180deg);
+}
+
+/* Trang trí Danh mục (mobile) */
+.category-btn .piano-keys {
+    gap: 3px;
+}
+
+.category-btn .keys {
+    width: 15px;
+    height: 40px;
+    background: white;
+}
+
+.category-btn .keys:nth-child(2),
+.category-btn .keys:nth-child(4),
+.category-btn .keys:nth-child(7),
+.category-btn .keys:nth-child(9),
+.category-btn .keys:nth-child(11) {
+    width: 1.2px;
+    height: 25px;
+}
+
+.category-btn .piano-keys {
+    top: 0;
+    right: 0px;
+    flex-direction: row-reverse;
+    transform: rotate(180deg);
+}

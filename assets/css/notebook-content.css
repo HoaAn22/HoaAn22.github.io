@@ -1,0 +1,191 @@
+/* Nội dung */
+#notebook-content {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#notebook-content main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+}
+
+html:has(#notebook-content) a {
+    text-decoration: underline;
+}
+
+html:has(#notebook-content) a, 
+html:has(#notebook-content) em {
+    color: var(--highlight-color);
+}
+
+#notebook-content div:has(pre) + p {
+    margin-top: 1em;
+}
+
+#notebook-content p:has( + ul) {
+    margin-bottom: 0;
+}
+
+#notebook-content p + ul {
+    margin-top: 0;
+}
+
+#notebook-content div[class=highlight] pre {
+    color: var(--highlight-color);
+}
+
+#notebook-content div.jp-CodeMirrorEditor.jp-Editor.jp-InputArea-editor[data-type="inline"] pre {
+    overflow-x: auto;
+}
+
+/* Table */
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table {
+    margin: 0;
+    width: 100%;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table,
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] th,
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] td {
+    border: 1.2px solid black;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"],
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div,
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] {
+    /* display: table-cell; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div table {
+    margin-top: 5px;
+}
+
+#notebook-content table,
+#notebook-content th,
+#notebook-content td {
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+body.dark-mode #notebook-content thead tr:nth-child(even) {
+    background-color: #2b2b2b;
+}
+
+body.dark-mode #notebook-content thead tr:nth-child(odd) {
+    background-color: rgb(90, 90, 90);
+}
+
+body.dark-mode #notebook-content thead tr:hover {
+    background-color: rgb(30, 30, 30);
+}
+
+body.dark-mode #notebook-content thead tr th {
+    color: var(--darkmode-content-color);
+}
+
+body.dark-mode #notebook-content table, 
+body.dark-mode #notebook-content th, 
+body.dark-mode #notebook-content td {
+    border: none;
+}
+
+/* Bố cục */
+body:has(#notebook-content) nav ul li a {
+    text-decoration: none;
+    color: var(--darkmode-content-color);
+}
+
+body:has(#notebook-content) header h1 {
+    font-size: 32px;
+}
+
+body:has(#notebook-content)  header h1 a {
+    text-decoration: none;
+    color: var(--darkmode-content-color);
+}
+
+body:has(#notebook-content) footer, 
+body:has(#notebook-content) header ul li a {
+    font-size: 16px;
+}
+
+/* Sidebar */
+main:has(#notebook-content) .dropdown a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main:has(#notebook-content) a.dropbtn {
+    color: black;   
+}
+
+main:has(#notebook-content) .dropdown-item a,
+main:has(#notebook-content) .dropdown-content a {
+    color: var(--darkmode-content-color);
+}
+
+/* Dark mode */
+body.dark-mode #notebook-content{
+    border: 1.5px solid var(--darkmode-content-color);
+}
+
+body.dark-mode #notebook-content h1,
+body.dark-mode #notebook-content h2,
+body.dark-mode #notebook-content h3,
+body.dark-mode #notebook-content h4,
+body.dark-mode #notebook-content h5,
+body.dark-mode #notebook-content h6,
+body.dark-mode #notebook-content ol,
+body.dark-mode #notebook-content ul,
+body.dark-mode #notebook-content li,
+body.dark-mode #notebook-content p,
+body.dark-mode #notebook-content pre {
+    color: var(--darkmode-content-color);
+}
+
+body.dark-mode #notebook-content p code,
+body.dark-mode #notebook-content li code {
+    color: var(--darkmode-content-color);
+    background-color: var(--darkmode-note-background-color);
+}
+
+body.dark-mode #notebook-content pre span:not(.p):not(.c1):not(.c2):not(.k):not(.kc):not(.kn):not(.kt):not(.s1):not(.s2):not(.o):not(.ow):not(.mi):not(.si):not(.sd), 
+body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output pre{
+    color: black;
+}
+
+body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime-type="text/plain"] {
+    background-color: var(--input-code-color);
+}
+
+/* Mobile mode */
+@media (max-width: 768px) {
+    /* Table */
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] {
+        margin: 0;
+    }
+
+    /* Trả về giá trị mặc định */
+    /* div.jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput[data-mime-type="text/markdown"] table,
+    div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] table {
+        max-width: initial; 
+    } */
+
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div.colab-df-container div table,
+    #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] div table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,5 @@
+*.env
+# git rm --cached $(find . -name "*.env")
+.obsidian/
+.vscode/
+# git rm -r --cached .obsidian/

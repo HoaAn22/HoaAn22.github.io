@@ -1,0 +1,119 @@
+#markdown-content code.language-python,
+#markdown-content code.language-css,
+#markdown-content code.language-js,
+#markdown-content code.language-bash,
+#markdown-content code.language-explain {
+    background-color:inherit;
+    color: inherit;
+}
+
+/* #markdown-content pre code.language-bash {
+    background-color: var(--input-code-color);
+} */
+
+#markdown-content pre code.language-explain {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+    overflow-x: auto;
+    white-space: pre;
+    display: block;
+    width: 100%;
+}
+
+#markdown-content pre code:has([class]) {
+    font-family: monospace;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+    overflow-x: auto;
+    white-space: pre;
+    display: block;
+    width: 100%;
+}
+
+/* Định dạng hiển thị code */
+#markdown-content code {
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: var(--block-color);
+    /* border-radius: 5px; */
+}
+
+#markdown-content code.language-python,
+#markdown-content code.language-css,
+#markdown-content code.language-js {
+    background-color:inherit;
+    color: inherit;
+}
+
+#markdown-content pre code.language-python,
+#markdown-content pre code.language-js,
+#markdown-content pre code.language-css,
+#markdown-content pre code.language-bash {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+    margin-bottom: 1em;
+    overflow-x: auto;
+    font-family: monospace;
+    white-space: pre;
+    display: block;
+    width: 100%;
+}
+
+#markdown-content pre code.language-python {
+    background: linear-gradient(to right, #3776AB, #3776AB, #FFD43B);
+    color: white;
+}
+
+#markdown-content pre code.language-js {
+    background-color: #F7DF1E;
+}
+
+#markdown-content pre code.language-css {
+    background: linear-gradient(to right, #264DE4 50%, #2965F1 50%);
+    color: white;
+}
+
+pre {
+    position: relative;
+    padding: 5px;
+}
+
+.language-python::before,
+.language-js::before,
+.language-css::before {
+    content: "";
+    display: inline-block;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    /* font-weight: bold; */
+    padding: 4px 8px;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.language-python::before {
+    content: "Python";
+    background-color: #3776AB;
+}
+
+.language-js::before {
+    content: "JavaScript";
+    background-color: #F7DF1E;
+    color: black;
+}
+
+.language-css::before  {
+    content: "Css";
+    background-color: #264DE4;
+}

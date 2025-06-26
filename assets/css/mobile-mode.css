@@ -1,0 +1,182 @@
+/* Ẩn nút Menu: home, resources, about khi ở giao diện desktop */
+#headerMenu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    /* Cấu hình */
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Nội dung */
+    section {
+        margin-top: 10px;
+    }
+    .content {
+        max-width: 100%;
+        padding: 0px;
+    }
+    ul {
+        padding-left: var(--mobile-spacing);
+    }
+    #markdown-content th, 
+    #markdown-content td {
+        max-width: auto;
+        font-size: 13px;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+    #markdown-content iframe {
+        height: 200px;
+    }
+    .note-tooltip {
+    width: max-content;
+    max-width: 300px;
+    }
+
+    /* Giao diện mobile */
+    header div.decor,
+    footer div.decor {
+        display: none;
+    }
+    header {
+        padding: 20px 10px 20px 10px;
+    }
+    div.header-controls {
+        display: flex;
+        flex-shrink: 0;
+        position: relative;
+        background-color: black;
+        border: 1.5px solid var(--darkmode-content-color);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    nav ul {
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 10px;
+    }
+    nav {
+        display: none;
+    }
+    nav.show {
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-top: 1px solid #ccc;
+        padding: 0;
+        background-color: #3e3e3e;
+        border-bottom: 1px solid var(--darkmode-content-color);
+        padding: 10px;
+    }
+    #headerMenu {
+        display: flex;
+        position: relative;
+        font-size: 22px;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-drag: none;
+        padding: 7px 10px 0px 10px;
+        border-right: 1.5px solid var(--darkmode-content-color);
+        /* top: 5px; */
+        right: inherit;
+    }
+    .dark-mode-toggle, 
+    body.dark-mode .dark-mode-toggle {
+        display: flex;
+        flex-shrink: 0;
+        position: relative;
+        top:0;
+        right: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    /* Danh mục */
+    .category-btn, 
+    .dropdown-container.show,
+    .dropdown-category.show,
+    .dropdown-content.show {
+        display: block;
+    }
+    .dropdown-container, 
+    .dropdown-category, 
+    .dropdown-content {
+        display: none;
+    }
+    .dropdown-category, 
+    .dropdown-content {
+        position: static;
+    }
+    .dropdown-item,
+    .dropdown-content {
+        width: 100%;
+    }
+
+    /* Trang trí */
+        /* Danh mục */
+        .category-btn,
+        body.dark-mode .category-btn {
+            border: none;
+            border-radius: 0px;
+        }
+        #sidebar-placeholder:has(.dropdown-container.show) .category-btn,
+        body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) .category-btn {
+            border: 1.5px solid #1C1C1C;
+            border-radius: 5px;
+        }
+        #sidebar-placeholder,
+        body.dark-mode #sidebar-placeholder {
+            background-color: #1C1C1C;
+           
+        }
+        #sidebar-placeholder {
+            border: 1.5px solid #1C1C1C;
+        }
+        body.dark-mode #sidebar-placeholder{
+            border: 1.5px solid var(--darkmode-content-color);
+        }
+        #sidebar-placeholder:has(.dropdown-container.show),
+        body.dark-mode #sidebar-placeholder:has(.dropdown-container.show) {
+            background-color: var(--darkmode-content-color);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* decor & piano keys */
+        .container {
+            position: relative;
+            flex: 1;
+            width: 100%;
+            grid-template-columns: 1fr;
+            gap: 5px;
+            top: 0px;
+        }
+        .layout:first-child,
+        .layout:nth-child(2),
+        .layout:nth-child(3),
+        .layout:nth-child(4),
+        .layout:nth-child(5),
+        .layout:nth-child(6),
+        .layout:last-child {
+            grid-column: span 1;
+            background: white;
+            color: black;
+        }
+        .layout:nth-child(3)::after,
+        .layout:nth-child(7)::after {
+            display: none;
+        }
+        .layout:nth-child(5)::after{
+            left: auto;
+            right: -1px;
+        }
+}

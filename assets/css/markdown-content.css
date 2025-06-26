@@ -1,0 +1,98 @@
+/* Định dạng văn bản */
+#markdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#markdown-content h1,
+#markdown-content h2,
+#markdown-content h3,
+#markdown-content h4,
+#markdown-content h5,
+#markdown-content h6 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#markdown-content h1,
+#markdown-content h2,
+#markdown-content h3 {
+    border-bottom: 1.5px solid black;
+}
+
+#markdown-content h1 code {
+    font-size: inherit;
+}
+
+#markdown-content p {
+    line-height: 1.5;
+    text-indent: 2em;
+    margin-bottom: 5px;
+}
+
+#markdown-content p:has( + ul) {
+    margin-bottom: 0;
+}
+
+#markdown-content li p {
+    text-indent: 0;
+}
+
+#markdown-content em {
+    color: var(--highlight-color);
+}
+
+#markdown-content ol,
+#markdown-content ul,
+#markdown-content li {
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+}
+
+table {
+    display: table;
+    margin: auto;
+    width: 100%;
+    /* max-width: 100%; */
+    border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+    font-family: Arial, sans-serif; /* Font chữ cho bảng */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+/* Định nghĩa kiểu cho các ô và đường viền */
+table, th, td {
+    /* border: 1px solid black; */
+    padding: 5px; /* Khoảng cách bên trong mỗi ô */
+    text-align: left; /* Canh trái văn bản */
+    /* max-width: 800px; */
+    word-wrap: break-word; /* Ngắt dòng nếu nội dung quá dài */
+}
+/* th, td {
+    border-right: 1px solid black;
+} */
+
+/* Định nghĩa kiểu cho tiêu đề bảng */
+th {
+    background-color: var(--highlight-color); /* Màu nền của hàng tiêu đề */
+    color: white; /* Màu chữ của tiêu đề */
+    font-weight: bold; /* In đậm chữ */
+}
+
+/* Định nghĩa kiểu cho hàng lẻ và chẵn */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Màu nền cho hàng chẵn */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Màu nền cho hàng lẻ */
+}
+
+/* Đổi màu khi di chuột qua hàng */
+tr:hover {
+    background-color: #ddd; /* Màu nền khi di chuột qua */
+}
+
+#markdown-content span.key-term {
+    background-color: var(--block-color);
+    border-left: 2px solid var(--highlight-color);
+}

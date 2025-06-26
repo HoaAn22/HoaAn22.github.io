@@ -1,0 +1,16 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+:root {
+    --input-code-color: #f5f5f5;
+    --block-color: #dfdfdf;
+    --highlight-color: #4169E1;
+    --note-background-color: #fafafa;
+
+    --darkmode-content-color: #fafafa;
+    --darkmode-block-color: #494949;
+    --darkmode-note-background-color: #3f3f3f;
+
+    --mobile-spacing: 15px;
+}

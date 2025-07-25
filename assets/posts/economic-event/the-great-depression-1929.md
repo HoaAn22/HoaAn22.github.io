@@ -24,6 +24,6 @@ Chính sách tiền tệ sai lầm: Cục dự trữ liên bang Mỹ (Fed) đã 
 
 [2] Lê Công Thành, “Đại khủng hoảng 1929 - Khi người Mỹ tự bắn vào chân,” Spiderum, Feb. 21, 2025. https://spiderum.com/bai-dang/Dai-khung-hoang-Khi-nguoi-My-tu-ban-vao-chan-GasNADmmnuSU (accessed Jun. 03, 2025).
 
-[3] Những người đóng góp vào các dự án Wikimedia, “Thời kỳ khủng hoảng kinh tế toàn cầu,” Wikipedia.org, Apr. 11, 2007. https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_kh%E1%BB%A7ng_ho%E1%BA%A3ng#:~:text=Cu%E1%BB%99c%20kh%E1%BB%A7ng%20ho%E1%BA%A3ng%20kh%E1%BB%9Fi%20ngu%E1%BB%93n,K%E1%BB%B3%2C%20Anh%20Qu%E1%BB%91c%20v%C3%A0%20%C4%90%E1%BB%A9c. (accessed Jun. 02, 2025).
+[3] Những người đóng góp vào các dự án Wikimedia, “Thời kỳ khủng hoảng kinh tế toàn cầu,” Wikipedia.org, Apr. 11, 2007. https://vi.wikipedia.org/wiki/Đại_khủng_hoảng (accessed Jun. 02, 2025).
 
 [Dàn ý cho bài viết](assets/posts/experience/outline.md)

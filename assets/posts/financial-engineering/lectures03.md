@@ -28,7 +28,7 @@ Ví dụ: vay cổ phiếu giá 100K, trong thời gian một tháng, sau thời
 
 $$r = \frac{110 - 100}{100} = \text{10\%}$$
 
-*Người bán khống phải trả thêm cho người cho vay 10% → Tức là thua lỗ 10%. Khi tài sản tăng, người bán khống sẽ thua lỗ tương ứng. Khi tài sản giảm, họ đạt lợi nhuận bằng phần chênh lệch đó.*
+*Người bán khống phải trả thêm cho người cho vay 10% → Tức là thua lỗ 10%. Khi tài sản tăng, người bán khống sẽ thua lỗ tương ứng.*
 
 Khi thực hiện bán khống, thông thường bạn vay từ các nhà mô giới (broken), công ty chứng khoản hoặc các quỹ nắm giữ nhiều loại tài sản đó.
 
@@ -42,7 +42,18 @@ Các công tư chứng khoán này thường có hệ thống gọi là [margin 
 
 - Tài sản thường có hợp đồng và quy định rõ ràng về phí vay, điều kiện buộc trả lại, biện pháp bảo vệ. Ngoài ra, cơ chế [margin account](note. Tài sản ký quỹ) với tài sản đảm bảo người cho vay vẫn an toàn ngay cả khi tài sản có biến động.
 
-### Tài khoản ký quỹ (Margin account)
+### Tài khoản ký quỹ (Margin account)[3]
+
+**Tài khoản ký quỹ (Margin account)**: là một loại tài sản [#mô giới] cho chép nhà đầu tư được bán khống chứng khoán hoặc vay tiền để mua chứng khoán dựa trên số tiền hiện có trong tài khoản (tài sản đảm bảo). Tài khoản ký quỹ giúp nhà đầu tư mua/vay tài sản vượt xa số tiền đang có trong tài khoản, nâng cao lợi nhuận và rủi ro cũng cao hơn.
+
+![Margin account](assets/images/financial-engineering/3-margin-account.jpg)
+( Nguồn ảnh: https://www.litefinance.org/blog/for-beginners/margin-trading/margin-account-vs-cash-account/ )
+
+Lợi nhuận chỉ có hạn, nhưng rủi ro thua lỗ là không giới hạn. Khi thực hiện bán khống trên lý thuyết lợi nhuận tốt nhất bạn đạt được khi tài sản trở về 0, lợi nhuận lúc này là 100%, nhưng rủi ro khi tài sản tăng giá là không giới hạn. Ví dụ, bạn bán khống số cổ phiếu với trị giá 100, khi giá có biến động mạnh là tăng lên 500 bạn lỗ 400 tức là 400% rủi ro có thể tăng lên không giới hạn nếu tài sản tiếp tục tăng. 
+
+Tài sản ký quỹ, giúp bảo vệ người cho vay trong trường hợp bạn bị thua lỗ, không còn khả năng trả được nợ.
+
+**Toàn bộ số tiền thu được từ việc bán khống sẽ được lưu trong tài khoản ký quỹ, không được phép sử dụng tự do**. Tiền do việc bán khống ban đầu không phải thực sự là lợi nhuận, bạn chỉ tạm thời giữa số tiền ban tiền và phải thực hiện nghĩa vụ nợ. Khi tài sản giảm, bạn mua lại và thực hiện nghĩa vụ nợ, phần chênh lệch mới là lợi nhuận bạn kiếm được.
 
 ---
 
@@ -55,3 +66,6 @@ Các công tư chứng khoán này thường có hệ thống gọi là [margin 
 [1] A. Hayes, “What Are Returns in Investing, and How Are They Measured?,” Investopedia, 2025. https://www.investopedia.com/terms/r/return.asp
 
 [2] A. Hayes, “Short Selling: Your Step-by-Step Guide for Shorting Stocks,” Investopedia, 2024. https://www.investopedia.com/terms/s/shortselling.asp
+
+[3] A. Hayes, “Margin Account: Definition, How It Works, and Example,” Investopedia, 2025. https://www.investopedia.com/terms/m/marginaccount.asp
+‌

@@ -112,8 +112,14 @@ body.dark-mode .md-note {
     border-left: 2px solid var(--highlight-color);
 }
 
+body.dark-mode #markdown-content pre code:has([class]) {
+    border: 1px solid var(--darkmode-content-color);
+}
+
 body.dark-mode #markdown-content span.key-term {
     background-color: var(--darkmode-block-color);
+    border: 1px solid var(--darkmode-content-color);
+    border-left: 2px solid var(--highlight-color);
 }
 
 /* body.dark-mode .dropdown-content {

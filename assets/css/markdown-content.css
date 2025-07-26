@@ -94,5 +94,6 @@ tr:hover {
 
 #markdown-content span.key-term {
     background-color: var(--block-color);
+    border: 1px solid black;
     border-left: 2px solid var(--highlight-color);
 }

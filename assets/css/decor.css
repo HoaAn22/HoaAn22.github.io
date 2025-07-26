@@ -54,7 +54,7 @@ footer .piano-keys {
 
 .category-btn .keys {
     width: 15px;
-    height: 40px;
+    height: 45px;
     background: white;
 }
 
@@ -68,7 +68,7 @@ footer .piano-keys {
 }
 
 .category-btn .piano-keys {
-    top: 0;
+    top: 0px;
     right: 0px;
     flex-direction: row-reverse;
     transform: rotate(180deg);

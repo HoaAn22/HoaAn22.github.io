@@ -7,8 +7,8 @@
 
 body {
     /* font-family: Arial, sans-serif; */
-    /* font-family: "Perpetua", "Times New Roman", serif; */
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+    font-family: Consolas;
     margin: 0;
     padding: 0;
     display: flex;

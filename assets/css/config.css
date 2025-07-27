@@ -3,6 +3,11 @@
 } */
 
 :root {
+    --font: Helvetica;
+    /* Helvetica */
+    /* Tahoma */
+    /* font-family: Consolas; */
+    /* Palatino Linotype, Book Antiqua */
     --input-code-color: #f5f5f5;
     --block-color: #dfdfdf;
     --highlight-color: #4169E1;

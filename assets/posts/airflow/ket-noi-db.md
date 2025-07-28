@@ -1,9 +1,9 @@
 # Kết nối Ariflow với DataBase trong Docker
 ## Tạo kết nối với DataBase trong Docker
 1. Định nghĩa 1 DataBase trong docker-compose 
-	![Định nghĩa DB](assets/images/airflow/dinh-nghia-db.png)
-2. Khởi chạy hệ thống Airflow
-3. Trong giao diện Airflow, tại mục **Admin** chọn  **Connections**
+	![Định nghĩa DB](assets/posts/airflow/images/1-ket-noi-db.png)
+2. Khởi chạy hệ thống Airflow bằng lệnh `docker compose up -d`
+3. Trong giao diện Airflow, tại mục [#Admin] chọn [#Connections]
 	![Tạo kết nối 1](assets/images/airflow/tao-ket-noi-1.png)
 4. Tạo kết nối mới
 	![Tạo kết nối 1](assets/images/airflow/tao-ket-noi-2.png)
@@ -18,7 +18,9 @@
 	* **Port**: Cổng dữ liệu
 	
 		**(\*) Lưu ý**: **Host** là ID của services CSDL (*db*), **Port** được định nghĩa trong ví dụ là *3307:3306*, *3307* là cổng để bên ngoài ánh xạ đến DataBase, do Airflow được định nghĩa và được đóng gói cùng DataBase trong Docker nên phải dùng *port:3306*.
-	![Tạo kết nối 1](assets/images/airflow/tao-ket-noi-3.png)
+	![Tạo kết nối 1](assets/posts/airflow/images/9-ket-noi-db.png)
+	*Khi thành công, các kết nối sẽ được hiển thị trong* [#List Connection]
+	![Tạo kết nối 2](assets/posts/airflow/images/2-ket-noi-db.png)
 
 ## Cách khác để kết nối đến CSDL
 

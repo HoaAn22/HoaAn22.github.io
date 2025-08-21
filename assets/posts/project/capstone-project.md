@@ -37,7 +37,7 @@
 
 **Kết quả & Ứng dụng:**
 
-Để xem chi tiết hơn về kết quả và phân tích kết quả của mô hình dựa đoán tham khảo tại: [Kết quả & phân tích](assets/posts/project/capstone-project-analysis.md)
+Để xem chi tiết hơn về= kết quả và phân tích kết quả của mô hình dựa đoán tham khảo tại: [Kết quả & phân tích](assets/posts/project/capstone-project-analysis.md)
 
 Hệ thống thu thập dữ liệu được xây dựng bằng Airflow, Python và được triển khai bằng Docker. Thu thập tốt và tự động hóa quy trình. Dữ liệu được tổ chức, lưu trữ bằng DataBase MySQL.
 

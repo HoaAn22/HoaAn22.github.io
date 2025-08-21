@@ -167,8 +167,10 @@ body.dark-mode .language-css::before {
 
 body.dark-mode #markdown-content h1,
 body.dark-mode #markdown-content h2,
+body.dark-mode #markdown-content h3,
 body.dark-mode .main h1, 
-body.dark-mode .main h2 {
+body.dark-mode .main h2,
+body.dark-mode .main h3 {
     border-bottom-color: var(--darkmode-content-color);
 }
 

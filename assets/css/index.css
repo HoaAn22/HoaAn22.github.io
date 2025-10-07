@@ -1,0 +1,10 @@
+/* Nội dụng index: luôn là màu đen */
+.layout:first-child,
+.layout:nth-child(2),
+.layout:nth-child(3),
+.layout:nth-child(4),
+.layout:nth-child(5), 
+.layout:nth-child(6),
+.layout:last-child {
+    color: black;
+}

@@ -169,7 +169,6 @@
         .layout:last-child {
             grid-column: span 1;
             background: white;
-            color: black;
         }
         .layout:nth-child(3)::after,
         .layout:nth-child(7)::after {

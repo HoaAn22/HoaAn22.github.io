@@ -1,0 +1,18 @@
+/* * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+} */
+
+/* Hiệu ứng darkmode */
+body,
+body main,
+body .sidebar,
+body .content {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-mode,
+body.dark-mode main,
+body.dark-mode .sidebar,
+body.dark-mode .content {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

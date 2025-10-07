@@ -72,6 +72,7 @@ function getExcludeLinks() {
         'cv.md',
         'portfolio.md',
         'hoa-hoc/',
+        'self-development-plan.md',
         // Thêm các file markdown đặc biệt khác tại đây có thể thêm thư mục sẽ xử lý các file trong thư mục
     ];
 }

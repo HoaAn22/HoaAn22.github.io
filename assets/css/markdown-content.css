@@ -33,7 +33,7 @@
 #markdown-content p:has(br){
     border: 1.5px solid black;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 5px 10px;
 }
 
 #markdown-content p:has(br)::first-line {

@@ -1,4 +1,4 @@
-# [Self-Development Plan](note. Kế hoạch phát triển bản thân)
+## [Self-Development Plan](note. Kế hoạch phát triển bản thân)
 
 ## Thành tựu đã đạt được
 

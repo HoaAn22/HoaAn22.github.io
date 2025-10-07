@@ -30,6 +30,16 @@
     margin-bottom: 5px;
 }
 
+#markdown-content p:has(br){
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#markdown-content p:has(br)::first-line {
+  text-decoration: underline var(--highlight-color);
+}
+
 #markdown-content p:has( + ul) {
     margin-bottom: 0;
 }

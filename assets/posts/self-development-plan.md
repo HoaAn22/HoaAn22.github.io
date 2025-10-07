@@ -16,19 +16,19 @@
 
 ## Kế hoạch tương lai
 
-- 09/2025 - (2027)
+- 09/2025 - [(2027)](note. Dự kiến)
 
     *Tốt nghiệp*  
     Cử nhân Ngôn ngữ Anh  
     HUB - Trường Đại học Ngân hàng TP.HCM
 
-- 12/2025 - (12/2026)
+- 12/2025 - [(12/2026)](note. Dự kiến)
 
     *Hoàn thành*  
     Nghiệp vụ sư phạm cho giáo viên Tin học (THCS & THPT)  
     HPU2 - Trường Đại học Sư phạm Hà Nội 2
 
-- (2027)
+- [(2027)](note. Dự kiến)
 
     *Bắt đầu học*  
     Thạc sĩ Tài chính - Ngân hàng (Fintech)  

@@ -37,7 +37,8 @@
 }
 
 #markdown-content p:has(br)::first-line {
-  text-decoration: underline var(--highlight-color);
+    color: #4CAF50;
+    text-decoration: 2px underline #4CAF50;
 }
 
 #markdown-content p:has( + ul) {

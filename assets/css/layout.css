@@ -86,20 +86,6 @@ section {
     margin-top: -20px;
 }
 
-.container {
-    flex: 1;
-    padding: 15px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    gap: 10px;
-    background-color: white;
-    border: 1.5px solid black;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-}
-
 .layout {
     padding: 10px;
     background: white;
@@ -187,23 +173,6 @@ section {
     border-bottom: none;
     text-decoration: underline;
     /* text-align: center; */
-}
-
-.container::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 1.5px;
-    background: black;
-    box-shadow: 0 -500px black, 0 -520px black, 0 -540px black, 0 -560px black, 0 -580px black,
-                0 -320px black, 0 -340px black, 0 -360px black, 0 -380px black, 0 -400px black,
-                0 -140px black, 0 -160px black, 0 -180px black, 0 -200px black, 0 -220px black,
-                0 -20px black, 0 -40px black, 0 20px black, 0 40px black,
-                0 140px black, 0 160px black, 0 180px black, 0 200px black, 0 220px black,
-                0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black,
-                0 500px black, 0 520px black, 0 540px black, 0 560px black, 0 580px black;
 }
 
 span.quote {

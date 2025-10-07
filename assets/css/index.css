@@ -1,3 +1,63 @@
+/* Mặc định có dòng kẻ: tắt dòng kẻ ở index */
+body.dark-mode #markdown-content:has(.container) {
+    border: none;
+}
+
+body.dark-mode .container {
+    background-color: #2c2c2c;
+    border: 1.5px solid var(--darkmode-content-color);
+}
+
+.container {
+    flex: 1;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 10px;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Trang trí index */
+.container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background: black;
+    box-shadow: 0 -500px black, 0 -520px black, 0 -540px black, 0 -560px black, 0 -580px black,
+                0 -320px black, 0 -340px black, 0 -360px black, 0 -380px black, 0 -400px black,
+                0 -140px black, 0 -160px black, 0 -180px black, 0 -200px black, 0 -220px black,
+                0 -20px black, 0 -40px black, 0 20px black, 0 40px black,
+                0 140px black, 0 160px black, 0 180px black, 0 200px black, 0 220px black,
+                0 320px black, 0 340px black, 0 360px black, 0 380px black, 0 400px black,
+                0 500px black, 0 520px black, 0 540px black, 0 560px black, 0 580px black;
+}
+
+/* Trang trí index (darkmode) */
+body.dark-mode .container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background: var(--darkmode-content-color);
+    box-shadow: 0 -500px var(--darkmode-content-color), 0 -520px var(--darkmode-content-color), 0 -540px var(--darkmode-content-color), 0 -560px var(--darkmode-content-color), 0 -580px var(--darkmode-content-color),
+                0 -320px var(--darkmode-content-color), 0 -340px var(--darkmode-content-color), 0 -360px var(--darkmode-content-color), 0 -380px var(--darkmode-content-color), 0 -400px var(--darkmode-content-color),
+                0 -140px var(--darkmode-content-color), 0 -160px var(--darkmode-content-color), 0 -180px var(--darkmode-content-color), 0 -200px var(--darkmode-content-color), 0 -220px var(--darkmode-content-color),
+                0 -20px var(--darkmode-content-color), 0 -40px var(--darkmode-content-color), 0 20px var(--darkmode-content-color), 0 40px var(--darkmode-content-color),
+                0 140px var(--darkmode-content-color), 0 160px var(--darkmode-content-color), 0 180px var(--darkmode-content-color), 0 200px var(--darkmode-content-color), 0 220px var(--darkmode-content-color),
+                0 320px var(--darkmode-content-color), 0 340px var(--darkmode-content-color), 0 360px var(--darkmode-content-color), 0 380px var(--darkmode-content-color), 0 400px var(--darkmode-content-color),
+                0 500px var(--darkmode-content-color), 0 520px var(--darkmode-content-color), 0 540px var(--darkmode-content-color), 0 560px var(--darkmode-content-color), 0 580px var(--darkmode-content-color);
+}
+
 /* Nội dụng index: luôn là màu đen */
 .layout:first-child,
 .layout:nth-child(2),

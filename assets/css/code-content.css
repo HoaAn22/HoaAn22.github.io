@@ -37,6 +37,7 @@
 
 /* Định dạng hiển thị code */
 #markdown-content code {
+    font-family: Helvetica, Gadget, sans-serif; /* Để hiển thị phiên âm IPA */
     font-size: 15px;
     line-height: 1.5;
     background-color: var(--block-color);

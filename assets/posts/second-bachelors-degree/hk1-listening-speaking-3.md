@@ -1,4 +1,4 @@
-## HK1: Listening - Speaking 3
+## English 3: Listening - Speaking
 
 ## Nội dung môn học (ghi chú)
 

@@ -1,10 +1,14 @@
 ## Unit 1: Business
 
-- 1.1.1
+**CONTENT**  
+[#1.1.1.] Note-taking skill: using a chart to organize notes about main ideas.  
+[#1.1.2.] Listening 1: Leadership isn't just for the boss.  
+[#1.1.3.] Listening skill: Listening for main ideas.  
+[#1.1.4.] Business listening practice.
 
----
+### 1.1.1. Note-taking skill: Using a chart to organize notes about main ideas.
 
-### 1.1.2: [Leadership isn't just for the boss](note. Sự lãnh đạo không chỉ dành cho sếp)
+### 1.1.2. [Leadership isn't just for the boss](note. Sự lãnh đạo không chỉ dành cho sếp)
 
 A. **(PREVIEW)** [Preview before you listen, think about the answer to the question.](note. Xem trước khi nghe, hãy nghĩ đến câu trả lời cho câu hỏi)
 

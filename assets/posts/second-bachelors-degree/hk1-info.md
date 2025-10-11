@@ -9,3 +9,10 @@
 5. [[English 3: Listening - Speaking](note. Tiếng Anh 3: Nghe - Nói)](assets/posts/second-bachelors-degree/hk1-listening-speaking-3.md)
 
 [Danh sách phát: Sinh hoạt đầu khóa học kì I](https://www.youtube.com/playlist?list=PLEaV5Bm1xnrtQluvLkhXbOtSbngMXIwn1)
+
+## [Appendix](note. Phụ lục)
+
+[Learning support tools](note. Công cụ hỗ trợ học tập)
+
+- [toPhonetics - Phiên âm IPA](https://tophonetics.com/vi/)
+- [Cambridge Dictionary](https://dictionary.cambridge.org)

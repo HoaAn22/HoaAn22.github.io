@@ -2,8 +2,8 @@
 
 ## List of Courses
 
-1. [Introduction to English Language](note. Nhập môn ngành Ngôn ngữ Anh)
-2. [Introduction to Linguistics](note. Dẫn luận Ngôn ngữ học)
+1. [[Introduction to English Language](note. Nhập môn ngành Ngôn ngữ Anh)](assets/posts/second-bachelors-degree/hk1-introduction-to-english-language.md)
+2. [[Introduction to Linguistics](note. Dẫn luận Ngôn ngữ học)](assets/posts/second-bachelors-degree/hk1-introduction-to-linguistics.md)
 3. [English 3: Reading](note. Tiếng Anh 3: Đọc)
 4. [English 3: Writing](note. Tiếng Anh 3: Viết)
 5. [[English 3: Listening - Speaking](note. Tiếng Anh 3: Nghe - Nói)](assets/posts/second-bachelors-degree/hk1-listening-speaking-3.md)

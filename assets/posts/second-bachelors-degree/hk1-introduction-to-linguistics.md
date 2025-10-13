@@ -1,1 +1,1 @@
-# Dẫn luận Ngôn ngữ Học
+## [Introduction to Linguistics](note. Dẫn luận Ngôn ngữ Học)

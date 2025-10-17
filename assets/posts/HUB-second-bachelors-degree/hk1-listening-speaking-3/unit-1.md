@@ -36,4 +36,4 @@ B. **(VOCABULARY)** [Read aloud](note. Đọc to) these words from listening 1. 
 
 ## Phụ lục
 - [Listening - speaking 3: Audio](https://drive.google.com/drive/folders/16K_3dGLwGD8P9IGL0m2r9U_AmDL1Fbrf)
-- [Listening - speaking 3: Từ vựng](assets/posts/second-bachelors-degree/hk1-listening-speaking-3/vocabulary.md)
+- [Listening - speaking 3: Từ vựng](assets/posts/HUB-second-bachelors-degree/hk1-listening-speaking-3/vocabulary.md)

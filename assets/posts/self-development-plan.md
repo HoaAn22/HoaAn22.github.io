@@ -34,3 +34,7 @@
     Thạc sĩ Tài chính - Ngân hàng (Fintech)  
     HUB - Trường Đại học Ngân hàng TP.HCM  
 
+## Chương trình tham khảo
+
+- Thạc sĩ Quản trị Kinh doanh  
+[HCMIU - Trường Đại học Quốc tế](https://tuyensinh.hcmiu.edu.vn/chuong-trinh/thac-si-quan-tri-kinh-doanh/)  

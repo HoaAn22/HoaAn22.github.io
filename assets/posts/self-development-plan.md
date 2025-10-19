@@ -36,5 +36,9 @@
 
 ## Chương trình tham khảo
 
+- Cử nhân Tài chính Ngân hàng (định hướng fintech)  
+[HUB - Trường Đại học Ngân hàng TP.HCM]()
+- Cử nhân Tâm lý học
+[]
 - Thạc sĩ Quản trị Kinh doanh  
 [HCMIU - Trường Đại học Quốc tế](https://tuyensinh.hcmiu.edu.vn/chuong-trinh/thac-si-quan-tri-kinh-doanh/)  

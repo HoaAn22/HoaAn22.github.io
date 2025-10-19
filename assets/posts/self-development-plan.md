@@ -38,7 +38,7 @@
 
 - Cử nhân Tài chính Ngân hàng (định hướng fintech)  
 [HUB - Trường Đại học Ngân hàng TP.HCM]()
-- Cử nhân Tâm lý học
-[]
+- Cử nhân Tâm lý học  
+[HCMUSSH - Trường Đại học Khoa học Xã hội Nhân Văn TP.HCM](https://hcmussh.edu.vn/tamlyhoc/daotao)
 - Thạc sĩ Quản trị Kinh doanh  
 [HCMIU - Trường Đại học Quốc tế](https://tuyensinh.hcmiu.edu.vn/chuong-trinh/thac-si-quan-tri-kinh-doanh/)  

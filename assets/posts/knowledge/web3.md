@@ -25,12 +25,11 @@ Web3 được định nghĩa là thế hệ tiếp theo của website, sau Web 2
 
 ## Tài liệu tham khảo
 
-[1] Trương Trường Thịnh, “World Wide Web (WWW) là gì​? Lịch sử phát triển, vai trò, phân biệt với Internet,” InterData Blog, Apr. 12, 2025.<br> https://interdata.vn/blog/world-wide-web/
+[1] Trương Trường Thịnh, “World Wide Web (WWW) là gì​? Lịch sử phát triển, vai trò, phân biệt với Internet,” InterData Blog, Apr. 12, 2025. https://interdata.vn/blog/world-wide-web/
 
-[2] Tuyết Mai, “World Wide Web ra đời thế nào?,” Tạp chí Kinh tế và Dự báo - Bộ Kế hoạch và Đầu tư, Sep. 08, 2017.<br> https://kinhtevadubao.vn/world-wide-web-ra-doi-the-nao-2680.html
+[2] Tuyết Mai, “World Wide Web ra đời thế nào?,” Tạp chí Kinh tế và Dự báo - Bộ Kế hoạch và Đầu tư, Sep. 08, 2017. https://kinhtevadubao.vn/world-wide-web-ra-doi-the-nao-2680.html
 
-[3] Viktor Tarasov, “SGOD - Smart Generation Of Digital,” Sgod.vn, Jul. 29, 2024.<br> https://sgod.vn/news/introduction-to-web3-710ca65719069
+[3] Viktor Tarasov, “SGOD - Smart Generation Of Digital,” Sgod.vn, Jul. 29, 2024. https://sgod.vn/news/introduction-to-web3-710ca65719069
 
-[4] Bùi Mi, “Sự khác biệt giữa Web 1.0, Web 2.0 và Web 3.0 - BlockchainWork Insider,” BlockchainWork Insider, Feb. 14, 2022.<br> https://insider.blockchainwork.net/su-khac-biet-giua-web-1-0-web-2-0-va-web-3-0 
-‌
+[4] Bùi Mi, “Sự khác biệt giữa Web 1.0, Web 2.0 và Web 3.0 - BlockchainWork Insider,” BlockchainWork Insider, Feb. 14, 2022. https://insider.blockchainwork.net/su-khac-biet-giua-web-1-0-web-2-0-va-web-3-0 
 ‌

@@ -48,10 +48,12 @@
 
 **Bằng cấp**
 
+- Cử nhân Tài chính Ngân hàng  
+[BAV - Học viện Ngân hàng](https://hvnh.edu.vn/hvnh/vi/thong-tin-tuyen-sinh)
 - Cử nhân Tài chính Ngân hàng (Định hướng Fintech)  
-[HUB - Trường Đại học Ngân hàng TP.HCM]()
+[HUB - Đại học Ngân hàng TP.HCM]()
 - Thạc sĩ Tài chính Ngân hàng (Định hướng Fintech)  
-[HUB - Trường Đại học Ngân hàng TP.HCM]()
+[HUB - Trường Đại học Ngân hàng TP.HCM](https://tuyensinh.hub.edu.vn/he-dao-tao/thac-si-72.html)
 - Thạc sĩ Quản trị Kinh doanh  
 [HCMIU - Trường Đại học Quốc tế](https://tuyensinh.hcmiu.edu.vn/chuong-trinh/thac-si-quan-tri-kinh-doanh/)  
 - Cử nhân Tâm lý học  

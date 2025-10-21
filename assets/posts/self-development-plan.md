@@ -30,12 +30,17 @@
 
 ## Chương trình tham khảo
 
-**Chứng chỉ**
+**Nghiệp vụ chuyên môn**
 
-- Phương pháp giảng dạy STEAM thích hợp cho giáo viên Trung học  
-[Đại học Sư phạm Hà Nội 2](https://linhna.edu.vn/nghiep-vu-su-pham/phuong-phap-giang-day-steam-cho-giao-vien/)
+- Ứng dụng SPSS trong phân tích dữ liệu  
+[HCMUTE - Đại học Sư phạm Kỹ thuật TP.HCM](https://daotaotuxa.hcmute.edu.vn/ArticleId/b94cf943-2082-4280-9816-7d764878c8a2/khoa-dao-tao-ung-dung-spss-trong-phan-tich-du-lieu)
+
+---
+
+**Nghiệp vụ sư phạm**
+
 - Nghiệp vụ tư vấn tâm lý học đường  
-[Đại học Khoa học Xã hội và Nhân văn](https://daotaonganhan.hcmussh.edu.vn/khoa-giao-duc/)
+[Đại học Khoa học Xã hội và Nhân văn](https://daotaonhanluc.hcmussh.edu.vn/danh-muc-khoa-hoc/tam-ly-hoc-duong/)
 - Nghiệp vụ giảng dạy cho giảng viên  
 [Đại học Khoa học Xã hội và Nhân văn](https://daotaonganhan.hcmussh.edu.vn/khoa-giao-duc/)
 

@@ -40,9 +40,9 @@
 **Nghiệp vụ sư phạm**
 
 - Nghiệp vụ tư vấn tâm lý học đường  
-[Đại học Khoa học Xã hội và Nhân văn](https://daotaonhanluc.hcmussh.edu.vn/danh-muc-khoa-hoc/tam-ly-hoc-duong/)
+[HCMUSH - Đại học Khoa học Xã hội và Nhân văn](https://daotaonhanluc.hcmussh.edu.vn/danh-muc-khoa-hoc/tam-ly-hoc-duong/)
 - Nghiệp vụ giảng dạy cho giảng viên  
-[Đại học Khoa học Xã hội và Nhân văn](https://daotaonganhan.hcmussh.edu.vn/khoa-giao-duc/)
+[HCMUSH - Đại học Khoa học Xã hội và Nhân văn](https://daotaonganhan.hcmussh.edu.vn/khoa-giao-duc/)
 
 ---
 

@@ -14,7 +14,7 @@
     Nghiệp vụ sư phạm dạy trình độ cao đẳng, trung cấp  
     [HCMUTE - Viện Sư phạm Kỹ Thuật](https://ite.hcmute.edu.vn/TopicId/23d2ea12-d7cd-4ced-a778-42ea88c2a6b5/boi-duong-nghiep-vu-su-pham)
 
-## Kế hoạch tương lai
+## Đang học tập
 
 - 09/2025 - [(2027)](note. Dự kiến)
 

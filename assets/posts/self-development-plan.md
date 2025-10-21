@@ -30,6 +30,19 @@
 
 ## Chương trình tham khảo
 
+**Chứng chỉ**
+
+- Phương pháp giảng dạy STEAM thích hợp cho giáo viên Trung học  
+[Đại học Sư phạm Hà Nội 2](https://linhna.edu.vn/nghiep-vu-su-pham/phuong-phap-giang-day-steam-cho-giao-vien/)
+- Nghiệp vụ tư vấn tâm lý học đường  
+[Đại học Khoa học Xã hội và Nhân văn](https://daotaonganhan.hcmussh.edu.vn/khoa-giao-duc/)
+- Nghiệp vụ giảng dạy cho giảng viên  
+[Đại học Khoa học Xã hội và Nhân văn](https://daotaonganhan.hcmussh.edu.vn/khoa-giao-duc/)
+
+---
+
+**Bằng cấp**
+
 - Cử nhân Tài chính Ngân hàng (Định hướng Fintech)  
 [HUB - Trường Đại học Ngân hàng TP.HCM]()
 - Thạc sĩ Tài chính Ngân hàng (Định hướng Fintech)  
@@ -38,4 +51,3 @@
 [HCMIU - Trường Đại học Quốc tế](https://tuyensinh.hcmiu.edu.vn/chuong-trinh/thac-si-quan-tri-kinh-doanh/)  
 - Cử nhân Tâm lý học  
 [HCMUSSH - Trường Đại học Khoa học Xã hội Nhân Văn TP.HCM](https://hcmussh.edu.vn/tamlyhoc/daotao)
-- Tiến sĩ  

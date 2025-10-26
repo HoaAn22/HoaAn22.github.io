@@ -17,3 +17,7 @@ git config --global user.email "[email](note. email liên kết với tài kho�
 git config --global --unset user.name "[name](note. Tên tài khoản github)"
 
 git config --global --unset user.email "[email](note. email liên kết với tài khoản github)"
+
+---
+
+*Lưu ý: Email được thiết lập là email ẩn danh được github tạo, để xem vào [#Setting] $\to$ [#Email], xem trong muc [#Keep my email addresses private]*

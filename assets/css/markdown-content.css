@@ -108,3 +108,8 @@ tr:hover {
     border: 1px solid black;
     border-left: 2px solid var(--highlight-color);
 }
+
+#markdown-content .note-tooltip code {
+    background-color: var(--darkmode-block-color);
+    border: 1.5px solid var(--darkmode-content-color);
+}

@@ -6,7 +6,7 @@
 
 OBJECTTIVES  
 \- Learn the part of a paragraphs.  
-\- Identify and [correct](note. sửa lại cho đúng) [fragments](note. TRONG NGỮ CẢNH, câu chưa hoàn chỉnh - rời rạc).  
+\- Identify and [correct](note. `kəˈrɛkt` sửa lại cho đúng) [fragments](note. `ˈfræɡmənts` TRONG NGỮ CẢNH, câu chưa hoàn chỉnh - rời rạc).  
 \- Use count and non-count nouns correctly.  
 \- Write a paragraphs.  
 
@@ -55,15 +55,36 @@ Different computers can appeal to different people.
 For each pair of sentences, check the better topic sentence. Be prepared to expain your choices.
 
 1. 
-    A. A person who is interviewing for a job should [arrive on time](note. đến đúng giờ) to the interview.[🟥](note. Quá cụ thể, chỉ nói về việc đến dúng giờ, không thể phát triển thêm ý để viết bài, phù hợp làm supporting sentence hơn.)  
-    B. A person who is interviewing for a job should do three important things during the interview.[🟩](note. TOPIC + CONTROLLING SENTENCE, đủ tính khái quát, có thể mở rộng ý tưởng để viết)  
+
+A. A person who is interviewing for a job should [arrive on time](note. đến đúng giờ) to the interview.[🟥](note. Quá cụ thể, chỉ nói về việc đến dúng giờ, không thể phát triển thêm ý để viết bài, phù hợp làm supporting sentence hơn.)
+
+B. A person who is interviewing for a job should do three important things during the interview.[🟩](note. TOPIC + CONTROLLING SENTENCE, đủ tính khái quát, có thể mở rộng ý tưởng để viết)
+
 2. 
-    A. Smartphones have many useful features for communication.  
-    B. Smartphones are often used to send text messages.  
+
+A. Smartphones have many useful features for communication.[🟩]
+
+B. Smartphones are often used to send text messages.[🟥]
+
 3. 
-    A. Fossils are the remains of plants or animals that died a long time ago.  
-    B. There are numerous techniques that scientists use to discover the age of a fossil.  
+
+A. Fossils are the remains of plants or animals that died a long time ago.[🟥]  
+    
+B. There are numerous techniques that scientists use to discover the age of a fossil.[🟩]  
+
 4. 
+
+A. There are many theories about who killed John F.Kennedy.[🟩]
+
+B. John F.Kennedy was assassinated on November 22, 1963.[🟥]  
+
+5. 
+
+A. Online dictionaries can help students in two important ways.[🟩]  
+
+B. Online dictionaries are available in numerous languges.[🟥]
+
+
 
 ## Appendix
 

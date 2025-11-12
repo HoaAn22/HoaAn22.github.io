@@ -7,7 +7,7 @@
 ## Exam
 
 - [Exam 1]()
-
+- [Review lessons](assets/posts/HUB-second-bachelors-degree/hk1-listening-speaking-3/review-lessons.md)
 ## Appendices
 
 - 

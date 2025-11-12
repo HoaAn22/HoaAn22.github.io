@@ -48,6 +48,8 @@
 
 **Bằng cấp**
 
+- Thạc sĩ Giáo dục học  
+[HCMUTE - Đại học Sư phạm kỹ thuật TP.HCM](https://drive.google.com/file/d/1Xox5Xkb5Oi0k0-D0AD2f9Ywyx6pDH9ur/view)
 - Cử nhân Tài chính Ngân hàng  
 [BAV - Học viện Ngân hàng](https://hvnh.edu.vn/hvnh/vi/thong-tin-tuyen-sinh)
 - Cử nhân Tài chính Ngân hàng (Định hướng Fintech)  

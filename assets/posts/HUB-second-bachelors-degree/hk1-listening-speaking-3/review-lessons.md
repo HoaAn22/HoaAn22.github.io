@@ -7,8 +7,8 @@
 
 Part I: Social Interaction (4 pts – 2’)   
 \- The candidate answers TWO questions of the topic (below) (2 pts / each question)  
-**Topic: LEISURE TIME**  
-\- What do you usually do in your free time?  
+**Topic: [LEISURE](note. `ˈliʒər`) [TIME](note. `taɪm`)**  
+\- What do you [usually](note. `ˈjuʒəli`) do in your free time?  
 \- Do you prefer spending your leisure time alone or with friends? Why?  
 \- How do you feel about taking part in outdoor activities?  
 
@@ -28,3 +28,4 @@ Part II: Topic Development (6 pts. – 2’):
 \- Although I’m not very outgoing, I still try to join some outdoor activities because they help me stay healthy and make new friends.  
 
 **Part II**  
+My greatest personal achievement is overcoming my fear of public speaking. I used to feel very nervous whenever I had to speak in front of other people. Last year, I had a project presentation at work, and I decided to face my fear. I practiced a lot and asked my friends for feedback. In the end, I felt more confident during the presentation. This achievement is important to me because it helped me believe in myself and taught me to step out of my comfort zone.  

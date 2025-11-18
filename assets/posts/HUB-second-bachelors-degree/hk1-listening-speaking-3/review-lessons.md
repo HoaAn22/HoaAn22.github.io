@@ -24,7 +24,7 @@ Part II: Topic Development (6 pts. – 2’):
 
 **Part I**  
 \- In my free time, I usually listen to music or watch English videos to relax and improve my language skills.  
-\- I prefer spending my leisure time alone because I'm an introverted person. Having some personal space helps me relax and recharge my energy after a busy day. It also gives me time to think and focus on my personal interests, such as reading or listening to music.  
+\- I prefer spending my leisure time alone because I'm an introverted person. Having some personal space helps me recharge my energy after a busy day. It also gives me time to think and focus on my personal interests, such as reading or listening to music.  
 \- Although I’m not very outgoing, I still try to join some outdoor activities because they help me stay healthy and make new friends.  
 
 **Part II**  

@@ -24,7 +24,7 @@ Part II: Topic Development (6 pts. – 2’):
 
 **Part I: [LEISURE](note. `ˈliʒər`) [TIME](note. `taɪm`)**  
 \- In my free time, [#-] I [usually](note. `ˈjuʒəli`) listen to music [#-] or watch [English](note. `ˈɪŋɡlɪʃ`) videos [#-] to relax and [improve](note. `ɪmˈpruv`) my language skills.  
-\- I prefer spending my leisure time alone [#-] because I'm an [introverted](note. `ˈɪntroʊˌvɜrtɪd`) person. [#-] Having some personal space [#-] helps me recharge my energy [#-] after a busy day. [#-] It also gives me time [#-] to think and focus on my personal interests, [#-] such as reading or listening to music.  
+\- I prefer spending my leisure time alone [#-] because I'm an [introverted](note. `ˈɪntroʊˌvɜrtɪd`) person. [#-] Having some [personal](note. `ˈpɜrsɪnɪl`) space [#-] helps me recharge my energy [#-] after a busy day. [#-] It also gives me time [#-] to think and focus on my personal interests, [#-] such as reading or listening to music.  
 \- Although I’m not very outgoing, I still try to join some outdoor activities because they help me stay healthy and make new friends.  
 
 **Part II**  

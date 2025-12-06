@@ -74,6 +74,7 @@ function getExcludeLinks() {
         'hoa-hoc/',
         'second-bachelors-degree/',
         'self-development-plan.md',
+        'todo-list.md',
         // Thêm các file markdown đặc biệt khác tại đây có thể thêm thư mục sẽ xử lý các file trong thư mục
     ];
 }

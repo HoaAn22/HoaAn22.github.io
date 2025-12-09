@@ -26,7 +26,7 @@
 
     **Hoàn thành**  
     Nghiệp vụ sư phạm cho giáo viên Tin học (THCS & THPT)  
-    [HPU2 - Trường Đại học Sư phạm Hà Nội 2](https://www.hpu2.edu.vn/)
+    [VinhUni - Trường Đại học Vinh](https://vinhuni.edu.vn/)
 
 ## Chương trình tham khảo
 

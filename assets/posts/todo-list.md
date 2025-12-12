@@ -1,6 +1,6 @@
 ## ToDo List 🟥🟩
 
-- **(Theo dõi thời gian)**
+- **(12/12 - 21/12/2025)**
 
     **Văn bằng 2 - Kiểm tra quá trình 1**  
     🟥 Tiếng Anh 4: nghe - nói  

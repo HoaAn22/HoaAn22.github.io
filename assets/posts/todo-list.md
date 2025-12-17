@@ -2,7 +2,7 @@
 
 - **10/11 - 25/11/2025**
 
-    **Văn bằng 2 - Học**  
+    **Văn bằng 2 - Học bài**  
     🟥 Tiếng Anh 4: nghe - nói  
     🟥 Tiếng Anh 4: đọc  
     🟥 Tiếng Anh 4: viết  

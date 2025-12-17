@@ -1,8 +1,8 @@
 ## ToDo List 🟥🟩
 
-- **Theo dõi thời gian**
+- **10/11 - 25/11/2025**
 
-    **10/11 - 25/11/2025**  
+    **Văn bằng 2 - Học**  
     🟥 Tiếng Anh 4: nghe - nói  
     🟥 Tiếng Anh 4: đọc  
     🟥 Tiếng Anh 4: viết  

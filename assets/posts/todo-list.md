@@ -1,5 +1,12 @@
 ## ToDo List 🟥🟩
 
+- **Theo dõi thời gian**
+
+    **15/12/2025**  
+    🟥 Tiếng Trung 1: [第一课](note. `Dì yī kè`)  
+    🟥 Kỹ năng thuyết trình: unit 1
+    
+
 ### Đã hoàn thành
 
 - **(12/12 - 21/12/2025)**

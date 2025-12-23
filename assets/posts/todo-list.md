@@ -1,5 +1,17 @@
 ## ToDo List 🟥🟩
 
+- **(25/01/2025)**
+
+    **Văn bằng 2 - Cuối kì II**  
+    🟥 Kỹ năng thuyết trình  
+        \- 1 Bài đọc🟥  
+        \- 1 Slides 🟥  
+        \- 1 Video  🟥  
+
+    **Văn bằng 2 - Cuối kì II**  
+    🟥 Thực hành viết thư tín thương mại  
+        \- 1 Báo cáo🟥  
+
 - **10/11 - 25/11/2025**
 
     **Văn bằng 2 - Học bài**  

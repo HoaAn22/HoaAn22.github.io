@@ -1,13 +1,6 @@
 ## ToDo List 🟥🟩
 
-- **01/12 - 07/12/2025**
-
-    **Văn bằng 2 - Kiểm tra quá trình 2**   
-    🟩 Tiếng Trung 1   
-    🟩 Kỹ năng thuyết trình  
-    🟩 Thực hành viết thư tín thương mại
-
-- **(25/01/2025)**
+- **(25/01/2026)**
 
     **Văn bằng 2 - Cuối kì II**  
     🟥 Kỹ năng thuyết trình  
@@ -31,6 +24,13 @@
     
 
 ### Đã hoàn thành
+
+- **29/12/2025 - 03/1/2026**
+
+    **Văn bằng 2 - Kiểm tra quá trình 2**   
+    🟩 Tiếng Trung 1   
+    🟩 Kỹ năng thuyết trình  
+    🟩 Thực hành viết thư tín thương mại
 
 - **12/12 - 21/12/2025**
 

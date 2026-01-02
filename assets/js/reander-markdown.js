@@ -1,7 +1,3 @@
-/**
- * STABLE BLOG SCRIPT - Fix lỗi nhấn Back 2 lần
- */
-
 // 1. CÁC HÀM CẤU HÌNH
 function getExcludeLinks() {
     return ['cv.md', 'portfolio.md', 'hoa-hoc/', 'second-bachelors-degree/', 'self-development-plan.md', 'todo-list.md'];
@@ -33,16 +29,6 @@ function renderMath() {
         setTimeout(renderMath, 100);
     }
 }
-
-// function updateNotebookTitle(filePath) {
-//     const links = document.querySelectorAll('a[onclick]');
-//     for (let link of links) {
-//         if (link.getAttribute('onclick')?.includes(filePath)) {
-//             document.title = `${link.innerText.trim()} - An's blog`;
-//             break;
-//         }
-//     }
-// }
 
 // Cập nhật tiêu đề dựa trên file đang mở
 function updateNotebookTitle(filePath) {
@@ -78,29 +64,65 @@ function updateNotebookTitle(filePath) {
 // 2. CORE: RENDER MARKDOWN
 function renderMarkdown(content, isExcluded = false) {
     const md = window.markdownit({ breaks: false, html: true });
-    let html = md.render(content);
+    let renderedContent = md.render(content);
 
-    // Xử lý các định dạng đặc biệt (Note, Term, Email, Math...)
-    if (isExcluded) html = html.replace(/<p>/g, '<p class="nonstandard-p">');
-    html = html.replace(/(?<!["'=])(https?:\/\/[^\s<>"']+)/g, (url) => `<a href="${url}" target="_blank">${url}</a>`);
-    html = html.replace(/\[([^\]]+)\]\(note\.([^)]+)\)/gi, (_, t, a) => `<span class="md-note">${t}<span class="note-tooltip">${a}</span></span>`);
-    html = html.replace(/\[#(.*?)\]/g, '<span class="key-term">$1</span>');
-    html = html.replace(/\b([a-zA-Z0-9._%+-]+@gmail\.com)\b/g, (e) => `<a href="mailto:${e}">${e}</a>`);
-    html = html.replace(/\[(\d+)\]/g, '<span class="quote">[$1]</span>');
+    if (isExcluded) {
+        renderedContent = renderedContent.replace(/<p>/g, '<p class="nonstandard-p">');
+    }
+
+    // [TÍNH NĂNG GỐC] Tự động gán link cho URL
+    renderedContent = renderedContent.replace(/(?<!["'=])(https?:\/\/[^\s<>"']+)/g, (url) => `<a href="${url}" target="_blank">${url}</a>`);
+
+    // [TÍNH NĂNG GỐC] Ghi chú đặc biệt [text](note.annotation)
+    renderedContent = renderedContent.replace(/\[([^\]]+)\]\(note\.([^)]+)\)/gi, (_, text, annotation) =>
+        `<span class="md-note">${text}<span class="note-tooltip">${annotation}</span></span>`
+    );
+
+    // [TÍNH NĂNG GỐC] Email tự động
+    renderedContent = renderedContent.replace(/\b([a-zA-Z0-9._%+-]+@gmail\.com)\b/g, (email) => 
+        `<a href="mailto:${email}">${email}</a>`
+    );
+
+    // [TÍNH NĂNG GỐC] Tô đậm thuật ngữ [#term]
+    renderedContent = renderedContent.replace(/\[#(.*?)\]/g, '<span class="key-term">$1</span>');
+
+    // [TÍNH NĂNG GỐC] Xuống dòng an toàn
+    renderedContent = renderedContent.replace(/&lt;br&gt;|<br>/gi, '<br>');
+
+    // [TÍNH NĂNG GỐC] Tô màu trích dẫn [1]
+    renderedContent = renderedContent.replace(/\[(\d+)\]/g, '<span class="quote">[$1]</span>');
 
     const container = document.getElementById('markdown-content');
-    container.innerHTML = html;
+    container.innerHTML = renderedContent;
 
-    // Gán sự kiện click cho link nội bộ trong nội dung vừa render
+    // [TÍNH NĂNG GỐC] Xử lý link và YouTube bên trong nội dung
     const a_tags = container.getElementsByTagName('a');
     for (let a of a_tags) {
         const href = a.getAttribute('href');
-        if (href && (href.endsWith('.md') || href.endsWith('.html'))) {
-            a.addEventListener('click', function(e) {
-                e.preventDefault();
-                if (href.endsWith('.md')) loadMarkdown(href, true);
-                else loadNotebook(href);
-            });
+        if (href) {
+            if (href.startsWith('assets') && href.endsWith('.md')) {
+                a.setAttribute('href', '#');
+                a.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadMarkdown(href, true);
+                });
+            } else if (href.startsWith('assets') && href.endsWith('.html')) {
+                a.setAttribute('href', '#');
+                a.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    loadNotebook(href);
+                });
+            } else if (href.includes('youtube.com/watch') || href.includes('youtu.be')) {
+                const videoId = extractYouTubeID(href);
+                if (videoId) {
+                    const videoContainer = document.createElement('div');
+                    videoContainer.classList.add('video-container');
+                    videoContainer.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen frameborder="0"></iframe>`;
+                    a.replaceWith(videoContainer);
+                }
+            } else {
+                a.setAttribute('target', '_blank');
+            }
         }
     }
     renderMath();

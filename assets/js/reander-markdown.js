@@ -188,11 +188,3 @@ document.addEventListener('DOMContentLoaded', () => {
         loadMarkdown(fileParam);
     }
 });
-
-// Khi nhấn Back / Forward → load lại markdown theo URL
-window.addEventListener("popstate", function () {
-    const fileParam = getQueryParam('file');
-    if (fileParam) {
-        loadMarkdown(fileParam);
-    }
-});

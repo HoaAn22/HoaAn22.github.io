@@ -1,7 +1,8 @@
 // 1. CÁC HÀM CẤU HÌNH
 function getExcludeLinks() {
-    return ['cv.md', 'portfolio.md', 'hoa-hoc/', 'second-bachelors-degree/', 'self-development-plan.md', 'todo-list.md'];
+    return ['cv.md', 'portfolio.md', 'hoa-hoc/', 'self-development-plan.md', 'todo-list.md'];
 }
+// 'second-bachelors-degree/'
 
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);

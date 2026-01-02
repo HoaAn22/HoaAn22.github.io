@@ -34,11 +34,42 @@ function renderMath() {
     }
 }
 
+// function updateNotebookTitle(filePath) {
+//     const links = document.querySelectorAll('a[onclick]');
+//     for (let link of links) {
+//         if (link.getAttribute('onclick')?.includes(filePath)) {
+//             document.title = `${link.innerText.trim()} - An's blog`;
+//             break;
+//         }
+//     }
+// }
+
+// Cập nhật tiêu đề dựa trên file đang mở
 function updateNotebookTitle(filePath) {
     const links = document.querySelectorAll('a[onclick]');
+    let selectedTitle = "";
+    let categoryTitle = "";
+
     for (let link of links) {
-        if (link.getAttribute('onclick')?.includes(filePath)) {
-            document.title = `${link.innerText.trim()} - An's blog`;
+        const onclickValue = link.getAttribute('onclick');
+        if (onclickValue.includes(filePath)) {
+            selectedTitle = link.innerText.trim();
+            let parent = link.parentElement;
+            while (parent) {
+                if (parent.classList.contains("dropdown-item")) {
+                    let parentLink = parent.querySelector('a');
+                    if (parentLink && parentLink !== link) {
+                        categoryTitle = parentLink.innerText.trim();
+                    }
+                    break;
+                }
+                parent = parent.parentElement;
+            }
+            if (categoryTitle) {
+                document.title = `[${categoryTitle}] - ${selectedTitle}`;
+            } else {
+                document.title = `${selectedTitle} - An's blog`;
+            }
             break;
         }
     }

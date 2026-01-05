@@ -2,7 +2,7 @@
 
 ## OPENING
 
-Good morning, [teacher](note. `ˈtiːʧər`) and classmates.
+Good morning, [teacher](note. `ˈtiːʧər`) and [classmates](note. `ˈklæˌsmeɪts`).
 
 [Today](note. `təˈdeɪ`), I [would](note. `wʊd`) [like](note. `laɪk`) to [talk](note. tɔk) [about](note. `əˈbaʊt`) a topic that is very close to our daily life, [especially](note. `əˈspɛʃli`) for students and working [people](note. `ˈpipəl`). _That topic is work–life balance._
 
@@ -19,4 +19,4 @@ Work-life balance means using our time and energy in a good way between work and
 - Work includes study, jobs, and responsibilities,...
 - Life includes family, health, rest, and free time,...
 
-When work and life are balanced, we can work well and still have time to relax. This helps us feel happier and less stresssed. ***But in reality, many people do not have good work-life balance.***
+When work and life are balanced, we can work well and still have time to relax. This helps us feel happier and less stressed. ***But in [reality](note. `ˌriˈæləˌti`), many people do [not](note. `nɑt`) have good work-life balance.***

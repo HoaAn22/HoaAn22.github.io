@@ -147,4 +147,5 @@ tk.Button(root, text="🚀 Chuyển đổi", command=start_conversion, bg="light
 
 root.mainloop()
 
+# pip install notebook nbconvert
 # pyinstaller --onefile --windowed convert-app.py

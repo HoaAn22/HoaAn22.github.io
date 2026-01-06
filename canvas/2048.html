@@ -128,15 +128,14 @@
         }
         .size-block input{
             margin-left: 10px;
-            max-width: 50px;
+            width: 80px;
         }
         #size{
             background: transparent;
             border: 2px solid white;
             color: white;
-            font-size: 18px;
-            padding: 5px 8px 5px 5px;
-            width: 60px;
+            font-size: 20px;
+            padding: 5px;
             outline: none;
             box-sizing: border-box;
             text-align: center;
@@ -145,13 +144,22 @@
             z-index: 999;
             position: absolute;
             margin-top: 15px;
-            font-size: 35px;
+            font-size: 30px;
             display: none;
+        }
+        .lose{
+            text-align: center;
         }
         .start2{
             display: block;
+            text-align: center;
+            border: 2px solid white;
+            border-radius: 5px;
             min-width: 150px;
             margin-top: 200px;
+        }
+        .start:hover, .start2:hover, .reset:hover{
+            cursor: pointer;
         }
         #canvas-block{
             position: relative;
@@ -192,7 +200,12 @@
             </div>
             <div id='canvas-block'>
                 <div class='start2'>Start</div>
-                <div class='lose'>Przegrana</div>
+                <div class='lose'>
+                    Lose
+                    <br>
+                    <hr>
+                    (Nhấn nút làm mới để chơi)
+                </div>
                 <canvas id='canvas' width='500' height='500'></canvas>
             </div>
         </div>
@@ -233,8 +246,36 @@
             ctx.clearRect(0,0,500,500);
         }
 
-        $(".reset").click(function(){
-        startGame();
+        $(".reset").click(function() {
+            // 1. Lấy giá trị size mới từ input
+            var newSize = parseInt(sizeInput.val());
+
+            // 2. Kiểm chứng đầu vào (đảm bảo size không quá nhỏ hoặc quá lớn gây lỗi giao diện)
+            if (newSize >= 2 && newSize <= 20) {
+                size = newSize;
+                // Tính toán lại độ rộng của mỗi ô dựa trên size mới
+                width = canvas.width / size - 6; 
+            }
+
+            // 3. Reset các biến logic và giao diện
+            score = 0;
+            loss = false;
+            scoreLabel.html("Score: " + score);
+            $(".lose").css({"display": "none"});
+            $("#canvas").css({
+                "opacity": "1",
+                "display": "block" // Đảm bảo canvas hiển thị nếu đang bị ẩn
+            });
+            $(".start2").css({"display": "none"});
+
+            // 4. Khởi tạo lại trò chơi với thông số mới
+            canvasClear();
+            createCells();
+            drawAllCells();
+            
+            // Thêm 2 ô ngẫu nhiên để bắt đầu
+            pasteNewCell();
+            pasteNewCell();
         });
 
         $("canvas").css({"display":"none"});

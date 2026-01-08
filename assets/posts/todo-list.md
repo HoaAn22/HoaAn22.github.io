@@ -9,6 +9,11 @@
         \- 1 Video  🟥  
 
     **Văn bằng 2 - Cuối kì II**  
+    🟥 Tiếng Anh 4: Nghe - Nói  
+        \- 1 Bài đọc🟥  
+        \- 1 Video  🟥
+
+    **Văn bằng 2 - Cuối kì II**  
     🟥 Thực hành viết thư tín thương mại  
         \- 1 Báo cáo🟥  
 

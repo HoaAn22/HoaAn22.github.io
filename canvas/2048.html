@@ -110,7 +110,7 @@
             font-size: 24px;
         }
         .set-size{
-            width: 100%;
+            width: 120%;
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -128,14 +128,16 @@
         }
         .size-block input{
             margin-left: 10px;
-            width: 80px;
+            margin-right: 10px;
+            width: 60px;
         }
         #size{
             background: transparent;
             border: 2px solid white;
+            border-radius: 5px;
             color: white;
             font-size: 20px;
-            padding: 5px;
+            padding: 0px 0px;
             outline: none;
             box-sizing: border-box;
             text-align: center;
@@ -173,9 +175,9 @@
             justify-content: flex-start;
             align-items: center;
         }
-        .reset{
+        /* .reset{
             margin-left: 15px;
-        }
+        } */
     </style>
 </head>
 <body>
@@ -189,7 +191,7 @@
                         <input id='size' type='number' value='4'>
                     </div>
                     <div class='btns'>
-                        <div class='btn start'>Start</div>
+                        <!-- <div class='btn start'>Start</div> -->
                         <div class='btn reset'>Reset</div>
                     </div>
                 </div>
@@ -204,7 +206,7 @@
                     Lose
                     <br>
                     <hr>
-                    (Nhấn nút làm mới để chơi)
+                    Nhấn nút [Reset] để chơi
                 </div>
                 <canvas id='canvas' width='500' height='500'></canvas>
             </div>
@@ -234,7 +236,7 @@
         var loss = false;
 
         changeSize.click(function(){
-            if(sizeInput.val() >= 2 && sizeInput.val() <= 20){
+            if(sizeInput.val() >= 2 && sizeInput.val() <=10){
                 size = sizeInput.val();
                 width = canvas.width / size - 6;
                 canvasClear();
@@ -251,7 +253,7 @@
             var newSize = parseInt(sizeInput.val());
 
             // 2. Kiểm chứng đầu vào (đảm bảo size không quá nhỏ hoặc quá lớn gây lỗi giao diện)
-            if (newSize >= 2 && newSize <= 20) {
+            if (newSize >= 2 && newSize <=10) {
                 size = newSize;
                 // Tính toán lại độ rộng của mỗi ô dựa trên size mới
                 width = canvas.width / size - 6; 

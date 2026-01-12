@@ -28,8 +28,8 @@ h3{
 
 .board{
     display:grid;
-    grid-template-columns:repeat(9, 40px);
-    gap:2px;
+    grid-template-columns:repeat(10, 40px);
+    gap:1px;
     background:#333;
     padding:4px;
 }
@@ -37,12 +37,13 @@ h3{
 .cell{
     width:40px;
     height:40px;
-    background:#cfcfcf;
+    background:#a0a0a0;
     display:flex;
     align-items:center;
     justify-content:center;
     cursor:pointer;
     font-weight:bold;
+    font-size:18px;
     user-select:none;
 }
 
@@ -56,8 +57,16 @@ h3{
 }
 
 .cell.flag{
-    background:#cfcfcf;
     color:red;
+}
+
+/* ===== MÀU THEO SỐ ===== */
+.n1{ color:#2e7d32; }      /* xanh lá */
+.n2{ color:#ef6c00; }      /* cam */
+.n3{ color:#c62828; }      /* đỏ */
+.n4{ color:#8e0000; }      /* đỏ đậm */
+.n5,.n6,.n7,.n8{
+    color:#4a148c;         /* tím cảnh báo cao */
 }
 
 .control{
@@ -87,17 +96,8 @@ button{
     padding:25px 35px;
     border-radius:10px;
     text-align:center;
-    animation:pop .3s ease;
 }
 
-.banner-content h2{
-    margin-bottom:10px;
-}
-
-@keyframes pop{
-    from{transform:scale(.7);opacity:0;}
-    to{transform:scale(1);opacity:1;}
-}
 </style>
 </head>
 
@@ -108,8 +108,8 @@ button{
     <div id="board" class="board"></div>
 
     <div class="control">
-        <div>Mìn: <span id="mineCount">10</span></div>
-        <button onclick="newGame()">Ván mới</button>
+        <div style="transform: translateY(5px);">Mines: 10</div>
+        <button onclick="newGame()">New</button>
     </div>
 
     <div id="banner" class="banner">
@@ -121,30 +121,28 @@ button{
 </div>
 
 <script>
-const SIZE = 9;
+const SIZE = 10;
 const MINES = 10;
 let board = [];
 let revealed = 0;
 let gameOver = false;
 
-/* ===== KHỞI TẠO ===== */
 function newGame(){
-    board = [];
-    revealed = 0;
-    gameOver = false;
-    document.getElementById("banner").style.display = "none";
+    board=[];
+    revealed=0;
+    gameOver=false;
+    document.getElementById("banner").style.display="none";
     createBoard();
     placeMines();
-    calculateNumbers();
+    calcNumbers();
     draw();
 }
 
 function createBoard(){
     for(let r=0;r<SIZE;r++){
         board[r]=[];
-        for(let c=0;c<SIZE;c++){
-            board[r][c]={mine:false, count:0, open:false, flag:false};
-        }
+        for(let c=0;c<SIZE;c++)
+            board[r][c]={mine:false,count:0,open:false,flag:false};
     }
 }
 
@@ -160,22 +158,21 @@ function placeMines(){
     }
 }
 
-function calculateNumbers(){
+function calcNumbers(){
     for(let r=0;r<SIZE;r++)
         for(let c=0;c<SIZE;c++){
             if(board[r][c].mine) continue;
-            let count=0;
+            let n=0;
             for(let dr=-1;dr<=1;dr++)
                 for(let dc=-1;dc<=1;dc++){
-                    let nr=r+dr, nc=c+dc;
+                    let nr=r+dr,nc=c+dc;
                     if(nr>=0&&nr<SIZE&&nc>=0&&nc<SIZE&&board[nr][nc].mine)
-                        count++;
+                        n++;
                 }
-            board[r][c].count=count;
+            board[r][c].count=n;
         }
 }
 
-/* ===== VẼ ===== */
 function draw(){
     const b=document.getElementById("board");
     b.innerHTML="";
@@ -183,13 +180,12 @@ function draw(){
         for(let c=0;c<SIZE;c++){
             const d=document.createElement("div");
             d.className="cell";
-            d.oncontextmenu=e=>{e.preventDefault(); toggleFlag(r,c,d);}
             d.onclick=()=>openCell(r,c,d);
+            d.oncontextmenu=e=>{e.preventDefault(); toggleFlag(r,c,d);}
             b.appendChild(d);
         }
 }
 
-/* ===== CHƠI ===== */
 function openCell(r,c,el){
     if(gameOver) return;
     const cell=board[r][c];
@@ -206,8 +202,10 @@ function openCell(r,c,el){
     }
 
     revealed++;
-    if(cell.count>0) el.textContent=cell.count;
-    else flood(r,c);
+    if(cell.count>0){
+        el.textContent=cell.count;
+        el.classList.add("n"+cell.count);
+    }else flood(r,c);
 
     if(revealed===SIZE*SIZE-MINES) win();
 }
@@ -215,11 +213,11 @@ function openCell(r,c,el){
 function flood(r,c){
     for(let dr=-1;dr<=1;dr++)
         for(let dc=-1;dc<=1;dc++){
-            let nr=r+dr, nc=c+dc;
+            let nr=r+dr,nc=c+dc;
             if(nr>=0&&nr<SIZE&&nc>=0&&nc<SIZE){
                 let idx=nr*SIZE+nc;
                 let el=document.querySelectorAll(".cell")[idx];
-                if(!board[nr][nc].open && !board[nr][nc].mine)
+                if(!board[nr][nc].open&&!board[nr][nc].mine)
                     openCell(nr,nc,el);
             }
         }
@@ -227,13 +225,11 @@ function flood(r,c){
 
 function toggleFlag(r,c,el){
     if(gameOver) return;
-    const cell=board[r][c];
-    if(cell.open) return;
-    cell.flag=!cell.flag;
-    el.textContent=cell.flag?"🚩":"";
+    if(board[r][c].open) return;
+    board[r][c].flag=!board[r][c].flag;
+    el.textContent=board[r][c].flag?"🚩":"";
 }
 
-/* ===== KẾT THÚC ===== */
 function lose(){
     gameOver=true;
     revealMines();
@@ -248,17 +244,16 @@ function win(){
 function revealMines(){
     const cells=document.querySelectorAll(".cell");
     for(let r=0;r<SIZE;r++)
-        for(let c=0;c<SIZE;c++){
+        for(let c=0;c<SIZE;c++)
             if(board[r][c].mine){
                 let i=r*SIZE+c;
                 cells[i].textContent="💣";
                 cells[i].classList.add("mine");
             }
-        }
 }
 
-function showBanner(text){
-    document.getElementById("bannerText").textContent=text;
+function showBanner(t){
+    document.getElementById("bannerText").textContent=t;
     document.getElementById("banner").style.display="flex";
 }
 

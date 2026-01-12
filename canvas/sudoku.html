@@ -149,6 +149,72 @@ button{
     background:#ffd6d6;
     color:#a30000;
 }
+
+textarea{
+    text-align:center;
+}
+
+/* ===== WIN BANNER ===== */
+.win-banner{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.55);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    z-index:10;
+    border-radius:8px;
+}
+
+.win-content{
+    background:#fff;
+    padding:25px 35px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    animation: pop .4s ease;
+}
+
+.win-content h2{
+    margin:0 0 10px;
+    color:#2e7d32;
+}
+
+.win-content p{
+    margin-bottom:15px;
+    font-size:16px;
+}
+
+.win-content button{
+    /* padding:8px 16px;
+    font-size:15px; */
+    cursor:pointer;
+}
+
+@keyframes pop{
+    from{ transform:scale(.7); opacity:0; }
+    to{ transform:scale(1); opacity:1; }
+}
+
+/* game cần position để banner phủ */
+.game{
+    position:relative;
+}
+
+.play-area{
+    display:flex;
+    gap:12px;
+    align-items:stretch;
+}
+
+.note{
+    width:120px;
+    resize:none;
+    font-size:14px;
+    padding:8px;
+    line-height:1.5;
+}
+
 </style>
 </head>
 
@@ -173,8 +239,18 @@ button{
         <li>Sai quá 3 lần → thua, hãy nhấn <b>Ván mới</b>.</li>
     </ul>
 </div>
+    <div id="winBanner" class="win-banner">
+        <div class="win-content">
+            <h2>🎉 Chúc mừng!</h2>
+            <button onclick="newGame()">Play</button>
+        </div>
+    </div>
+    <div class="play-area">
+        <table id="board"></table>
 
-    <table id="board"></table>
+        <textarea class="note"
+            placeholder="Note"></textarea>
+    </div>
     <div class="control-bar">
         <button onclick="check()">Kiểm tra</button>
         <button onclick="newGame()">Ván mới</button>
@@ -229,7 +305,7 @@ function generate(){
     return b;
 }
 
-function makePuzzle(full, blanks=45){
+function makePuzzle(full, blanks=30){
     let p=full.map(r=>r.slice());
     while(blanks){
         let r=Math.random()*9|0, c=Math.random()*9|0;
@@ -267,36 +343,60 @@ function draw(){
 /* ===== KIỂM TRA ===== */
 function check(){
     if(gameOver) return;
-    let inputs=document.querySelectorAll("input");
-    let k=0, ok=true, hasWrong=false;
 
-    inputs.forEach(i=>i.classList.remove("correct","wrong"));
+    const inputs = document.querySelectorAll("input");
+    let idx = 0;
+    let solved = true;
+    let hasWrong = false;
 
-    for(let r=0;r<9;r++)
-        for(let c=0;c<9;c++){
-            let i=inputs[k++];
-            if(i.disabled||!i.value){ ok=false; continue; }
-            if(+i.value===solution[r][c]) i.classList.add("correct");
-            else{ i.classList.add("wrong"); hasWrong=true; ok=false; }
+    inputs.forEach(i => i.classList.remove("correct","wrong"));
+
+    for(let r = 0; r < 9; r++){
+        for(let c = 0; c < 9; c++){
+            const input = inputs[idx++];
+
+            // Ô cho sẵn → bỏ qua, coi là đúng
+            if(input.disabled) continue;
+
+            // Ô trống → chưa hoàn thành
+            if(!input.value){
+                solved = false;
+                continue;
+            }
+
+            if(+input.value === solution[r][c]){
+                input.classList.add("correct");
+            }else{
+                input.classList.add("wrong");
+                solved = false;
+                hasWrong = true;
+            }
         }
+    }
 
-    if(ok){
-        document.getElementById("msg").textContent="🎉 Chúc mừng! Bạn đã hoàn thành!";
+    // ✅ HOÀN THÀNH
+    if(solved){
+        gameOver = true;
+        document.getElementById("winBanner").style.display = "flex";
+        document.querySelectorAll("input").forEach(i => i.disabled = true);
         return;
     }
 
+    // ❌ CÓ SAI
     if(hasWrong){
         mistakes++;
         update();
-        if(mistakes>=MAX){
-            gameOver=true;
-            document.getElementById("msg").textContent=""; // Thông báo khi thua
-            document.querySelectorAll("input").forEach(i=>i.disabled=true);
+
+        if(mistakes >= MAX){
+            gameOver = true;
+            document.querySelectorAll("input").forEach(i => i.disabled = true);
             return;
         }
     }
 
-    setTimeout(()=>inputs.forEach(i=>i.classList.remove("correct","wrong")),700);
+    setTimeout(()=>{
+        inputs.forEach(i => i.classList.remove("correct","wrong"));
+    },700);
 }
 
 function update(){
@@ -316,13 +416,16 @@ function update(){
 
 
 function newGame(){
-    solution=generate();
-    puzzle=makePuzzle(solution);
-    mistakes=0;
-    gameOver=false;
+    solution = generate();
+    puzzle = makePuzzle(solution);
+    mistakes = 0;
+    gameOver = false;
+
     draw();
     update();
-    document.getElementById("msg").textContent="";
+
+    document.getElementById("msg").textContent = "";
+    document.getElementById("winBanner").style.display = "none";
 }
 
 function toggleHelp(){

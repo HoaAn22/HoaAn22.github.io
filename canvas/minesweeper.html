@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Minesweeper</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.game{
+    background:#fff;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    position:relative;
+}
+
+h3{
+    margin:0 0 10px;
+    text-align:center;
+}
+
+.board{
+    display:grid;
+    grid-template-columns:repeat(9, 40px);
+    gap:2px;
+    background:#333;
+    padding:4px;
+}
+
+.cell{
+    width:40px;
+    height:40px;
+    background:#cfcfcf;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-weight:bold;
+    user-select:none;
+}
+
+.cell.open{
+    background:#eee;
+    cursor:default;
+}
+
+.cell.mine{
+    background:#ffb3b3;
+}
+
+.cell.flag{
+    background:#cfcfcf;
+    color:red;
+}
+
+.control{
+    margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+button{
+    padding:6px 12px;
+    cursor:pointer;
+}
+
+/* ===== BANNER ===== */
+.banner{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    border-radius:8px;
+}
+
+.banner-content{
+    background:#fff;
+    padding:25px 35px;
+    border-radius:10px;
+    text-align:center;
+    animation:pop .3s ease;
+}
+
+.banner-content h2{
+    margin-bottom:10px;
+}
+
+@keyframes pop{
+    from{transform:scale(.7);opacity:0;}
+    to{transform:scale(1);opacity:1;}
+}
+</style>
+</head>
+
+<body>
+<div class="game">
+    <h3>Minesweeper</h3>
+
+    <div id="board" class="board"></div>
+
+    <div class="control">
+        <div>Mìn: <span id="mineCount">10</span></div>
+        <button onclick="newGame()">Ván mới</button>
+    </div>
+
+    <div id="banner" class="banner">
+        <div class="banner-content">
+            <h2 id="bannerText"></h2>
+            <button onclick="newGame()">Chơi lại</button>
+        </div>
+    </div>
+</div>
+
+<script>
+const SIZE = 9;
+const MINES = 10;
+let board = [];
+let revealed = 0;
+let gameOver = false;
+
+/* ===== KHỞI TẠO ===== */
+function newGame(){
+    board = [];
+    revealed = 0;
+    gameOver = false;
+    document.getElementById("banner").style.display = "none";
+    createBoard();
+    placeMines();
+    calculateNumbers();
+    draw();
+}
+
+function createBoard(){
+    for(let r=0;r<SIZE;r++){
+        board[r]=[];
+        for(let c=0;c<SIZE;c++){
+            board[r][c]={mine:false, count:0, open:false, flag:false};
+        }
+    }
+}
+
+function placeMines(){
+    let placed=0;
+    while(placed<MINES){
+        let r=Math.random()*SIZE|0;
+        let c=Math.random()*SIZE|0;
+        if(!board[r][c].mine){
+            board[r][c].mine=true;
+            placed++;
+        }
+    }
+}
+
+function calculateNumbers(){
+    for(let r=0;r<SIZE;r++)
+        for(let c=0;c<SIZE;c++){
+            if(board[r][c].mine) continue;
+            let count=0;
+            for(let dr=-1;dr<=1;dr++)
+                for(let dc=-1;dc<=1;dc++){
+                    let nr=r+dr, nc=c+dc;
+                    if(nr>=0&&nr<SIZE&&nc>=0&&nc<SIZE&&board[nr][nc].mine)
+                        count++;
+                }
+            board[r][c].count=count;
+        }
+}
+
+/* ===== VẼ ===== */
+function draw(){
+    const b=document.getElementById("board");
+    b.innerHTML="";
+    for(let r=0;r<SIZE;r++)
+        for(let c=0;c<SIZE;c++){
+            const d=document.createElement("div");
+            d.className="cell";
+            d.oncontextmenu=e=>{e.preventDefault(); toggleFlag(r,c,d);}
+            d.onclick=()=>openCell(r,c,d);
+            b.appendChild(d);
+        }
+}
+
+/* ===== CHƠI ===== */
+function openCell(r,c,el){
+    if(gameOver) return;
+    const cell=board[r][c];
+    if(cell.open||cell.flag) return;
+
+    cell.open=true;
+    el.classList.add("open");
+
+    if(cell.mine){
+        el.textContent="💣";
+        el.classList.add("mine");
+        lose();
+        return;
+    }
+
+    revealed++;
+    if(cell.count>0) el.textContent=cell.count;
+    else flood(r,c);
+
+    if(revealed===SIZE*SIZE-MINES) win();
+}
+
+function flood(r,c){
+    for(let dr=-1;dr<=1;dr++)
+        for(let dc=-1;dc<=1;dc++){
+            let nr=r+dr, nc=c+dc;
+            if(nr>=0&&nr<SIZE&&nc>=0&&nc<SIZE){
+                let idx=nr*SIZE+nc;
+                let el=document.querySelectorAll(".cell")[idx];
+                if(!board[nr][nc].open && !board[nr][nc].mine)
+                    openCell(nr,nc,el);
+            }
+        }
+}
+
+function toggleFlag(r,c,el){
+    if(gameOver) return;
+    const cell=board[r][c];
+    if(cell.open) return;
+    cell.flag=!cell.flag;
+    el.textContent=cell.flag?"🚩":"";
+}
+
+/* ===== KẾT THÚC ===== */
+function lose(){
+    gameOver=true;
+    revealMines();
+    showBanner("💥 Bạn đã trúng mìn!");
+}
+
+function win(){
+    gameOver=true;
+    showBanner("🎉 Chúc mừng! Bạn đã chiến thắng!");
+}
+
+function revealMines(){
+    const cells=document.querySelectorAll(".cell");
+    for(let r=0;r<SIZE;r++)
+        for(let c=0;c<SIZE;c++){
+            if(board[r][c].mine){
+                let i=r*SIZE+c;
+                cells[i].textContent="💣";
+                cells[i].classList.add("mine");
+            }
+        }
+}
+
+function showBanner(text){
+    document.getElementById("bannerText").textContent=text;
+    document.getElementById("banner").style.display="flex";
+}
+
+newGame();
+</script>
+</body>
+</html>

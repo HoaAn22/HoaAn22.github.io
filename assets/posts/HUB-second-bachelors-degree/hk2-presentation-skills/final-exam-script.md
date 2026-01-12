@@ -49,3 +49,8 @@ These simple habits help me feel more relaxed and keep my motivation. They remin
 When we manage our time well and love ourselves, we can work better, reduce stress, and enjoy life more.
 
 *Thank you for your attention.*
+
+## Appendix
+
+- [Slides]()
+- [Video]()

@@ -178,6 +178,13 @@
         /* .reset{
             margin-left: 15px;
         } */
+
+        /* Ẩn spin button mặc định */
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -186,10 +193,13 @@
             <!-- <h1>2048</h1> -->
             <div class='edits'>
                 <div class='size-block'>
-                    <div class='set-size'>
+                    <!-- <div class='set-size'>
                         <p id='size-title'>Size: </p>
-                        <input id='size' type='number' value='4'>
-                    </div>
+                        <button onclick="this.nextElementSibling.stepDown()">−</button>
+                        <input id='size' type='number' value='4' min='4' max='8'>
+                        <button onclick="this.previousElementSibling.stepUp()">+</button>
+                    </div> -->
+                    <!-- <p>MAX = 10</p> -->
                     <div class='btns'>
                         <!-- <div class='btn start'>Start</div> -->
                         <div class='btn reset'>Reset</div>

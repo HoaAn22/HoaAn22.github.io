@@ -1,7 +1,7 @@
 ## Final exam script
 
 ### [SELF-INTRODUCTION](note. `sɛlf - ˌɪntrəˈdʌkʃən`)
-Hello, lecturer. My name is [#...]. I was born on November [22nd](note. twenty-second), 2002. I am a student of the English Language program. My student ID number is 040402250092.
+Hello, lecturer. My name is [#...]. I was born on November [22nd](note. twenty-second), [2002](note. two thousand and two). I am a student of the English Language program. My student ID number is 040402250092.
 
 ## Part I
 
@@ -21,7 +21,7 @@ He inspired my interest in learning and helped me become [clearer](note. `ˈklɪ
 
 ## Part II
 
-Today, I would like to discuss the risks of Artificial Intelligence, which is becoming increasingly important in modern society. 
+Today, I would like to discuss the risks of [Artificial](note. `ˌɑrtəˈfɪʃəl`) Intelligence, which is becoming increasingly important in modern society. 
 
 Artificial Intelligence has brought significant benefits, especially in terms of efficiency and automation. However, as AI continues to develop rapidly, it also creates several serious risks that should not be ignored. 
 

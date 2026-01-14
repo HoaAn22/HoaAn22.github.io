@@ -41,7 +41,7 @@ This happens because people
 
 2. ***Focusing fully during working time*** Another important way is full focus during working time. When attention is not divided, tasks can be finished faster. As a result, more free time is available after work.
 
-3. ***Saying no when necessary.***Knowing when to say no is also important. When we are too busy, accepting extra tasks can lead to pressure and overload. By refusing unnecessary work, we can maintain focus and protect personal time.
+3. ***Saying no when necessary.*** Knowing when to say no is also important. When we are too busy, accepting extra tasks can lead to pressure and overload. By refusing unnecessary work, we can maintain focus and protect personal time.
 
 4. ***Spending time with family*** Spending time with family plays an important role in balance. Simple activities like talking or eating together bring comfort. This creates emotional support and reduces stress.
 

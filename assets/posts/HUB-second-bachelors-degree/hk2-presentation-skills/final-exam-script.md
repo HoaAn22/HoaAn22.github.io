@@ -30,11 +30,26 @@ It happens when people spend too much time working and [not](note. `nɑt`) enoug
 When this imbalance [continues](note. `kənˈtɪnjuz`) for a long time, it can affect health, relationships, and work performance.
 These effects are [common](note. `kənˈtɪnjuz`) in modern life and should not be [ignored](note. `ɪɡˈnɔrd`).
 
-\1. Stress  
+1. Stress  
 One common impact is stress  
 This happens because people 
 
 ## Ways to [Achieve](note. `əˈʧiv`) Work-Life Balance
+*There are several practical ways to maintain work–life balance in daily life.*
+
+1. ***Planning work properly.*** The first way is planning work in a reasonable way. Work can be planned by hour, day, or week. With a clear plan, time is used more effectively and stress is reduced.
+
+2. ***Focusing fully during working time*** Another important way is full focus during working time. When attention is not divided, tasks can be finished faster. As a result, more free time is available after work.
+
+3. ***Saying no when necessary.***Knowing when to say no is also important. When we are too busy, accepting extra tasks can lead to pressure and overload. By refusing unnecessary work, we can maintain focus and protect personal time.
+
+4. ***Spending time with family*** Spending time with family plays an important role in balance. Simple activities like talking or eating together bring comfort. This creates emotional support and reduces stress.
+
+5. ***Talking with friends*** Keeping contact with friends is also beneficial. Sharing thoughts and experiences makes people feel less lonely. Positive conversations often improve mood and motivation.
+
+6. ***Having a healthy hobby*** Finally, having a healthy hobby is essential. Activities such as singing or reading allow the mind to rest. Free time spent on hobbies helps restore energy.
+
+*Although these methods are simple, they are effective in real life.*
 
 ## PERSONAL EXPERIENCE
 

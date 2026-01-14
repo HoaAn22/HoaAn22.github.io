@@ -30,9 +30,48 @@ It happens when people spend too much time working and [not](note. `nɑt`) enoug
 When this imbalance [continues](note. `kənˈtɪnjuz`) for a long time, it can affect health, relationships, and work performance.
 These effects are [common](note. `kənˈtɪnjuz`) in modern life and should not be [ignored](note. `ɪɡˈnɔrd`).
 
-1. Stress  
-One common impact is stress  
-This happens because people 
+1️⃣ Stress
+
+One common impact is stress.
+
+This happens because people face many deadlines, heavy workload, and long working hours.
+When stress lasts for a long time, people feel worried, tired, and unhappy.
+
+Stress affects both work and life.
+At work, people cannot focus well.
+In life, they feel less relaxed and enjoy life less.
+
+2️⃣ Low Work Productivity
+
+Another impact is low work productivity.
+
+When people are too tired, they work longer but not better.
+They make more mistakes and finish tasks more slowly.
+
+The main reason is lack of rest and sleep.
+This reduces energy and concentration, which affects work quality.
+
+3️⃣ Losing Family and Social Relationships
+
+Work–life imbalance can also cause people to lose connection with family and friends.
+
+When people work too much, they have little time to talk, meet, or share moments with others.
+As a result, relationships become weaker.
+
+This affects emotional support and can make people feel lonely.
+
+4️⃣ No Time for Personal Life
+
+Another important impact is having no time for oneself.
+
+People may stop doing hobbies, exercising, or relaxing.
+This happens because work takes all their time.
+
+Without personal time, people feel bored, tired, and less motivated in life.
+
+🔹 SHORT TRANSITION (NẾU DÙNG TIẾP PHẦN GIẢI PHÁP)
+
+Because of these serious impacts, it is important to find ways to balance work and life better.
 
 ## Ways to [Achieve](note. `əˈʧiv`) Work-Life Balance
 *There are several practical ways to maintain work–life balance in daily life.*

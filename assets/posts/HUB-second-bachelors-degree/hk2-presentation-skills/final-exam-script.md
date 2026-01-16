@@ -2,66 +2,64 @@
 
 ## OPENING
 
-[Hello](note. `həˈloʊ`), [lecturer](note. `lɛkʧərər`). My name is [#...]. I was born on November [22nd](note. twenty second), [2002](note. two thousand and two). I am a student of the English [Language](note. `ˈlæŋɡwəʤ`) program. My student ID number is 040402250092.
+***(SLIDE 1)*** [Hello](note. `həˈloʊ`), [lecturer](note. `lɛkʧərər`). My name is [#...]. I was born on November [22nd](note. twenty second), [2002](note. two thousand and two). I am a student of the English [Language](note. `ˈlæŋɡwəʤ`) program. My student ID number is 040402250092.
 
-[Today](note. `təˈdeɪ`), I [would](note. `wʊd`) [like](note. `laɪk`) to [talk](note. tɔk) [about](note. `əˈbaʊt`) a topic that is very close to [our](note. `aʊr`) [daily](note. `ˈdeɪli`) [life](note. `laɪf`), [especially](note. `əˈspɛʃli`) for students and working [people](note. `ˈpipəl`). _That topic is work–life balance._
+***(SLIDE 2)*** Today, I would like to talk about a topic that is closely related to modern life. It affects how we study, work, and live every day. That topic is ***(TITLE)*** work–life balance.
 
-In [modern](note. `ˈmɑdərn`) [life](note. `laɪf`), [many](note. `ˈmɛni`) people spend a [lot](note. `lɑt`) of time working or [studying](note. `ˈstʌdiɪŋ`). They try to [finish](note. `fɪnɪʃ`) tasks, [meet](note. `mit`) deadlines, and do their best at work. However, when work [takes](note. `teɪks`) too much time, personal life can be [affected](note. `əˈfɛktɪd`).
+In today’s [society](note. `səˈsaɪəti`), many people spend most of their time studying or working, which often leaves little time for personal life.
 
-This [leads](note. `lidz`) to an [important](note. `ɪmˈpɔrtənt`) [question](note. `ˈkwɛʃən`): ***How can we balance work and life in a [healthy](note. `ˈhɛlθi`) way?***
+This leads to an important question: ***(SLIDE 3)*** How can we balance work and life in a healthy way?
 
 ## What is work-life balance
 
-To [answer](note. `ˈænsər`) this [question](note. `ˈkwɛʃən`), we [need](note. `nid`) to understand what work-life balance is.
+To [answer](note. `ˈænsər`) this [question](note. `ˈkwɛʃən`), we [need](note. `nid`) to understand ***(SLIDE 4)*** what work-life balance is.  
 
-Work-life balance means [using](note. `ˈjuzɪŋ`) [our](note. `aʊr`) time and [energy](note. `ˈɛnərʤi`) in a good way [between](note. `bɪˈtwin`) work and personal life. 
+***(CONTENT)*** Work-life balance means [using](note. `ˈjuzɪŋ`) [our](note. `aʊr`) time and [energy](note. `ˈɛnərʤi`) in a good way [between](note. `bɪˈtwin`) work and personal life. 
 
-- Work includes study, jobs, and responsibilities,...
-- Life includes family, health, rest, and free time,...
+Work includes study, jobs, and responsibilities, while life includes family, health, rest, and personal time.
 
-When work and life are balanced, we can work well and still have time to [relax](note.` rɪˈlæks`). [This](note. `ðɪs`) helps us feel happier and less [stressed](note. `strɛst`). ***But in [reality](note. `ˌriˈæləˌti`), many people do [not](note. `nɑt`) have good work-life balance.***
+When work and life are balanced, we can work well and still have time to [relax](note.` rɪˈlæks`). [This](note. `ðɪs`) helps us feel happier and less [stressed](note. `strɛst`). But in [reality](note. `ˌriˈæləˌti`), many people do [not](note. `nɑt`) have good work-life balance.
 
 ## The Impact of work-life Imbalance
 
-Work–life [imbalance](note. `ɪmˈbæləns`) has many negative effects on [both](note. `boʊθ`) work and personal life.
+***(SLIDE 5)*** Work–life imbalance affects both work and personal life. It [happens](note. `ˈhæpənz`) when people spend too much time working and [not](note. `nɑt`) [enough](note. `ɪˈnʌf`) time resting or enjoying life. Over time, this can lead to [several](note. `ˈsɛvrəl`) [problems](note. `ˈprɑbləmz`).
 
-It happens when people spend too much time working and [not](note. `nɑt`) enough time resting or enjoying personal life.
+***(SLIDE 6)*** [One](note. `wʌn`) [common](note. `ˈkɑmən`) [problem](note. `ˈprɑbləm`) is [stress](note. `strɛs`). Heavy workloads and [deadlines](note. `ˈdɛˌdlaɪnz`) [make](note. `meɪk`) people feel tired and [pressured](NOTE. `ˈprɛʃərd` - Ré_/u.). If stress [continues](note. `kənˈtɪnjuz`) for a long time, it [reduces](note. `rɪˈdusɪz` - ri_'jdu) well-being and daily happiness.
 
-When this imbalance [continues](note. `kənˈtɪnjuz`) for a long time, it can affect health, relationships, and work performance.
-These effects are [common](note. `kənˈtɪnjuz`) in modern life and should not be [ignored](note. `ɪɡˈnɔrd`).
+Another [problem](note. `ˈprɑbləm`) is [lower](note. `ˈloʊər`) work [productivity](note. `ˌproʊdəkˈtɪvɪti`). When people do [not](note. `nɑt`) get enough rest, they work longer but [not](note. `nɑt`) better. They [lose](note. `luz`) focus, make more [mistakes](note. `mɪsˈteɪks`), and their work becomes less effective.
 
-1. ***Stress*** 
+***(SLIDE 7)*** Work–life imbalance [also](note. `ˈɔlsoʊ`) affects relationships. People who are always busy have less time for family and friends, [which](note. `wɪʧ`) can [make](note. `meɪk`) [them](note. `ðɛm`) feel disconnected.
 
-One common impact is stress.This happens because people face many deadlines, heavy workload, and long working hours. When stress lasts for a long time, people feel worried, tired, and unhappy. Stress affects both work and life. At work, people cannot focus well. In life, they feel less relaxed and enjoy life less.
+Finally, it leaves little time for oneself. [Without](note. `wɪˈθaʊt`) time to [relax](note. `rɪˈlæks`) or enjoy [hobbies](note. `ˈhɑbiz`), [motivation](note. `moʊtəˈveɪʃən`) and [energy](note. `ˈɛnərʤi`) [slowly](note. `ˈsloʊli`) [decrease](note. `ˈdiˌkris`).
 
-2. ***Low Work Productivity***
-
-Another impact is low work productivity. When people are too tired, they work longer but not better. They make more mistakes and finish tasks more slowly. The main reason is lack of rest and sleep. This reduces energy and concentration, which affects work quality.
-
-3. ***Losing Family and Social Relationships***
-
-Work–life imbalance can also cause people to lose connection with family and friends. When people work too much, they have little time to talk, meet, or share moments with others. As a result, relationships become weaker. This affects emotional support and can make people feel lonely.
-
-4. ***No Time for Personal Life***
-
-Another important impact is having no time for oneself. People may stop doing hobbies, exercising, or relaxing. This happens because work takes all their time. Without personal time, people feel bored, tired, and less motivated in life.
-
-*Because of these serious impacts, it is important to find ways to balance work and life better.*
+*For these [reasons](note. `ˈrizənz`), [keeping](note. `ˈkipɪŋ`) a [healthy](note. `ˈhɛlθi`) balance [between](note. `bɪˈtwin`) work and life is [important](note. `ɪmˈpɔrtənt`).*
 
 ## Ways to [Achieve](note. `əˈʧiv`) Work-Life Balance
 *There are several practical ways to maintain work–life balance in daily life.*
 
-1. ***Planning work properly.*** The first way is planning work in a reasonable way. Work can be planned by hour, day, or week. With a clear plan, time is used more effectively and stress is reduced.
+1. ***Planning work properly.*** 
 
-2. ***Focusing fully during working time*** Another important way is full focus during working time. When attention is not divided, tasks can be finished faster. As a result, more free time is available after work.
+The first way is planning work in a reasonable way. Work can be planned by hour, day, or week. With a clear plan, time is used more effectively and stress is reduced.
 
-3. ***Saying no when necessary.*** Knowing when to say no is also important. When we are too busy, accepting extra tasks can lead to pressure and overload. By refusing unnecessary work, we can maintain focus and protect personal time.
+2. ***Focusing fully during working time*** 
 
-4. ***Spending time with family*** Spending time with family plays an important role in balance. Simple activities like talking or eating together bring comfort. This creates emotional support and reduces stress.
+Another important way is full focus during working time. When attention is not divided, tasks can be finished faster. As a result, more free time is available after work.
 
-5. ***Talking with friends*** Keeping contact with friends is also beneficial. Sharing thoughts and experiences makes people feel less lonely. Positive conversations often improve mood and motivation.
+3. ***Saying no when necessary.*** 
 
-6. ***Having a healthy hobby*** Finally, having a healthy hobby is essential. Activities such as singing or reading allow the mind to rest. Free time spent on hobbies helps restore energy.
+Knowing when to say no is also important. When we are too busy, accepting extra tasks can lead to pressure and overload. By refusing unnecessary work, we can maintain focus and protect personal time.
+
+4. ***Spending time with family*** 
+
+Spending time with family plays an important role in balance. Simple activities like talking or eating together bring comfort. This creates emotional support.
+
+5. ***Talking with friends*** 
+
+Keeping contact with friends is also beneficial. Sharing thoughts and experiences makes people feel less lonely. Positive conversations often improve mood and motivation.
+
+6. ***Having a healthy hobby*** 
+
+Finally, having a healthy hobby is essential. Activities such as singing or reading allow the mind to rest. Free time spent on hobbies helps restore energy.
 
 *Although these methods are simple, they are effective in real life.*
 
@@ -83,3 +81,4 @@ When we manage our time well and love ourselves, we can work better, reduce stre
 
 - [Slides]()
 - [Video]()
+- [Backup script](assets/posts/HUB-second-bachelors-degree/hk2-presentation-skills/backup-script.md)

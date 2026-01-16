@@ -67,15 +67,15 @@ Keeping [contact](note. `ˈkɑnˌtækt`) with friends is also [beneficial](note.
 
 [From](note. `frʌm`) my [own](note. `oʊn`) [experience](note. `ɪkˈspɪriəns`), keeping a balance [between](note. `bɪˈtwin`) work and life is [possible](note. `ˈpɑsəbəl`) with [small](note. `smɔl`) [actions](note. `ˈækʃənz`).
 
-I [started](note. `ˈstɑrtɪd`) by planning my work time clearly and [focusing](note. `ˈfoʊkəsɪŋ`) [fully](note. `ˈfʊli`) when I work. When I feel stressed, I [take](note. `teɪk`) [short](note. `ʃɔrt`) [breaks](note. `breɪks`), spend time with my family and friends, or do things I enjoy – and take care of myself and love myself more.
+I [started](note. `ˈstɑrtɪd`) by planning my work time clearly and [focusing](note. `ˈfoʊkəsɪŋ`) [fully](note. `ˈfʊli`) when I work. When I feel stressed, I [take](note. `teɪk`) [short](note. `ʃɔrt`) [breaks](note. `breɪks`), spend time with my family and friends, or do [things](note. `θɪŋz`) I [enjoy](note. `ɪnˈʤɔɪ–`) – and [take](note. `teɪk`) [care](note. `kɛr`) of myself and love myself [more](note. `mɔr`).
 
-These simple habits help me feel more relaxed and keep my motivation. They remind me that balance is not about doing everything, but about choosing what really matters.
+These simple [habits](note. `ˈhæbəts`) help me feel more [relaxed](note. `rɪˈlækst`) and [keep](note. `kip`) my [motivation](note. `ˌmoʊtəˈveɪʃən`). They [remind](note. `riˈmaɪnd`) me that balance is [not](note. `nɑt`) [about](note. `əˈbaʊt`) doing [everything](note. `ˈɛvriˌθɪŋ`), but about [choosing](note. `ˈʧuzɪŋ`) what [really](note. `ˈrɪli`) [matters](note. `ˈmætərz`).
 
 ## [Conclusion](note. `kənˈkluʒən`)
 
-When we manage our time well and love ourselves, we can work better, reduce stress, and enjoy life more.
+When we [manage](note. `ˈmænɪʤ` - mé_niz) our time well and love [ourselves](note. `ɑrˈsɛlvz`), we can work better, [reduce](note. `rɪˈdus`) stress, and [enjoy](note. `ɪnˈʤɔɪ`) life more.
 
-*Thank you for your attention.*
+*Thank you for your [attention](note. `əˈtɛnʃən`).*
 
 ## [Appendix](note. `əˈpɛndɪks`)
 

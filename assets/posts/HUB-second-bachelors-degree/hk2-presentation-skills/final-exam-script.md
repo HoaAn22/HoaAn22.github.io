@@ -81,7 +81,7 @@ These simple [habits](note. `ˈhæbəts`) help me feel more [relaxed](note. `rɪ
 
 ## [Conclusion](note. `kənˈkluʒən`)
 
-***(SLIDE 15)*** When we [manage](note. `ˈmænɪʤ` - mé_niz) our time well and love [ourselves](note. `ɑrˈsɛlvz`), we can work better, [reduce](note. `rɪˈdus`) stress, and [enjoy](note. `ɪnˈʤɔɪ`) life more.
+***(SLIDE 14)*** When we [manage](note. `ˈmænɪʤ` - mé_niz) our time well and love [ourselves](note. `ɑrˈsɛlvz`), we can work better, [reduce](note. `rɪˈdus`) stress, and [enjoy](note. `ɪnˈʤɔɪ`) life more.
 
 ***(SLIDE 15)*** *Thank you for your [attention](note. `əˈtɛnʃən`).*
 

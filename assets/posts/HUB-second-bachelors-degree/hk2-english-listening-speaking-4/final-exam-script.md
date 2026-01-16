@@ -13,11 +13,11 @@ He inspired my interest in learning and helped me become [clearer](note. `ˈklɪ
 
 2. *What training would you most like to have in the future?*
 
-
+In the future, I would like to receive advanced training in finance.I am also considering pursuing a master’s degree to deepen my professional knowledge. This training will help me improve my analytical skills and better understand financial systems. It is an important step for my long-term career development.
 
 3. *Do you think being well-organized is a neccessary skill in the workplace? Why/Why not?*
 
-
+Yes, I think being well-organized is a very important skill in the workplace. It helps people manage their time and tasks more effectively. When someone is well-organized, they can work faster and make fewer mistakes. This skill also reduces stress and improves work quality.
 
 ## Part II
 

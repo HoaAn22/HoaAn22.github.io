@@ -2,76 +2,51 @@
 
 ## OPENING
 
-Hello, lecturer. My name is [#...]. I was born on November [22nd](note. twenty-second), [2002](note. two thousand and two). I am a student of the English Language program. My student ID number is 040402250092.
+[Hello](note. `həˈloʊ`), [lecturer](note. `lɛkʧərər`). My name is [#...]. I was born on November [22nd](note. twenty second), [2002](note. two thousand and two). I am a student of the English [Language](note. `ˈlæŋɡwəʤ`) program. My student ID number is 040402250092.
 
-[Today](note. `təˈdeɪ`), I [would](note. `wʊd`) [like](note. `laɪk`) to [talk](note. tɔk) [about](note. `əˈbaʊt`) a topic that is very close to our daily life, [especially](note. `əˈspɛʃli`) for students and working [people](note. `ˈpipəl`). _That topic is work–life balance._
+[Today](note. `təˈdeɪ`), I [would](note. `wʊd`) [like](note. `laɪk`) to [talk](note. tɔk) [about](note. `əˈbaʊt`) a topic that is very close to [our](note. `aʊr`) [daily](note. `ˈdeɪli`) [life](note. `laɪf`), [especially](note. `əˈspɛʃli`) for students and working [people](note. `ˈpipəl`). _That topic is work–life balance._
 
-In modern life, many people spend a lot of time working or studying. They try to [finish](note. `fɪnɪʃ`) tasks, [meet](note. `mit`) deadlines, and do their best at work. However, when work [takes](note. `teɪks`) too much time, personal life can be [affected](note. `əˈfɛktɪd`).
+In [modern](note. `ˈmɑdərn`) [life](note. `laɪf`), [many](note. `ˈmɛni`) people spend a [lot](note. `lɑt`) of time working or [studying](note. `ˈstʌdiɪŋ`). They try to [finish](note. `fɪnɪʃ`) tasks, [meet](note. `mit`) deadlines, and do their best at work. However, when work [takes](note. `teɪks`) too much time, personal life can be [affected](note. `əˈfɛktɪd`).
 
 This [leads](note. `lidz`) to an [important](note. `ɪmˈpɔrtənt`) [question](note. `ˈkwɛʃən`): ***How can we balance work and life in a [healthy](note. `ˈhɛlθi`) way?***
 
 ## What is work-life balance
 
-To answer this question, we need to understand what work-life balance is.
+To [answer](note. `ˈænsər`) this [question](note. `ˈkwɛʃən`), we [need](note. `nid`) to understand what work-life balance is.
 
-Work-life balance means using our time and energy in a good way between work and personal life. 
+Work-life balance means [using](note. `ˈjuzɪŋ`) [our](note. `aʊr`) time and [energy](note. `ˈɛnərʤi`) in a good way [between](note. `bɪˈtwin`) work and personal life. 
 
 - Work includes study, jobs, and responsibilities,...
 - Life includes family, health, rest, and free time,...
 
-When work and life are balanced, we can work well and still have time to [relax](note.` rɪˈlæks`). This helps us feel happier and less stressed. ***But in [reality](note. `ˌriˈæləˌti`), many people do [not](note. `nɑt`) have good work-life balance.***
+When work and life are balanced, we can work well and still have time to [relax](note.` rɪˈlæks`). [This](note. `ðɪs`) helps us feel happier and less [stressed](note. `strɛst`). ***But in [reality](note. `ˌriˈæləˌti`), many people do [not](note. `nɑt`) have good work-life balance.***
 
 ## The Impact of work-life Imbalance
 
-Work–life imbalance has many negative effects on [both](note. `boʊθ`) work and personal life.
+Work–life [imbalance](note. `ɪmˈbæləns`) has many negative effects on [both](note. `boʊθ`) work and personal life.
 
 It happens when people spend too much time working and [not](note. `nɑt`) enough time resting or enjoying personal life.
 
 When this imbalance [continues](note. `kənˈtɪnjuz`) for a long time, it can affect health, relationships, and work performance.
 These effects are [common](note. `kənˈtɪnjuz`) in modern life and should not be [ignored](note. `ɪɡˈnɔrd`).
 
-1️⃣ Stress
+1. ***Stress*** 
 
-One common impact is stress.
+One common impact is stress.This happens because people face many deadlines, heavy workload, and long working hours. When stress lasts for a long time, people feel worried, tired, and unhappy. Stress affects both work and life. At work, people cannot focus well. In life, they feel less relaxed and enjoy life less.
 
-This happens because people face many deadlines, heavy workload, and long working hours.
-When stress lasts for a long time, people feel worried, tired, and unhappy.
+2. ***Low Work Productivity***
 
-Stress affects both work and life.
-At work, people cannot focus well.
-In life, they feel less relaxed and enjoy life less.
+Another impact is low work productivity. When people are too tired, they work longer but not better. They make more mistakes and finish tasks more slowly. The main reason is lack of rest and sleep. This reduces energy and concentration, which affects work quality.
 
-2️⃣ Low Work Productivity
+3. ***Losing Family and Social Relationships***
 
-Another impact is low work productivity.
+Work–life imbalance can also cause people to lose connection with family and friends. When people work too much, they have little time to talk, meet, or share moments with others. As a result, relationships become weaker. This affects emotional support and can make people feel lonely.
 
-When people are too tired, they work longer but not better.
-They make more mistakes and finish tasks more slowly.
+4. ***No Time for Personal Life***
 
-The main reason is lack of rest and sleep.
-This reduces energy and concentration, which affects work quality.
+Another important impact is having no time for oneself. People may stop doing hobbies, exercising, or relaxing. This happens because work takes all their time. Without personal time, people feel bored, tired, and less motivated in life.
 
-3️⃣ Losing Family and Social Relationships
-
-Work–life imbalance can also cause people to lose connection with family and friends.
-
-When people work too much, they have little time to talk, meet, or share moments with others.
-As a result, relationships become weaker.
-
-This affects emotional support and can make people feel lonely.
-
-4️⃣ No Time for Personal Life
-
-Another important impact is having no time for oneself.
-
-People may stop doing hobbies, exercising, or relaxing.
-This happens because work takes all their time.
-
-Without personal time, people feel bored, tired, and less motivated in life.
-
-🔹 SHORT TRANSITION (NẾU DÙNG TIẾP PHẦN GIẢI PHÁP)
-
-Because of these serious impacts, it is important to find ways to balance work and life better.
+*Because of these serious impacts, it is important to find ways to balance work and life better.*
 
 ## Ways to [Achieve](note. `əˈʧiv`) Work-Life Balance
 *There are several practical ways to maintain work–life balance in daily life.*

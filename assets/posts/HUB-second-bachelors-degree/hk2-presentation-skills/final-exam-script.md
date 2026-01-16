@@ -4,7 +4,7 @@
 
 ***(SLIDE 1)*** [Hello](note. `həˈloʊ`), [lecturer](note. `lɛkʧərər`). My name is [#...]. I was born on November [22nd](note. twenty second), [2002](note. two thousand and two). I am a student of the English [Language](note. `ˈlæŋɡwəʤ`) program. My student ID number is 040402250092.
 
-***(SLIDE 2)*** Today, I [would](note. `wʊd`) [like](note. `wʊd`) to [talk](note. `tɔk`) [about](note. `əˈbaʊt`) a topic that is [closely](note. `ˈkloʊsli`) [related](note. `rɪˈleɪtɪd`) to [modern](note. `ˈmɑdərn`) [life](note. `laɪf`). It [affects](note. `əˈfɛkts`) [how](note. `haʊ`) we study, work, and [live](note. `lɪv` - Động từ/Tính từ) every day. That topic is ***(TITLE)*** work–life balance.
+***(SLIDE 2)*** Today, I [would](note. `wʊd`) [like](note. `laɪk`) to [talk](note. `tɔk`) [about](note. `əˈbaʊt`) a topic that is [closely](note. `ˈkloʊsli`) [related](note. `rɪˈleɪtɪd`) to [modern](note. `ˈmɑdərn`) [life](note. `laɪf`). It [affects](note. `əˈfɛkts`) [how](note. `haʊ`) we study, work, and [live](note. `lɪv` - Động từ/Tính từ) every day. That topic is ***(TITLE)*** work–life balance.
 
 In today’s [society](note. `səˈsaɪəti`), many people spend most of their time [studying](note. `ˈstʌdiɪŋ`) or working, [which](note. `wɪʧ`) often leaves [little](note. `ˈlɪtəl`) time for personal life.
 
@@ -28,7 +28,7 @@ When work and life are balanced, we can work well and [still](note. `stɪl`) hav
 
 Another [problem](note. `ˈprɑbləm`) is [lower](note. `ˈloʊər`) work [productivity](note. `ˌproʊdəkˈtɪvɪti`). When people do [not](note. `nɑt`) get [enough](note. `ɪˈnʌf`) rest, they work longer but [not](note. `nɑt`) better. They [lose](note. `luz`) [focus](note. `ˈfoʊkəs`), [make](note. `meɪk`) more [mistakes](note. `mɪsˈteɪks`), and their work [becomes](note. `bɪˈkʌmz`) less [effective](note. `ɪˈfɛktɪv`).
 
-***(SLIDE 7)*** Work–life imbalance [also](note. `ˈɔlsoʊ`) [affects](note. `əˈfɛkts`) [relationships](note. `əˈfɛkts`). People who are [always](note. `ˈɔlˌweɪz`) [busy](note. `ˈbɪzi`) have less time for family and friends, [which](note. `wɪʧ`) can [make](note. `meɪk`) [them](note. `ðɛm`) feel disconnected.
+***(SLIDE 7)*** Work–life imbalance [also](note. `ˈɔlsoʊ`) [affects](note. `əˈfɛkts`) [relationships](note. `riˈleɪʃənˌʃɪps`). People who are [always](note. `ˈɔlˌweɪz`) [busy](note. `ˈbɪzi`) have less time for family and friends, [which](note. `wɪʧ`) can [make](note. `meɪk`) [them](note. `ðɛm`) feel disconnected.
 
 [Finally](note. `ˈfaɪnəli`), it [leaves](note. `livz`) [little](note. `ˈlɪtəl`) time for [oneself](note. `ˌwʌnˈsɛlf`). [Without](note. `wɪˈθaʊt`) time to [relax](note. `rɪˈlæks`) or enjoy [hobbies](note. `ˈhɑbiz`), [motivation](note. `moʊtəˈveɪʃən`) and [energy](note. `ˈɛnərʤi`) [slowly](note. `ˈsloʊli`) [decrease](note. `ˈdiˌkris`).
 

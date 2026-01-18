@@ -5,17 +5,17 @@ Hello, lecturer. My name is [#...]. I was born on November [22nd](note. twenty-s
 
 ## Part I
 
-1. *Who is your role model?*
+1. *Who is your [role](note. `roʊl`) model?*
 
-My role [model](note. `ˈmɑdəl`) is my academic supervisor at [university](note. `ˌjunəˈvɜrsəti`). He has strong academic [knowledge](note. `ˈnɑləʤ`) and a calm, humble manner. Through his guidance, I learned how to think more [critically](note. `ˈkrɪtɪkli`) and [approach](note. `əˈproʊʧ`) problems in a more [systematic](note. `ˌsɪstəˈmætɪk`) way.
+My [role](note. `roʊl`) [model](note. `ˈmɑdəl`) is my [academic](note. `ˌækəˈdɛmɪk`) [supervisor](note. `ˈsupərˌvaɪzər`) at [university](note. `ˌjunəˈvɜrsəti`). He [has](note. `hæz`) [strong](note. `strɔŋ`) [academic](note. `ˌækəˈdɛmɪk`) [knowledge](note. `ˈnɑləʤ`) and a [calm](note. `kɑm`), [humble](note. `ˈhʌmbəl`) [manner](note. `ˈmænər`). [Through](note. `θru`) his [guidance](note. `ˈɡaɪdəns`), I [learned](note. `lɜrnd`) how to [think](note. `θɪŋk`) [more](note. `mɔr`) [critically](note. `ˈkrɪtɪkli`) and [approach](note. `əˈproʊʧ`) [problems](note. `ˈprɑbləmz`) in a more [systematic](note. `ˌsɪstəˈmætɪk`) way.
 
-He inspired my interest in learning and helped me become [clearer](note. `ˈklɪrər`) about the path I want to [pursue](note. `pərˈsu`) in the future. At the same time, he made me [realize](note. `ˈriəˌlaɪz`) that I still have many areas to [improve](note. `ɪmˈpruv`).
+He [inspired](note. `ɪnˈspaɪərd`) my [interest](note. `ˈɪntrəst`) in [learning](note. `ˈlɜrnɪŋ`) and helped me [become](note. `bɪˈkʌm`) [clearer](note. `ˈklɪrər`) about the [path](note. `pæθ`) I want to [pursue](note. `pərˈsu`) in the [future](note. `ˈfjuʧər`). At the [same](note. `seɪm`) [time](note. `taɪm`), he made me [realize](note. `ˈriəˌlaɪz`) that I still have many [areas](note. `ˈɛriəz`) to [improve](note. `ɪmˈpruv`).
 
-2. *What training would you most like to have in the future?*
+2. *What [training](note. `ˈtreɪnɪŋ`) would you most like to have in the future?*
 
-In the future, I would like to receive advanced training in finance.I am also considering pursuing a master’s degree to deepen my professional knowledge. This training will help me improve my analytical skills and better understand financial systems. It is an important step for my long-term career development.
+In the future, I would like to [receive](note. `rɪˈsiv`) advanced training in finance.I am also considering pursuing a master’s degree to deepen my professional knowledge. This training will help me improve my analytical skills and better understand financial systems. It is an important step for my long-term career development.
 
-3. *Do you think being well-organized is a neccessary skill in the workplace? Why/Why not?*
+3. *Do you think being well-organized is a necessary skill in the workplace? Why/Why not?*
 
 Yes, I think being well-organized is a very important skill in the workplace. It helps people manage their time and tasks more effectively. When someone is well-organized, they can work faster and make fewer mistakes. This skill also reduces stress and improves work quality.
 

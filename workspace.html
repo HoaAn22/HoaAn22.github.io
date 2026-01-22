@@ -5,13 +5,25 @@
   <title>An's Workspace</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    :root {
+    /* :root {
       --bg: #0f0f0f;
       --fg: #f5f5f5;
       --border: #333;
       --accent: #ffffff;
       --muted: #999;
-    }
+    } */
+
+    /* @media (max-width: 900px) {
+      .key {
+        width: 60px;
+        height: 200px;
+        font-size: 12px;
+      }
+
+      .search-box input {
+        width: 280px;
+      }
+    } */
 
     * {
       box-sizing: border-box;
@@ -20,7 +32,7 @@
 
     body {
       margin: 0;
-      background: var(--bg);
+      background: #dfdfdf;
       color: var(--fg);
       height: 100vh;
       display: flex;
@@ -29,6 +41,7 @@
     }
 
     header {
+      background-color: #000;
       padding: 20px 28px;
       border-bottom: 2px solid var(--border);
       display: flex;
@@ -38,6 +51,7 @@
 
     header h1 {
       font-size: 22px;
+      color: #fff;
       margin: 0;
       letter-spacing: 1px;
     }
@@ -50,6 +64,7 @@
     main {
       flex: 1;
       display: flex;
+      /* background-color: ; */
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -57,24 +72,58 @@
     }
 
     /* Google search box */
-    .search-box input {
+    form.search-box {
+      display: flex;
       width: 700px;
+      background: #fff;
+      border: 2px solid #000;
+    }
+
+    .search-box input {
+    border: none;        /* xoá viền */
+    outline: none;       /* xoá viền focus mặc định */
+    box-shadow: none;    /* xoá viền ảo (Chrome, Safari) */
+      flex-basis: 90%;
       padding: 15px 20px;
       font-size: 15px;
-      border: 2px solid var(--accent);
+      /* border: 2px solid #000;; */
+      background: #fff;
+      color: #000;
+      outline: none;
+    }
+
+    .search-box input::placeholder {
+      color: #000;
+    }
+
+    body.dark-mode .search-box input {
+      padding: 15px 20px;
+      font-size: 15px;
+      /* border: 2px solid var(--accent); */
       background: #000;
       color: #fff;
       outline: none;
     }
 
-    .search-box input::placeholder {
+    body.dark-mode .search-box input::placeholder {
       color: #aaa;
     }
 
-    /* Piano keyboard */
+    img.logo {
+      flex-basis: 10%;
+      height: auto;
+      max-height: 48px;
+      object-fit: contain;
+      align-self: center;
+    }
+
+    body.dark-mode img.logo {
+      background: #000;
+    }
+
     .keyboard {
       display: flex;
-      border: 3px solid var(--accent);
+      border: 3px solid #000;;
     }
 
     .key {
@@ -121,7 +170,6 @@
       z-index: 10;
     }
 
-
     footer {
       padding: 14px;
       text-align: center;
@@ -130,17 +178,6 @@
       border-top: 1px solid var(--border);
     }
 
-    @media (max-width: 900px) {
-      .key {
-        width: 60px;
-        height: 200px;
-        font-size: 12px;
-      }
-
-      .search-box input {
-        width: 280px;
-      }
-    }
     .dark-mode-toggle {
         display: flex;
         align-items: center;      /* căn giữa theo chiều dọc */
@@ -359,15 +396,14 @@
   <form
     class="search-box"
     action="https://www.google.com/search"
-    method="get"
-  >
+    method="get">
+    <img src="assets/images/google_logo.png" alt="Google logo" class="logo">
     <input
       type="search"
       name="q"
       placeholder="Search Google…"
       autocomplete="off"
-      autofocus
-    />
+      autofocus/>
     <input type="hidden" name="hl" value="vi">
   </form>
 
@@ -379,11 +415,11 @@
     </a>
     <a class="key" href="https://zalo.me/pc">
       Zalo
-      <!-- <span></span> -->
+      <span>#</span>
     </a>
-    <a class="key" href="https://chat.openai.com/">
-      AI
-      <span>ChatGPT</span>
+    <a class="key" href="https://chatgpt.com/">
+      ChatGPT
+      <span>AI</span>
     </a>
     <a class="key" href="https://colab.research.google.com/">
       PY
@@ -409,7 +445,6 @@
   Minimal start page • Piano-inspired • Google search (free)
 </footer> -->
 <script>
-  // Check for saved dark mode preference
   const savedDarkMode = localStorage.getItem('darkMode');
 
   function setDarkMode(isDark) {
@@ -421,12 +456,10 @@
       localStorage.setItem('darkMode', isDark);
   }
 
-  // Apply the saved preference or default to light mode
   if (savedDarkMode === 'true') {
       setDarkMode(true);
   }
 
-  // Add event listener to toggle button
   document.addEventListener('DOMContentLoaded', (event) => {
       const darkModeToggle = document.getElementById('darkModeToggle');
       if (darkModeToggle) {

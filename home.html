@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>An's Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="assets/css/dark-mode.css">
   <style>
     :root {
       --bg: #0f0f0f;
@@ -59,8 +59,8 @@
 
     /* Google search box */
     .search-box input {
-      width: 420px;
-      padding: 12px 16px;
+      width: 700px;
+      padding: 15px 20px;
       font-size: 15px;
       border: 2px solid var(--accent);
       background: #000;
@@ -79,8 +79,9 @@
     }
 
     .key {
-      width: 90px;
-      height: 260px;
+      position: relative;
+      width: 100px;
+      height: 300px;
       background: #fff;
       color: #000;
       border-right: 2px solid #000;
@@ -106,6 +107,22 @@
       background: #eaeaea;
     }
 
+    .key:nth-child(1)::after,
+    .key:nth-child(2)::after,
+    .key:nth-child(4)::after,
+    .key:nth-child(5)::after,
+    .key:nth-child(6)::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -15px;
+      width: 30px;
+      height: 100px;
+      background: #000;
+      z-index: 10;
+    }
+
+
     footer {
       padding: 14px;
       text-align: center;
@@ -125,6 +142,41 @@
         width: 280px;
       }
     }
+    .dark-mode-toggle {
+        position: fixed;
+        top: 10px; /* Khoảng cách từ phía trên màn hình */
+        right: 10px; /* Khoảng cách từ phía phải màn hình */
+        z-index: 1000; /* Đảm bảo nút nằm trên cùng */
+        background-color: white; /* Màu nền*/
+        border-radius: 10px; /* Bo tròn nút */
+        border: 1.5px solid black;
+        padding: 5px; /* Khoảng cách bên trong nút */
+        /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+        cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
+
+        /* Đặt nút nằm ngang */
+        /* display: flex;
+        align-items: center;
+        justify-content: space-around; */
+    }
+
+    /* Dark mode toggle styles */
+    body.dark-mode .dark-mode-toggle {
+        background-color: black;
+        border: 1.5px solid white;
+    }
+
+    /*  display: flex; Nằm ngang
+        align-items: center; */
+
+    .dark-mode-toggle img {
+        width: 25px;
+        height: 25px;
+        object-fit: contain;
+        user-select: none;
+        -webkit-user-drag: none;
+        transition: opacity 0.3s ease;
+    }
   </style>
 </head>
 
@@ -133,6 +185,10 @@
 <header>
   <h1>An’s Workspace</h1>
   <!-- <span>Data • Code • Music</span> -->
+   <div id="darkModeToggle" class="dark-mode-toggle">
+        <img src="assets/images/dark-mode.png" alt="Toggle Light Mode" class="dark-mode-icon">
+        <img src="assets/images/light-mode.png" alt="Toggle Dark Mode" class="light-mode-icon">
+    </div>
 </header>
 
 <main>
@@ -179,6 +235,10 @@
       PLAY
       <span>Music</span>
     </a>
+    <a class="key" href="https://www.youtube.com/">
+      PLAY
+      <span>Music</span>
+    </a>
   </div>
 
 </main>
@@ -186,6 +246,7 @@
 <!-- <footer>
   Minimal start page • Piano-inspired • Google search (free)
 </footer> -->
+<script src="assets/js/dark-mode.js"></script>
 
 </body>
 </html>

@@ -21,6 +21,8 @@ Yes, I think being well-organized is a very important skill in the workplace. It
 
 ## Part II
 
+*The rick of Artificial Intelligence technology*
+
 Today, I would like to discuss the risks of [Artificial](note. `ˌɑrtəˈfɪʃəl`) Intelligence, which is becoming increasingly important in modern society. 
 
 Artificial Intelligence has brought significant benefits, especially in terms of efficiency and automation. However, as AI continues to develop rapidly, it also creates several serious risks that should not be ignored. 

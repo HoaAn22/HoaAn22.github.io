@@ -1,6 +1,6 @@
 ## [ToDo list](assets/posts/todo-list.md)
 
-### Completed
+## Completed 🟥🟩
 
 - **(23/01/2026)**
 

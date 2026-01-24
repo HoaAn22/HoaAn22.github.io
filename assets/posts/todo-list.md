@@ -10,6 +10,4 @@
     🟥 Kỹ năng thuyết trình  
     🟥 Thực hành viết thư tín thương mại
     
-## Appendix
-
-- [Completed](assets/posts/completed-list.md)
+## [Completed](assets/posts/completed-list.md)

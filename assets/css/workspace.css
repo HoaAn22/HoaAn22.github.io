@@ -267,6 +267,8 @@ body.dark-mode #markdown-content p:has(br) .key-term {
 }
 
 h1 a {
+    position: relative;
+    top: -3px;
     font-size: 14px;
     color: black;
     background-color: #fff;

@@ -1,22 +1,11 @@
-/* :root {
-    --bg: #0f0f0f;
-    --fg: #f5f5f5;
-    --border: #333;
-    --accent: #ffffff;
-    --muted: #999;
-} */
-
-/* @media (max-width: 900px) {
-    .key {
-    width: 60px;
-    height: 200px;
-    font-size: 12px;
-    }
-
-    .search-box input {
-    width: 280px;
-    }
-} */
+/* ======================================================
+   RESET & GLOBAL
+====================================================== */
+* {
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease;
+}
 
 * {
     box-sizing: border-box;
@@ -25,28 +14,31 @@
 
 body {
     margin: 0;
-    background: #dfdfdf;
-    color: var(--fg);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #dfdfdf;
+    color: var(--fg);
 }
 
+/* ======================================================
+   HEADER
+====================================================== */
 header {
-    background-color: #000;
-    padding: 20px 28px;
-    border-bottom: 2px solid var(--border);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 28px;
+    background-color: #000;
+    border-bottom: 2px solid var(--border);
 }
 
 header h1 {
-    font-size: 22px;
-    color: #fff;
     margin: 0;
+    font-size: 22px;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 header span {
@@ -54,17 +46,25 @@ header span {
     color: var(--muted);
 }
 
+/* ======================================================
+   MAIN LAYOUT
+====================================================== */
 main {
     flex: 1;
     display: flex;
-    /* background-color: ; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
-/* Google search box */
+body.dark-mode main {
+    background-color: #2c2c2c;
+}
+
+/* ======================================================
+   SEARCH BOX
+====================================================== */
 form.search-box {
     display: flex;
     width: 700px;
@@ -73,16 +73,14 @@ form.search-box {
 }
 
 .search-box input {
-    border: none;        /* xoá viền */
-    outline: none;       /* xoá viền focus mặc định */
-    box-shadow: none;    /* xoá viền ảo (Chrome, Safari) */
     flex-basis: 90%;
     padding: 15px 20px;
     font-size: 15px;
-    /* border: 2px solid #000;; */
+    border: none;
+    outline: none;
+    box-shadow: none;
     background: #fff;
     color: #000;
-    outline: none;
 }
 
 .search-box input::placeholder {
@@ -90,12 +88,8 @@ form.search-box {
 }
 
 body.dark-mode .search-box input {
-    padding: 15px 20px;
-    font-size: 15px;
-    /* border: 2px solid var(--accent); */
     background: #000;
     color: #fff;
-    outline: none;
 }
 
 body.dark-mode .search-box input::placeholder {
@@ -104,7 +98,6 @@ body.dark-mode .search-box input::placeholder {
 
 img.logo {
     flex-basis: 10%;
-    height: auto;
     max-height: 48px;
     object-fit: contain;
     align-self: center;
@@ -114,25 +107,28 @@ body.dark-mode img.logo {
     background: #000;
 }
 
+/* ======================================================
+   KEYBOARD (PIANO LINKS)
+====================================================== */
 .keyboard {
     display: flex;
-    border: 3px solid #000;;
+    border: 3px solid #000;
 }
 
 .key {
     position: relative;
     width: 100px;
     height: 300px;
-    background: #fff;
-    color: #000;
-    border-right: 2px solid #000;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding-bottom: 20px;
-    text-decoration: none;
+    background: #fff;
+    color: #000;
     font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid #000;
 }
 
 .key:last-child {
@@ -148,6 +144,7 @@ body.dark-mode img.logo {
     background: #eaeaea;
 }
 
+/* Black keys */
 .key:nth-child(1)::after,
 .key:nth-child(2)::after,
 .key:nth-child(4)::after,
@@ -163,6 +160,46 @@ body.dark-mode img.logo {
     z-index: 10;
 }
 
+/* ======================================================
+   DARK MODE TOGGLE
+====================================================== */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+body.dark-mode .dark-mode-toggle {
+    background-color: black;
+    border-color: white;
+}
+
+.dark-mode-toggle img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    user-select: none;
+    -webkit-user-drag: none;
+    transition: opacity 0.3s ease;
+}
+
+.light-mode-icon { opacity: 1; }
+.dark-mode-icon { opacity: 0; }
+
+body.dark-mode .light-mode-icon { opacity: 0; }
+body.dark-mode .dark-mode-icon  { opacity: 1; }
+
+/* ======================================================
+   FOOTER
+====================================================== */
 footer {
     padding: 14px;
     text-align: center;
@@ -171,106 +208,17 @@ footer {
     border-top: 1px solid var(--border);
 }
 
-.dark-mode-toggle {
-    display: flex;
-    align-items: center;      /* căn giữa theo chiều dọc */
-    justify-content: center;  /* căn giữa theo chiều ngang */
-    gap: 4px;                 /* khoảng cách giữa 2 icon (tuỳ chỉnh) */
-    position: fixed;
-    top: 10px; /* Khoảng cách từ phía trên màn hình */
-    right: 10px; /* Khoảng cách từ phía phải màn hình */
-    z-index: 1000; /* Đảm bảo nút nằm trên cùng */
-    background-color: white; /* Màu nền*/
-    border-radius: 10px; /* Bo tròn nút */
-    border: 1.5px solid black;
-    padding: 5px; /* Khoảng cách bên trong nút */
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-    cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
+/* ======================================================
+   MARKDOWN + DARK MODE CONTENT
+====================================================== */
+body.dark-mode #markdown-content {
+    border: 1.5px solid #f0f0f0;
 }
 
-body.dark-mode .dark-mode-toggle {
-    background-color: black;
-    border: 1.5px solid white;
-}
-
-.dark-mode-toggle img {
-    width: 25px;
-    height: 25px;
-    object-fit: contain;
-    user-select: none;
-    -webkit-user-drag: none;
-    transition: opacity 0.3s ease;
-}
-
-body.dark-mode main {
-    background-color: #2c2c2c;
-}
-
-/* Dark mode toggle styles */
-.dark-mode-toggle {
-    position: fixed;
-    top: 10px; /* Khoảng cách từ phía trên màn hình */
-    right: 10px; /* Khoảng cách từ phía phải màn hình */
-    z-index: 1000; /* Đảm bảo nút nằm trên cùng */
-    background-color: white; /* Màu nền*/
-    border-radius: 10px; /* Bo tròn nút */
-    border: 1.5px solid black;
-    padding: 5px; /* Khoảng cách bên trong nút */
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-    cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
-}
-
-body.dark-mode .dark-mode-toggle {
-    background-color: black;
-    border: 1.5px solid white;
-}
-
-.dark-mode-toggle img {
-    width: 25px;
-    height: 25px;
-    object-fit: contain;
-    user-select: none;
-    -webkit-user-drag: none;
-    transition: opacity 0.3s ease;
-}
-
-.light-mode-icon {
-    opacity: 1;
-}
-
-.dark-mode-icon {
-    opacity: 0;
-}
-
-body.dark-mode .light-mode-icon {
-    opacity: 0;
-}
-
-body.dark-mode .dark-mode-icon {
-    opacity: 1;
-}
-
-
-body.dark-mode .note {
-    background-color: var(--darkmode-note-background-color);
-    color: #f0f0f0;
-}
-
-body.dark-mode .md-note {
-    color: var(--darkmode-content-color);
-    background-color: var(--darkmode-block-color);
-    border: 1.2px solid var(--darkmode-content-color);
-    border-left: 2px solid var(--highlight-color);
-}
-
-body.dark-mode #markdown-content pre code:has([class]) {
+body.dark-mode #markdown-content pre code:has([class]),
+body.dark-mode #markdown-content code.language-python,
+body.dark-mode #markdown-content code.language-css {
     border: 1px solid var(--darkmode-content-color);
-}
-
-body.dark-mode #markdown-content span.key-term {
-    background-color: var(--darkmode-block-color);
-    border: 1px solid var(--darkmode-content-color);
-    border-left: 2px solid var(--highlight-color);
 }
 
 body.dark-mode #markdown-content code:not([class]) {
@@ -278,32 +226,16 @@ body.dark-mode #markdown-content code:not([class]) {
     color: var(--darkmode-content-color);
 }
 
-body.dark-mode #markdown-content code.language-python,
-body.dark-mode #markdown-content code.language-css {
-    border: 1px solid var(--darkmode-content-color);
-}
-
-body.dark-mode #markdown-content code.language-js {
-    /* border: 1px solid var(--darkmode-content-color); */
-    color: black;
-}
-
-body.dark-mode #markdown-content mjx-container.MathJax.CtxtMenu_Attached_0[display="true"]{
+body.dark-mode #markdown-content span.key-term,
+body.dark-mode ul ul li {
     background-color: var(--darkmode-note-background-color);
     border: 1px solid var(--darkmode-content-color);
-}
-
-body.dark-mode .language-python::before,
-body.dark-mode .language-css::before {
-    border: 1px solid var(--darkmode-content-color);
+    border-left: 2px solid var(--highlight-color);
 }
 
 body.dark-mode #markdown-content h1,
 body.dark-mode #markdown-content h2,
-body.dark-mode #markdown-content h3:not(.layout h3),
-body.dark-mode .main h1, 
-body.dark-mode .main h2,
-body.dark-mode .main h3:not(.layout h3) {
+body.dark-mode #markdown-content h3:not(.layout h3) {
     border-bottom-color: var(--darkmode-content-color);
 }
 
@@ -313,59 +245,33 @@ body.dark-mode td {
     border: 1px solid #ddd;
 }
 
-/* body.dark-mode #markdown-content table,
-body.dark-mode #markdown-content th ,
-body.dark-mode #markdown-content td {
-    border: 1px solid #ddd;
-} */
-
-/* Định nghĩa kiểu cho hàng lẻ và chẵn */
 body.dark-mode #markdown-content tr:nth-child(even) {
-    background-color: #2b2b2b; /* Màu nền cho hàng chẵn */
+    background-color: #2b2b2b;
 }
 
 body.dark-mode #markdown-content tr:nth-child(odd) {
-    background-color: rgb(90, 90, 90); /* Màu nền cho hàng lẻ */
+    background-color: rgb(90, 90, 90);
 }
 
-/* Đổi màu khi di chuột qua hàng */
 body.dark-mode #markdown-content tr:hover {
-    background-color: rgb(30, 30, 30); /* Màu nền khi di chuột qua */
+    background-color: rgb(30, 30, 30);
 }
 
-/* body.dark-mode .layout{
-    background-color: rgb(50, 50, 50);
-    border: 0.5px solid white;
-} */
-
-body.dark-mode #markdown-content {
-    border: 1.5px solid #f0f0f0;
-}
-
-body.dark-mode ul ul li {
-    border: 1.2px solid #f0f0f0;;
-    background-color: var(--darkmode-note-background-color);
-}
-
-body.dark-mode header .keys,
-body.dark-mode footer .keys,
-body.dark-mode .category-btn .keys {
-    background: var(--darkmode-content-color);
-}
-
-body.dark-mode #markdown-content p:has(br){
+body.dark-mode #markdown-content p:has(br) {
     border: 1.5px solid var(--darkmode-content-color);
-}
-
-body.dark-mode  a.dropbtn {
-    color: inherit;
     color: black;
 }
 
-body.dark-mode #markdown-content p:has(br){
-    color: black;
-}
-
-body.dark-mode #markdown-content p:has(br) .key-term{
+body.dark-mode #markdown-content p:has(br) .key-term {
     color: var(--darkmode-content-color);
+}
+
+h1 a {
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
 }

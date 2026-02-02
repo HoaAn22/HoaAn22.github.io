@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Who Wants to Be a Millionaire - English Quiz</title>
+
+<style>
+    body {
+        margin: 0;
+        background: radial-gradient(circle, #0a0a3c, #000);
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .container {
+        width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+
+    #level {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #ffd700;
+    }
+
+    #questionImage {
+        width: 100%;
+        max-height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: none;
+    }
+
+    #question {
+        font-size: 22px;
+        margin: 20px 0;
+        min-height: 60px;
+    }
+
+    .answers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .answers button {
+        width: 48%;
+        margin: 8px 0;
+        padding: 14px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        background: #1c1c6b;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .answers button:hover {
+        background: #2f2fa2;
+    }
+
+    .correct {
+        background: green !important;
+    }
+
+    .wrong {
+        background: crimson !important;
+    }
+
+    #nextBtn {
+        margin-top: 20px;
+        padding: 10px 30px;
+        font-size: 16px;
+        cursor: pointer;
+        display: none;
+    }
+
+    #endScreen {
+        display: none;
+        font-size: 26px;
+        color: #ffd700;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>WHO WANTS TO BE A MILLIONAIRE</h1>
+    <div id="level"></div>
+
+    <img id="questionImage">
+
+    <div id="question"></div>
+
+    <div class="answers">
+        <button onclick="checkAnswer(0)"></button>
+        <button onclick="checkAnswer(1)"></button>
+        <button onclick="checkAnswer(2)"></button>
+        <button onclick="checkAnswer(3)"></button>
+    </div>
+
+    <button id="nextBtn" onclick="nextQuestion()">Next Question</button>
+
+    <div id="endScreen">🎉 Congratulations! You finished the game!</div>
+</div>
+
+<script>
+/* ====== CÂU HỎI – GIÁO VIÊN CHỈ SỬA PHẦN NÀY ====== */
+const questions = [
+    {
+        level: "£100",
+        text: "What does the word 'apple' mean?",
+        image: "",
+        answers: ["A fruit", "A vehicle", "A country", "A color"],
+        correct: 0
+    },
+    {
+        level: "£200",
+        text: "Choose the correct sentence.",
+        image: "",
+        answers: [
+            "She go to school every day",
+            "She goes to school every day",
+            "She going to school every day",
+            "She gone to school every day"
+        ],
+        correct: 1
+    },
+    {
+        level: "£300",
+        text: "What is the past tense of 'eat'?",
+        image: "",
+        answers: ["eated", "ate", "eats", "eating"],
+        correct: 1
+    }
+];
+
+/* ====== LOGIC GAME ====== */
+let current = 0;
+const buttons = document.querySelectorAll(".answers button");
+const questionEl = document.getElementById("question");
+const levelEl = document.getElementById("level");
+const imgEl = document.getElementById("questionImage");
+const nextBtn = document.getElementById("nextBtn");
+const endScreen = document.getElementById("endScreen");
+
+function loadQuestion() {
+    const q = questions[current];
+    levelEl.textContent = "Prize: " + q.level;
+    questionEl.textContent = q.text;
+
+    if (q.image) {
+        imgEl.src = q.image;
+        imgEl.style.display = "block";
+    } else {
+        imgEl.style.display = "none";
+    }
+
+    buttons.forEach((btn, i) => {
+        btn.textContent = q.answers[i];
+        btn.className = "";
+        btn.disabled = false;
+    });
+
+    nextBtn.style.display = "none";
+}
+
+function checkAnswer(index) {
+    const correct = questions[current].correct;
+
+    buttons[index].classList.add(
+        index === correct ? "correct" : "wrong"
+    );
+
+    buttons[correct].classList.add("correct");
+
+    buttons.forEach(btn => btn.disabled = true);
+    nextBtn.style.display = "inline-block";
+}
+
+function nextQuestion() {
+    current++;
+    if (current < questions.length) {
+        loadQuestion();
+    } else {
+        document.querySelector(".answers").style.display = "none";
+        questionEl.style.display = "none";
+        levelEl.style.display = "none";
+        nextBtn.style.display = "none";
+        endScreen.style.display = "block";
+    }
+}
+
+loadQuestion();
+</script>
+
+</body>
+</html>

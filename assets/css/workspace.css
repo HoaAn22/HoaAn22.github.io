@@ -68,8 +68,11 @@ body.dark-mode main {
 form.search-box {
     display: flex;
     width: 700px;
-    background: #fff;
     border: 2px solid #000;
+}
+
+body.dark-mode form.search-box {
+    border: 2px solid #fff;
 }
 
 .search-box input {
@@ -97,6 +100,7 @@ body.dark-mode .search-box input::placeholder {
 }
 
 img.logo {
+    background: #fff;
     flex-basis: 10%;
     max-height: 48px;
     object-fit: contain;

@@ -68,11 +68,11 @@ body.dark-mode main {
 form.search-box {
     display: flex;
     width: 700px;
-    border: 2px solid #000;
+    border: 3.5px solid #000;
 }
 
 body.dark-mode form.search-box {
-    border: 2px solid #fff;
+    border: 3.5px solid #fff;
 }
 
 .search-box input {
@@ -116,7 +116,7 @@ body.dark-mode img.logo {
 ====================================================== */
 .keyboard {
     display: flex;
-    border: 3px solid #000;
+    border: 3.5px solid #000;
 }
 
 .key {

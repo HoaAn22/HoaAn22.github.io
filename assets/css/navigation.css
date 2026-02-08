@@ -7,6 +7,20 @@ ul ul li {
     border-radius: 5px;
 }
 
+ul {
+    padding-left: 3em;
+}
+
+ol {
+    padding-left: 1em;
+}
+
+ol li::marker {
+    color: var(--highlight-color);
+    font-weight: bold;
+    /* font-size: 1.1em; */
+}
+
 nav ul {
     list-style: none;
     gap: 5px;

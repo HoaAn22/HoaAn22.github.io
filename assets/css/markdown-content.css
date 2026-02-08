@@ -24,10 +24,16 @@
     font-size: inherit;
 }
 
+#markdown-content p,
+#markdown-content ol,
+#markdown-content ul,
+#markdown-content li {
+    line-height: 1.75;
+}
+
 #markdown-content p {
-    line-height: 1.5;
     text-indent: 2em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #markdown-content p:has(br){
@@ -58,7 +64,6 @@
 #markdown-content ul,
 #markdown-content li {
     margin-bottom: 0.5em;
-    line-height: 1.5;
 }
 
 table {
@@ -112,4 +117,18 @@ tr:hover {
 #markdown-content .note-tooltip code {
     background-color: var(--darkmode-block-color);
     border: 1.5px solid var(--darkmode-content-color);
+}
+
+#markdown-content ul {
+    padding-left: 3em;
+}
+
+#markdown-content ol {
+    padding-left: 1em;
+}
+
+#markdown-content ol li::marker {
+    color: var(--highlight-color);
+    font-weight: bold;
+    /* font-size: 1.1em; */
 }

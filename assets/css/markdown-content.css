@@ -48,10 +48,6 @@
     text-decoration: 2px underline #4CAF50;
 }
 
-#markdown-content p:has( + ul) {
-    margin-bottom: 0;
-}
-
 #markdown-content li p {
     text-indent: 0;
 }

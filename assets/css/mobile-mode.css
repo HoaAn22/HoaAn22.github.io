@@ -21,8 +21,20 @@
         max-width: 100%;
         padding: 0px;
     }
+    #markdown-content p {
+    text-indent: 1em;
+    }
     ul {
         padding-left: var(--mobile-spacing);
+    }
+    p + ul {
+        padding-left: 2em; 
+    }
+    p:has( + ul) {
+    margin-bottom: auto;
+    }
+    ol {
+       padding-left: 0; 
     }
     #markdown-content th, 
     #markdown-content td {

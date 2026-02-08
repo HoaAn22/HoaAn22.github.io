@@ -30,6 +30,14 @@
     line-height: 1.7;
 }
 
+#markdown-content p + p {
+    margin-bottom: 0px;
+}
+
+#markdown-content p:has( + p) {
+    margin-bottom: 0px;
+}
+
 #markdown-content ol,
 #markdown-content ul,
 #markdown-content li {

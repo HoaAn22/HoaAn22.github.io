@@ -24,17 +24,17 @@
     font-size: inherit;
 }
 
-#markdown-content p,
+#markdown-content p {
+    text-indent: 2em;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
 #markdown-content ol,
 #markdown-content ul,
 #markdown-content li {
     margin-bottom: 0.5em;
-    line-height: 1.7;
-}
-
-#markdown-content p {
-    text-indent: 2em;
-    margin-bottom: 10px;
+    line-height: 1.6;
 }
 
 #markdown-content p:has(br){

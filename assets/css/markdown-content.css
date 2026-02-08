@@ -28,7 +28,8 @@
 #markdown-content ol,
 #markdown-content ul,
 #markdown-content li {
-    line-height: 1.75;
+    margin-bottom: 0.5em;
+    line-height: 1.7;
 }
 
 #markdown-content p {
@@ -54,12 +55,6 @@
 
 #markdown-content em {
     color: var(--highlight-color);
-}
-
-#markdown-content ol,
-#markdown-content ul,
-#markdown-content li {
-    margin-bottom: 0.5em;
 }
 
 table {

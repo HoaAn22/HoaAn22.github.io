@@ -169,8 +169,11 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime
 }
 
 /* Mobile mode */
-@media (max-width: 768px) {
-    /* Table */
+@media (max-width: 1024px) {
+    #notebook-content {
+        border: none;
+    }
+
     #notebook-content div.jp-RenderedHTMLCommon.jp-RenderedHTML.jp-OutputArea-output.jp-OutputArea-executeResult[data-mime-type="text/html"] {
         margin: 0;
     }

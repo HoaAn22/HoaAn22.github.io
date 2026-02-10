@@ -169,7 +169,7 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime
 }
 
 /* Mobile mode */
-@media (max-width: 1080px) {
+@media (max-width: 800px) {
     #notebook-content {
         border: none;
     }

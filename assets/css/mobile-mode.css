@@ -3,14 +3,14 @@
     display: none;
 }
 
-/* @media (max-width: 768px) */
-@media (max-width: 1080px) {
+@media (max-width: 800px) {
     /* Cấu hình */
     main {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
+
     /* Nội dung */
     section {
         margin-top: 10px;
@@ -54,6 +54,7 @@
         overflow-wrap: break-word;
         transform: translateX(-50%);
     }
+
     /* Giao diện mobile */
     header div.decor,
     footer div.decor {
@@ -167,6 +168,7 @@
             background-color: var(--darkmode-content-color);
             transition: background-color 0.3s, color 0.3s;
         }
+        
         /* decor & piano keys */
         .container {
             grid-template-columns: 1fr;

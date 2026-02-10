@@ -1,20 +1,11 @@
 /* ======================================================
    RESET & GLOBAL
 ====================================================== */
-* {
-    transition:
-        background-color 0.35s ease,
-        color 0.35s ease;
-}
 
-* {
-    box-sizing: border-box;
-    font-family: "JetBrains Mono", "Consolas", monospace;
-}
 
 body {
     margin: 0;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;

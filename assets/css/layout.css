@@ -1,8 +1,7 @@
 /* Reset and Base Styles */
-*:not(ul) {
+html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +10,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 /* Layout Components */
@@ -221,6 +220,18 @@ overflow-x: auto;
     background-color: var(--block-color);
     border: 1.2px solid black;
     border-left: 2px solid var(--highlight-color);
+    padding: 0 5px 0 0;
+    cursor: pointer;
+    text-indent: 0;
+}
+
+/* Tooltip */
+.md-note {
+    position: relative;
+    display: inline-block;
+    background-color: var(--block-color);
+    border: 1.2px solid black;
+    border-left: 2px solid var(--highlight-color);
     /*top - right - bottom - left */
     padding:0 5px 0 0;
     cursor: pointer;
@@ -232,7 +243,7 @@ overflow-x: auto;
     position: absolute;
     bottom: 100%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-90%);
     background-color: #333;
     color: white;
     padding: 10px;
@@ -244,7 +255,6 @@ overflow-x: auto;
     z-index: 10;
     width: max-content;
     max-width: 500px;
-    white-space: normal;
     overflow-wrap: break-word;
 }
 
@@ -252,6 +262,7 @@ overflow-x: auto;
     visibility: visible;
     opacity: 1;
 }
+
 .note-tooltip:empty {
     display: none;
 }

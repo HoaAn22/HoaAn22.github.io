@@ -1,6 +1,16 @@
 /* *{
     outline: 1px solid red;
 } */
+* {
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease;
+}
+
+/* * {
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", "Consolas", monospace;
+} */
 
 *,
 *::before,
@@ -11,6 +21,7 @@
 *:not(ul) {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {

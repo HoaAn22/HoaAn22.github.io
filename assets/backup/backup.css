@@ -1,0 +1,38 @@
+
+.md-note {
+    position: relative;
+    display: inline-block;
+    background-color: var(--block-color);
+    border: 1.2px solid black;
+    border-left: 2px solid var(--highlight-color);
+    /*top - right - bottom - left */
+    padding:0 5px 0 0;
+    cursor: pointer;
+    text-indent: 0;
+}
+
+.note-tooltip {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1.5px solid var(--darkmode-content-color);
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 10;
+    width: max-content;
+    max-width: 500px;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.md-note:hover .note-tooltip {
+    visibility: visible;
+    opacity: 1;
+}

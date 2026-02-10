@@ -52,6 +52,11 @@ a {
     color: var(--highlight-color);
 }
 
+h1 a,
+h2 a {
+    text-decoration: none;
+}
+
 ul ul ul li {
     list-style-type: disc;
 }

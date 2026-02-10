@@ -36,7 +36,7 @@ header h1 {
 main {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 25px;
     flex-grow: 1;
     /* background-color: #E5E5E5; */
 }
@@ -50,7 +50,7 @@ footer {
     background-color: #1C1C1C;
     color: white;
     padding: 20px;
-    padding-right: 40px;
+    padding-right: 25px;
 }
 
 footer p {
@@ -69,7 +69,7 @@ footer p {
     flex-shrink: 0;
     position: relative;
     max-width: 80%;
-    padding: 20px;
+    padding: 20px 0px 0px 20px;
     white-space: normal;
     word-wrap: break-word;
     /* overflow: hidden; */
@@ -128,7 +128,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    margin-right: 202px;
+    margin-right: 195px;
 }
 
 /* nav ul li {

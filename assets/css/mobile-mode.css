@@ -10,11 +10,11 @@
         flex-direction: column;
         padding: 10px;
     }
+    footer {
+        padding-right: 25px;
+    }
 
     /* Nội dung */
-    footer p {
-        width: 385px;
-    }
     section {
         margin-top: 0;
     }
@@ -28,6 +28,9 @@
     }
     body.dark-mode #markdown-content {
         border: none;
+    }
+    footer p {
+        width: 385px;
     }
     p {
     text-indent: 1em;

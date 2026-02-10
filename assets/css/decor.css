@@ -147,7 +147,7 @@ footer .piano-keys {
 
 header .piano-keys {
     top: 0;
-    right: 50px;
+    right: 45px;
     flex-direction: row-reverse;
 }
 

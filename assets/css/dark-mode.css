@@ -6,7 +6,7 @@ body.dark-mode main {
 .dark-mode-toggle {
     position: fixed;
     top: 10px; /* Khoảng cách từ phía trên màn hình */
-    right: 10px; /* Khoảng cách từ phía phải màn hình */
+    right: 5px; /* Khoảng cách từ phía phải màn hình */
     z-index: 1000; /* Đảm bảo nút nằm trên cùng */
     background-color: white; /* Màu nền*/
     border-radius: 10px; /* Bo tròn nút */

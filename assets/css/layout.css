@@ -49,11 +49,15 @@ footer {
     margin-top: auto;
     background-color: #1C1C1C;
     color: white;
-    padding: 20px 40px 20px 0px;
+    padding: 20px;
+    padding-right: 40px;
 }
 
 footer p {
+    text-indent: 0;
     font-style: italic;
+    width: fit-content;
+    margin-left: auto;
 }
 
 /* Content Styles */

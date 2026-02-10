@@ -12,6 +12,9 @@
     }
 
     /* Nội dung */
+    footer p {
+        width: 385px;
+    }
     section {
         margin-top: 0;
     }

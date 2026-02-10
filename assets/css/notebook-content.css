@@ -135,7 +135,7 @@ main:has(#notebook-content) .dropdown-content a {
 }
 
 /* Dark mode */
-body.dark-mode #notebook-content{
+body.dark-mode #notebook-content {
     border: 1.5px solid var(--darkmode-content-color);
 }
 
@@ -171,6 +171,10 @@ body.dark-mode #notebook-content .jp-RenderedText.jp-OutputArea-output[data-mime
 /* Mobile mode */
 @media (max-width: 800px) {
     #notebook-content {
+        border: none;
+    }
+
+    body.dark-mode #notebook-content {
         border: none;
     }
 

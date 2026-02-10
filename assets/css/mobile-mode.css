@@ -21,6 +21,9 @@
         max-width: 100%;
         padding: 0px;
     }
+    #markdown-content {
+        border: none;
+    }
     p {
     text-indent: 1em;
     }
@@ -164,15 +167,18 @@
             background-color: var(--darkmode-content-color);
             transition: background-color 0.3s, color 0.3s;
         }
-
         /* decor & piano keys */
         .container {
-            position: relative;
-            flex: 1;
-            width: 100%;
             grid-template-columns: 1fr;
+            position: relative;
+            border: none;
+            width: 100%;
+            flex: 1;
             gap: 5px;
             top: 0px;
+        }
+        .container:has(.layout) {
+            border: 1.5px solid black;
         }
         .layout:first-child,
         .layout:nth-child(2),

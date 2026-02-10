@@ -249,9 +249,10 @@ overflow-x: auto;
 .note-tooltip {
     visibility: hidden;
     position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-90%);
+    bottom: 105%;
+    /* left: 50%; */
+    right: 0;
+    transform: translateX(2px);
     background-color: #333;
     color: white;
     padding: 10px;

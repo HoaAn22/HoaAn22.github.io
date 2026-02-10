@@ -88,6 +88,10 @@ p:has( + p) {
     margin-bottom: 0px;
 }
 
+li + p {
+    text-indent: 0px;
+}
+
 ul ul li {
     /* border-left: 1px solid gray; */
     padding: 10px;

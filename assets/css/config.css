@@ -2,6 +2,17 @@
     outline: 1px solid red;
 } */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:not(ul) {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --font: system-ui;
     /* Helvetica */

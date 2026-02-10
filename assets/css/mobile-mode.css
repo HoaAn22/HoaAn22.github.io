@@ -21,7 +21,7 @@
         max-width: 100%;
         padding: 0px;
     }
-    #markdown-content p {
+    p {
     text-indent: 1em;
     }
     ul {
@@ -36,14 +36,14 @@
     ol {
        padding-left: 0; 
     }
-    #markdown-content th, 
-    #markdown-content td {
+    th, 
+    td {
         max-width: auto;
         font-size: 13px;
         white-space: normal;
         overflow-wrap: break-word;
     }
-    #markdown-content iframe {
+    iframe {
         height: 200px;
     }
     .note-tooltip {

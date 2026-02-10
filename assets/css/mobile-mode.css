@@ -23,6 +23,9 @@
     #markdown-content {
         border: none;
     }
+    body.dark-mode #markdown-content {
+        border: none;
+    }
     p {
     text-indent: 1em;
     }

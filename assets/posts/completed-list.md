@@ -2,6 +2,23 @@
 
 ## Completed 🟥🟩
 
+- **03/01 - 11/01/2026**
+
+    **Văn bằng 2 - Kiểm tra quá trình 2**  
+    🟩 Tiếng Anh Kinh doanh 1  
+    🟩 Văn hóa Anh  
+    🟩 Ngữ âm - Âm vị  
+
+- **10/11 - 25/1/2026**
+
+    **Văn bằng 2 - Học bài**  
+    🟩 Tiếng Anh 4: nghe - nói  
+    🟩 Tiếng Anh 4: đọc  
+    🟩 Tiếng Anh 4: viết  
+    🟩 Tiếng Trung 1  
+    🟩 Kỹ năng thuyết trình  
+    🟩 Thực hành viết thư tín thương mại
+
 - **(23/01/2026)**
 
     **Văn bằng 2 - Cuối kì II**  

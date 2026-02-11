@@ -34,7 +34,7 @@
 #markdown-content p:has(br){
     text-indent: 0;
     color: black;
-    background-color: #E6F1F5;
+    background-color: #F0F7FA;
     border: 1.2px solid #2B6FD6;
     border-radius: 5px;
     padding: 5px 10px;

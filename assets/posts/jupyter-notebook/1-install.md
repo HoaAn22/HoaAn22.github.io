@@ -1,4 +1,15 @@
-# Cách cài đặt Jupyter lab
+## Jupyter Notebook
+
+Notebook (hay Jupyter Notebook) là một môi trường làm việc tương tác, cho phép kết hợp mã code Python, văn bản Markdown, Công thức toán học, biểu đồ trực quan, kết quả khi chạy code,... trong một file [#.ipynb] duy nhất.
+
+*Notebook không chỉ là nơi để thực hiện code đơn thuần, mà là nơi trình bày và thể hiện tư duy, insight. Đặc biệt quan trọng đối với một nhà khoa học dữ liệu.*
+
+## Notebook khác gì so với file [#.py] bình thường?
+
+
+
+
+## Cách cài đặt Jupyter lab
 
 1. Cài đặt ngôn ngữ Python: [Python.org](https://www.python.org/downloads/windows/) 
 

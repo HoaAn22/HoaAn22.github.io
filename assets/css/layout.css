@@ -222,17 +222,6 @@ overflow-x: auto;
 -webkit-overflow-scrolling: touch; */
 
 /* Ghi chú câu */
-.md-note {
-    position: relative;
-    display: inline-block;
-    background-color: var(--block-color);
-    border: 1.2px solid black;
-    border-left: 2px solid var(--highlight-color);
-    padding: 0 5px 0 0;
-    cursor: pointer;
-    text-indent: 0;
-}
-
 /* Tooltip */
 .md-note {
     position: relative;
@@ -244,6 +233,10 @@ overflow-x: auto;
     padding:0 5px 0 0;
     cursor: pointer;
     text-indent: 0;
+}
+
+br + .md-note {
+    margin-bottom: 5px;
 }
 
 .note-tooltip {

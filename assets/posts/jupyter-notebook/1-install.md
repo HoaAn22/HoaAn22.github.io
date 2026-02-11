@@ -21,9 +21,9 @@ Lĩnh vực dữ liệu và trí tuệ nhân tạo nói chung, ngành Khoa học
 
 Một số công cụ làm việc với Notebook:
 
-- Jupyter Notebook
-- Jupyter Lab
 - Google Colab
+- Jupyter Lab
+- Jupyter Notebook
 
 ## Cách cài đặt Jupyter lab
 

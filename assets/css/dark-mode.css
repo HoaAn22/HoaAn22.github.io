@@ -184,9 +184,9 @@ body.dark-mode .category-btn .keys {
     background: var(--darkmode-content-color);
 }
 
-body.dark-mode #markdown-content p:has(br){
+/* body.dark-mode #markdown-content p:has(br){
     border: 1.5px solid var(--darkmode-content-color);
-}
+} */
 
 body.dark-mode  a.dropbtn {
     color: inherit;

@@ -1,4 +1,4 @@
-## [ToDo list](assets/posts/todo-list.md)
+## [ToDo list](assets/posts/todo.md)
 
 ## Completed 🟥🟩
 
@@ -11,7 +11,7 @@
 
 - **10/11 - 25/1/2026**
 
-    **Văn bằng 2 - Học bài**  
+    **Văn bằng 2 - Hoàn thành học kì**  
     🟩 Tiếng Anh 4: nghe - nói  
     🟩 Tiếng Anh 4: đọc  
     🟩 Tiếng Anh 4: viết  

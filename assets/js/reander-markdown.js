@@ -1,6 +1,11 @@
 // 1. CÁC HÀM CẤU HÌNH
 function getExcludeLinks() {
-    return ['cv.md', 'portfolio.md', 'hoa-hoc/', 'self-development-plan.md', 'todo-list.md'];
+    return ['cv.md', 
+            'portfolio.md', 
+            'hoa-hoc/', 
+            'self-development-plan.md', 
+            'todo-list.md',
+            'review-1.md'];
 }
 // 'second-bachelors-degree/'
 

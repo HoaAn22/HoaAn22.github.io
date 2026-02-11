@@ -42,6 +42,7 @@
 
 #markdown-content p:has(br)::first-line,
 #markdown-content p:has(br) strong {
+    font-weight: bolder;
     color: #1F5FA6;
 }
 

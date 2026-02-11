@@ -1,13 +1,29 @@
 ## Jupyter Notebook
 
-Notebook (hay Jupyter Notebook) là một môi trường làm việc tương tác, cho phép kết hợp mã code Python, văn bản Markdown, Công thức toán học, biểu đồ trực quan, kết quả khi chạy code,... trong một file [#.ipynb] duy nhất.
+Notebook (hay Jupyter Notebook) là một môi trường làm việc tương tác, cho phép kết hợp:
+- mã code Python
+- văn bản Markdown
+- công thức toán học
+- biểu đồ trực quan 
+- kết quả khi chạy code,...  Trong một file [#.ipynb] duy nhất.
 
 *Notebook không chỉ là nơi để thực hiện code đơn thuần, mà là nơi trình bày và thể hiện tư duy, insight. Đặc biệt quan trọng đối với một nhà khoa học dữ liệu.*
 
 ## Notebook khác gì so với file [#.py] bình thường?
 
+Khác với lập trình Python truyền thống [#.py], thường dùng để xây dựng ứng dụng và dự án. 
 
+Notebook lại được thiết kế chia thành cell, mỗi cell có thể chạy độc lập. Mặc dù, không thích hợp để xây dựng ứng dụng, nhưng cực kì hữu ích khi muốn thử nghiệm, phân tích và trình bày insight. Điểm chung của [#.py] và [#.ipynb] là hỗ trợ nhiều thư viện tối ưu cho nhiều mục đích công việc khác nhau.
 
+Lĩnh vực dữ liệu và trí tuệ nhân tạo nói chung, ngành Khoa học Dữ liệu nói riêng, thường xuyên cần khám phá dữ liệu, kiểm tra giả thuyết, tối ưu hóa mô hình, trực quan và xây dựng mô hình máy học,... Vì thế Notebook trở thành một công cụ tuyệt vời cho những người làm trong lĩnh vực trên.
+
+## Giới thiệu Công cụ chạy Notebook
+
+Một số công cụ làm việc với Notebook:
+
+- Jupyter Notebook
+- Jupyter Lab
+- Google Colab
 
 ## Cách cài đặt Jupyter lab
 

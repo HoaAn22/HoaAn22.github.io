@@ -32,8 +32,9 @@
 }
 
 #markdown-content p:has(br){
+    text-indent: 0;
     background-color: #E8FAF0;
-    border: 1.5px solid black;
+    border: 1.2px solid black;
     border-radius: 5px;
     padding: 5px 10px;
     margin-bottom: 5px;

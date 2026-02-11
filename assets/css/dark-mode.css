@@ -193,9 +193,9 @@ body.dark-mode  a.dropbtn {
     color: black;
 }
 
-body.dark-mode #markdown-content p:has(br){
+/* body.dark-mode #markdown-content p:has(br){
     color: black;
-}
+} */
 
 body.dark-mode #markdown-content p:has(br) .key-term{
     color: var(--darkmode-content-color);

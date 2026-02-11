@@ -33,6 +33,7 @@
 
 #markdown-content p:has(br){
     text-indent: 0;
+    color: black;
     background-color: #E6F1F5;
     border: 1.2px solid #2B6FD6;
     border-radius: 5px;

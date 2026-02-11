@@ -33,16 +33,16 @@
 
 #markdown-content p:has(br){
     text-indent: 0;
-    background-color: #e1eafd;
+    background-color: #E6F1F5;
     border: 1.2px solid black;
     border-radius: 5px;
     padding: 5px 10px;
     margin-bottom: 5px;
 }
 
-#markdown-content p:has(br)::first-line {
-    color: #4CAF50;
-    text-decoration: 2px underline #4CAF50;
+#markdown-content p:has(br)::first-line,
+#markdown-content p:has(br) strong {
+    color: #2F6F8F;
 }
 
 #markdown-content li p {

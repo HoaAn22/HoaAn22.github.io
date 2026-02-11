@@ -34,7 +34,7 @@
 #markdown-content p:has(br){
     text-indent: 0;
     background-color: #E6F1F5;
-    border: 1.2px solid #1F5FA6;
+    border: 1.2px solid #2B6FD6;
     border-radius: 5px;
     padding: 5px 10px;
     margin-bottom: 10px;
@@ -43,7 +43,7 @@
 #markdown-content p:has(br)::first-line,
 #markdown-content p:has(br) strong {
     font-weight: bolder;
-    color: #1F5FA6;
+    color: #2B6FD6;
 }
 
 #markdown-content li p {

@@ -60,3 +60,5 @@
 [HCMIU - Trường Đại học Quốc tế](https://tuyensinh.hcmiu.edu.vn/chuong-trinh/thac-si-quan-tri-kinh-doanh/)  
 - Cử nhân Tâm lý học  
 [HCMUSSH - Trường Đại học Khoa học Xã hội Nhân Văn TP.HCM](https://hcmussh.edu.vn/tamlyhoc/daotao)
+- Cử nhân Tâm lý học  
+[HSU - Trường Đại học Hoa sen](https://www.hoasen.edu.vn/online/education/nganh-tam-ly-hoc/)

@@ -4,7 +4,7 @@
 
 - **03/01 - 11/01/2026**
 
-    Văn bằng 2 - Kiểm tra quá trình 2  
+    Văn bằng 2 - Kiểm tra quá trình 1  
     🟩 Tiếng Anh Kinh doanh 1  
     🟩 Văn hóa Anh  
     🟩 Ngữ âm - Âm vị  

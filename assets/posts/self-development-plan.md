@@ -28,7 +28,7 @@
     Nghiệp vụ sư phạm cho giáo viên Tin học (THCS & THPT)  
     [VinhUni - Trường Đại học Vinh](https://vinhuni.edu.vn/)
 
-## Chương trình tham khảo
+## Tham khảo
 
 **Nghiệp vụ**
 

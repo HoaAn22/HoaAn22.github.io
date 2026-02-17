@@ -19,13 +19,13 @@
     🟩 Kỹ năng thuyết trình  
     🟩 Thực hành viết thư tín thương mại
 
-- **(23/01/2026)**
+- **23/01/2026**
 
     Văn bằng 2 - Cuối kì II  
     🟩 Thực hành viết thư tín thương mại  
         \- 1 Báo cáo  
 
-- **(19/01/2026)**
+- **19/01/2026**
 
     Văn bằng 2 - Cuối kì II  
     🟩 Kỹ năng thuyết trình  

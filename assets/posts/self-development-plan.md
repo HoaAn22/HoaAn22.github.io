@@ -4,13 +4,13 @@
 
 - 09/2020 - 07/2025 
 
-    **Tốt nghiệp**  
+    Tốt nghiệp  
     Kỹ sư Khoa học Dữ liệu  
     [IUH - Trường Đại học Công Nghiệp TP.HCM](https://fit.iuh.edu.vn/news.html@detail@188@3266@Nganh-Khoa-hoc-du-lieu)
 
 - 06/2025 - 08/2025
 
-    **Hoàn thành**  
+    Hoàn thành  
     Nghiệp vụ sư phạm dạy trình độ cao đẳng, trung cấp  
     [HCMUTE - Viện Sư phạm Kỹ Thuật](https://ite.hcmute.edu.vn/TopicId/23d2ea12-d7cd-4ced-a778-42ea88c2a6b5/boi-duong-nghiep-vu-su-pham)
 
@@ -18,13 +18,13 @@
 
 - 09/2025 - [(2027)](note. Dự kiến)
 
-    **Tốt nghiệp**  
+    Tốt nghiệp  
     Cử nhân Ngôn ngữ Anh  
     [HUB - Trường Đại học Ngân hàng TP.HCM](https://dtc.hub.edu.vn/chuong-trinh-ngon-ngu-anh/)
 
 - 12/2025 - [(12/2026)](note. Dự kiến)
 
-    **Hoàn thành**  
+    Hoàn thành  
     Nghiệp vụ sư phạm cho giáo viên Tin học (THCS & THPT)  
     [VinhUni - Trường Đại học Vinh](https://vinhuni.edu.vn/)
 

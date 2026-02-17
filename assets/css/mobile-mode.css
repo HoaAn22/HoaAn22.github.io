@@ -61,7 +61,7 @@
         height: 200px;
     }
     .note-tooltip {
-        max-width: 120px;
+        max-width: 150px;
         white-space: normal;
         overflow-wrap: break-word;
     }

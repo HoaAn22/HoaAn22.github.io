@@ -1,6 +1,6 @@
 ## [Self-Development Plan](note. Kế hoạch phát triển bản thân)
 
-## Thành tựu đã đạt được
+## Đã hoàn thành
 
 - 09/2020 - 07/2025 
 
@@ -30,7 +30,7 @@
 
 ## Chương trình tham khảo
 
-**Nghiệp vụ chuyên môn**
+**Nghiệp vụ**
 
 - Ứng dụng SPSS trong phân tích dữ liệu  
 [HCMUTE - Đại học Sư phạm Kỹ thuật TP.HCM](https://daotaotuxa.hcmute.edu.vn/ArticleId/b94cf943-2082-4280-9816-7d764878c8a2/khoa-dao-tao-ung-dung-spss-trong-phan-tich-du-lieu)
@@ -46,7 +46,7 @@
 
 ---
 
-**Bằng cấp**
+**Văn bằng**
 
 - Thạc sĩ Giáo dục học  
 [HCMUTE - Đại học Sư phạm kỹ thuật TP.HCM](https://drive.google.com/file/d/1Xox5Xkb5Oi0k0-D0AD2f9Ywyx6pDH9ur/view)

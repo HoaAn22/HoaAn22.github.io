@@ -95,7 +95,6 @@ Sử dụng máy tính đúng:
 \- Ngồi thẳng lưng  
 \- Chân thẳng lên sàn  
 \- Ngồi cách màn hình khoảng một cánh tay hoặc 60cm.  
-\- 
 
 ## Quy tắt khi tham gia giao tiếp trực tuyến
 

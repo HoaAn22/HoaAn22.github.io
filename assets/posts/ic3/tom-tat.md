@@ -1,6 +1,6 @@
-## Tóm tắt kiến thức IC3 (level 1)
+# Tóm tắt kiến thức IC3 (level 1)
 
-### Mã nguồn mở
+## Mã nguồn mở
 
 *Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Miễn phí và không cần phải xin phép.*
 
@@ -11,7 +11,7 @@
 
 ![Mã nguồn mở](assets/posts/ic3/images/open_source.png)
 
-### Mã nguồn đóng (độc quyền)
+## Mã nguồn đóng (độc quyền)
 
 *Mã nguồn đóng (độc quyền): là phầm mềm được giữ bí mật, thuộc sở hữu của cá nhân hoặc công ty phát triển nó.*
 
@@ -21,7 +21,7 @@
 
 ![Mã nguồn đóng](assets/posts/ic3/images/closed_source.png)
 
-### Creative Commons (cc)
+## Creative Commons (cc)
 
 *Creative Commons (CC): là một tổ chức quốc tế phi lợi nhuật. Mục đích chính là giúp tác giả chia sẻ tác phẩm của họ công khai, dễ dàng. Giấy phép của (CC) là miễn phí.*
 
@@ -78,7 +78,7 @@
 
 ![Cảnh báo đăng nhập](assets/posts/ic3/images/gmail.png)
 
-### An toàn khi dùng công nghệ
+## An toàn khi dùng công nghệ
 
 An toàn khi trực tuyến, cần lưu ý:  
 \- [Cookies](note. thường chứa các thông tin xác thực đăng nhập, hoạt động người dùng khi duyệt web. Nếu cookies bị đánh cắp hacker có thể chiếm quyền phiên đăng nhập).  
@@ -89,7 +89,7 @@ Khi ở nơi công cộng, cần lưu ý:
 \- Tắt wifi, bluetooth khi không sử dụng  
 \- Luôn để điện thoại trong tầm giám sát (coi chừng mất 😒)  
 
-### Bảo vệ sức khỏe khi dùng máy tính
+## Bảo vệ sức khỏe khi dùng máy tính
 
 Sử dụng máy tính đúng:  
 \- Ngồi thẳng lưng  
@@ -97,14 +97,14 @@ Sử dụng máy tính đúng:
 \- Ngồi cách màn hình khoảng một cánh tay hoặc 60cm.  
 \- 
 
-### Quy tắt khi tham gia giao tiếp trực tuyến
+## Quy tắt khi tham gia giao tiếp trực tuyến
 
 Khi giao tiếp bằng hình thức Video:  
 \- Mở camera  
 \- Đến đúng giờ  
 \- Ăn mặc lịch sự  
-\- Kiểm tra thiết bị
-\- Tắt mic khi không dùng
+\- Kiểm tra thiết bị  
+\- Tắt mic khi không dùng  
 \- Giao tiếp tôn trọng, lịch sự  
 
 Khi giao tiếp bằng email (công việc):  

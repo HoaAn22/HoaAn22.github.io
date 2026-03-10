@@ -62,8 +62,7 @@
     }
     .note-tooltip {
         max-width: 150px;
-        white-space: normal;
-        overflow-wrap: break-word;
+
     }
 
     /* Giao diện mobile */

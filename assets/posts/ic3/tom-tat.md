@@ -9,7 +9,7 @@
 - Cho phép sửa đổi
 - Bảo mật tốt
 
-![Mã nguồn mở](assets/posts/ic3/images/open_source.png)
+![Mã nguồn mở](assets/posts/ic3/images/o_s.png)
 
 ## Mã nguồn đóng (độc quyền)
 

@@ -9,6 +9,12 @@ function getExcludeLinks() {
 }
 // 'second-bachelors-degree/'
 
+function getShrinkImageLinks() {
+    return [
+        'tom-tat.md'
+    ];
+}
+
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
@@ -68,7 +74,7 @@ function updateNotebookTitle(filePath) {
 }
 
 // 2. CORE: RENDER MARKDOWN
-function renderMarkdown(content, isExcluded = false) {
+function renderMarkdown(content, isExcluded = false, isShrinkImage = false){
     const md = window.markdownit({ breaks: false, html: true });
     let renderedContent = md.render(content);
 
@@ -100,6 +106,14 @@ function renderMarkdown(content, isExcluded = false) {
 
     const container = document.getElementById('markdown-content');
     container.innerHTML = renderedContent;
+
+    // THU NHỎ ẢNH
+    if (isShrinkImage) {
+        const images = container.getElementsByTagName('img');
+        for (let img of images) {
+            img.classList.add("shrink");
+        }
+    }
 
     // [TÍNH NĂNG GỐC] Xử lý link và YouTube bên trong nội dung
     const a_tags = container.getElementsByTagName('a');
@@ -141,6 +155,7 @@ function renderMarkdown(content, isExcluded = false) {
  */
 function loadMarkdown(filePath, updateHistory = true) {
     const isExcluded = getExcludeLinks().some(ex => filePath.includes(ex));
+    const isShrinkImage = getShrinkImageLinks().some(ex => filePath.includes(ex));
 
     if (window.location.pathname.includes("notebook.html")) {
         window.location.href = `index.html?file=${encodeURIComponent(filePath)}`;
@@ -153,7 +168,7 @@ function loadMarkdown(filePath, updateHistory = true) {
             return res.text();
         })
         .then(text => {
-            renderMarkdown(text, isExcluded);
+            renderMarkdown(text, isExcluded, isShrinkImage);
             
             // XỬ LÝ LỊCH SỬ CHUẨN
             if (updateHistory) {

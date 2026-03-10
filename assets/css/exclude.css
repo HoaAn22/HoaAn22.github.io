@@ -1,0 +1,13 @@
+img.shrink{
+    width: auto;
+    max-height: 300px;
+    margin-left: 50px;
+}
+
+@media (max-width: 800px) {
+
+    img.shrink{
+        margin-left: 35px;
+    }
+
+}

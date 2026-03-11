@@ -1,4 +1,8 @@
-# Tóm tắt kiến thức IC3 (level 1)
+# Tóm tắt kiến thức IC3 (level 1) - Phần 1
+
+- [Bảng theo dõi đánh giá lớp](https://hoaan22.github.io/class-report/)
+- [Phần 1](assets/posts/ic3/level1-part1.md) >
+[Phần 2](assets/posts/ic3/level1-part2.md) >
 
 ## Mã nguồn mở
 
@@ -32,9 +36,12 @@
 
 ---
 
-3. **Miền công cộng:**
-    - Tác phẩm không được bản quyền
-    - Miễn phí
+## Miền công cộng:
+
+*Miền công cộng: là các tác phẩm không bị giới hạn bởi luật bản quyền. Công chúng có thể tự do sử dụng, chia sẻ, chỉnh sửa mà không cần phải xin phép hay trả phí.*
+
+- Tác phẩm không được bản quyền
+- Miễn phí
 
     Trường hợp trở thành miền công cộng:  
     \- Hết hạn bản quyền (50 - 100 năm)  

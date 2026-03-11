@@ -11,7 +11,7 @@ function getExcludeLinks() {
 
 function getShrinkImageLinks() {
     return [
-        'tom-tat.md'
+        'ic3/'
     ];
 }
 

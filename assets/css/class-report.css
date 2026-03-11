@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+/* LAYOUT */
+
+.layout{
+    display:flex;
+    height:100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width:20%;
+    background:#2c3e50;
+    color:white;
+    padding:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.sidebar li:hover{
+    background:#34495e;
+}
+
+/* CONTENT */
+
+.content{
+    width:80%;
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+}
+
+/* BOARD */
+
+.board{
+    display:flex;
+    gap:30px;
+    margin-top:30px;
+}
+
+/* SECTION */
+
+.section{
+    flex:1;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* BAD */
+
+.bad{
+    background:#fdecea;
+    border-left:10px solid #e74c3c;
+}
+
+.bad h2{
+    text-align:center;
+    color:#c0392b;
+}
+
+/* GOOD */
+
+.good{
+    background:linear-gradient(135deg,#fff7d6,#ffeaa7);
+    border-left:10px solid #f1c40f;
+}
+
+.good h2{
+    text-align:center;
+    color:#b9770e;
+    font-size:26px;
+}
+
+/* LIST */
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:white;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+    display:flex;
+    justify-content:space-between;
+}
+
+/* VINH DANH STYLE */
+
+.good li{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.rank1{
+    border-left:6px solid gold;
+}
+
+.rank2{
+    border-left:6px solid silver;
+}
+
+.rank3{
+    border-left:6px solid #cd7f32;
+}
+
+.note{
+    font-size:14px;
+    color:#555;
+}

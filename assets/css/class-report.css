@@ -12,11 +12,10 @@ body{
 }
 
 /* SIDEBAR */
-
 .sidebar{
     width:20%;
-    background:#2c3e50;
-    color:white;
+    /* background:#bed7f1; */
+    border-right: 2px solid black;
     padding:20px;
 }
 
@@ -27,16 +26,16 @@ body{
 
 .sidebar li{
     padding:10px;
+    border: 2px solid black;
     border-radius:5px;
     cursor:pointer;
 }
 
-.sidebar li:hover{
+/* .sidebar li:hover{
     background:#34495e;
-}
+} */
 
 /* CONTENT */
-
 .content{
     width:80%;
     padding:20px;
@@ -105,7 +104,31 @@ li{
 }
 
 ul.noteList li{
+    position: relative;
     margin: 0;
+}
+
+ul#weekList li{
+    position: relative;
+}
+
+ul#weekList li:hover{
+    background-color: #f1f1f1;
+}
+
+ul#weekList li::after{
+    content:"";
+    position:absolute;
+    right:-1px;
+    bottom:-10px;
+    width:60px;
+    height:15px;
+    background:black;
+} */
+
+ul#weekList li:nth-child(7n-4)::after,
+ul#weekList li:nth-child(7n)::after {
+    display: none;
 }
 
 /* VINH DANH STYLE */
@@ -142,3 +165,4 @@ margin-left:20px;
 font-size:14px;
 color:#555;
 }
+

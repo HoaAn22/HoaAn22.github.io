@@ -7,22 +7,27 @@
     </head>
     <body>
         <div class="layout">
-            <aside class="sidebar">
-                <!-- <h2>Danh sách tuần</h2> -->
-                <ul id="weekList"></ul>
-            </aside>
-            <main class="content">
-                <h1>Bảng theo dõi nề nếp lớp</h1>
-                <div class="board">
-                <div class="bad section">
-                <h2>Lớp cần chấn chỉnh</h2>
-                <ul id="badList"></ul>
-                </div>
-                <div class="good section">
-                <h2>Lớp thực hiện tốt</h2>
-                <ul id="goodList"></ul>
-                </div>
-                </div>
+            <!-- SIDEBAR --> 
+            <aside class="sidebar"> 
+                <h2 class="sidebar-title">Danh sách tuần</h2> 
+                <ul id="weekList"></ul> 
+            </aside> 
+            <!-- CONTENT --> 
+            <main class="content"> 
+                <header class="page-header"> 
+                    <h1>Bảng theo dõi nề nếp lớp</h1> 
+                    <div id="weekTitle"></div> 
+                </header> <section class="board"> 
+                    <!-- LỚP QUẬY --> 
+                    <div class="section bad"> 
+                        <h2>Lớp quậy 💔❤️‍🩹</h2> 
+                        <ul id="badList"></ul> 
+                    </div> 
+                    <!-- LỚP TỐT --> 
+                    <div class="section good"> 
+                        <h2>Lớp tốt 🌞</h2> <ul id="goodList"></ul> 
+                    </div> 
+                </section> 
             </main>
         </div>
         <script src="../assets/js/class-report.js"></script>

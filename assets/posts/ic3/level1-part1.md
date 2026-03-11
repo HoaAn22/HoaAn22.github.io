@@ -1,13 +1,23 @@
-# Tóm tắt kiến thức IC3 (level 1) - Phần 1
+# Chủ đề: Phần mềm và sử dụng phần mềm (Phần 1)
 
-- [Bảng theo dõi đánh giá lớp](https://hoaan22.github.io/class-report/)
-- [Phần 1](assets/posts/ic3/level1-part1.md) >
+[Bảng theo dõi đánh giá lớp](https://hoaan22.github.io/class/report.html)
+
+[Phần 1](assets/posts/ic3/level1-part1.md) >
 [Phần 2](assets/posts/ic3/level1-part2.md) >
+[Phần 3](assets/posts/ic3/level1-part3.md)
+
+## Duyệt web ẩn danh
+
+*Duyệt web riêng tư/ẩn danh: là chế độ trong trình duyệt. Giúp không lưu lại lịch sử trong máy khi tắt trình duyệt. Đảm bảo quyền riêng tư, đặc biệt khi sử dụng máy tính công cộng.*
+
+**Duyệt web ẩn danh: Không lưu lịch sử duyệt web.**
+
 
 ## Mã nguồn mở
 
 *Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Miễn phí và không cần phải xin phép.*
 
+**Phần mềm mã nguồn mở, có đặc điểm:**
 - Phần mềm miễn phí
 - Thuộc sở hữu của cộng đồng
 - Cho phép sửa đổi
@@ -19,53 +29,29 @@
 
 *Mã nguồn đóng (độc quyền): là phầm mềm được giữ bí mật, thuộc sở hữu của cá nhân hoặc công ty phát triển nó.*
 
+**Phần mềm độc quyền, có đặc điểm:**
 - Thường có phí (một số miễn phí)
 - Thuộc sở hữu của cá nhân/ công ty
 - Có hỗ trợ kỹ thuật của nhà sản xuất
 
 ![Mã nguồn đóng](assets/posts/ic3/images/closed_source.png)
 
-## Creative Commons (cc)
+## Hệ điều hành di dộng
 
-*Creative Commons (CC): là một tổ chức quốc tế phi lợi nhuật. Mục đích chính là giúp tác giả chia sẻ tác phẩm của họ công khai, dễ dàng. Giấy phép của (CC) là miễn phí.*
+Android:  
+\- Thuộc sở hữu của Google  
+\- Là phần mềm mã nguồn mở  
+\- Được xây dựng dựa trên Linux  
+\- Có thể cài ứng dụng từ bên ngoài qua file apk  
 
-- Chia sẻ tác phẩm nghệ thuật/ tác phẩm có bản quyền
-- Miễn phí
+iOS:  
+\- Thuộc sở hữu của Apple  
 
-![Giấy phép CC](assets/posts/ic3/images/cc.png)
+## Hệ điều hành máy tính
 
----
-
-## Miền công cộng:
-
-*Miền công cộng: là các tác phẩm không bị giới hạn bởi luật bản quyền. Công chúng có thể tự do sử dụng, chia sẻ, chỉnh sửa mà không cần phải xin phép hay trả phí.*
-
-- Tác phẩm không được bản quyền
-- Miễn phí
-
-    Trường hợp trở thành miền công cộng:  
-    \- Hết hạn bản quyền (50 - 100 năm)  
-    \- Tác giả từ bỏ bản quyền  
-    \- Không áp dụng được luật bản quyền (Do không có tác giả)  
-
-![Pubic domain](assets/posts/ic3/images/public_domain.png)
-
----
-
-4. **Thiết bị nhập, chức năng:**
-    - Nhập liệu (bàn phím)
-    - Điều khiển (chuột)
-    - Thu thông tin (máy quét, mic thu âm)
-
----
-
-5. **Thiết bị xuất, chức năng:**
-    - Nghe (loa, tai nghe)
-    - Nhìn (màn hình, máy in)
-
----
-
-6. **Duyệt web ẩn danh:** Không lưu lịch sử duyệt web
+- Windows
+- Linux
+- ChromeOS
 
 ---
 
@@ -94,7 +80,14 @@ An toàn khi trực tuyến, cần lưu ý:
 Khi ở nơi công cộng, cần lưu ý:  
 \- Không dùng wifi công cộng  
 \- Tắt wifi, bluetooth khi không sử dụng  
-\- Luôn để điện thoại trong tầm giám sát (coi chừng mất 😒)  
+\- Luôn để điện thoại trong tầm giám sát *(coi chừng mất 😒)*  
+
+## Danh tính số, danh tiếng số
+
+- *Danh tính số: là thông tin cá nhân, bài đăng, bài chia sẻ, bình luận,... Nhằm xác định "bạn là ai?" khi than gia môi trường trực tuyến.*
+- *Danh tiếng số: là kết quả của danh tính số, là cách mọi người nhìn nhận và đánh giá nội dung, thông tin bạn đăng tải trực tuyến (tích cực/tiêu cực)*
+
+
 
 ## Bảo vệ sức khỏe khi dùng máy tính
 
@@ -116,4 +109,4 @@ Khi giao tiếp bằng hình thức Video:
 Khi giao tiếp bằng email (công việc):  
 \- Không viết tắt
 \- Không nên dùng biểu tượng cảm xúc  
-\- Không viết hoa toàn bộ (nhìn rối mắt, chóng mặt 😵‍💫)  
+\- Không viết hoa toàn bộ *(nhìn rối mắt, chóng mặt 😵‍💫)*  

@@ -8,7 +8,7 @@
 
 ## Duyệt web ẩn danh
 
-*Duyệt web riêng tư/ẩn danh: là chế độ trong trình duyệt. Giúp không lưu lại lịch sử trong máy khi tắt trình duyệt. Đảm bảo quyền riêng tư, đặc biệt khi sử dụng máy tính công cộng.*
+*Duyệt web riêng tư/ẩn danh: là chế độ trong trình duyệt. Không lưu lại lịch sử trong máy khi tắt trình duyệt. Đảm bảo quyền riêng tư, đặc biệt khi sử dụng máy tính công cộng.*
 
 **Duyệt web ẩn danh: Không lưu lịch sử duyệt web.**
 
@@ -19,9 +19,10 @@
 
 **Phần mềm mã nguồn mở, có đặc điểm:**
 - Phần mềm miễn phí
-- Thuộc sở hữu của cộng đồng
 - Cho phép sửa đổi
 - Bảo mật tốt
+
+**Nhược điểm**: Giao diện thường không thân thiện
 
 ![Mã nguồn mở](assets/posts/ic3/images/open_source.png)
 
@@ -33,6 +34,7 @@
 - Thường có phí (một số miễn phí)
 - Thuộc sở hữu của cá nhân/ công ty
 - Có hỗ trợ kỹ thuật của nhà sản xuất
+- Giao diện thân thiện với người dùng.
 
 ![Mã nguồn đóng](assets/posts/ic3/images/closed_source.png)
 
@@ -66,8 +68,27 @@
 
 ## Trích dẫn và tham khảo
 
-- *Trích dẫn: *
+- *Trích dẫn: là ghi lại nguồn tài liệu, trang web, sách, báo,... đã được sử dụng trong bài viết.*
+- *Tài liệu tham khảo: chính là danh sách nhiều trích dẫn, thường được ghi ở cuối bài.*
 
+Trường hợp cần trích dẫn:
+- Có dùng ý tưởng, viết lại
+- Có dùng có dùng nguyên văn
+
+**Khi 100% là tự viết, nội dung hoàn toàn mới mẻ thì không cần trích dẫn.**
+
+![Tài liệu tham khảo](assets/posts/ic3/images/1_tai_lieu_tham_khao.png)
+
+Khi trích dẫn từ web, phải ghi:  
+\- URL (đường dẫn)  
+\- Ngày truy cập  
+\- Tên trang web  
+\- **Nếu không có tên trang web, thì ghi tên tác giả (nếu có)**  
+
+Khi trích dẫn từ sách, phải ghi:  
+\- Tên sách  
+\- Tên tác giả  
+\- Ngày xuất bản  
 
 ## Hệ điều hành di dộng
 
@@ -107,8 +128,8 @@ iOS:
 ## An toàn khi dùng công nghệ
 
 An toàn khi trực tuyến, cần lưu ý:  
-\- [Cookies](note. thường chứa các thông tin xác thực đăng nhập, hoạt động người dùng khi duyệt web. Nếu cookies bị đánh cắp hacker có thể chiếm quyền phiên đăng nhập).  
-\- [GPS](note. Thu thập vị trí thực, ảnh hưởng đến quyền riêng tư).  
+\- [Cookies](note. thường chứa các thông tin xác thực đăng nhập, hoạt động người dùng khi duyệt web. Nếu cookies bị đánh cắp hacker có thể chiếm quyền phiên đăng nhập)  
+\- [GPS](note. Thu thập vị trí thực, ảnh hưởng đến quyền riêng tư)  
 
 Khi ở nơi công cộng, cần lưu ý:  
 \- Không dùng wifi công cộng  
@@ -140,6 +161,6 @@ Khi giao tiếp bằng hình thức Video:
 \- Giao tiếp tôn trọng, lịch sự  
 
 Khi giao tiếp bằng email (công việc):  
-\- Không viết tắt
-\- Không nên dùng biểu tượng cảm xúc  
+\- Không viết tắt  
+\- Không nên dùng biểu tượng cảm xúc    
 \- Không viết hoa toàn bộ *(nhìn rối mắt, chóng mặt 😵‍💫)*  

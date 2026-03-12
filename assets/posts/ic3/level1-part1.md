@@ -1,4 +1,4 @@
-# Chủ đề: Phần mềm và sử dụng phần mềm (Phần 1)
+# Tóm tắt nội dung IC3 Level 1 - Phần 1
 
 [Bảng theo dõi đánh giá lớp](https://hoaan22.github.io/class/report.html)
 
@@ -35,6 +35,39 @@
 - Có hỗ trợ kỹ thuật của nhà sản xuất
 
 ![Mã nguồn đóng](assets/posts/ic3/images/closed_source.png)
+
+## Creative Commons (cc)
+
+*Creative Commons (CC): là một tổ chức quốc tế phi lợi nhuật. Mục đích chính là giúp tác giả chia sẻ tác phẩm của họ công khai, dễ dàng. Giấy phép của (CC) là miễn phí.*
+
+**Giấy phép CC, có đặc điểm:**
+- Chia sẻ tác phẩm nghệ thuật/ tác phẩm có bản quyền
+- Không cần xin phép
+- Miễn phí
+
+![Giấy phép CC](assets/posts/ic3/images/cc.png)
+
+## Miền công cộng:
+
+*Miền công cộng: là các tác phẩm không bị giới hạn bởi luật bản quyền. Công chúng có thể tự do sử dụng, chia sẻ, chỉnh sửa mà không cần phải xin phép hay trả phí.*
+
+**Miền công cộng, có đặc điểm:**
+- Tác phẩm không được bản quyền bảo vệ
+- Không cần xin phép
+- Miễn phí
+
+
+    Trường hợp trở thành miền công cộng:  
+    \- Hết hạn bản quyền (50 - 100 năm)  
+    \- Tác giả từ bỏ bản quyền  
+    \- Không áp dụng được luật bản quyền (Do không có tác giả)  
+
+![Pubic domain](assets/posts/ic3/images/public_domain.png)
+
+## Trích dẫn và tham khảo
+
+- *Trích dẫn: *
+
 
 ## Hệ điều hành di dộng
 

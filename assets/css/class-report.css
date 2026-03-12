@@ -124,7 +124,7 @@ ul#weekList li::after{
     width:60px;
     height:15px;
     background:black;
-} */
+}
 
 ul#weekList li:nth-child(7n-4)::after,
 ul#weekList li:nth-child(7n)::after {

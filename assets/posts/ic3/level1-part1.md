@@ -15,7 +15,7 @@
 
 ## Mã nguồn mở
 
-*Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Miễn phí và không cần phải xin phép.*
+*Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Và sử dụng miễn phí*
 
 **Phần mềm mã nguồn mở, có đặc điểm:**
 - Phần mềm miễn phí
@@ -32,7 +32,7 @@
 
 **Phần mềm độc quyền, có đặc điểm:**
 - Thường có phí (một số miễn phí)
-- Thuộc sở hữu của cá nhân/ công ty
+- Thuộc sở hữu của cá nhân/công ty
 - Có hỗ trợ kỹ thuật của nhà sản xuất
 - Giao diện thân thiện với người dùng.
 
@@ -40,10 +40,10 @@
 
 ## Creative Commons (cc)
 
-*Creative Commons (CC): là một tổ chức quốc tế phi lợi nhuật. Mục đích chính là giúp tác giả chia sẻ tác phẩm của họ công khai, dễ dàng. Giấy phép của (CC) là miễn phí.*
+*Creative Commons (CC): là một tổ chức quốc tế phi lợi nhuận. Mục đích chính là giúp tác giả chia sẻ tác phẩm của họ công khai, dễ dàng. Giấy phép của (CC) là miễn phí.*
 
 **Giấy phép CC, có đặc điểm:**
-- Chia sẻ tác phẩm nghệ thuật/ tác phẩm có bản quyền
+- Mục đích nhằm chia sẻ tác phẩm nghệ thuật/tác phẩm có bản quyền
 - Không cần xin phép
 - Miễn phí
 
@@ -56,6 +56,7 @@
 **Miền công cộng, có đặc điểm:**
 - Tác phẩm không được bản quyền bảo vệ
 - Không cần xin phép
+- Nên ghi nguồn
 - Miễn phí
 
 

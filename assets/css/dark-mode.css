@@ -14,7 +14,6 @@ body.dark-mode main {
     padding: 5px; /* Khoảng cách bên trong nút */
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     cursor: pointer; /* Hiển thị con trỏ dạng nút khi hover */
-
     /* Đặt nút nằm ngang */
     /* display: flex;
     align-items: center;

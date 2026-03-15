@@ -1,277 +1,317 @@
 /* ======================================================
    RESET & GLOBAL
 ====================================================== */
-* {
-    transition:
-        background-color 0.35s ease,
-        color 0.35s ease;
+
+*{
+    box-sizing:border-box;
+    font-family:"JetBrains Mono","Consolas",monospace;
+    transition:background-color .35s ease,color .35s ease;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: "JetBrains Mono", "Consolas", monospace;
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    background:#dfdfdf;
 }
 
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #dfdfdf;
+body.dark-mode main{
+    background:#2c2c2c;
 }
 
 /* ======================================================
    HEADER
 ====================================================== */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 28px;
-    background-color: #000;
-    border-bottom: 2px solid white;
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 28px;
+
+    background:#000;
+    border-bottom:2px solid white;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 22px;
-    letter-spacing: 1px;
-    color: #fff;
+header h1{
+    margin:0;
+    font-size:22px;
+    letter-spacing:1px;
+    color:#fff;
+}
+
+h1 a{
+    position:relative;
+    top:-3px;
+    font-size:14px;
+
+    color:black;
+    background:#fff;
+
+    text-decoration:none;
+    border:1px solid #fff;
+    border-radius:5px;
+
+    padding:5px;
 }
 
 /* ======================================================
    MAIN LAYOUT
 ====================================================== */
-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+
+main{
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    gap:16px;
 }
 
-body.dark-mode main {
-    background-color: #2c2c2c;
+/* ======================================================
+   SEARCH ROW
+====================================================== */
+
+.search-row{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:center;
 }
 
 /* ======================================================
    SEARCH BOX
 ====================================================== */
-form.search-box {
-    display: flex;
-    width: 700px;
-    border: 3.5px solid #000;
+
+form.search-box{
+    display:flex;
+    width:100%;
+    max-width:700px;
+
+    border:3.5px solid #000;
 }
 
-body.dark-mode form.search-box {
-    border: 3.5px solid #fff;
+body.dark-mode form.search-box{
+    border-color:#fff;
 }
 
-.search-box input {
-    flex-basis: 90%;
-    padding: 15px 20px;
-    font-size: 15px;
-    border: none;
-    outline: none;
-    box-shadow: none;
-    background: #fff;
-    color: #000;
+.search-box input{
+    flex:1;
+    padding:15px 20px;
+    font-size:15px;
+
+    border:none;
+    outline:none;
+
+    background:#fff;
+    color:#000;
 }
 
-.search-box input::placeholder {
-    color: #000;
+.search-box input::placeholder{
+    color:#000;
 }
 
-body.dark-mode .search-box input {
-    background: #000;
-    color: #fff;
+body.dark-mode .search-box input{
+    background:#000;
+    color:#fff;
 }
 
-body.dark-mode .search-box input::placeholder {
-    color: #aaa;
+body.dark-mode .search-box input::placeholder{
+    color:#aaa;
 }
 
-img.logo {
-    background: #fff;
-    flex-basis: 10%;
-    max-height: 48px;
-    object-fit: contain;
-    align-self: center;
+.logo{
+    flex-basis:10%;
+    max-height:48px;
+    object-fit:contain;
+    background:#fff;
 }
 
-body.dark-mode img.logo {
-    background: #000;
+body.dark-mode .logo{
+    background:#000;
 }
 
 /* ======================================================
-   KEYBOARD (PIANO LINKS)
+   VIEW TOGGLE
 ====================================================== */
-.keyboard {
-    display: flex;
-    border: 3.5px solid #000;
+.view-toggle button{
+    color:white;
 }
 
-.key {
-    position: relative;
-    width: 100px;
-    height: 300px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background: #fff;
+.view-toggle{
+    right: 200px;
+    display:flex;
+    flex-direction:row;
+    border:2px solid #000;
+    border-radius:5px;
+    background:white;
+}
+
+.view-toggle button{
+    padding:5px 8px;
+    border:none;
+    cursor:pointer;
+    background:none;
+}
+
+.view-toggle button:hover{
+    background:#eaeaea;
     color: #000;
-    font-weight: bold;
-    text-decoration: none;
-    border-right: 2px solid #000;
 }
 
-.key:last-child {
-    border-right: none;
+.view-toggle{
+    border-color:white;
+    background:black;
 }
 
-.key span {
-    font-size: 13px;
-    opacity: 0.8;
+
+/* ======================================================
+   WORKSPACE
+====================================================== */
+
+.workspace{
+    display:flex;
+    justify-content:center;
 }
 
-.key:hover {
-    background: #eaeaea;
+/* ======================================================
+   CALENDAR
+====================================================== */
+
+iframe{
+    flex: 1;
+    width: 700px;
+    max-width: 100%;
+    height:350px;
+    border:3.5px solid #000;
 }
 
-/* Black keys */
+body.dark-mode iframe{
+    border-color:#fff;
+}
+
+/* ======================================================
+   KEYBOARD
+====================================================== */
+
+.keyboard{
+    width: 700px;
+    display:flex;
+    border:3.5px solid #000;
+}
+
+.key{
+    flex: 1;
+    position:relative;
+    height:300px;
+    padding-bottom:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    background:#fff;
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+    border-right:2px solid #000;
+}
+
+.key:last-child{
+    border-right:none;
+}
+
+.key span{
+    font-size:13px;
+    opacity:.8;
+}
+
+.key:hover{
+    background:#eaeaea;
+}
+
+/* black piano keys */
+
 .key:nth-child(1)::after,
 .key:nth-child(2)::after,
 .key:nth-child(4)::after,
 .key:nth-child(5)::after,
-.key:nth-child(6)::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -15px;
-    width: 30px;
-    height: 100px;
-    background: #000;
-    z-index: 10;
+.key:nth-child(6)::after{
+
+    content:"";
+
+    position:absolute;
+    top:0;
+    right:-15px;
+
+    width:30px;
+    height:100px;
+
+    background:#000;
+    z-index:10;
 }
 
 /* ======================================================
    DARK MODE TOGGLE
 ====================================================== */
-.dark-mode-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    top: 10px;
-    right: 10px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1.5px solid black;
-    background-color: white;
-    cursor: pointer;
+
+.dark-mode-toggle{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:4px;
+    padding:5px;
+
+    border-radius:10px;
+    border:1.5px solid black;
+
+    background:white;
+    cursor:pointer;
 }
 
-body.dark-mode .dark-mode-toggle {
-    background-color: black;
-    border-color: white;
+body.dark-mode .dark-mode-toggle{
+    background:black;
+    border-color:white;
 }
 
-.dark-mode-toggle img {
-    width: 25px;
-    height: 25px;
-    object-fit: contain;
-    user-select: none;
-    -webkit-user-drag: none;
-    transition: opacity 0.3s ease;
+.dark-mode-toggle img{
+
+    width:25px;
+    height:25px;
+
+    object-fit:contain;
+
+    user-select:none;
+    -webkit-user-drag:none;
+
+    transition:opacity .3s ease;
 }
 
-.light-mode-icon { opacity: 1; }
-.dark-mode-icon { opacity: 0; }
+.light-mode-icon{opacity:1;}
+.dark-mode-icon{opacity:0;}
 
-body.dark-mode .light-mode-icon { opacity: 0; }
-body.dark-mode .dark-mode-icon  { opacity: 1; }
+body.dark-mode .light-mode-icon{opacity:0;}
+body.dark-mode .dark-mode-icon{opacity:1;}
 
 /* ======================================================
    FOOTER
 ====================================================== */
-footer {
-    padding: 14px;
-    text-align: center;
-    font-size: 12px;
-    color: var(--muted);
-    border-top: 1px solid var(--border);
+
+footer{
+    padding:14px;
+    text-align:center;
+    font-size:12px;
+    color:var(--muted);
+    border-top:1px solid var(--border);
 }
 
-/* ======================================================
-   MARKDOWN + DARK MODE CONTENT
-====================================================== */
-body.dark-mode #markdown-content {
-    border: 1.5px solid #f0f0f0;
-}
-
-body.dark-mode #markdown-content pre code:has([class]),
-body.dark-mode #markdown-content code.language-python,
-body.dark-mode #markdown-content code.language-css {
-    border: 1px solid var(--darkmode-content-color);
-}
-
-body.dark-mode #markdown-content code:not([class]) {
-    background-color: #3d3d3d;
-    color: var(--darkmode-content-color);
-}
-
-body.dark-mode #markdown-content span.key-term,
-body.dark-mode ul ul li {
-    background-color: var(--darkmode-note-background-color);
-    border: 1px solid var(--darkmode-content-color);
-    border-left: 2px solid var(--highlight-color);
-}
-
-body.dark-mode #markdown-content h1,
-body.dark-mode #markdown-content h2,
-body.dark-mode #markdown-content h3:not(.layout h3) {
-    border-bottom-color: var(--darkmode-content-color);
-}
-
-body.dark-mode table,
-body.dark-mode th,
-body.dark-mode td {
-    border: 1px solid #ddd;
-}
-
-body.dark-mode #markdown-content tr:nth-child(even) {
-    background-color: #2b2b2b;
-}
-
-body.dark-mode #markdown-content tr:nth-child(odd) {
-    background-color: rgb(90, 90, 90);
-}
-
-body.dark-mode #markdown-content tr:hover {
-    background-color: rgb(30, 30, 30);
-}
-
-body.dark-mode #markdown-content p:has(br) {
-    border: 1.5px solid var(--darkmode-content-color);
-    color: black;
-}
-
-body.dark-mode #markdown-content p:has(br) .key-term {
-    color: var(--darkmode-content-color);
-}
-
-h1 a {
-    position: relative;
-    top: -3px;
-    font-size: 14px;
-    color: black;
-    background-color: #fff;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 5px;
+@media (max-width: 800px) {
+    .keyboard{
+        width: 100%;
+    }
 }

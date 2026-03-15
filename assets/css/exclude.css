@@ -1,13 +1,13 @@
 img.shrink{
     width: auto;
     max-height: 300px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 
     img.shrink{
         margin-left: 35px;
     }
 
-}
+} */

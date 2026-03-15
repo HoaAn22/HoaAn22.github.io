@@ -1,79 +1,97 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Workspace</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/config.css">
   <link rel="stylesheet" href="assets/css/workspace.css">
 </head>
 <body>
-<header>
-  <h1>Workspace
-    <a href="https://github.com/codespaces" target="_blank" >CodeSpaces</a>
-    <!-- <a href="https://www.google.com" target="_blank" >Google</a>
-    <a href="https://mail.google.com/" target="_blank" >Gmail</a>
-    <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank" >Drive</a> -->
-  </h1>
-    <div id="darkModeToggle" class="dark-mode-toggle">
-        <img src="assets/images/dark-mode.png" alt="Toggle Light Mode" class="dark-mode-icon">
-        <img src="assets/images/light-mode.png" alt="Toggle Dark Mode" class="light-mode-icon">
+  <header>
+    <h1>
+      Workspace
+      <a href="https://github.com/codespaces" target="_blank">CodeSpaces</a>
+    </h1>
+    <!-- <div id="darkModeToggle" class="dark-mode-toggle">
+      <img src="assets/images/dark-mode.png" class="dark-mode-icon">
+      <img src="assets/images/light-mode.png" class="light-mode-icon">
+    </div> -->
+      <div class="view-toggle">
+        <button id="showCalendar">Schedule</button>
+        <hr>
+        <button id="showWork">Work</button>
+      </div>
+  </header>
+  <main>
+    <!-- SEARCH + TOGGLE -->
+    <div class="search-row">
+      <form class="search-box" action="https://www.google.com/search" method="get">
+        <img src="assets/images/google_logo.png" class="logo">
+        <input type="search" name="q" placeholder="Search Google…" autocomplete="off" autofocus>
+        <input type="hidden" name="hl" value="vi">
+      </form>
     </div>
-</header>
-<main>
-  <form
-    class="search-box"
-    action="https://www.google.com/search"
-    method="get">
-    <img src="assets/images/google_logo.png" alt="Google logo" class="logo">
-    <input
-      type="search"
-      name="q"
-      placeholder="Search Google…"
-      autocomplete="off"
-      autofocus/>
-    <input type="hidden" name="hl" value="vi">
-  </form>
-  <div class="keyboard">
-    <a class="key" href="https://hoaan22.github.io/">
-      HOME
-      <span>Blog</span>
-    </a>
-    <!-- <a class="key" href="https://chatgpt.com/">
-      AI
-      <span>ChatGPT</span>
-    </a> -->
-    <a class="key" href="https://www.youtube.com/">
-      MUSIC
-      <span>Youtube</span>
-    </a>
-    <a class="key" href="https://chat.zalo.me/">
-      Công việc
-      <span>Zalo</span>
-    </a>
-    <a class="key" href="https://docs.google.com/spreadsheets/d/1uvoIVfUR6Q4VzOUtCyeTZeuGLY04PiDb">
-      Công việc
-      <span>Điểm danh</span>
-    </a>
-    <a class="key" href="https://docs.google.com/spreadsheets/d/16dfqqZUEc0q9R4ypcCAYQN7cbCTAT9YK">
-      Cuộc sống
-      <span>Chi tiêu</span>
-    </a>
-    <a class="key" href="https://docs.google.com/spreadsheets/d/1mJawm-vp_idr4RmOJFtCGPNd6RNZ9bbQliFBWKJKTRM/edit?usp=sharing">
-      Học tập
-      <span>Ngôn ngữ Anh</span>
-    </a>
-    <a class="key" href="https://lopboiduong.com/k9nvsp-thcsthpt/">
-      Học tập
-      <span>NVSP</span>
-    </a>
-  </div>
-</main>
-<!-- <script src="assets/js/dark-mode.js"></script> -->
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    document.body.classList.add('dark-mode');
-  });
-</script>
+    <!-- WORKSPACE -->
+    <div class="workspace">
+      <!-- CALENDAR -->
+      <iframe id="calendar"
+        src="https://calendar.google.com/calendar/embed?src=antran22112002%40gmail.com&ctz=Asia%2FHo_Chi_Minh&hl=vi"
+        frameborder="0" scrolling="no">
+      </iframe>
+      <!-- WORK LINKS -->
+      <div id="work" class="keyboard">
+        <a class="key" href="https://hoaan22.github.io/">
+          HOME
+          <span>Blog</span>
+        </a>
+        <a class="key" href="https://www.youtube.com/">
+          MUSIC
+          <span>Youtube</span>
+        </a>
+        <a class="key" href="https://chat.zalo.me/">
+          Công việc
+          <span>Zalo</span>
+        </a>
+        <a class="key" href="https://docs.google.com/spreadsheets/d/1uvoIVfUR6Q4VzOUtCyeTZeuGLY04PiDb">
+          Công việc
+          <span>Điểm danh</span>
+        </a>
+        <a class="key" href="https://docs.google.com/spreadsheets/d/16dfqqZUEc0q9R4ypcCAYQN7cbCTAT9YK">
+          Cuộc sống
+          <span>Chi tiêu</span>
+        </a>
+        <a class="key" href="https://docs.google.com/spreadsheets/d/1mJawm-vp_idr4RmOJFtCGPNd6RNZ9bbQliFBWKJKTRM/edit">
+          Học tập
+          <span>Ngôn ngữ Anh</span>
+        </a>
+        <a class="key" href="https://lopboiduong.com/k9nvsp-thcsthpt/">
+          Học tập
+          <span>NVSP</span>
+        </a>
+      </div>
+    </div>
+  </main>
+  <script>
+    /* dark mode mặc định */
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('dark-mode');
+    });
+    /* toggle calendar/work */
+    const calendar = document.getElementById("calendar");
+    const work = document.getElementById("work");
+    const btnCalendar = document.getElementById("showCalendar");
+    const btnWork = document.getElementById("showWork");
+    /* mặc định hiện calendar */
+    work.style.display = "none";
+    btnCalendar.onclick = () => {
+      calendar.style.display = "block";
+      work.style.display = "none";
+    };
+    btnWork.onclick = () => {
+      calendar.style.display = "none";
+      work.style.display = "flex";
+    };
+  </script>
 </body>
 </html>

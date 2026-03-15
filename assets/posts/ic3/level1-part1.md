@@ -6,23 +6,25 @@
 [Phần 2](assets/posts/ic3/level1-part2.md) >
 [Phần 3](assets/posts/ic3/level1-part3.md)
 
-## Duyệt web ẩn danh
+## Trình duyệt và An ninh mạng
 
-*Duyệt web riêng tư/ẩn danh: là chế độ trong trình duyệt. Không lưu lại lịch sử trong máy khi tắt trình duyệt. Đảm bảo quyền riêng tư, đặc biệt khi sử dụng máy tính công cộng.*
+- *Duyệt web riêng tư/ẩn danh: là chế độ trong trình duyệt. Không lưu lại lịch sử trong máy khi tắt trình duyệt. Đảm bảo quyền riêng tư, đặc biệt khi sử dụng máy tính công cộng.*
+- *Dấu trang: là tính năng trong trình duyệt, giúp đánh dấu/lưu lại trang web để có thể mở lại khi cần.*
 
-**Duyệt web ẩn danh: Không lưu lịch sử duyệt web.**
-
+Ghi nhớ:  
+\- Duyệt web ẩn danh: Không lưu lịch sử duyệt web  
+\- Dấu trang: Sử dụng khi cần lưu danh sách trang web  
+\- Cookie: một tập tin **lưu hoạt động của người dùng** khi dùng trình duyệt.  
 
 ## Mã nguồn mở
 
 *Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Và sử dụng miễn phí*
 
-**Phần mềm mã nguồn mở, có đặc điểm:**
-- Phần mềm miễn phí
-- Cho phép sửa đổi
-- Bảo mật tốt
-
-**Nhược điểm**: Giao diện thường không thân thiện
+Ghi nhớ, Phần mềm mã nguồn mở:  
+\- Phần mềm miễn phí  
+\- Cho phép sửa đổi  
+\- Bảo mật tốt  
+**Nhược điểm**: Giao diện thường không thân thiện  
 
 ![Mã nguồn mở](assets/posts/ic3/images/open_source.png)
 
@@ -30,11 +32,11 @@
 
 *Mã nguồn đóng (độc quyền): là phầm mềm được giữ bí mật, thuộc sở hữu của cá nhân hoặc công ty phát triển nó.*
 
-**Phần mềm độc quyền, có đặc điểm:**
-- Thường có phí (một số miễn phí)
-- Thuộc sở hữu của cá nhân/công ty
-- Có hỗ trợ kỹ thuật của nhà sản xuất
-- Giao diện thân thiện với người dùng.
+Ghi nhớ, phần mềm độc quyền:   
+\- Thường có phí  
+\- Thuộc sở hữu của cá nhân/công ty  
+\- Có hỗ trợ kỹ thuật của nhà sản xuất   
+\- Giao diện thân thiện với người dùng  
 
 ![Mã nguồn đóng](assets/posts/ic3/images/closed_source.png)
 
@@ -42,28 +44,26 @@
 
 *Creative Commons (CC): là một tổ chức quốc tế phi lợi nhuận. Mục đích chính là giúp tác giả chia sẻ tác phẩm của họ công khai, dễ dàng. Giấy phép của (CC) là miễn phí.*
 
-**Giấy phép CC, có đặc điểm:**
-- Mục đích nhằm chia sẻ tác phẩm nghệ thuật/tác phẩm có bản quyền
-- Không cần xin phép
-- Miễn phí
+Giấy phép CC, có đặc điểm:  
+\- Mục đích nhằm chia sẻ tác phẩm nghệ thuật/tác phẩm có bản quyền  
+\- Không cần xin phép  
+\- Miễn phí  
 
 ![Giấy phép CC](assets/posts/ic3/images/cc.png)
 
 ## Miền công cộng:
 
-*Miền công cộng: là các tác phẩm không bị giới hạn bởi luật bản quyền. Công chúng có thể tự do sử dụng, chia sẻ, chỉnh sửa mà không cần phải xin phép hay trả phí.*
+*Miền công cộng: là các tác phẩm không bị giới hạn bởi luật bản quyền. Công chúng có thể tự do sử dụng, chia sẻ, chỉnh sửa mà không cần phải xin phép và miễn phí.*
 
-**Miền công cộng, có đặc điểm:**
-- Tác phẩm không được bản quyền bảo vệ
-- Không cần xin phép
-- Nên ghi nguồn
-- Miễn phí
+Ghi nhớ, Miền công cộng:  
+\- Tác phẩm không được bản quyền bảo vệ  
+\- Không cần xin phép, miễn phí  
+\- Nên ghi nguồn  
 
-
-    Trường hợp trở thành miền công cộng:  
-    \- Hết hạn bản quyền (50 - 100 năm)  
-    \- Tác giả từ bỏ bản quyền  
-    \- Không áp dụng được luật bản quyền (Do không có tác giả)  
+Trường hợp trở thành miền công cộng:  
+\- Hết hạn bản quyền (50 - 100 năm)  
+\- Tác giả từ bỏ bản quyền  
+\- Không áp dụng được luật bản quyền (Do không có tác giả)  
 
 ![Pubic domain](assets/posts/ic3/images/public_domain.png)
 
@@ -72,10 +72,9 @@
 - *Trích dẫn: là ghi lại nguồn tài liệu, trang web, sách, báo,... đã được sử dụng trong bài viết.*
 - *Tài liệu tham khảo: chính là danh sách nhiều trích dẫn, thường được ghi ở cuối bài.*
 
-Trường hợp cần trích dẫn:
-- Có dùng ý tưởng, viết lại
-- Có dùng có dùng nguyên văn
-
+Ghi nhớ, Trường hợp cần trích dẫn:  
+\- Có dùng ý tưởng, viết lại  
+\- Có dùng có dùng nguyên văn  
 **Khi 100% là tự viết, nội dung hoàn toàn mới mẻ thì không cần trích dẫn.**
 
 ![Tài liệu tham khảo](assets/posts/ic3/images/1_tai_lieu_tham_khao.png)
@@ -112,17 +111,17 @@ iOS:
 
 7. **Mật khẩu**
 
-    Quy tắc đặt mật khẩu:  
-    \- 8 ký tự trở lên  
-    \- Có số  
-    \- Có chữ hoa  
-    \- Có chữ thường  
-    \- Có ký tự đặc biệt  
+Quy tắc đặt mật khẩu:  
+\- 8 ký tự trở lên  
+\- Có số  
+\- Có chữ hoa  
+\- Có chữ thường  
+\- Có ký tự đặc biệt  
 
-    Trường hợp cần đổi mật khẩu:  
-    \- Đã lâu chưa thay mật khẩu (6 tháng)  
-    \- Nhận được cảnh báo đăng nhập  
-    \- Có phần mềm độc hại cài trên máy tính  
+Trường hợp cần đổi mật khẩu:  
+\- Đã lâu chưa thay mật khẩu (6 tháng)  
+\- Nhận được cảnh báo đăng nhập  
+\- Có phần mềm độc hại cài trên máy tính  
 
 ![Cảnh báo đăng nhập](assets/posts/ic3/images/gmail.png)
 
@@ -135,14 +134,12 @@ An toàn khi trực tuyến, cần lưu ý:
 Khi ở nơi công cộng, cần lưu ý:  
 \- Không dùng wifi công cộng  
 \- Tắt wifi, bluetooth khi không sử dụng  
-\- Luôn để điện thoại trong tầm giám sát *(coi chừng mất 😒)*  
+\- Luôn để điện thoại trong tầm giám sát  
 
 ## Danh tính số, danh tiếng số
 
 - *Danh tính số: là thông tin cá nhân, bài đăng, bài chia sẻ, bình luận,... Nhằm xác định "bạn là ai?" khi than gia môi trường trực tuyến.*
 - *Danh tiếng số: là kết quả của danh tính số, là cách mọi người nhìn nhận và đánh giá nội dung, thông tin bạn đăng tải trực tuyến (tích cực/tiêu cực)*
-
-
 
 ## Bảo vệ sức khỏe khi dùng máy tính
 
@@ -164,4 +161,4 @@ Khi giao tiếp bằng hình thức Video:
 Khi giao tiếp bằng email (công việc):  
 \- Không viết tắt  
 \- Không nên dùng biểu tượng cảm xúc    
-\- Không viết hoa toàn bộ *(nhìn rối mắt, chóng mặt 😵‍💫)*  
+\- Không viết hoa toàn bộ    

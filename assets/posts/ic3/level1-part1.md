@@ -16,6 +16,8 @@ Ghi nhớ:
 \- Dấu trang: Sử dụng khi cần lưu danh sách trang web  
 \- Cookie: một tập tin **lưu hoạt động của người dùng** khi dùng trình duyệt.  
 
+![Trình duyệt ẩn danh](assets/posts/ic3/images/1_an_danh.png)
+
 ## Mã nguồn mở
 
 *Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Và sử dụng miễn phí*
@@ -73,8 +75,8 @@ Trường hợp trở thành miền công cộng:
 - *Tài liệu tham khảo: chính là danh sách nhiều trích dẫn, thường được ghi ở cuối bài.*
 
 Ghi nhớ, Trường hợp cần trích dẫn:  
+\- Dùng nguyên văn    
 \- Có dùng ý tưởng, viết lại  
-\- Có dùng có dùng nguyên văn  
 **Khi 100% là tự viết, nội dung hoàn toàn mới mẻ thì không cần trích dẫn.**
 
 ![Tài liệu tham khảo](assets/posts/ic3/images/1_tai_lieu_tham_khao.png)
@@ -100,65 +102,16 @@ Android:
 
 iOS:  
 \- Thuộc sở hữu của Apple  
+\- Độc quyền, bảo mật tốt
+
+![Hệ điều hành di động](assets/posts/ic3/images/1_os.png)
 
 ## Hệ điều hành máy tính
 
-- Windows
-- Linux
-- ChromeOS
+Ghi nhớ:  
+Hệ điều hành máy tính có: Windows, Linux, macOS, ChormeOS
 
----
-
-7. **Mật khẩu**
-
-Quy tắc đặt mật khẩu:  
-\- 8 ký tự trở lên  
-\- Có số  
-\- Có chữ hoa  
-\- Có chữ thường  
-\- Có ký tự đặc biệt  
-
-Trường hợp cần đổi mật khẩu:  
-\- Đã lâu chưa thay mật khẩu (6 tháng)  
-\- Nhận được cảnh báo đăng nhập  
-\- Có phần mềm độc hại cài trên máy tính  
-
-![Cảnh báo đăng nhập](assets/posts/ic3/images/gmail.png)
-
-## An toàn khi dùng công nghệ
-
-An toàn khi trực tuyến, cần lưu ý:  
-\- [Cookies](note. thường chứa các thông tin xác thực đăng nhập, hoạt động người dùng khi duyệt web. Nếu cookies bị đánh cắp hacker có thể chiếm quyền phiên đăng nhập)  
-\- [GPS](note. Thu thập vị trí thực, ảnh hưởng đến quyền riêng tư)  
-
-Khi ở nơi công cộng, cần lưu ý:  
-\- Không dùng wifi công cộng  
-\- Tắt wifi, bluetooth khi không sử dụng  
-\- Luôn để điện thoại trong tầm giám sát  
-
-## Danh tính số, danh tiếng số
-
-- *Danh tính số: là thông tin cá nhân, bài đăng, bài chia sẻ, bình luận,... Nhằm xác định "bạn là ai?" khi than gia môi trường trực tuyến.*
-- *Danh tiếng số: là kết quả của danh tính số, là cách mọi người nhìn nhận và đánh giá nội dung, thông tin bạn đăng tải trực tuyến (tích cực/tiêu cực)*
-
-## Bảo vệ sức khỏe khi dùng máy tính
-
-Sử dụng máy tính đúng:  
-\- Ngồi thẳng lưng  
-\- Chân thẳng lên sàn  
-\- Ngồi cách màn hình khoảng một cánh tay hoặc 60cm.  
-
-## Quy tắt khi tham gia giao tiếp trực tuyến
-
-Khi giao tiếp bằng hình thức Video:  
-\- Mở camera  
-\- Đến đúng giờ  
-\- Ăn mặc lịch sự  
-\- Kiểm tra thiết bị  
-\- Tắt mic khi không dùng  
-\- Giao tiếp tôn trọng, lịch sự  
-
-Khi giao tiếp bằng email (công việc):  
-\- Không viết tắt  
-\- Không nên dùng biểu tượng cảm xúc    
-\- Không viết hoa toàn bộ    
+Ghi nhớ:  
+Linux có đặc điểm:  
+\- Mã nguồn mở  
+\- Bảo mật tốt  

@@ -15,6 +15,15 @@ Ghi nhớ:
 
 ## Thiết bị lưu trữ
 
+*Thiết bị lưu trữ: ghi lại dữ liệu, lâu dài có thể mở lại. Kể cả khi đã tắt máy.*
+
+Ghi nhớ, Thiết bị lưu trữ (mô tả):  
+\- HDD (Ổ đĩa cứng): Có một đĩa từ tròn bên trong
+\- SSD (Ổ cứng thể rắn): Có nhiều chi nhớ (màu đen nhỏ)
+\- Flash USB: 
+
+
+
 \- 
 
 7. **Mật khẩu**

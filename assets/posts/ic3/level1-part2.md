@@ -8,23 +8,30 @@
 - *Thiết bị nhập: là thiết bị phần cứng gắn ngoài (thiết bị ngoại vi), giúp người dùng đưa thông tin, dữ liệu, tín hiệu vào hệ thống máy tính.*
 - *Thiết bị xuất: là thiết bị phần cứng gắn ngoài (thiết bị ngoại vi), giúp xuất thông tin ra ngoài cho người dùng nghe, nhìn đươc.*
 
-Ghi nhớ:  
-\- Thiết bị nhập, có chức năng: Nhập liệu, thu thông tin, điều khiển  
-\- Thiết bị xuất, có chức năng: nghe, nhìn  
+Ghi nhớ, chức năng:  
+\- Thiết bị nhập: Nhập liệu, thu thông tin, điều khiển  
+\- Thiết bị xuất: nghe, nhìn  
 **Lưu ý: Điện thoại, máy tính không phải là thiết bị nhập/xuất.**
 
-## Thiết bị lưu trữ
+![alt text](assets/posts/ic3/images/2_nhap_xuat.png)
 
-*Thiết bị lưu trữ: ghi lại dữ liệu, lâu dài có thể mở lại. Kể cả khi đã tắt máy.*
+## Thành phần máy tính
+
+- *Thiết bị lưu trữ: ghi lại dữ liệu, lâu dài có thể mở lại. Kể cả khi đã tắt máy.*
+- *Bộ nhớ*
+- *Bộ xử lý trung tâm*
+- 
 
 Ghi nhớ, Thiết bị lưu trữ (mô tả):  
-\- HDD (Ổ đĩa cứng): Có một đĩa từ tròn bên trong
-\- SSD (Ổ cứng thể rắn): Có nhiều chi nhớ (màu đen nhỏ)
-\- Flash USB: 
+\- HDD (Ổ đĩa cứng): Có một đĩa từ tròn bên trong   
+\- SSD (Ổ cứng thể rắn): Có nhiều chi nhớ (màu đen nhỏ)  
+\- Flash USB: Thanh USB nhỏ gọn, gắn ngoài  
 
+![alt text](assets/posts/ic3/images/2_luu_tru.png)
 
+## Bộ nhớ b
+CPU, RAM, ROM
 
-\- 
 
 7. **Mật khẩu**
 

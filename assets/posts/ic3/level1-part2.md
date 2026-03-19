@@ -32,7 +32,7 @@ Thiết bị lưu trữ (mô tả):
 
 Thiết bị phần cứng máy tính (mô tả):  
 \- CPU (bộ xử lý trung tâm): Hình vuông, có một miếng kim loại bên trên
-\- Ram
+\- Ram, ROM: 
 
 ![alt text](assets/posts/ic3/images/2_luu_tru.png)
 
@@ -88,9 +88,6 @@ Khi giao tiếp bằng email (công việc):
 \- Không viết tắt  
 \- Không nên dùng biểu tượng cảm xúc    
 \- Không viết hoa toàn bộ    
-
-
-
 
 ## Thiết bị lưu trữ
 

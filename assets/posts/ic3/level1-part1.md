@@ -23,9 +23,9 @@ Ghi nhớ:
 *Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Và sử dụng miễn phí*
 
 Ghi nhớ, Phần mềm mã nguồn mở:  
-\- Phần mềm miễn phí  
 \- Cho phép sửa đổi  
 \- Bảo mật tốt  
+\- miễn phí  
 **Nhược điểm**: Giao diện thường không thân thiện  
 
 ![Mã nguồn mở](assets/posts/ic3/images/open_source.png)
@@ -38,7 +38,7 @@ Ghi nhớ, phần mềm độc quyền:
 \- Thường có phí  
 \- Thuộc sở hữu của cá nhân/công ty  
 \- Có hỗ trợ kỹ thuật của nhà sản xuất   
-\- Giao diện thân thiện với người dùng  
+\- Giao diện thân thiện  
 
 ![Mã nguồn đóng](assets/posts/ic3/images/closed_source.png)
 
@@ -65,7 +65,7 @@ Ghi nhớ, Miền công cộng:
 Trường hợp trở thành miền công cộng:  
 \- Hết hạn bản quyền (50 - 100 năm)  
 \- Tác giả từ bỏ bản quyền  
-\- Không áp dụng được luật bản quyền (Do không có tác giả)  
+\- Không áp dụng được luật bản quyền  
 
 ![Pubic domain](assets/posts/ic3/images/public_domain.png)
 
@@ -77,7 +77,7 @@ Trường hợp trở thành miền công cộng:
 Ghi nhớ, Trường hợp cần trích dẫn:  
 \- Dùng nguyên văn    
 \- Có dùng ý tưởng, viết lại  
-**Khi 100% là tự viết, nội dung hoàn toàn mới mẻ thì không cần trích dẫn.**
+**Khi 100% tự viết, nội dung mới mẻ thì không cần trích dẫn.**
 
 ![Tài liệu tham khảo](assets/posts/ic3/images/1_tai_lieu_tham_khao.png)
 
@@ -92,10 +92,10 @@ Khi trích dẫn từ sách, phải ghi:
 \- Tên tác giả  
 \- Ngày xuất bản  
 
-## Hệ điều hành di dộng
+## Hệ điều hành di động
 
 Android:  
-\- Thuộc sở hữu của Google  
+\- Của Google  
 \- Là phần mềm mã nguồn mở  
 \- Được xây dựng dựa trên Linux  
 \- Có thể cài ứng dụng từ bên ngoài qua file apk  
@@ -113,5 +113,5 @@ Hệ điều hành máy tính có: Windows, Linux, macOS, ChormeOS
 
 Ghi nhớ:  
 Linux có đặc điểm:  
-\- Mã nguồn mở  
+\- Mã nguồn mở (xem lại ở trên)  
 \- Bảo mật tốt  

@@ -1,7 +1,10 @@
 # Tóm tắt kiến thức IC3 (level 1) - Phần 2
 
+[Bảng theo dõi đánh giá lớp](https://hoaan22.github.io/class/report.html)
+
 [Phần 1](assets/posts/ic3/level1-part1.md) >
 [Phần 2](assets/posts/ic3/level1-part2.md) >
+[Phần 3](assets/posts/ic3/level1-part3.md) >
 
 ## Thiết bị nhập/xuất
 
@@ -18,20 +21,20 @@ Ghi nhớ, chức năng:
 ## Thành phần máy tính
 
 - *Thiết bị lưu trữ: ghi lại dữ liệu, lâu dài có thể mở lại. Kể cả khi đã tắt máy.*
-- *Bộ nhớ*
-- *Bộ xử lý trung tâm*
-- 
+- *RAM: Bộ nhớ lưu trữ tạm thời, xóa/mất dữ liệu khi tắt máy.*
+- *ROM: Bộ nhớ lưu trữ dữ liệu cố định, rất khó để ghi lại dữ liệu mới, nên thường không dùng để lưu trữ dữ liệu.*
+- *Bộ xử lý trung tâm (CPU): là một chip xử lý dùng để xử lý những hoạt động của máy tính tương tự như bộ não.*
 
-Ghi nhớ, Thiết bị lưu trữ (mô tả):  
+Thiết bị lưu trữ (mô tả):  
 \- HDD (Ổ đĩa cứng): Có một đĩa từ tròn bên trong   
 \- SSD (Ổ cứng thể rắn): Có nhiều chi nhớ (màu đen nhỏ)  
 \- Flash USB: Thanh USB nhỏ gọn, gắn ngoài  
 
+Thiết bị phần cứng máy tính (mô tả):  
+\- CPU (bộ xử lý trung tâm): Hình vuông, có một miếng kim loại bên trên
+\- Ram
+
 ![alt text](assets/posts/ic3/images/2_luu_tru.png)
-
-## Bộ nhớ b
-CPU, RAM, ROM
-
 
 7. **Mật khẩu**
 

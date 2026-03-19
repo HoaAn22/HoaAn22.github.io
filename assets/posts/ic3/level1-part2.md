@@ -27,12 +27,11 @@ Ghi nhớ, chức năng:
 
 Thiết bị lưu trữ (mô tả):  
 \- HDD (Ổ đĩa cứng): Có một đĩa từ tròn bên trong   
-\- SSD (Ổ cứng thể rắn): Có nhiều chi nhớ (màu đen nhỏ)  
+\- SSD (Ổ cứng thể rắn): Có nhiều chip nhớ (màu đen nhỏ)  
 \- Flash USB: Thanh USB nhỏ gọn, gắn ngoài  
 
 Thiết bị phần cứng máy tính (mô tả):  
-\- CPU (bộ xử lý trung tâm): Hình vuông, có một miếng kim loại bên trên
-\- Ram, ROM: 
+\- CPU (bộ xử lý trung tâm): Hình vuông, có một miếng kim loại bên trên  
 
 ![alt text](assets/posts/ic3/images/2_luu_tru.png)
 

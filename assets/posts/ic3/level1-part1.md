@@ -22,7 +22,7 @@ Ghi nhớ:
 
 *Phần mềm mã nguồn mở: là phần mềm được công khai, cho phép mọi người xem, sử dụng, sửa đổi,... Và sử dụng miễn phí*
 
-Ghi nhớ, Phần mềm mã nguồn mở:  
+Ghi nhớ, Phần mềm mã nguồn mở: (C29/trang 11)  
 \- Cho phép sửa đổi  
 \- Bảo mật tốt  
 \- miễn phí  

@@ -16,6 +16,12 @@ Ghi nhớ:
 \- Dấu trang: Sử dụng khi cần lưu danh sách trang web  
 \- Cookie: một tập tin **lưu hoạt động của người dùng** khi dùng trình duyệt.  
 
+Thành phần trong trình duyệt:  
+\- History (lịch sử): Liệt kê các trang web đã truy cập  
+\- Address box (ô địa chỉ): Hiển thị URL  
+\- Refresh button (nút làm mới): Tải lại trang web  
+\- Back button (nút quay lại): Hiện thị lại trang web trước
+
 ![Trình duyệt ẩn danh](assets/posts/ic3/images/1_an_danh.png)
 
 ## Mã nguồn mở

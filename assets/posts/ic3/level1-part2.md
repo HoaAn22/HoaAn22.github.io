@@ -26,79 +26,33 @@ Ghi nhớ, chức năng:
 - *Bộ xử lý trung tâm (CPU): là một chip xử lý dùng để xử lý những hoạt động của máy tính tương tự như bộ não.*
 
 Thiết bị lưu trữ (mô tả):  
-\- HDD (Ổ đĩa cứng): Có một đĩa từ tròn bên trong   
+\- HDD (Ổ đĩa cứng): Có một đĩa từ tròn bên trong.   
 \- SSD (Ổ cứng thể rắn): Có nhiều chip nhớ (màu đen nhỏ)  
 \- Flash USB: Thanh USB nhỏ gọn, gắn ngoài  
+\- **Máy tính để bàn dùng: HDD và SSD để lưu trữ.**
 
 Thiết bị phần cứng máy tính (mô tả):  
 \- CPU (bộ xử lý trung tâm): Hình vuông, có một miếng kim loại bên trên  
 
 ![alt text](assets/posts/ic3/images/2_luu_tru.png)
 
-7. **Mật khẩu**
+## Cổng kết nối
 
-Quy tắc đặt mật khẩu:  
-\- 8 ký tự trở lên  
-\- Có số  
-\- Có ký tự đặc biệt  
-\- Có chữ hoa, chữ thường  
+Cổng kết nối (mô tả):  
+\- USB (USB-A): Cổng to, hình chữ nhật, cắm chuột, bàn phím  
+\- USB-C: Cổng nhỏ, cân bằng có thể cắm 2 chiều  
+\- Lightning: Hình dạng dẹp. Dùng sạc cho điện thoại iPhone  
+\- Micro USB: Cổng nhỏ, hình thang. Cổng sạc cũ
 
-Trường hợp cần đổi mật khẩu:  
-\- Đã lâu chưa thay mật khẩu (6 tháng)  
-\- Nhận được cảnh báo đăng nhập  
-\- Có phần mềm độc hại cài trên máy tính  
+![alt text](assets/posts/ic3/images/2_ket_noi.png)
 
-![Cảnh báo đăng nhập](assets/posts/ic3/images/gmail.png)
 
-## An toàn khi dùng công nghệ
+Cổng kết nối trên máy tính:  
+\- USB (USB-A): Cổng to, hình chữ nhật, cắm chuột, bàn phím  
+\- Audio: cổng tròn  
+\- HDMI: Cổng to, hình thang. Cắm máy chiếu, TV  
+\- Ethernet: Cổng vuông, có chốt nhỏ  
+\- Display: Cổng to, hình thang, nhưng có con ốc 2 bên.  
 
-An toàn khi trực tuyến, cần lưu ý:  
-\- [Chặn Cookies](note. thường chứa các thông tin xác thực đăng nhập, hoạt động người dùng khi duyệt web. Nếu cookies bị đánh cắp hacker có thể chiếm quyền phiên đăng nhập)  
-\- [Tắt GPS](note. Thu thập vị trí thực, ảnh hưởng đến quyền riêng tư)  
+![alt text](assets/posts/ic3/images/2_ket_noi_2.png)
 
-Khi ở nơi công cộng, cần lưu ý:  
-\- Không dùng wifi công cộng  
-\- Tắt wifi, bluetooth khi không sử dụng  
-\- Luôn để điện thoại trong tầm giám sát  
-
-## Danh tính số, danh tiếng số
-
-- *Danh tính số: là thông tin cá nhân, bài đăng, bài chia sẻ, bình luận,... Nhằm xác định "bạn là ai?" khi than gia môi trường trực tuyến.*
-- *Danh tiếng số: là kết quả của danh tính số, là cách mọi người nhìn nhận và đánh giá nội dung, thông tin bạn đăng tải trực tuyến (tích cực/tiêu cực)*
-
-## Bảo vệ sức khỏe khi dùng máy tính
-
-Sử dụng máy tính đúng:  
-\- Ngồi thẳng lưng  
-\- Chân thẳng lên sàn  
-\- Ngồi cách màn hình khoảng một cánh tay hoặc 60cm.  
-
-## Quy tắt khi tham gia giao tiếp trực tuyến
-
-Khi giao tiếp bằng hình thức Video:  
-\- Mở camera  
-\- Đến đúng giờ  
-\- Ăn mặc lịch sự  
-\- Kiểm tra thiết bị  
-\- Tắt mic khi không dùng  
-\- Giao tiếp tôn trọng, lịch sự  
-
-Khi giao tiếp bằng email (công việc):  
-\- Không viết tắt  
-\- Không nên dùng biểu tượng cảm xúc    
-\- Không viết hoa toàn bộ    
-
-## Thiết bị lưu trữ
-
-4. **Thiết bị nhập, chức năng:**
-    - Nhập liệu (bàn phím)
-    - Điều khiển (chuột)
-    - Thu thông tin (máy quét, mic thu âm)
-
----
-
-5. **Thiết bị xuất, chức năng:**
-    - Nghe (loa, tai nghe)
-    - Nhìn (màn hình, máy in)
-
----

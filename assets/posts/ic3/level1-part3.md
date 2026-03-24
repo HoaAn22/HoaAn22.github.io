@@ -6,6 +6,14 @@
 [Phần 2](assets/posts/ic3/level1-part2.md) >
 [Phần 3](assets/posts/ic3/level1-part3.md) >
 
+## Cơ sở hạ tầng mạng
+
+Ghi nhớ:  
+\- Cơ sở hạ tầng mạng: thiết bị phần cứng và phần mềm giúp kết nối mạng
+\- 
+
+![Cảnh báo đăng nhập](assets/posts/ic3/images/3_ha_tang_mang.png)
+
 ## Thanh tác vụ
 
 Chức năng thanh tác vụ:  
@@ -17,7 +25,7 @@ Chức năng thanh tác vụ:
 ## Tác vụ hệ điều hành/ứng dụng
 
 Ghi nhớ:  
-\- Tác vụ hệ điều hành: máy tính có thể tự thực hiện được  
+\- Tác vụ hệ điều hành (hệ thống): máy tính có thể tự thực hiện được  
 \- Tác vụ ứng dụng: Phải mở ứng dụng để sử dụng
 
 ## Mật khẩu

@@ -56,3 +56,6 @@ Cổng kết nối trên máy tính:
 
 ![alt text](assets/posts/ic3/images/2_ket_noi_2.png)
 
+## Mạng máy tính
+
+Mạng máy tính

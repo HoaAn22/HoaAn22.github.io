@@ -5,13 +5,14 @@ function getExcludeLinks() {
             'hoa-hoc/', 
             'self-development-plan.md', 
             'todo-list.md',
-            'review-1.md'];
+            'review-1.md',
+            'gioi-thieu-ic3.md'];
 }
 // 'second-bachelors-degree/'
 
 function getShrinkImageLinks() {
     return [
-        'ic3/'
+        'ic3-level1'
     ];
 }
 

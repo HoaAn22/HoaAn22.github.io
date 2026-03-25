@@ -1,5 +1,7 @@
 # Tóm tắt nội dung IC3 Level 1 - Phần 1
 
+[Giới thiệu IC3](assets/posts/ic3/gioi-thieu-ic3.md)
+
 [Bảng theo dõi đánh giá lớp](https://hoaan22.github.io/class/report.html)
 
 [Phần 1](assets/posts/ic3/level1-part1.md) >

@@ -9,8 +9,9 @@
 ## Cơ sở hạ tầng mạng
 
 Ghi nhớ:  
-\- Cơ sở hạ tầng mạng: thiết bị phần cứng và phần mềm giúp kết nối mạng
-\- 
+\- Cơ sở hạ tầng mạng: thiết bị phần cứng và phần mềm giúp kết nối mạng  
+\- Đảm bảo kết nối thông suốt  
+\- Hỗ trợ mở rộng  
 
 ![Cảnh báo đăng nhập](assets/posts/ic3/images/3_ha_tang_mang.png)
 

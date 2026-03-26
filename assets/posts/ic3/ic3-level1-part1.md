@@ -4,9 +4,9 @@
 
 [Bảng theo dõi đánh giá lớp](https://hoaan22.github.io/class/report.html)
 
-[Phần 1](assets/posts/ic3/level1-part1.md) >
-[Phần 2](assets/posts/ic3/level1-part2.md) >
-[Phần 3](assets/posts/ic3/level1-part3.md)
+[Phần 1](assets/posts/ic3/ic3-level1-part1.md) >
+[Phần 2](assets/posts/ic3/ic3-level1-part2.md) >
+[Phần 3](assets/posts/ic3/ic3-level1-part3.md)
 
 ## Trình duyệt và An ninh mạng
 

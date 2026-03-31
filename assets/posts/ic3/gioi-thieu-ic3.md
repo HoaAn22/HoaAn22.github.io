@@ -10,7 +10,7 @@ Lợi ích của chứng chỉ IC3:
 (2) IC3 là chuẩn đầu vào (điểm cộng), đầu ra tin học cho các bậc học cao hơn như Đại học như:   
 \- [BKU - Đại học Bách Khoa TPHCM](https://hcmut.edu.vn/tuyen-sinh/dai-hoc-chinh-quy/phuong-thuc-tuyen-sinh/xet-tuyen-tong-hop-2026)  
 \- [UEH - Đại học Kinh tế TPHCM](https://hotro.ueh.edu.vn/bai-viet/chuan-dau-ra-tin-hoc-cac-nganh-chuyen-nganh-60)  
-\- Đại học Ngân Hàng TPHCM  
+\- [Đại học Ngân Hàng TPHCM](https://hub.edu.vn/thong-bao/quyet-dinh-v-v-cong-nhan-du-dieu-kien-dat-chuan-cntt-dau-vao-he-dhcq-nop-dot-thang-12-2025-228022.html)  
 
 - ***CHỨNG CHỈ CÓ GIÁ TRỊ VĨNH VIỄN***
 - ***THI XONG 1 LEVEL --> CÓ NGAY CHỨNG CHỈ***

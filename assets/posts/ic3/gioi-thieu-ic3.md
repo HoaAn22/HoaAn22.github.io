@@ -1,16 +1,17 @@
 # Giới thiệu IC3
 
-IC3: Là chứng chỉ đánh giá kiến thức và kỹ năng sử dụng máy tính, phần mềm, internet,... cho tổ chức Tin học hàng đầu Thế giới Certiport (Hoa Kỳ).
+IC3: Là chứng chỉ đánh giá kiến thức và kỹ năng sử dụng máy tính, phần mềm, internet,... do tổ chức Tin học hàng đầu Thế giới Certiport (Hoa Kỳ).
 
 Lợi ích của chứng chỉ IC3:  
 \- **Về kiến thức và kỹ năng:**  
 [IC3 là chuẩn hóa kỹ năng sử dụng máy tính cơ bản cho người chưa có nền tảng](note. Ứng dụng nhiều kiến thức máy tính cho học tập và công việc hiện tại và sau này Cách dùng máy tính, bảo mật, cách viết học thuật, chuyên nghiệp, tôn trọng bản quyền,...).  
 \- **Về giá trị chứng chỉ:**   
-(1) IC3 là điểm cổng khi tham gia một số lớp chuyên tin học  
+(1) IC3 là điểm cộnng khi tham gia một số lớp chuyên tin học  
 (2) IC3 là chuẩn đầu vào (điểm cộng), đầu ra tin học cho các bậc học cao hơn như Đại học như:   
 \- [BKU - Đại học Bách Khoa TPHCM](https://hcmut.edu.vn/tuyen-sinh/dai-hoc-chinh-quy/phuong-thuc-tuyen-sinh/xet-tuyen-tong-hop-2026)  
 \- [UEH - Đại học Kinh tế TPHCM](https://hotro.ueh.edu.vn/bai-viet/chuan-dau-ra-tin-hoc-cac-nganh-chuyen-nganh-60)  
 \- [Đại học Ngân Hàng TPHCM](https://hub.edu.vn/thong-bao/quyet-dinh-v-v-cong-nhan-du-dieu-kien-dat-chuan-cntt-dau-vao-he-dhcq-nop-dot-thang-12-2025-228022.html)  
+(3) 
 
 - ***CHỨNG CHỈ CÓ GIÁ TRỊ VĨNH VIỄN***
 - ***THI XONG 1 LEVEL --> CÓ NGAY CHỨNG CHỈ***

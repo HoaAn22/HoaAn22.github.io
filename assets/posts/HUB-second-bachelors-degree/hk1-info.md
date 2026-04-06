@@ -16,8 +16,6 @@
 
 - [toPhonetics - Phiên âm IPA](https://tophonetics.com/vi/)
 - [Cambridge Dictionary](https://dictionary.cambridge.org)
-- [Tổng hợp tài liệu](assets/posts/HUB-second-bachelors-degree/account.md)
-
 
 Tips
 

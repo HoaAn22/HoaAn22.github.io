@@ -6,7 +6,8 @@ function getExcludeLinks() {
             'self-development-plan.md', 
             'todo-list.md',
             'review-1.md',
-            'gioi-thieu-ic3.md'];
+            'gioi-thieu-ic3.md',
+            'account.md'];
 }
 // 'second-bachelors-degree/'
 

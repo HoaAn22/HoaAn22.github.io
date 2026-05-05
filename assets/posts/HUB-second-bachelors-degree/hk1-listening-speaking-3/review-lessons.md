@@ -23,9 +23,9 @@ Part II: Topic Development (6 pts. – 2’):
 ## ASSIGNMENT
 
 **Part I: [LEISURE](note. `ˈliʒər`) [TIME](note. `taɪm`)**  
-\- In my free time, [#-] I [usually](note. `ˈjuʒəli`) listen to music [#-] or watch [English](note. `ˈɪŋɡlɪʃ`) videos [#-] to relax and [improve](note. `ɪmˈpruv`) my language skills.  
-\- I prefer spending my leisure time alone [#-] because I'm an [introverted](note. `ˈɪntroʊˌvɜrtɪd`) person. [#-] Having some [personal](note. `ˈpɜrsɪnɪl`) space [#-] helps me recharge my energy [#-] after a busy day. [#-] It also gives me time [#-] to think and focus on my personal interests.  
+\- In my free time, I [usually](note. `ˈjuʒəli`) listen to music or watch [English](note. `ˈɪŋɡlɪʃ`) videos to relax and [improve](note. `ɪmˈpruv`) my language skills.  
+\- I prefer spending my leisure time alone because I'm an [introverted](note. `ˈɪntroʊˌvɜrtɪd`) person. Having some [personal](note. `ˈpɜrsɪnɪl`) space helps me recharge my energy after a busy day. It also gives me time to think and focus on my personal interests.  
 \- Although I’m not very outgoing, I still try to join some outdoor activities because they help me stay healthy and make new friends.  
 
 **Part II**  
-My [greatest](note. `ˈɡreɪtəst`) [personal](note. `ˈpɜrsɪnɪl`) [achievement](note. `əˈʧivmənt`) [#-] is overcoming my fear of public speaking. [#-] I used to feel very [nervous](note. `ˈnɜrvəs`) [#-] whenever I had to speak in front of other people. [#-] Last year, [#-] I had a project presentation at work, [#-] and I decided to face my fear. [#-] I practiced a lot [#-] and asked my friends [#-] for feedback. In the end, I felt more confident [#-] during the presentation. This achievement is important to me [#-] because it helped me believe in myself [#-] and taught me to step out of [#-] my comfort zone.  
+My [greatest](note. `ˈɡreɪtəst`) [personal](note. `ˈpɜrsɪnɪl`) [achievement](note. `əˈʧivmənt`) is overcoming my fear of public speaking. I used to feel very [nervous](note. `ˈnɜrvəs`) whenever I had to speak in front of other people. Last year, I had a project presentation at work, and I decided to face my fear. I practiced a lot and asked my friends for feedback. In the end, I felt more confident during the presentation. This achievement is important to me because it helped me believe in myself and taught me to step out of my comfort zone.  

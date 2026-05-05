@@ -1,0 +1,17 @@
+## Hướng dẫn chứng chỉ công nghệ thông tin cơ bản.
+
+## Excel
+
+1. **VLOOKUP()**
+- Hàm `VLOOKUP()`: là hàm tìm kiếm theo chiều dọc và trả về giá trị tương ứng ở cột khác trong cùng một hàng.
+- Công thức: 
+            $$
+            =VLOOKUP(\text{giá trị cần đối chiếu}, \text{bảng dữ liệu cần tra}, \text{số cột trả về nếu khớp}, \text{cách tìm})
+            $$
+- *Cách tìm, có 2 tham số là `0` và `1`*.
+    - `0` là tìm kiếm một cách chính xác
+    - `1` là tìm kiếm giá trị gần nhất.
+
+![alt text](assets/posts/CC-CNTT/imgs/CNTT-CB-1.drawio.png)
+
+*Ví dụ: Sử dụng hàm **VLOOKUP()** truy vấn và trả về giá trị `Tên quốc gia` nếu có đúng `Mã quốc gia`.*

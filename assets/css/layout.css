@@ -60,6 +60,11 @@ footer p {
     margin-left: auto;
 }
 
+footer a {
+    /* text-decoration: underline; */
+    text-decoration: none;
+}
+
 /* Content Styles */
 .content {
     font-family: var(--font);

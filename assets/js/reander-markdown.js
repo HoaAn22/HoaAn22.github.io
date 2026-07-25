@@ -48,16 +48,20 @@ function renderMath() {
 // Cập nhật tiêu đề dựa trên file đang mở
 function updateNotebookTitle(filePath) {
     const links = document.querySelectorAll('a[onclick]');
-    let selectedTitle = "";
-    let categoryTitle = "";
 
     for (let link of links) {
         const onclickValue = link.getAttribute('onclick');
+        
         if (onclickValue.includes(filePath)) {
-            selectedTitle = link.innerText.trim();
+            let selectedTitle = link.innerText.trim();
+            let categoryTitle = "";
             let parent = link.parentElement;
+            let isInDropdown = false; // Thêm cờ kiểm tra
+
+            // Dò ngược lên các thẻ cha để tìm class dropdown-item
             while (parent) {
                 if (parent.classList.contains("dropdown-item")) {
+                    isInDropdown = true; // Xác nhận thẻ nằm trong dropdown
                     let parentLink = parent.querySelector('a');
                     if (parentLink && parentLink !== link) {
                         categoryTitle = parentLink.innerText.trim();
@@ -66,12 +70,18 @@ function updateNotebookTitle(filePath) {
                 }
                 parent = parent.parentElement;
             }
-            if (categoryTitle) {
-                document.title = `[${categoryTitle}] - ${selectedTitle}`;
-            } else {
-                document.title = `${selectedTitle} - An's blog`;
+
+            // CHỈ cập nhật document.title nếu thẻ nằm trong dropdown-item
+            if (isInDropdown) {
+                if (categoryTitle) {
+                    document.title = `[${categoryTitle}] - ${selectedTitle}`;
+                } else {
+                    document.title = `${selectedTitle} - An's blog`;
+                }
             }
-            break;
+            // Nếu isInDropdown là false (nằm ngoài dropdown), bỏ qua không làm gì cả
+            
+            break; // Tìm thấy link khớp thì dừng vòng lặp
         }
     }
 }
